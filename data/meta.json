@@ -42,7 +42,7 @@
  },
  "mines": 147,
  "compiled": "2026-10-23",
- "built_at": "2026-10-26T00:40:15Z",
+ "built_at": "2026-10-26T12:22:56Z",
  "feeds": {
   "gdelt": {
    "label": "GDELT DOC 2.0 news alerts",
@@ -52,7 +52,8 @@
    "last_attempt": "2026-10-26T00:39:12Z",
    "items": 0,
    "message": "3/5 queries ok; HTTP 429 for https://api.gdeltproject.org/api/v2/doc/doc",
-   "last_success": "2026-10-26T00:39:12Z"
+   "last_success": "2026-10-26T00:39:12Z",
+   "status_note": "not due"
   },
   "gnews": {
    "label": "Google News RSS alerts",
@@ -62,7 +63,8 @@
    "last_attempt": "2026-10-26T00:40:12Z",
    "items": 5,
    "message": "24 queries; ",
-   "last_success": "2026-10-26T00:40:12Z"
+   "last_success": "2026-10-26T00:40:12Z",
+   "status_note": "not due"
   },
   "miningcom": {
    "label": "MINING.COM RSS alerts",
@@ -72,7 +74,8 @@
    "last_attempt": "2026-10-26T00:40:12Z",
    "items": 0,
    "message": "36 feed entries scanned; ",
-   "last_success": "2026-10-26T00:40:12Z"
+   "last_success": "2026-10-26T00:40:12Z",
+   "status_note": "not due"
   },
   "wikidata": {
    "label": "Wikidata coordinate/owner check",
@@ -85,7 +88,8 @@
    "last_success": "2026-10-26T00:40:13Z",
    "detail": {
     "missing": []
-   }
+   },
+   "status_note": "not due"
   },
   "sec": {
    "label": "SEC EDGAR filings (US-registered owners)",
@@ -96,7 +100,8 @@
    "last_attempt": "2026-10-26T00:40:13Z",
    "items": 0,
    "message": "Set SEC_USER_AGENT to \"Organisation Name contact@domain\" (SEC fair-access policy).",
-   "last_success": "2026-10-26T00:27:36Z"
+   "last_success": "2026-10-26T00:27:36Z",
+   "status_note": "not due"
   },
   "worldbank": {
    "label": "World Bank Pink Sheet prices",
@@ -106,7 +111,8 @@
    "last_attempt": "2026-10-26T00:40:14Z",
    "items": 12,
    "message": "latest period 2026-09",
-   "last_success": "2026-10-26T00:40:14Z"
+   "last_success": "2026-10-26T00:40:14Z",
+   "status_note": "not due"
   },
   "fred": {
    "label": "FRED commodity prices",
@@ -114,7 +120,7 @@
    "url": "https://fred.stlouisfed.org/",
    "requires": "FRED_API_KEY",
    "status": "needs_key",
-   "last_attempt": "2026-10-26T00:40:14Z",
+   "last_attempt": "2026-10-26T12:22:56Z",
    "items": 0,
    "message": "FRED_API_KEY not set; skipped (free key: https://fred.stlouisfed.org/docs/api/api_key.html)."
   },
@@ -154,7 +160,8 @@
       "url": "https://www.sciencebase.gov/catalog/item/69837ec8b66b01367d7ec7d9"
      }
     ]
-   }
+   },
+   "status_note": "not due"
   }
  },
  "last_refresh": "2026-10-26T00:40:15Z"
