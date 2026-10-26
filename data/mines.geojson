@@ -1,0 +1,5304 @@
+{
+ "type": "FeatureCollection",
+ "name": "quantumxi_strategic_mines",
+ "crs": {
+  "type": "name",
+  "properties": {
+   "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+  }
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -69.07,
+     -24.27
+    ]
+   },
+   "properties": {
+    "id": 0,
+    "name": "Escondida",
+    "host_country": "Chile",
+    "host_iso2": "CL",
+    "primary_mineral": "Copper",
+    "secondary_minerals": "Gold; Silver",
+    "operator": "BHP",
+    "owners": "BHP 57.5% (AU); Rio Tinto 30% (GB); JECO (Mitsubishi/JX) 12.5% (JP)",
+    "controlling_owner_hq_iso2": "AU",
+    "control_type": "Private / listed",
+    "production": "1,281 kt Cu",
+    "production_year": "2024",
+    "world_share_pct": 5.57,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "57%",
+    "us_defense_stockpile": "No stockpile",
+    "lat": -24.27,
+    "lon": -69.07,
+    "mgrs": "19J DP 92895 15878",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Wikidata Q14995147",
+    "sources": "https://www.mining.com/featured-article/ranked-worlds-biggest-copper-mines/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     137.1158,
+     -4.0528
+    ]
+   },
+   "properties": {
+    "id": 1,
+    "name": "Grasberg",
+    "host_country": "Indonesia",
+    "host_iso2": "ID",
+    "primary_mineral": "Copper",
+    "secondary_minerals": "Gold; Silver",
+    "operator": "PT Freeport Indonesia",
+    "owners": "MIND ID 51.2% (ID); Freeport-McMoRan 48.8% (US)",
+    "controlling_owner_hq_iso2": "ID",
+    "control_type": "Other state-owned",
+    "production": "816 kt Cu",
+    "production_year": "2024",
+    "world_share_pct": 3.55,
+    "status": "Operating (Sept 2025 mud-rush disrupted output)",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "57%",
+    "us_defense_stockpile": "No stockpile",
+    "lat": -4.0528,
+    "lon": 137.1158,
+    "mgrs": "53M QR 34903 51729",
+    "coord_precision": "Reference coordinate (not imagery-confirmed)",
+    "coord_ce_m": 2500,
+    "coord_source": "Wikidata Q119297",
+    "sources": "https://www.mining.com/featured-article/ranked-worlds-biggest-copper-mines/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -68.6952,
+     -20.9787
+    ]
+   },
+   "properties": {
+    "id": 2,
+    "name": "Collahuasi",
+    "host_country": "Chile",
+    "host_iso2": "CL",
+    "primary_mineral": "Copper",
+    "secondary_minerals": "Molybdenum",
+    "operator": "Collahuasi JV",
+    "owners": "Anglo American 44% (GB); Glencore 44% (CH); Mitsui / JX 12% (JP)",
+    "controlling_owner_hq_iso2": "GB",
+    "control_type": "Private / listed",
+    "production": "559 kt Cu",
+    "production_year": "2024",
+    "world_share_pct": 2.43,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "57%",
+    "us_defense_stockpile": "No stockpile",
+    "lat": -20.9787,
+    "lon": -68.6952,
+    "mgrs": "19K ES 31682 80179",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Wikidata Q30905738",
+    "sources": "https://www.mining.com/featured-article/ranked-worlds-biggest-copper-mines/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     25.3249,
+     -10.7592
+    ]
+   },
+   "properties": {
+    "id": 3,
+    "name": "Kamoa-Kakula",
+    "host_country": "DR Congo",
+    "host_iso2": "CD",
+    "primary_mineral": "Copper",
+    "secondary_minerals": "",
+    "operator": "Ivanhoe Mines",
+    "owners": "Ivanhoe Mines 39.6% (CA); Zijin Mining 39.6% (CN); Govt of DRC 20% (CD)",
+    "controlling_owner_hq_iso2": "CA",
+    "control_type": "Private / listed",
+    "production": "437 kt Cu",
+    "production_year": "2024",
+    "world_share_pct": 1.9,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "57%",
+    "us_defense_stockpile": "No stockpile",
+    "lat": -10.7592,
+    "lon": 25.3249,
+    "mgrs": "35L LJ 16834 10145",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Located on Esri World Imagery",
+    "sources": "https://www.mining.com/featured-article/ranked-worlds-biggest-copper-mines/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -110.328,
+     30.97
+    ]
+   },
+   "properties": {
+    "id": 4,
+    "name": "Buenavista del Cobre",
+    "host_country": "Mexico",
+    "host_iso2": "MX",
+    "primary_mineral": "Copper",
+    "secondary_minerals": "Zinc; Molybdenum; Silver",
+    "operator": "Southern Copper",
+    "owners": "Southern Copper (Grupo México) 100% (MX)",
+    "controlling_owner_hq_iso2": "MX",
+    "control_type": "Private / listed",
+    "production": "433 kt Cu",
+    "production_year": "2024",
+    "world_share_pct": 1.88,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "57%",
+    "us_defense_stockpile": "No stockpile",
+    "lat": 30.97,
+    "lon": -110.328,
+    "mgrs": "12R WV 64173 26470",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Wikidata Q16963673",
+    "sources": "https://www.mining.com/featured-article/ranked-worlds-biggest-copper-mines/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.595,
+     -16.535
+    ]
+   },
+   "properties": {
+    "id": 5,
+    "name": "Cerro Verde",
+    "host_country": "Peru",
+    "host_iso2": "PE",
+    "primary_mineral": "Copper",
+    "secondary_minerals": "Molybdenum",
+    "operator": "Freeport-McMoRan",
+    "owners": "Freeport-McMoRan 53.56% (US); Sumitomo Metal Mining 21% (JP); Buenaventura 19.58% (PE)",
+    "controlling_owner_hq_iso2": "US",
+    "control_type": "Private / listed",
+    "production": "430 kt Cu",
+    "production_year": "2024",
+    "world_share_pct": 1.87,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "57%",
+    "us_defense_stockpile": "No stockpile",
+    "lat": -16.535,
+    "lon": -71.595,
+    "mgrs": "19K BB 23027 70098",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Located on Esri World Imagery",
+    "sources": "https://www.mining.com/featured-article/ranked-worlds-biggest-copper-mines/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -77.0611,
+     -9.5372
+    ]
+   },
+   "properties": {
+    "id": 6,
+    "name": "Antamina",
+    "host_country": "Peru",
+    "host_iso2": "PE",
+    "primary_mineral": "Copper",
+    "secondary_minerals": "Zinc; Molybdenum; Silver",
+    "operator": "Compañía Minera Antamina",
+    "owners": "BHP 33.75% (AU); Glencore 33.75% (CH); Teck Resources 22.5% (CA); Mitsubishi Corp 10% (JP)",
+    "controlling_owner_hq_iso2": "AU",
+    "control_type": "Private / listed",
+    "production": "413 kt Cu; 268 kt Zn",
+    "production_year": "2024",
+    "world_share_pct": 1.8,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "57%",
+    "us_defense_stockpile": "No stockpile",
+    "lat": -9.5372,
+    "lon": -77.0611,
+    "mgrs": "18L TQ 73753 45081",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Wikidata Q5641700",
+    "sources": "https://www.mining.com/featured-article/ranked-worlds-biggest-copper-mines/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     26.181,
+     -10.5707
+    ]
+   },
+   "properties": {
+    "id": 7,
+    "name": "Tenke Fungurume (TFM)",
+    "host_country": "DR Congo",
+    "host_iso2": "CD",
+    "primary_mineral": "Copper",
+    "secondary_minerals": "Cobalt",
+    "operator": "CMOC",
+    "owners": "CMOC Group 80% (CN); Gécamines 20% (CD)",
+    "controlling_owner_hq_iso2": "CN",
+    "control_type": "Chinese SOE / state-linked",
+    "production": "~400 kt Cu (est.); 24.0 kt Co",
+    "production_year": "2024",
+    "world_share_pct": 1.74,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "57%",
+    "us_defense_stockpile": "No stockpile",
+    "lat": -10.5707,
+    "lon": 26.181,
+    "mgrs": "35L MJ 10399 31370",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Wikidata Q7699914",
+    "sources": "https://www.mining.com/featured-article/ranked-worlds-biggest-copper-mines/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     16.1073,
+     51.5015
+    ]
+   },
+   "properties": {
+    "id": 8,
+    "name": "KGHM Polish ops (Lubin–Rudna–Polkowice)",
+    "host_country": "Poland",
+    "host_iso2": "PL",
+    "primary_mineral": "Copper",
+    "secondary_minerals": "Silver; Rhenium",
+    "operator": "KGHM",
+    "owners": "KGHM Polska Miedź 100% (PL)",
+    "controlling_owner_hq_iso2": "PL",
+    "control_type": "Other state-owned",
+    "production": "395 kt Cu",
+    "production_year": "2024",
+    "world_share_pct": 1.72,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "57%",
+    "us_defense_stockpile": "No stockpile",
+    "lat": 51.5015,
+    "lon": 16.1073,
+    "mgrs": "33U WT 76857 06177",
+    "coord_precision": "District or cluster centroid",
+    "coord_ce_m": 25000,
+    "coord_source": "Wikidata Q7377054",
+    "sources": "https://www.mining.com/featured-article/ranked-worlds-biggest-copper-mines/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     88.2,
+     69.35
+    ]
+   },
+   "properties": {
+    "id": 9,
+    "name": "Polar Division (Norilsk–Talnakh)",
+    "host_country": "Russia",
+    "host_iso2": "RU",
+    "primary_mineral": "Copper",
+    "secondary_minerals": "Nickel; PGMs (Pt/Pd); Cobalt",
+    "operator": "Nornickel",
+    "owners": "Nornickel 100% (RU)",
+    "controlling_owner_hq_iso2": "RU",
+    "control_type": "Russian state-linked / sanctioned",
+    "production": "345 kt Cu (Nornickel group 2024: 205 kt Ni, 2.77 Moz Pd, 0.66 Moz Pt)",
+    "production_year": "2024",
+    "world_share_pct": 1.5,
+    "status": "Operating (sanctions exposure)",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "57%",
+    "us_defense_stockpile": "No stockpile",
+    "lat": 69.35,
+    "lon": 88.2,
+    "mgrs": "45W WS 47226 93852",
+    "coord_precision": "District or cluster centroid",
+    "coord_ce_m": 25000,
+    "coord_source": "District centroid",
+    "sources": "https://www.mining.com/featured-article/ranked-worlds-biggest-copper-mines/ https://nornickel.com/news-and-media/press-releases-and-news/nornickel-announces-consolidated-production-results-for-2024/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -72.3088,
+     -14.0905
+    ]
+   },
+   "properties": {
+    "id": 10,
+    "name": "Las Bambas",
+    "host_country": "Peru",
+    "host_iso2": "PE",
+    "primary_mineral": "Copper",
+    "secondary_minerals": "Molybdenum",
+    "operator": "MMG",
+    "owners": "MMG (China Minmetals) 62.5% (CN); Guoxin International 22.5% (CN); CITIC Metal 15% (CN)",
+    "controlling_owner_hq_iso2": "CN",
+    "control_type": "Chinese SOE / state-linked",
+    "production": "323 kt Cu",
+    "production_year": "2024",
+    "world_share_pct": 1.4,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "57%",
+    "us_defense_stockpile": "No stockpile",
+    "lat": -14.0905,
+    "lon": -72.3088,
+    "mgrs": "18L YK 90605 40602",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Wikidata Q16832786",
+    "sources": "https://www.mmg.com/content/uploads/2025/01/e_2025-01-23_4QTR-Production-Report.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     25.3113,
+     -12.202
+    ]
+   },
+   "properties": {
+    "id": 11,
+    "name": "Sentinel",
+    "host_country": "Zambia",
+    "host_iso2": "ZM",
+    "primary_mineral": "Copper",
+    "secondary_minerals": "",
+    "operator": "First Quantum",
+    "owners": "First Quantum Minerals 100% (CA)",
+    "controlling_owner_hq_iso2": "CA",
+    "control_type": "Private / listed",
+    "production": "231 kt Cu",
+    "production_year": "2024",
+    "world_share_pct": 1,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "57%",
+    "us_defense_stockpile": "No stockpile",
+    "lat": -12.202,
+    "lon": 25.3113,
+    "mgrs": "35L LG 16283 50537",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Wikidata Q16969255",
+    "sources": "https://www.first-quantum.com/wp-content/uploads/2025/04/Q4-2024-FQM-Management-s-Discussion-Analysis-FINAL.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     26.4298,
+     -12.0767
+    ]
+   },
+   "properties": {
+    "id": 12,
+    "name": "Kansanshi",
+    "host_country": "Zambia",
+    "host_iso2": "ZM",
+    "primary_mineral": "Copper",
+    "secondary_minerals": "Gold",
+    "operator": "First Quantum",
+    "owners": "First Quantum Minerals 80% (CA); ZCCM-IH 20% (ZM)",
+    "controlling_owner_hq_iso2": "CA",
+    "control_type": "Private / listed",
+    "production": "171 kt Cu",
+    "production_year": "2024",
+    "world_share_pct": 0.74,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "57%",
+    "us_defense_stockpile": "No stockpile",
+    "lat": -12.0767,
+    "lon": 26.4298,
+    "mgrs": "35L MG 37945 64900",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Wikidata Q16976010",
+    "sources": "https://www.first-quantum.com/wp-content/uploads/2025/04/Q4-2024-FQM-Management-s-Discussion-Analysis-FINAL.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -70.3509,
+     -34.0943
+    ]
+   },
+   "properties": {
+    "id": 13,
+    "name": "El Teniente",
+    "host_country": "Chile",
+    "host_iso2": "CL",
+    "primary_mineral": "Copper",
+    "secondary_minerals": "Molybdenum",
+    "operator": "Codelco",
+    "owners": "Codelco 100% (CL)",
+    "controlling_owner_hq_iso2": "CL",
+    "control_type": "Other state-owned",
+    "production": "n/a",
+    "production_year": null,
+    "world_share_pct": null,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "57%",
+    "us_defense_stockpile": "No stockpile",
+    "lat": -34.0943,
+    "lon": -70.3509,
+    "mgrs": "19H CC 75381 26564",
+    "coord_precision": "Reference coordinate (not imagery-confirmed)",
+    "coord_ce_m": 2500,
+    "coord_source": "Wikidata Q529024",
+    "sources": "https://icsg.org/download/2024-09-23-the-world-copper-factbook-2024/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -109.3667,
+     33.0906
+    ]
+   },
+   "properties": {
+    "id": 14,
+    "name": "Morenci",
+    "host_country": "United States",
+    "host_iso2": "US",
+    "primary_mineral": "Copper",
+    "secondary_minerals": "Molybdenum",
+    "operator": "Freeport-McMoRan",
+    "owners": "Freeport-McMoRan 72% (US); Sumitomo Corp 28% (JP)",
+    "controlling_owner_hq_iso2": "US",
+    "control_type": "Private / listed",
+    "production": "n/a",
+    "production_year": null,
+    "world_share_pct": null,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "57%",
+    "us_defense_stockpile": "No stockpile",
+    "lat": 33.0906,
+    "lon": -109.3667,
+    "mgrs": "12S XB 52428 62517",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Wikidata Q15256199",
+    "sources": "https://icsg.org/download/2024-09-23-the-world-copper-factbook-2024/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.8433,
+     43.0086
+    ]
+   },
+   "properties": {
+    "id": 15,
+    "name": "Oyu Tolgoi",
+    "host_country": "Mongolia",
+    "host_iso2": "MN",
+    "primary_mineral": "Copper",
+    "secondary_minerals": "Gold",
+    "operator": "Rio Tinto",
+    "owners": "Rio Tinto 66% (GB); Erdenes Oyu Tolgoi (Mongolia) 34% (MN)",
+    "controlling_owner_hq_iso2": "GB",
+    "control_type": "Private / listed",
+    "production": "n/a (underground ramp-up)",
+    "production_year": null,
+    "world_share_pct": null,
+    "status": "Operating – ramping",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "57%",
+    "us_defense_stockpile": "No stockpile",
+    "lat": 43.0086,
+    "lon": 106.8433,
+    "mgrs": "48T XN 50225 63418",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Wikidata Q1059067",
+    "sources": "https://www.riotinto.com/en/news/releases/2025/rio-tinto-releases-fourth-quarter-production-results"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -80.6448,
+     8.852
+    ]
+   },
+   "properties": {
+    "id": 16,
+    "name": "Cobre Panamá",
+    "host_country": "Panama",
+    "host_iso2": "PA",
+    "primary_mineral": "Copper",
+    "secondary_minerals": "Gold; Molybdenum",
+    "operator": "First Quantum",
+    "owners": "First Quantum Minerals 90% (CA); KOMIR / LS (Korea) 10% (KR)",
+    "controlling_owner_hq_iso2": "CA",
+    "control_type": "Private / listed",
+    "production": "0 (halted since Nov 2023)",
+    "production_year": "2024",
+    "world_share_pct": 0,
+    "status": "Care & maintenance",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "57%",
+    "us_defense_stockpile": "No stockpile",
+    "lat": 8.852,
+    "lon": -80.6448,
+    "mgrs": "17P NK 39057 78508",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Wikidata Q16258603",
+    "sources": "https://icsg.org/download/2024-09-23-the-world-copper-factbook-2024/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     25.3855,
+     -10.7148
+    ]
+   },
+   "properties": {
+    "id": 17,
+    "name": "Kamoto (KCC)",
+    "host_country": "DR Congo",
+    "host_iso2": "CD",
+    "primary_mineral": "Cobalt",
+    "secondary_minerals": "Copper",
+    "operator": "Glencore",
+    "owners": "Glencore 75% (CH); Gécamines 25% (CD)",
+    "controlling_owner_hq_iso2": "CH",
+    "control_type": "Private / listed",
+    "production": "31.7 kt Co (DRC export data)",
+    "production_year": "2024",
+    "world_share_pct": 10.48,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "79%",
+    "us_defense_stockpile": "Yes (held; acquisitions)",
+    "lat": -10.7148,
+    "lon": 25.3855,
+    "mgrs": "35L LJ 23436 15092",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Wikidata Q6359030",
+    "sources": "https://www.makanisi.org/la-rdc-1er-producteur-mondial-de-cobalt-en-2024/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.33,
+     29.62
+    ]
+   },
+   "properties": {
+    "id": 18,
+    "name": "Julong (Qulong)",
+    "host_country": "China",
+    "host_iso2": "CN",
+    "primary_mineral": "Copper",
+    "secondary_minerals": "Molybdenum",
+    "operator": "Zijin Mining",
+    "owners": "Zijin Mining 50.1% (CN)",
+    "controlling_owner_hq_iso2": "CN",
+    "control_type": "Chinese SOE / state-linked",
+    "production": "n/a",
+    "production_year": null,
+    "world_share_pct": null,
+    "status": "Operating – expanding",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "57%",
+    "us_defense_stockpile": "No stockpile",
+    "lat": 29.62,
+    "lon": 91.33,
+    "mgrs": "46R CT 38310 77844",
+    "coord_precision": "Approximate (unverified)",
+    "coord_ce_m": 15000,
+    "coord_source": "Analyst approximation",
+    "sources": "https://icsg.org/download/2024-09-23-the-world-copper-factbook-2024/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     25.92,
+     -10.78
+    ]
+   },
+   "properties": {
+    "id": 19,
+    "name": "Kisanfu (KFM)",
+    "host_country": "DR Congo",
+    "host_iso2": "CD",
+    "primary_mineral": "Cobalt",
+    "secondary_minerals": "Copper",
+    "operator": "CMOC",
+    "owners": "CMOC Group 71.25% (CN); CATL (via Brunp) 23.75% (CN); Gécamines 5% (CD)",
+    "controlling_owner_hq_iso2": "CN",
+    "control_type": "Chinese SOE / state-linked",
+    "production": "71.8 kt Co (DRC export data)",
+    "production_year": "2024",
+    "world_share_pct": 23.77,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "79%",
+    "us_defense_stockpile": "Yes (held; acquisitions)",
+    "lat": -10.78,
+    "lon": 25.92,
+    "mgrs": "35L LJ 81923 08137",
+    "coord_precision": "Approximate (unverified)",
+    "coord_ce_m": 15000,
+    "coord_source": "Analyst approximation",
+    "sources": "https://www.makanisi.org/la-rdc-1er-producteur-mondial-de-cobalt-en-2024/ https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0321/2025032101975.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     25.48,
+     -10.7
+    ]
+   },
+   "properties": {
+    "id": 20,
+    "name": "Metalkol RTR (tailings)",
+    "host_country": "DR Congo",
+    "host_iso2": "CD",
+    "primary_mineral": "Cobalt",
+    "secondary_minerals": "Copper",
+    "operator": "ERG",
+    "owners": "ERG (Eurasian Resources Group) 100% (KZ)",
+    "controlling_owner_hq_iso2": "KZ",
+    "control_type": "Other state-owned",
+    "production": "19.9 kt Co",
+    "production_year": "2024",
+    "world_share_pct": 6.58,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "79%",
+    "us_defense_stockpile": "Yes (held; acquisitions)",
+    "lat": -10.7,
+    "lon": 25.48,
+    "mgrs": "35L LJ 33765 16781",
+    "coord_precision": "District or cluster centroid",
+    "coord_ce_m": 25000,
+    "coord_source": "District centroid",
+    "sources": "https://www.makanisi.org/la-rdc-1er-producteur-mondial-de-cobalt-en-2024/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     25.8082,
+     -10.7858
+    ]
+   },
+   "properties": {
+    "id": 21,
+    "name": "Mutanda",
+    "host_country": "DR Congo",
+    "host_iso2": "CD",
+    "primary_mineral": "Cobalt",
+    "secondary_minerals": "Copper",
+    "operator": "Glencore",
+    "owners": "Glencore 95% (CH); Govt of DRC 5% (CD)",
+    "controlling_owner_hq_iso2": "CH",
+    "control_type": "Private / listed",
+    "production": "10.7 kt Co",
+    "production_year": "2024",
+    "world_share_pct": 3.56,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "79%",
+    "us_defense_stockpile": "Yes (held; acquisitions)",
+    "lat": -10.7858,
+    "lon": 25.8082,
+    "mgrs": "35L LJ 69701 07450",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Wikidata Q6943664",
+    "sources": "https://www.makanisi.org/la-rdc-1er-producteur-mondial-de-cobalt-en-2024/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     127.9836,
+     0.4783
+    ]
+   },
+   "properties": {
+    "id": 22,
+    "name": "Weda Bay (IWIP)",
+    "host_country": "Indonesia",
+    "host_iso2": "ID",
+    "primary_mineral": "Nickel",
+    "secondary_minerals": "Cobalt",
+    "operator": "PT Weda Bay Nickel",
+    "owners": "Tsingshan / Eramet (Strand Minerals) 90% (CN); PT Aneka Tambang (Antam) 10% (ID)",
+    "controlling_owner_hq_iso2": "CN",
+    "control_type": "Chinese private",
+    "production": "517 kt Ni (GlobalData est.)",
+    "production_year": "2023",
+    "world_share_pct": 13.93,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "41%",
+    "us_defense_stockpile": "No (DOE contaminated Ni only)",
+    "lat": 0.4783,
+    "lon": 127.9836,
+    "mgrs": "52N CF 86898 52874",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Wikidata Q108749425",
+    "sources": "https://www.mining-technology.com/marketdata/ten-largest-nickels-mines/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     127.4255,
+     -1.5384
+    ]
+   },
+   "properties": {
+    "id": 23,
+    "name": "Obi Island HPAL (Harita–Lygend)",
+    "host_country": "Indonesia",
+    "host_iso2": "ID",
+    "primary_mineral": "Nickel",
+    "secondary_minerals": "Cobalt",
+    "operator": "PT Halmahera Persada Lygend",
+    "owners": "Harita Group (ID); Lygend Resources (CN)",
+    "controlling_owner_hq_iso2": "ID",
+    "control_type": "Private / listed",
+    "production": "95 kt Ni (GlobalData est.)",
+    "production_year": "2023",
+    "world_share_pct": 2.57,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "41%",
+    "us_defense_stockpile": "No (DOE contaminated Ni only)",
+    "lat": -1.5384,
+    "lon": 127.4255,
+    "mgrs": "52M CD 24838 29895",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Located on Esri World Imagery",
+    "sources": "https://www.mining-technology.com/marketdata/ten-largest-nickels-mines/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     122.16,
+     -2.83
+    ]
+   },
+   "properties": {
+    "id": 24,
+    "name": "Huayue HPAL (Morowali IMIP)",
+    "host_country": "Indonesia",
+    "host_iso2": "ID",
+    "primary_mineral": "Nickel",
+    "secondary_minerals": "Cobalt",
+    "operator": "Huayou Cobalt",
+    "owners": "Huayou Cobalt (CN)",
+    "controlling_owner_hq_iso2": "CN",
+    "control_type": "Chinese private",
+    "production": "42 kt Ni (GlobalData est.)",
+    "production_year": "2023",
+    "world_share_pct": 1.13,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "41%",
+    "us_defense_stockpile": "No (DOE contaminated Ni only)",
+    "lat": -2.83,
+    "lon": 122.16,
+    "mgrs": "51M VS 06638 87163",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Wikidata Q108673012",
+    "sources": "https://www.mining-technology.com/marketdata/ten-largest-nickels-mines/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.3525,
+     -2.5458
+    ]
+   },
+   "properties": {
+    "id": 25,
+    "name": "Sorowako",
+    "host_country": "Indonesia",
+    "host_iso2": "ID",
+    "primary_mineral": "Nickel",
+    "secondary_minerals": "Cobalt",
+    "operator": "PT Vale Indonesia",
+    "owners": "MIND ID 34% (ID); Vale Base Metals 33.9% (BR); Sumitomo Metal Mining 11.5% (JP)",
+    "controlling_owner_hq_iso2": "ID",
+    "control_type": "Other state-owned",
+    "production": "64 kt Ni (GlobalData est.)",
+    "production_year": "2023",
+    "world_share_pct": 1.73,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "41%",
+    "us_defense_stockpile": "No (DOE contaminated Ni only)",
+    "lat": -2.5458,
+    "lon": 121.3525,
+    "mgrs": "51M UT 16828 18493",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Wikidata Q16976757",
+    "sources": "https://www.mining-technology.com/marketdata/ten-largest-nickels-mines/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     128.15,
+     0.87
+    ]
+   },
+   "properties": {
+    "id": 26,
+    "name": "Pakal Island",
+    "host_country": "Indonesia",
+    "host_iso2": "ID",
+    "primary_mineral": "Nickel",
+    "secondary_minerals": "",
+    "operator": "Antam",
+    "owners": "PT Aneka Tambang (Antam) 100% (ID)",
+    "controlling_owner_hq_iso2": "ID",
+    "control_type": "Other state-owned",
+    "production": "36 kt Ni (GlobalData est.)",
+    "production_year": "2023",
+    "world_share_pct": 0.97,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "41%",
+    "us_defense_stockpile": "No (DOE contaminated Ni only)",
+    "lat": 0.87,
+    "lon": 128.15,
+    "mgrs": "52N DF 05423 96171",
+    "coord_precision": "Approximate (unverified)",
+    "coord_ce_m": 15000,
+    "coord_source": "Analyst approximation",
+    "sources": "https://www.mining-technology.com/marketdata/ten-largest-nickels-mines/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     125.818,
+     9.532
+    ]
+   },
+   "properties": {
+    "id": 27,
+    "name": "Taganito",
+    "host_country": "Philippines",
+    "host_iso2": "PH",
+    "primary_mineral": "Nickel",
+    "secondary_minerals": "Cobalt",
+    "operator": "Nickel Asia",
+    "owners": "Nickel Asia (PH); Sumitomo Metal Mining (JP)",
+    "controlling_owner_hq_iso2": "PH",
+    "control_type": "Private / listed",
+    "production": "70 kt Ni (GlobalData est.)",
+    "production_year": "2023",
+    "world_share_pct": 1.9,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "41%",
+    "us_defense_stockpile": "No (DOE contaminated Ni only)",
+    "lat": 9.532,
+    "lon": 125.818,
+    "mgrs": "51P ZL 09390 54930",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Wikidata Q137942190",
+    "sources": "https://www.mining-technology.com/marketdata/ten-largest-nickels-mines/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     117.42,
+     8.5677
+    ]
+   },
+   "properties": {
+    "id": 28,
+    "name": "Rio Tuba",
+    "host_country": "Philippines",
+    "host_iso2": "PH",
+    "primary_mineral": "Nickel",
+    "secondary_minerals": "Cobalt",
+    "operator": "Nickel Asia",
+    "owners": "Nickel Asia (PH)",
+    "controlling_owner_hq_iso2": "PH",
+    "control_type": "Private / listed",
+    "production": "39 kt Ni (GlobalData est.)",
+    "production_year": "2023",
+    "world_share_pct": 1.06,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "41%",
+    "us_defense_stockpile": "No (DOE contaminated Ni only)",
+    "lat": 8.5677,
+    "lon": 117.42,
+    "mgrs": "50P NQ 46217 47084",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Wikidata Q16969313",
+    "sources": "https://www.mining-technology.com/marketdata/ten-largest-nickels-mines/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     48.304,
+     -18.846
+    ]
+   },
+   "properties": {
+    "id": 29,
+    "name": "Ambatovy",
+    "host_country": "Madagascar",
+    "host_iso2": "MG",
+    "primary_mineral": "Nickel",
+    "secondary_minerals": "Cobalt",
+    "operator": "Ambatovy JV",
+    "owners": "Sumitomo Corp / KOMIR 100% (JP)",
+    "controlling_owner_hq_iso2": "JP",
+    "control_type": "Private / listed",
+    "production": "41 kt Ni (GlobalData est.)",
+    "production_year": "2023",
+    "world_share_pct": 1.1,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "41%",
+    "us_defense_stockpile": "No (DOE contaminated Ni only)",
+    "lat": -18.846,
+    "lon": 48.304,
+    "mgrs": "39K TV 15902 14051",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Wikidata Q16002794",
+    "sources": "https://www.mining-technology.com/marketdata/ten-largest-nickels-mines/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.57,
+     7.92
+    ]
+   },
+   "properties": {
+    "id": 30,
+    "name": "Cerro Matoso",
+    "host_country": "Colombia",
+    "host_iso2": "CO",
+    "primary_mineral": "Nickel",
+    "secondary_minerals": "",
+    "operator": "South32",
+    "owners": "South32 100% (AU)",
+    "controlling_owner_hq_iso2": "AU",
+    "control_type": "Private / listed",
+    "production": "41 kt Ni (GlobalData est.)",
+    "production_year": "2023",
+    "world_share_pct": 1.1,
+    "status": "Operating (sale agreed 2025)",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "41%",
+    "us_defense_stockpile": "No (DOE contaminated Ni only)",
+    "lat": 7.92,
+    "lon": -75.57,
+    "mgrs": "18N VP 37173 75496",
+    "coord_precision": "Approximate (unverified)",
+    "coord_ce_m": 15000,
+    "coord_source": "Analyst approximation",
+    "sources": "https://www.mining-technology.com/marketdata/ten-largest-nickels-mines/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     88.3401,
+     69.5248
+    ]
+   },
+   "properties": {
+    "id": 31,
+    "name": "Oktyabrsky (Talnakh)",
+    "host_country": "Russia",
+    "host_iso2": "RU",
+    "primary_mineral": "Nickel",
+    "secondary_minerals": "Copper; PGMs (Pt/Pd)",
+    "operator": "Nornickel",
+    "owners": "Nornickel 100% (RU)",
+    "controlling_owner_hq_iso2": "RU",
+    "control_type": "Russian state-linked / sanctioned",
+    "production": "36 kt Ni (GlobalData est.)",
+    "production_year": "2023",
+    "world_share_pct": 0.98,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "41%",
+    "us_defense_stockpile": "No (DOE contaminated Ni only)",
+    "lat": 69.5248,
+    "lon": 88.3401,
+    "mgrs": "45W WT 52312 13454",
+    "coord_precision": "Reference coordinate (not imagery-confirmed)",
+    "coord_ce_m": 2500,
+    "coord_source": "Wikidata Q16966215",
+    "sources": "https://www.mining-technology.com/marketdata/ten-largest-nickels-mines/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -74.952,
+     20.5924
+    ]
+   },
+   "properties": {
+    "id": 32,
+    "name": "Moa",
+    "host_country": "Cuba",
+    "host_iso2": "CU",
+    "primary_mineral": "Nickel",
+    "secondary_minerals": "Cobalt",
+    "operator": "Moa JV",
+    "owners": "Sherritt International 50% (CA); Govt of Cuba (GNC) 50% (CU)",
+    "controlling_owner_hq_iso2": "CA",
+    "control_type": "Private / listed",
+    "production": "n/a",
+    "production_year": null,
+    "world_share_pct": null,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "41%",
+    "us_defense_stockpile": "No (DOE contaminated Ni only)",
+    "lat": 20.5924,
+    "lon": -74.952,
+    "mgrs": "18Q WH 05002 77039",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Located on Esri World Imagery",
+    "sources": "https://icsg.org/download/2024-09-23-the-world-copper-factbook-2024/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     116.0648,
+     -33.866
+    ]
+   },
+   "properties": {
+    "id": 33,
+    "name": "Greenbushes",
+    "host_country": "Australia",
+    "host_iso2": "AU",
+    "primary_mineral": "Lithium",
+    "secondary_minerals": "Tantalum",
+    "operator": "Talison Lithium",
+    "owners": "Tianqi Lithium 26.01% (CN); IGO 24.99% (AU); Albemarle 49% (US)",
+    "controlling_owner_hq_iso2": "US",
+    "control_type": "Private / listed",
+    "production": "1.38 Mt spodumene conc.",
+    "production_year": "FY2024",
+    "world_share_pct": null,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": ">50%",
+    "us_defense_stockpile": "Not available",
+    "lat": -33.866,
+    "lon": 116.0648,
+    "mgrs": "50H MH 13499 52308",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Wikidata Q16891876",
+    "sources": "https://investingnews.com/lithium-mines-in-australia/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     118.905,
+     -21.0558
+    ]
+   },
+   "properties": {
+    "id": 34,
+    "name": "Pilgangoora",
+    "host_country": "Australia",
+    "host_iso2": "AU",
+    "primary_mineral": "Lithium",
+    "secondary_minerals": "Tantalum",
+    "operator": "Pilbara Minerals",
+    "owners": "Pilbara Minerals (PLS) 100% (AU)",
+    "controlling_owner_hq_iso2": "AU",
+    "control_type": "Private / listed",
+    "production": "725 kt spodumene conc.",
+    "production_year": "FY2024",
+    "world_share_pct": null,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": ">50%",
+    "us_defense_stockpile": "Not available",
+    "lat": -21.0558,
+    "lon": 118.905,
+    "mgrs": "50K PB 97937 70494",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Wikidata Q21958025",
+    "sources": "https://investingnews.com/lithium-mines-in-australia/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.47,
+     -31.1
+    ]
+   },
+   "properties": {
+    "id": 35,
+    "name": "Mt Marion",
+    "host_country": "Australia",
+    "host_iso2": "AU",
+    "primary_mineral": "Lithium",
+    "secondary_minerals": "",
+    "operator": "Mineral Resources",
+    "owners": "Mineral Resources 50% (AU); Ganfeng Lithium 50% (CN)",
+    "controlling_owner_hq_iso2": "AU",
+    "control_type": "Private / listed",
+    "production": "~656 kt spodumene conc.",
+    "production_year": "FY2024",
+    "world_share_pct": null,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": ">50%",
+    "us_defense_stockpile": "Not available",
+    "lat": -31.1,
+    "lon": 121.47,
+    "mgrs": "51J UF 54081 58308",
+    "coord_precision": "Approximate (unverified)",
+    "coord_ce_m": 15000,
+    "coord_source": "Analyst approximation",
+    "sources": "https://investingnews.com/lithium-mines-in-australia/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     118.6728,
+     -21.1934
+    ]
+   },
+   "properties": {
+    "id": 36,
+    "name": "Wodgina",
+    "host_country": "Australia",
+    "host_iso2": "AU",
+    "primary_mineral": "Lithium",
+    "secondary_minerals": "Tantalum",
+    "operator": "Mineral Resources",
+    "owners": "Mineral Resources 50% (AU); Albemarle 50% (US)",
+    "controlling_owner_hq_iso2": "AU",
+    "control_type": "Private / listed",
+    "production": "424 kt spodumene conc.",
+    "production_year": "FY2024",
+    "world_share_pct": null,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": ">50%",
+    "us_defense_stockpile": "Not available",
+    "lat": -21.1934,
+    "lon": 118.6728,
+    "mgrs": "50K PB 73645 55531",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Wikidata Q2587675",
+    "sources": "https://investingnews.com/lithium-mines-in-australia/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     119.742,
+     -32.093
+    ]
+   },
+   "properties": {
+    "id": 37,
+    "name": "Mt Holland",
+    "host_country": "Australia",
+    "host_iso2": "AU",
+    "primary_mineral": "Lithium",
+    "secondary_minerals": "",
+    "operator": "Covalent Lithium",
+    "owners": "SQM 50% (CL); Wesfarmers 50% (AU)",
+    "controlling_owner_hq_iso2": "CL",
+    "control_type": "Private / listed",
+    "production": "n/a (ramping)",
+    "production_year": null,
+    "world_share_pct": null,
+    "status": "Operating – ramping",
+    "us_critical_2025": true,
+    "us_net_import_reliance": ">50%",
+    "us_defense_stockpile": "Not available",
+    "lat": -32.093,
+    "lon": 119.742,
+    "mgrs": "50H QK 58778 45964",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Wikidata Q137942463",
+    "sources": "https://investingnews.com/lithium-mines-in-australia/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -68.3599,
+     -23.5121
+    ]
+   },
+   "properties": {
+    "id": 38,
+    "name": "Salar de Atacama (SQM)",
+    "host_country": "Chile",
+    "host_iso2": "CL",
+    "primary_mineral": "Lithium",
+    "secondary_minerals": "Potash",
+    "operator": "SQM",
+    "owners": "SQM 100% (CL)",
+    "controlling_owner_hq_iso2": "CL",
+    "control_type": "Private / listed",
+    "production": "~201 kt LCE",
+    "production_year": "2024",
+    "world_share_pct": null,
+    "status": "Operating (Codelco JV from 2025)",
+    "us_critical_2025": true,
+    "us_net_import_reliance": ">50%",
+    "us_defense_stockpile": "Not available",
+    "lat": -23.5121,
+    "lon": -68.3599,
+    "mgrs": "19K EP 65349 99643",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Located on Esri World Imagery",
+    "sources": "https://investingnews.com/lithium-mines-in-australia/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -68.3404,
+     -23.6401
+    ]
+   },
+   "properties": {
+    "id": 39,
+    "name": "Salar de Atacama (Albemarle)",
+    "host_country": "Chile",
+    "host_iso2": "CL",
+    "primary_mineral": "Lithium",
+    "secondary_minerals": "",
+    "operator": "Albemarle",
+    "owners": "Albemarle 100% (US)",
+    "controlling_owner_hq_iso2": "US",
+    "control_type": "Private / listed",
+    "production": "n/a",
+    "production_year": null,
+    "world_share_pct": null,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": ">50%",
+    "us_defense_stockpile": "Not available",
+    "lat": -23.6401,
+    "lon": -68.3404,
+    "mgrs": "19K EP 67274 85463",
+    "coord_precision": "District or cluster centroid",
+    "coord_ce_m": 25000,
+    "coord_source": "District centroid",
+    "sources": "https://investingnews.com/lithium-mines-in-australia/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -66.75,
+     -23.6664
+    ]
+   },
+   "properties": {
+    "id": 40,
+    "name": "Cauchari-Olaroz",
+    "host_country": "Argentina",
+    "host_iso2": "AR",
+    "primary_mineral": "Lithium",
+    "secondary_minerals": "",
+    "operator": "Minera Exar",
+    "owners": "Ganfeng Lithium 46.7% (CN); Lithium Argentina 44.8% (CA); JEMSE (Jujuy province) 8.5% (AR)",
+    "controlling_owner_hq_iso2": "CN",
+    "control_type": "Chinese private",
+    "production": "25.4 kt LCE",
+    "production_year": "2024",
+    "world_share_pct": null,
+    "status": "Operating – ramping",
+    "us_critical_2025": true,
+    "us_net_import_reliance": ">50%",
+    "us_defense_stockpile": "Not available",
+    "lat": -23.6664,
+    "lon": -66.75,
+    "mgrs": "19K GP 29476 80897",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Wikidata Q21503338",
+    "sources": "https://lithium-argentina.com/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -67,
+     -25.4
+    ]
+   },
+   "properties": {
+    "id": 41,
+    "name": "Fénix (Hombre Muerto)",
+    "host_country": "Argentina",
+    "host_iso2": "AR",
+    "primary_mineral": "Lithium",
+    "secondary_minerals": "",
+    "operator": "Rio Tinto (ex-Arcadium)",
+    "owners": "Rio Tinto 100% (GB)",
+    "controlling_owner_hq_iso2": "GB",
+    "control_type": "Private / listed",
+    "production": "n/a",
+    "production_year": null,
+    "world_share_pct": null,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": ">50%",
+    "us_defense_stockpile": "Not available",
+    "lat": -25.4,
+    "lon": -67,
+    "mgrs": "19J GM 01187 89253",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Located on Esri World Imagery",
+    "sources": "https://www.riotinto.com/en/news/releases/2025/rio-tinto-releases-fourth-quarter-production-results"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.436,
+     -19.9572
+    ]
+   },
+   "properties": {
+    "id": 42,
+    "name": "Bikita",
+    "host_country": "Zimbabwe",
+    "host_iso2": "ZW",
+    "primary_mineral": "Lithium",
+    "secondary_minerals": "Cesium",
+    "operator": "Sinomine",
+    "owners": "Sinomine Resource 100% (CN)",
+    "controlling_owner_hq_iso2": "CN",
+    "control_type": "Chinese private",
+    "production": "n/a",
+    "production_year": null,
+    "world_share_pct": null,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": ">50%",
+    "us_defense_stockpile": "Not available",
+    "lat": -19.9572,
+    "lon": 31.436,
+    "mgrs": "36K UC 36337 92492",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Wikidata Q16254733",
+    "sources": "https://investingnews.com/lithium-mines-in-australia/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.38,
+     -17.82
+    ]
+   },
+   "properties": {
+    "id": 43,
+    "name": "Arcadia",
+    "host_country": "Zimbabwe",
+    "host_iso2": "ZW",
+    "primary_mineral": "Lithium",
+    "secondary_minerals": "",
+    "operator": "Huayou Cobalt",
+    "owners": "Huayou Cobalt 100% (CN)",
+    "controlling_owner_hq_iso2": "CN",
+    "control_type": "Chinese private",
+    "production": "n/a",
+    "production_year": null,
+    "world_share_pct": null,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": ">50%",
+    "us_defense_stockpile": "Not available",
+    "lat": -17.82,
+    "lon": 31.38,
+    "mgrs": "36K UF 28310 28985",
+    "coord_precision": "Approximate (unverified)",
+    "coord_ce_m": 15000,
+    "coord_source": "Analyst approximation",
+    "sources": "https://investingnews.com/lithium-mines-in-australia/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -7.4,
+     11.3
+    ]
+   },
+   "properties": {
+    "id": 44,
+    "name": "Goulamina",
+    "host_country": "Mali",
+    "host_iso2": "ML",
+    "primary_mineral": "Lithium",
+    "secondary_minerals": "",
+    "operator": "Ganfeng Lithium",
+    "owners": "Ganfeng Lithium (CN); Govt of Mali (ML)",
+    "controlling_owner_hq_iso2": "CN",
+    "control_type": "Chinese private",
+    "production": "n/a (first output Dec 2024)",
+    "production_year": null,
+    "world_share_pct": null,
+    "status": "Ramping",
+    "us_critical_2025": true,
+    "us_net_import_reliance": ">50%",
+    "us_defense_stockpile": "Not available",
+    "lat": 11.3,
+    "lon": -7.4,
+    "mgrs": "29P PN 74632 49628",
+    "coord_precision": "Approximate (unverified)",
+    "coord_ce_m": 15000,
+    "coord_source": "Analyst approximation",
+    "sources": "https://investingnews.com/lithium-mines-in-australia/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     95.1099,
+     36.8879
+    ]
+   },
+   "properties": {
+    "id": 45,
+    "name": "Qarhan Salt Lake",
+    "host_country": "China",
+    "host_iso2": "CN",
+    "primary_mineral": "Lithium",
+    "secondary_minerals": "Potash",
+    "operator": "Qinghai Salt Lake",
+    "owners": "Qinghai Salt Lake (China Minmetals) 100% (CN)",
+    "controlling_owner_hq_iso2": "CN",
+    "control_type": "Chinese SOE / state-linked",
+    "production": "n/a",
+    "production_year": null,
+    "world_share_pct": null,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": ">50%",
+    "us_defense_stockpile": "Not available",
+    "lat": 36.8879,
+    "lon": 95.1099,
+    "mgrs": "46S FF 88017 84515",
+    "coord_precision": "District or cluster centroid",
+    "coord_ce_m": 25000,
+    "coord_source": "District centroid",
+    "sources": "https://investingnews.com/lithium-mines-in-australia/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.961,
+     28.613
+    ]
+   },
+   "properties": {
+    "id": 46,
+    "name": "Jianxiawo lepidolite (Yichun)",
+    "host_country": "China",
+    "host_iso2": "CN",
+    "primary_mineral": "Lithium",
+    "secondary_minerals": "",
+    "operator": "CATL",
+    "owners": "CATL 100% (CN)",
+    "controlling_owner_hq_iso2": "CN",
+    "control_type": "Chinese private",
+    "production": "n/a (suspended Aug 2025)",
+    "production_year": null,
+    "world_share_pct": null,
+    "status": "Suspended",
+    "us_critical_2025": true,
+    "us_net_import_reliance": ">50%",
+    "us_defense_stockpile": "Not available",
+    "lat": 28.613,
+    "lon": 114.961,
+    "mgrs": "50R LS 00643 66809",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Wikipedia",
+    "sources": "https://investingnews.com/lithium-mines-in-australia/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -117.5773,
+     37.75
+    ]
+   },
+   "properties": {
+    "id": 47,
+    "name": "Silver Peak",
+    "host_country": "United States",
+    "host_iso2": "US",
+    "primary_mineral": "Lithium",
+    "secondary_minerals": "",
+    "operator": "Albemarle",
+    "owners": "Albemarle 100% (US)",
+    "controlling_owner_hq_iso2": "US",
+    "control_type": "Private / listed",
+    "production": "n/a (only US Li producer)",
+    "production_year": null,
+    "world_share_pct": null,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": ">50%",
+    "us_defense_stockpile": "Not available",
+    "lat": 37.75,
+    "lon": -117.5773,
+    "mgrs": "11S MB 49142 78234",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Located on Esri World Imagery",
+    "sources": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -118.0151,
+     41.6964
+    ]
+   },
+   "properties": {
+    "id": 48,
+    "name": "Thacker Pass",
+    "host_country": "United States",
+    "host_iso2": "US",
+    "primary_mineral": "Lithium",
+    "secondary_minerals": "",
+    "operator": "Lithium Americas",
+    "owners": "Lithium Americas 62% (CA); General Motors 38% (US)",
+    "controlling_owner_hq_iso2": "CA",
+    "control_type": "Private / listed",
+    "production": "Development",
+    "production_year": null,
+    "world_share_pct": null,
+    "status": "Construction",
+    "us_critical_2025": true,
+    "us_net_import_reliance": ">50%",
+    "us_defense_stockpile": "Not available",
+    "lat": 41.6964,
+    "lon": -118.0151,
+    "mgrs": "11T MG 15532 16566",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Wikidata Q137843953",
+    "sources": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.9736,
+     41.8106
+    ]
+   },
+   "properties": {
+    "id": 49,
+    "name": "Bayan Obo",
+    "host_country": "China",
+    "host_iso2": "CN",
+    "primary_mineral": "Rare earths",
+    "secondary_minerals": "Iron ore; Niobium",
+    "operator": "China Northern Rare Earth",
+    "owners": "China Northern Rare Earth (Baotou Steel) 100% (CN)",
+    "controlling_owner_hq_iso2": "CN",
+    "control_type": "Chinese SOE / state-linked",
+    "production": "n/a (China quota 270 kt REO national)",
+    "production_year": null,
+    "world_share_pct": null,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "67% (heavy REE 100%)",
+    "us_defense_stockpile": "Yes (La, NdPr, NdFeB, SmCo acq.)",
+    "lat": 41.8106,
+    "lon": 109.9736,
+    "mgrs": "49T DG 14743 29256",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Wikidata Q812094",
+    "sources": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -115.5325,
+     35.4786
+    ]
+   },
+   "properties": {
+    "id": 50,
+    "name": "Mountain Pass",
+    "host_country": "United States",
+    "host_iso2": "US",
+    "primary_mineral": "Rare earths",
+    "secondary_minerals": "",
+    "operator": "MP Materials",
+    "owners": "MP Materials 100% (US)",
+    "controlling_owner_hq_iso2": "US",
+    "control_type": "Private / listed",
+    "production": "45.5 kt REO in conc.",
+    "production_year": "2024",
+    "world_share_pct": 11.96,
+    "status": "Operating (DoD equity 2025)",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "67% (heavy REE 100%)",
+    "us_defense_stockpile": "Yes (La, NdPr, NdFeB, SmCo acq.)",
+    "lat": 35.4786,
+    "lon": -115.5325,
+    "mgrs": "11S PV 33132 27109",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Wikidata Q4285560",
+    "sources": "https://www.roic.ai/quote/MP/transcripts/2024-year/4-quarter"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     122.548,
+     -28.86
+    ]
+   },
+   "properties": {
+    "id": 51,
+    "name": "Mount Weld",
+    "host_country": "Australia",
+    "host_iso2": "AU",
+    "primary_mineral": "Rare earths",
+    "secondary_minerals": "",
+    "operator": "Lynas",
+    "owners": "Lynas Rare Earths 100% (AU)",
+    "controlling_owner_hq_iso2": "AU",
+    "control_type": "Private / listed",
+    "production": "10.5 kt REO ready for sale (Lynas)",
+    "production_year": "FY2025",
+    "world_share_pct": 2.75,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "67% (heavy REE 100%)",
+    "us_defense_stockpile": "Yes (La, NdPr, NdFeB, SmCo acq.)",
+    "lat": -28.86,
+    "lon": 122.548,
+    "mgrs": "51J VJ 55915 07441",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Wikidata Q1950809",
+    "sources": "https://announcements.asx.com.au/asxpdf/20250828/pdf/06ngtrk361hdnd.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     98.4,
+     25.9
+    ]
+   },
+   "properties": {
+    "id": 52,
+    "name": "Kachin State (Pangwa/Chipwi)",
+    "host_country": "Myanmar",
+    "host_iso2": "MM",
+    "primary_mineral": "Rare earths",
+    "secondary_minerals": "",
+    "operator": "Informal / militia-controlled",
+    "owners": "Kachin militias / Chinese buyers (MM)",
+    "controlling_owner_hq_iso2": "MM",
+    "control_type": "Private / listed",
+    "production": "27 kt REO (Burma national)",
+    "production_year": "2024",
+    "world_share_pct": 7.11,
+    "status": "Conflict-affected",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "67% (heavy REE 100%)",
+    "us_defense_stockpile": "Yes (La, NdPr, NdFeB, SmCo acq.)",
+    "lat": 25.9,
+    "lon": 98.4,
+    "mgrs": "47R MJ 39901 64747",
+    "coord_precision": "District or cluster centroid",
+    "coord_ce_m": 25000,
+    "coord_source": "District centroid",
+    "sources": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.8,
+     24.9
+    ]
+   },
+   "properties": {
+    "id": 53,
+    "name": "Ganzhou ionic clays (Longnan)",
+    "host_country": "China",
+    "host_iso2": "CN",
+    "primary_mineral": "Rare earths",
+    "secondary_minerals": "",
+    "operator": "China Rare Earth Group",
+    "owners": "China Rare Earth Group 100% (CN)",
+    "controlling_owner_hq_iso2": "CN",
+    "control_type": "Chinese SOE / state-linked",
+    "production": "n/a",
+    "production_year": null,
+    "world_share_pct": null,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "67% (heavy REE 100%)",
+    "us_defense_stockpile": "Yes (La, NdPr, NdFeB, SmCo acq.)",
+    "lat": 24.9,
+    "lon": 114.8,
+    "mgrs": "50R KN 77783 55671",
+    "coord_precision": "District or cluster centroid",
+    "coord_ce_m": 25000,
+    "coord_source": "District centroid",
+    "sources": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     101.9789,
+     28.4478
+    ]
+   },
+   "properties": {
+    "id": 54,
+    "name": "Maoniuping",
+    "host_country": "China",
+    "host_iso2": "CN",
+    "primary_mineral": "Rare earths",
+    "secondary_minerals": "",
+    "operator": "Jiangxi Copper RE",
+    "owners": "Sichuan Jiangxi Copper RE (Jiangxi Copper) (CN)",
+    "controlling_owner_hq_iso2": "CN",
+    "control_type": "Chinese SOE / state-linked",
+    "production": "n/a",
+    "production_year": null,
+    "world_share_pct": null,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "67% (heavy REE 100%)",
+    "us_defense_stockpile": "Yes (La, NdPr, NdFeB, SmCo acq.)",
+    "lat": 28.4478,
+    "lon": 101.9789,
+    "mgrs": "47R QM 91745 50423",
+    "coord_precision": "Reference coordinate (not imagery-confirmed)",
+    "coord_ce_m": 2500,
+    "coord_source": "Wikidata Q24377198",
+    "sources": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -48.2335,
+     -13.5275
+    ]
+   },
+   "properties": {
+    "id": 55,
+    "name": "Serra Verde (Pela Ema)",
+    "host_country": "Brazil",
+    "host_iso2": "BR",
+    "primary_mineral": "Rare earths",
+    "secondary_minerals": "",
+    "operator": "Serra Verde",
+    "owners": "Serra Verde (Denham/EMG/Vision Blue) 100% (BR)",
+    "controlling_owner_hq_iso2": "BR",
+    "control_type": "Private / listed",
+    "production": "n/a (Brazil national 560 t REO)",
+    "production_year": null,
+    "world_share_pct": null,
+    "status": "Ramping",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "67% (heavy REE 100%)",
+    "us_defense_stockpile": "Yes (La, NdPr, NdFeB, SmCo acq.)",
+    "lat": -13.5275,
+    "lon": -48.2335,
+    "mgrs": "22L GL 99461 02836",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Located on Esri World Imagery",
+    "sources": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     38.57,
+     -13.33
+    ]
+   },
+   "properties": {
+    "id": 56,
+    "name": "Balama",
+    "host_country": "Mozambique",
+    "host_iso2": "MZ",
+    "primary_mineral": "Graphite (natural)",
+    "secondary_minerals": "",
+    "operator": "Syrah Resources",
+    "owners": "Syrah Resources 100% (AU)",
+    "controlling_owner_hq_iso2": "AU",
+    "control_type": "Private / listed",
+    "production": "35 kt natural graphite",
+    "production_year": "2024",
+    "world_share_pct": 2.26,
+    "status": "Campaign operation",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "100%",
+    "us_defense_stockpile": "None in MCS; iso-molded graphite acq. proposed",
+    "lat": -13.33,
+    "lon": 38.57,
+    "mgrs": "37L DF 53432 26330",
+    "coord_precision": "Approximate (unverified)",
+    "coord_ce_m": 15000,
+    "coord_source": "Analyst approximation",
+    "sources": "https://www.datocms-assets.com/65260/1742776294-srl_annual-report-2024-final.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     130.8,
+     47.1
+    ]
+   },
+   "properties": {
+    "id": 57,
+    "name": "Jixi–Luobei flake cluster",
+    "host_country": "China",
+    "host_iso2": "CN",
+    "primary_mineral": "Graphite (natural)",
+    "secondary_minerals": "",
+    "operator": "Multiple (Heilongjiang)",
+    "owners": "Heilongjiang graphite producers (CN)",
+    "controlling_owner_hq_iso2": "CN",
+    "control_type": "Chinese SOE / state-linked",
+    "production": "n/a (China national 1.27 Mt)",
+    "production_year": null,
+    "world_share_pct": null,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "100%",
+    "us_defense_stockpile": "None in MCS; iso-molded graphite acq. proposed",
+    "lat": 47.1,
+    "lon": 130.8,
+    "mgrs": "52T FT 36588 17848",
+    "coord_precision": "District or cluster centroid",
+    "coord_ce_m": 25000,
+    "coord_source": "District centroid",
+    "sources": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     44.8,
+     -23.9
+    ]
+   },
+   "properties": {
+    "id": 58,
+    "name": "Molo",
+    "host_country": "Madagascar",
+    "host_iso2": "MG",
+    "primary_mineral": "Graphite (natural)",
+    "secondary_minerals": "",
+    "operator": "NextSource Materials",
+    "owners": "NextSource Materials 100% (CA)",
+    "controlling_owner_hq_iso2": "CA",
+    "control_type": "Private / listed",
+    "production": "n/a (17 ktpa capacity)",
+    "production_year": null,
+    "world_share_pct": null,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "100%",
+    "us_defense_stockpile": "None in MCS; iso-molded graphite acq. proposed",
+    "lat": -23.9,
+    "lon": 44.8,
+    "mgrs": "38K MU 79642 56830",
+    "coord_precision": "Approximate (unverified)",
+    "coord_ce_m": 15000,
+    "coord_source": "Analyst approximation",
+    "sources": "https://investingnews.com/lithium-mines-in-australia/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -41.3,
+     -16
+    ]
+   },
+   "properties": {
+    "id": 59,
+    "name": "Pedra Azul",
+    "host_country": "Brazil",
+    "host_iso2": "BR",
+    "primary_mineral": "Graphite (natural)",
+    "secondary_minerals": "",
+    "operator": "Nacional de Grafite",
+    "owners": "Nacional de Grafite 100% (BR)",
+    "controlling_owner_hq_iso2": "BR",
+    "control_type": "Private / listed",
+    "production": "n/a",
+    "production_year": null,
+    "world_share_pct": null,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "100%",
+    "us_defense_stockpile": "None in MCS; iso-molded graphite acq. proposed",
+    "lat": -16,
+    "lon": -41.3,
+    "mgrs": "24L TH 53862 29702",
+    "coord_precision": "District or cluster centroid",
+    "coord_ce_m": 25000,
+    "coord_source": "District centroid",
+    "sources": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.3,
+     28.87
+    ]
+   },
+   "properties": {
+    "id": 60,
+    "name": "Xianglushan",
+    "host_country": "China",
+    "host_iso2": "CN",
+    "primary_mineral": "Tungsten",
+    "secondary_minerals": "",
+    "operator": "Jiangxi Tungsten",
+    "owners": "Jiangxi Tungsten / China Minmetals (CN)",
+    "controlling_owner_hq_iso2": "CN",
+    "control_type": "Chinese SOE / state-linked",
+    "production": "n/a",
+    "production_year": null,
+    "world_share_pct": null,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": ">50%",
+    "us_defense_stockpile": "Yes (held; acquisitions)",
+    "lat": 28.87,
+    "lon": 115.3,
+    "mgrs": "50R LS 34200 94770",
+    "coord_precision": "Approximate (unverified)",
+    "coord_ce_m": 15000,
+    "coord_source": "Analyst approximation",
+    "sources": "https://lelementarium.fr/wp-content/uploads/2026/02/Tungstene-2024.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     113.1667,
+     25.7167
+    ]
+   },
+   "properties": {
+    "id": 61,
+    "name": "Shizhuyuan",
+    "host_country": "China",
+    "host_iso2": "CN",
+    "primary_mineral": "Tungsten",
+    "secondary_minerals": "Bismuth; Molybdenum",
+    "operator": "Hunan Shizhuyuan Nonferrous",
+    "owners": "Hunan Nonferrous (China Minmetals) 100% (CN)",
+    "controlling_owner_hq_iso2": "CN",
+    "control_type": "Chinese SOE / state-linked",
+    "production": "n/a",
+    "production_year": null,
+    "world_share_pct": null,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": ">50%",
+    "us_defense_stockpile": "Yes (held; acquisitions)",
+    "lat": 25.7167,
+    "lon": 113.1667,
+    "mgrs": "49R GJ 17388 46094",
+    "coord_precision": "Reference coordinate (not imagery-confirmed)",
+    "coord_ce_m": 2500,
+    "coord_source": "Wikidata Q12172652",
+    "sources": "https://lelementarium.fr/wp-content/uploads/2026/02/Tungstene-2024.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     111.4992,
+     33.9175
+    ]
+   },
+   "properties": {
+    "id": 62,
+    "name": "Luanchuan (Sandaozhuang)",
+    "host_country": "China",
+    "host_iso2": "CN",
+    "primary_mineral": "Molybdenum",
+    "secondary_minerals": "Tungsten",
+    "operator": "CMOC",
+    "owners": "CMOC Group 100% (CN)",
+    "controlling_owner_hq_iso2": "CN",
+    "control_type": "Chinese SOE / state-linked",
+    "production": "15.4 kt Mo; 8.3 kt W products",
+    "production_year": "2024",
+    "world_share_pct": null,
+    "status": "Operating",
+    "us_critical_2025": false,
+    "us_net_import_reliance": "Net exporter",
+    "us_defense_stockpile": "No",
+    "lat": 33.9175,
+    "lon": 111.4992,
+    "mgrs": "49S ET 46144 53120",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Located on Esri World Imagery",
+    "sources": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0321/2025032101975.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     105.68,
+     21.63
+    ]
+   },
+   "properties": {
+    "id": 63,
+    "name": "Nui Phao",
+    "host_country": "Vietnam",
+    "host_iso2": "VN",
+    "primary_mineral": "Tungsten",
+    "secondary_minerals": "Bismuth; Graphite (natural)",
+    "operator": "Masan High-Tech Materials",
+    "owners": "Masan High-Tech Materials 100% (VN)",
+    "controlling_owner_hq_iso2": "VN",
+    "control_type": "Private / listed",
+    "production": "n/a (Vietnam national 3.4 kt W)",
+    "production_year": null,
+    "world_share_pct": null,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": ">50%",
+    "us_defense_stockpile": "Yes (held; acquisitions)",
+    "lat": 21.63,
+    "lon": 105.68,
+    "mgrs": "48Q WJ 70372 92027",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Located on Esri World Imagery",
+    "sources": "https://lelementarium.fr/wp-content/uploads/2026/02/Tungstene-2024.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     12.489,
+     47.226
+    ]
+   },
+   "properties": {
+    "id": 64,
+    "name": "Mittersill",
+    "host_country": "Austria",
+    "host_iso2": "AT",
+    "primary_mineral": "Tungsten",
+    "secondary_minerals": "",
+    "operator": "Wolfram Bergbau (Sandvik)",
+    "owners": "Sandvik (Wolfram Bergbau) 100% (SE)",
+    "controlling_owner_hq_iso2": "SE",
+    "control_type": "Private / listed",
+    "production": "~800 t W",
+    "production_year": "2024",
+    "world_share_pct": 0.98,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": ">50%",
+    "us_defense_stockpile": "Yes (held; acquisitions)",
+    "lat": 47.226,
+    "lon": 12.489,
+    "mgrs": "33T UN 09910 33337",
+    "coord_precision": "Reference coordinate (not imagery-confirmed)",
+    "coord_ce_m": 2500,
+    "coord_source": "Wikidata Q6883536",
+    "sources": "https://lelementarium.fr/wp-content/uploads/2026/02/Tungstene-2024.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -7.75,
+     40.15
+    ]
+   },
+   "properties": {
+    "id": 65,
+    "name": "Panasqueira",
+    "host_country": "Portugal",
+    "host_iso2": "PT",
+    "primary_mineral": "Tungsten",
+    "secondary_minerals": "Tin; Copper",
+    "operator": "Almonty",
+    "owners": "Almonty Industries 100% (US)",
+    "controlling_owner_hq_iso2": "US",
+    "control_type": "Private / listed",
+    "production": "588 t WO3",
+    "production_year": "2024",
+    "world_share_pct": null,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": ">50%",
+    "us_defense_stockpile": "Yes (held; acquisitions)",
+    "lat": 40.15,
+    "lon": -7.75,
+    "mgrs": "29T PE 06467 45154",
+    "coord_precision": "Reference coordinate (not imagery-confirmed)",
+    "coord_ce_m": 2500,
+    "coord_source": "Wikidata Q9054996",
+    "sources": "https://lelementarium.fr/wp-content/uploads/2026/02/Tungstene-2024.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     128.8333,
+     37.15
+    ]
+   },
+   "properties": {
+    "id": 66,
+    "name": "Sangdong",
+    "host_country": "South Korea",
+    "host_iso2": "KR",
+    "primary_mineral": "Tungsten",
+    "secondary_minerals": "Molybdenum",
+    "operator": "Almonty",
+    "owners": "Almonty Industries 100% (US)",
+    "controlling_owner_hq_iso2": "US",
+    "control_type": "Private / listed",
+    "production": "Commissioning 2025",
+    "production_year": null,
+    "world_share_pct": null,
+    "status": "Commissioning",
+    "us_critical_2025": true,
+    "us_net_import_reliance": ">50%",
+    "us_defense_stockpile": "Yes (held; acquisitions)",
+    "lat": 37.15,
+    "lon": 128.8333,
+    "mgrs": "52S DG 85196 11525",
+    "coord_precision": "Reference coordinate (not imagery-confirmed)",
+    "coord_ce_m": 2500,
+    "coord_source": "Wikidata Q16979154",
+    "sources": "https://lelementarium.fr/wp-content/uploads/2026/02/Tungstene-2024.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     111.483,
+     27.752
+    ]
+   },
+   "properties": {
+    "id": 67,
+    "name": "Xikuangshan",
+    "host_country": "China",
+    "host_iso2": "CN",
+    "primary_mineral": "Antimony",
+    "secondary_minerals": "",
+    "operator": "Hsikwangshan Twinkling Star",
+    "owners": "Hunan Gold Group (Hsikwangshan Twinkling Star) (CN)",
+    "controlling_owner_hq_iso2": "CN",
+    "control_type": "Chinese SOE / state-linked",
+    "production": "n/a (40 ktpa product capacity)",
+    "production_year": null,
+    "world_share_pct": null,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "91%",
+    "us_defense_stockpile": "Yes (acquisitions)",
+    "lat": 27.752,
+    "lon": 111.483,
+    "mgrs": "49R EL 47598 69824",
+    "coord_precision": "Reference coordinate (not imagery-confirmed)",
+    "coord_ce_m": 2500,
+    "coord_source": "Wikidata Q8044426",
+    "sources": "https://investingnews.com/top-antimony-production-country/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     92.9156,
+     59.865
+    ]
+   },
+   "properties": {
+    "id": 68,
+    "name": "Olimpiada",
+    "host_country": "Russia",
+    "host_iso2": "RU",
+    "primary_mineral": "Gold",
+    "secondary_minerals": "Antimony",
+    "operator": "Polyus",
+    "owners": "Polyus 100% (RU)",
+    "controlling_owner_hq_iso2": "RU",
+    "control_type": "Russian state-linked / sanctioned",
+    "production": "8.6 kt Sb in conc. (1H only)",
+    "production_year": "1H2024",
+    "world_share_pct": null,
+    "status": "Operating",
+    "us_critical_2025": false,
+    "us_net_import_reliance": "Net exporter",
+    "us_defense_stockpile": "No (Treasury stocks)",
+    "lat": 59.865,
+    "lon": 92.9156,
+    "mgrs": "46V DM 95273 36379",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Located on Esri World Imagery",
+    "sources": "https://investingnews.com/top-antimony-production-country/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     68.85,
+     39.18
+    ]
+   },
+   "properties": {
+    "id": 69,
+    "name": "Anzob",
+    "host_country": "Tajikistan",
+    "host_iso2": "TJ",
+    "primary_mineral": "Antimony",
+    "secondary_minerals": "Mercury",
+    "operator": "Anzob Mining Combine",
+    "owners": "Anzob / TALCO (Tajikistan) (TJ)",
+    "controlling_owner_hq_iso2": "TJ",
+    "control_type": "Other state-owned",
+    "production": "n/a (Tajikistan national 22 kt)",
+    "production_year": null,
+    "world_share_pct": null,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "91%",
+    "us_defense_stockpile": "Yes (acquisitions)",
+    "lat": 39.18,
+    "lon": 68.85,
+    "mgrs": "42S VJ 87044 36762",
+    "coord_precision": "Approximate (unverified)",
+    "coord_ce_m": 15000,
+    "coord_source": "Analyst approximation",
+    "sources": "https://investingnews.com/top-antimony-production-country/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -115.319,
+     44.9259
+    ]
+   },
+   "properties": {
+    "id": 70,
+    "name": "Stibnite",
+    "host_country": "United States",
+    "host_iso2": "US",
+    "primary_mineral": "Antimony",
+    "secondary_minerals": "Gold",
+    "operator": "Perpetua Resources",
+    "owners": "Perpetua Resources 100% (US)",
+    "controlling_owner_hq_iso2": "US",
+    "control_type": "Private / listed",
+    "production": "Development (DoD-funded)",
+    "production_year": null,
+    "world_share_pct": null,
+    "status": "Development",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "91%",
+    "us_defense_stockpile": "Yes (acquisitions)",
+    "lat": 44.9259,
+    "lon": -115.319,
+    "mgrs": "11T PK 32659 76093",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Located on Esri World Imagery",
+    "sources": "https://investingnews.com/top-antimony-production-country/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     28.9192,
+     -23.9577
+    ]
+   },
+   "properties": {
+    "id": 71,
+    "name": "Mogalakwena",
+    "host_country": "South Africa",
+    "host_iso2": "ZA",
+    "primary_mineral": "PGMs (Pt/Pd)",
+    "secondary_minerals": "Nickel; Copper",
+    "operator": "Valterra Platinum",
+    "owners": "Valterra Platinum (ex-Anglo Platinum) 100% (ZA)",
+    "controlling_owner_hq_iso2": "ZA",
+    "control_type": "Private / listed",
+    "production": "953 koz PGM",
+    "production_year": "2024",
+    "world_share_pct": null,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "Pt 89% / Pd 57%",
+    "us_defense_stockpile": "Yes (Pt, Ir held)",
+    "lat": -23.9577,
+    "lon": 28.9192,
+    "mgrs": "35K PP 95292 49128",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Located on Esri World Imagery",
+    "sources": "https://www.implats-ir.co.za/results/2024/annual-results-2024/pdf/segmental-information.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     27.2579,
+     -25.6883
+    ]
+   },
+   "properties": {
+    "id": 72,
+    "name": "Impala Rustenburg",
+    "host_country": "South Africa",
+    "host_iso2": "ZA",
+    "primary_mineral": "PGMs (Pt/Pd)",
+    "secondary_minerals": "Nickel",
+    "operator": "Implats",
+    "owners": "Impala Platinum (ZA)",
+    "controlling_owner_hq_iso2": "ZA",
+    "control_type": "Private / listed",
+    "production": "n/a",
+    "production_year": null,
+    "world_share_pct": null,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "Pt 89% / Pd 57%",
+    "us_defense_stockpile": "Yes (Pt, Ir held)",
+    "lat": -25.6883,
+    "lon": 27.2579,
+    "mgrs": "35J NM 25877 58808",
+    "coord_precision": "District or cluster centroid",
+    "coord_ce_m": 25000,
+    "coord_source": "Wikidata Q137938339",
+    "sources": "https://www.implats-ir.co.za/results/2024/annual-results-2024/pdf/segmental-information.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     27.409,
+     -25.719
+    ]
+   },
+   "properties": {
+    "id": 73,
+    "name": "Marikana",
+    "host_country": "South Africa",
+    "host_iso2": "ZA",
+    "primary_mineral": "PGMs (Pt/Pd)",
+    "secondary_minerals": "",
+    "operator": "Sibanye-Stillwater",
+    "owners": "Sibanye-Stillwater 100% (ZA)",
+    "controlling_owner_hq_iso2": "ZA",
+    "control_type": "Private / listed",
+    "production": "n/a",
+    "production_year": null,
+    "world_share_pct": null,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "Pt 89% / Pd 57%",
+    "us_defense_stockpile": "Yes (Pt, Ir held)",
+    "lat": -25.719,
+    "lon": 27.409,
+    "mgrs": "35J NM 41028 55370",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Wikidata Q137938366",
+    "sources": "https://www.implats-ir.co.za/results/2024/annual-results-2024/pdf/segmental-information.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     30.3564,
+     -18.6658
+    ]
+   },
+   "properties": {
+    "id": 74,
+    "name": "Ngezi (Zimplats)",
+    "host_country": "Zimbabwe",
+    "host_iso2": "ZW",
+    "primary_mineral": "PGMs (Pt/Pd)",
+    "secondary_minerals": "Nickel",
+    "operator": "Zimplats",
+    "owners": "Impala Platinum 87% (ZA)",
+    "controlling_owner_hq_iso2": "ZA",
+    "control_type": "Private / listed",
+    "production": "646 koz 6E in matte",
+    "production_year": "FY2024",
+    "world_share_pct": null,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "Pt 89% / Pd 57%",
+    "us_defense_stockpile": "Yes (Pt, Ir held)",
+    "lat": -18.6658,
+    "lon": 30.3564,
+    "mgrs": "36K TE 21131 34090",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Wikidata Q16979254",
+    "sources": "https://www.implats-ir.co.za/results/2024/annual-results-2024/pdf/segmental-information.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -109.877,
+     45.389
+    ]
+   },
+   "properties": {
+    "id": 75,
+    "name": "Stillwater",
+    "host_country": "United States",
+    "host_iso2": "US",
+    "primary_mineral": "PGMs (Pt/Pd)",
+    "secondary_minerals": "",
+    "operator": "Sibanye-Stillwater",
+    "owners": "Sibanye-Stillwater 100% (ZA)",
+    "controlling_owner_hq_iso2": "ZA",
+    "control_type": "Private / listed",
+    "production": "263 koz 2E",
+    "production_year": "2024",
+    "world_share_pct": null,
+    "status": "Operating (restructured)",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "Pt 89% / Pd 57%",
+    "us_defense_stockpile": "Yes (Pt, Ir held)",
+    "lat": 45.389,
+    "lon": -109.877,
+    "mgrs": "12T WR 87908 26778",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Wikidata Q137938462",
+    "sources": "https://reports.sibanyestillwater.com/2024/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -110.0857,
+     45.5029
+    ]
+   },
+   "properties": {
+    "id": 76,
+    "name": "East Boulder",
+    "host_country": "United States",
+    "host_iso2": "US",
+    "primary_mineral": "PGMs (Pt/Pd)",
+    "secondary_minerals": "",
+    "operator": "Sibanye-Stillwater",
+    "owners": "Sibanye-Stillwater 100% (ZA)",
+    "controlling_owner_hq_iso2": "ZA",
+    "control_type": "Private / listed",
+    "production": "163 koz 2E",
+    "production_year": "2024",
+    "world_share_pct": null,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "Pt 89% / Pd 57%",
+    "us_defense_stockpile": "Yes (Pt, Ir held)",
+    "lat": 45.5029,
+    "lon": -110.0857,
+    "mgrs": "12T WR 71427 39225",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Wikidata Q137851312",
+    "sources": "https://reports.sibanyestillwater.com/2024/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.27,
+     -1.53
+    ]
+   },
+   "properties": {
+    "id": 77,
+    "name": "Moanda",
+    "host_country": "Gabon",
+    "host_iso2": "GA",
+    "primary_mineral": "Manganese",
+    "secondary_minerals": "",
+    "operator": "Comilog",
+    "owners": "Eramet 64% (FR); Govt of Gabon 29% (GA)",
+    "controlling_owner_hq_iso2": "FR",
+    "control_type": "Private / listed",
+    "production": "6.8 Mt Mn ore",
+    "production_year": "2024",
+    "world_share_pct": null,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "100%",
+    "us_defense_stockpile": "Yes (ferro/metal held; EMM acq.)",
+    "lat": -1.53,
+    "lon": 13.27,
+    "mgrs": "33M UU 07533 30811",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Located on Esri World Imagery",
+    "sources": "https://www.eramet.com/wp-content/uploads/2025/06/2025-04-25-Eramet-2024-Integrated-Report-EN.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     22.9579,
+     -27.2954
+    ]
+   },
+   "properties": {
+    "id": 78,
+    "name": "Tshipi Borwa",
+    "host_country": "South Africa",
+    "host_iso2": "ZA",
+    "primary_mineral": "Manganese",
+    "secondary_minerals": "",
+    "operator": "Tshipi é Ntle",
+    "owners": "Ntsimbintle Holdings 50.1% (ZA); Jupiter Mines 49.9% (AU)",
+    "controlling_owner_hq_iso2": "ZA",
+    "control_type": "Private / listed",
+    "production": "3.46 Mt Mn ore",
+    "production_year": "FY2024",
+    "world_share_pct": null,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "100%",
+    "us_defense_stockpile": "Yes (ferro/metal held; EMM acq.)",
+    "lat": -27.2954,
+    "lon": 22.9579,
+    "mgrs": "34J FQ 93765 79327",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Located on Esri World Imagery",
+    "sources": "https://www.jupitermines.com/cproot/1239/3/20240930-Jupiter-Mines-2024-Annual-Report_WEB.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     22.9175,
+     -27.2064
+    ]
+   },
+   "properties": {
+    "id": 79,
+    "name": "Hotazel (Mamatwan/Wessels)",
+    "host_country": "South Africa",
+    "host_iso2": "ZA",
+    "primary_mineral": "Manganese",
+    "secondary_minerals": "",
+    "operator": "South32",
+    "owners": "South32 44.4% (AU); Anglo American 29.6% (GB)",
+    "controlling_owner_hq_iso2": "AU",
+    "control_type": "Private / listed",
+    "production": "n/a",
+    "production_year": null,
+    "world_share_pct": null,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "100%",
+    "us_defense_stockpile": "Yes (ferro/metal held; EMM acq.)",
+    "lat": -27.2064,
+    "lon": 22.9175,
+    "mgrs": "34J FQ 89917 89250",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Wikidata Q21839548",
+    "sources": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     22.838,
+     -27.1292
+    ]
+   },
+   "properties": {
+    "id": 80,
+    "name": "Nchwaning / Gloria",
+    "host_country": "South Africa",
+    "host_iso2": "ZA",
+    "primary_mineral": "Manganese",
+    "secondary_minerals": "",
+    "operator": "Assmang",
+    "owners": "African Rainbow Minerals 50% (ZA); Assore 50% (ZA)",
+    "controlling_owner_hq_iso2": "ZA",
+    "control_type": "Private / listed",
+    "production": "n/a",
+    "production_year": null,
+    "world_share_pct": null,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "100%",
+    "us_defense_stockpile": "Yes (ferro/metal held; EMM acq.)",
+    "lat": -27.1292,
+    "lon": 22.838,
+    "mgrs": "34J FQ 82167 97921",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Wikidata Q16963799",
+    "sources": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     136.4428,
+     -13.9769
+    ]
+   },
+   "properties": {
+    "id": 81,
+    "name": "GEMCO (Groote Eylandt)",
+    "host_country": "Australia",
+    "host_iso2": "AU",
+    "primary_mineral": "Manganese",
+    "secondary_minerals": "",
+    "operator": "South32",
+    "owners": "South32 60% (AU); Anglo American 40% (GB)",
+    "controlling_owner_hq_iso2": "AU",
+    "control_type": "Private / listed",
+    "production": "n/a (cyclone outage 2024)",
+    "production_year": null,
+    "world_share_pct": null,
+    "status": "Restarted 2025",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "100%",
+    "us_defense_stockpile": "Yes (ferro/metal held; EMM acq.)",
+    "lat": -13.9769,
+    "lon": 136.4428,
+    "mgrs": "53L PE 55839 54354",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Wikidata Q131829584",
+    "sources": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.0327,
+     5.3281
+    ]
+   },
+   "properties": {
+    "id": 82,
+    "name": "Nsuta",
+    "host_country": "Ghana",
+    "host_iso2": "GH",
+    "primary_mineral": "Manganese",
+    "secondary_minerals": "",
+    "operator": "Ghana Manganese Co.",
+    "owners": "Consolidated Minerals (Ningxia Tianyuan) 90% (CN)",
+    "controlling_owner_hq_iso2": "CN",
+    "control_type": "Chinese private",
+    "production": "n/a",
+    "production_year": null,
+    "world_share_pct": null,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "100%",
+    "us_defense_stockpile": "Yes (ferro/metal held; EMM acq.)",
+    "lat": 5.3281,
+    "lon": -2.0327,
+    "mgrs": "30N XL 07179 89016",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Located on Esri World Imagery",
+    "sources": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -70.3207,
+     -14.2327
+    ]
+   },
+   "properties": {
+    "id": 83,
+    "name": "San Rafael",
+    "host_country": "Peru",
+    "host_iso2": "PE",
+    "primary_mineral": "Tin",
+    "secondary_minerals": "",
+    "operator": "Minsur",
+    "owners": "Minsur (Breca) 100% (PE)",
+    "controlling_owner_hq_iso2": "PE",
+    "control_type": "Private / listed",
+    "production": "36.3 kt refined Sn (Minsur, mostly San Rafael feed)",
+    "production_year": "2024",
+    "world_share_pct": null,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "77%",
+    "us_defense_stockpile": "Yes (held)",
+    "lat": -14.2327,
+    "lon": -70.3207,
+    "mgrs": "19L CE 57510 26134",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Wikidata Q21838024",
+    "sources": "https://www.internationaltin.org/global-tin-production-falls-in-2024-on-supply-disruptions/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     27.73,
+     -1.03
+    ]
+   },
+   "properties": {
+    "id": 84,
+    "name": "Bisie (Mpama)",
+    "host_country": "DR Congo",
+    "host_iso2": "CD",
+    "primary_mineral": "Tin",
+    "secondary_minerals": "",
+    "operator": "Alphamin",
+    "owners": "Alphamin Resources 84.14% (CA)",
+    "controlling_owner_hq_iso2": "CA",
+    "control_type": "Private / listed",
+    "production": "17.3 kt Sn contained",
+    "production_year": "2024",
+    "world_share_pct": 5.89,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "77%",
+    "us_defense_stockpile": "Yes (held)",
+    "lat": -1.03,
+    "lon": 27.73,
+    "mgrs": "35M NU 81219 86144",
+    "coord_precision": "Reference coordinate (not imagery-confirmed)",
+    "coord_ce_m": 2500,
+    "coord_source": "Analyst approximation",
+    "sources": "https://www.internationaltin.org/global-tin-production-falls-in-2024-on-supply-disruptions/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.11,
+     -2.13
+    ]
+   },
+   "properties": {
+    "id": 85,
+    "name": "Bangka-Belitung (PT Timah)",
+    "host_country": "Indonesia",
+    "host_iso2": "ID",
+    "primary_mineral": "Tin",
+    "secondary_minerals": "",
+    "operator": "PT Timah",
+    "owners": "PT Timah (MIND ID) 65% (ID)",
+    "controlling_owner_hq_iso2": "ID",
+    "control_type": "Other state-owned",
+    "production": "19.4 kt Sn ore; 18.9 kt refined",
+    "production_year": "2024",
+    "world_share_pct": 6.61,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "77%",
+    "us_defense_stockpile": "Yes (held)",
+    "lat": -2.13,
+    "lon": 106.11,
+    "mgrs": "48M XC 23438 64525",
+    "coord_precision": "District or cluster centroid",
+    "coord_ce_m": 25000,
+    "coord_source": "District centroid",
+    "sources": "https://www.internationaltin.org/global-tin-production-falls-in-2024-on-supply-disruptions/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     98.95,
+     22.47
+    ]
+   },
+   "properties": {
+    "id": 86,
+    "name": "Man Maw (Wa State)",
+    "host_country": "Myanmar",
+    "host_iso2": "MM",
+    "primary_mineral": "Tin",
+    "secondary_minerals": "",
+    "operator": "Wa State authorities",
+    "owners": "United Wa State Army (MM)",
+    "controlling_owner_hq_iso2": "MM",
+    "control_type": "Private / listed",
+    "production": "Suspended Aug 2023; restart 2025 (Myanmar 21.3 kt incl. stocks)",
+    "production_year": "2024",
+    "world_share_pct": null,
+    "status": "Restarting",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "77%",
+    "us_defense_stockpile": "Yes (held)",
+    "lat": 22.47,
+    "lon": 98.95,
+    "mgrs": "47Q ME 94856 84851",
+    "coord_precision": "Approximate (unverified)",
+    "coord_ce_m": 15000,
+    "coord_source": "Analyst approximation",
+    "sources": "https://www.internationaltin.org/global-tin-production-falls-in-2024-on-supply-disruptions/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.15,
+     23.36
+    ]
+   },
+   "properties": {
+    "id": 87,
+    "name": "Gejiu",
+    "host_country": "China",
+    "host_iso2": "CN",
+    "primary_mineral": "Tin",
+    "secondary_minerals": "Copper; Indium",
+    "operator": "Yunnan Tin",
+    "owners": "Yunnan Tin Group (CN)",
+    "controlling_owner_hq_iso2": "CN",
+    "control_type": "Chinese SOE / state-linked",
+    "production": "n/a",
+    "production_year": null,
+    "world_share_pct": null,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "77%",
+    "us_defense_stockpile": "Yes (held)",
+    "lat": 23.36,
+    "lon": 103.15,
+    "mgrs": "48Q UL 10892 84583",
+    "coord_precision": "District or cluster centroid",
+    "coord_ce_m": 25000,
+    "coord_source": "District centroid",
+    "sources": "https://www.internationaltin.org/global-tin-production-falls-in-2024-on-supply-disruptions/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.437,
+     -41.789
+    ]
+   },
+   "properties": {
+    "id": 88,
+    "name": "Renison",
+    "host_country": "Australia",
+    "host_iso2": "AU",
+    "primary_mineral": "Tin",
+    "secondary_minerals": "",
+    "operator": "Bluestone Mines Tasmania",
+    "owners": "Metals X 50% (AU); Yunnan Tin Group 50% (CN)",
+    "controlling_owner_hq_iso2": "AU",
+    "control_type": "Private / listed",
+    "production": "n/a",
+    "production_year": null,
+    "world_share_pct": null,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "77%",
+    "us_defense_stockpile": "Yes (held)",
+    "lat": -41.789,
+    "lon": 145.437,
+    "mgrs": "55G CP 70127 72469",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Wikidata Q61536145",
+    "sources": "https://www.internationaltin.org/global-tin-production-falls-in-2024-on-supply-disruptions/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     101.72,
+     26.58
+    ]
+   },
+   "properties": {
+    "id": 89,
+    "name": "Panzhihua",
+    "host_country": "China",
+    "host_iso2": "CN",
+    "primary_mineral": "Vanadium",
+    "secondary_minerals": "Titanium; Iron ore",
+    "operator": "Pangang Group",
+    "owners": "Pangang Group (Panzhihua) 100% (CN)",
+    "controlling_owner_hq_iso2": "CN",
+    "control_type": "Chinese SOE / state-linked",
+    "production": "46.5 kt V2O5",
+    "production_year": "2024",
+    "world_share_pct": 22.08,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "41%",
+    "us_defense_stockpile": "No stockpile",
+    "lat": 26.58,
+    "lon": 101.72,
+    "mgrs": "47R QK 70922 42796",
+    "coord_precision": "District or cluster centroid",
+    "coord_ce_m": 25000,
+    "coord_source": "District centroid",
+    "sources": "https://www.gtft.cn/cn/article/pdf/preview/10.7513/j.issn.1004-7638.2025.06.002.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     59.502,
+     58.757
+    ]
+   },
+   "properties": {
+    "id": 90,
+    "name": "Kachkanar",
+    "host_country": "Russia",
+    "host_iso2": "RU",
+    "primary_mineral": "Vanadium",
+    "secondary_minerals": "Iron ore",
+    "operator": "EVRAZ",
+    "owners": "EVRAZ 100% (RU)",
+    "controlling_owner_hq_iso2": "RU",
+    "control_type": "Russian state-linked / sanctioned",
+    "production": "28.0 kt V2O5",
+    "production_year": "2024",
+    "world_share_pct": 13.29,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "41%",
+    "us_defense_stockpile": "No stockpile",
+    "lat": 58.757,
+    "lon": 59.502,
+    "mgrs": "40V FL 44735 15696",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Located on Esri World Imagery",
+    "sources": "https://www.gtft.cn/cn/article/pdf/preview/10.7513/j.issn.1004-7638.2025.06.002.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     117.95,
+     40.95
+    ]
+   },
+   "properties": {
+    "id": 91,
+    "name": "Chengde",
+    "host_country": "China",
+    "host_iso2": "CN",
+    "primary_mineral": "Vanadium",
+    "secondary_minerals": "Iron ore; Titanium",
+    "operator": "HBIS Chengde",
+    "owners": "HBIS Group 100% (CN)",
+    "controlling_owner_hq_iso2": "CN",
+    "control_type": "Chinese SOE / state-linked",
+    "production": "19.2 kt V2O5",
+    "production_year": "2024",
+    "world_share_pct": 9.12,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "41%",
+    "us_defense_stockpile": "No stockpile",
+    "lat": 40.95,
+    "lon": 117.95,
+    "mgrs": "50T NL 79957 33641",
+    "coord_precision": "District or cluster centroid",
+    "coord_ce_m": 25000,
+    "coord_source": "District centroid",
+    "sources": "https://www.gtft.cn/cn/article/pdf/preview/10.7513/j.issn.1004-7638.2025.06.002.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -40.43,
+     -13.44
+    ]
+   },
+   "properties": {
+    "id": 92,
+    "name": "Maracás Menchen",
+    "host_country": "Brazil",
+    "host_iso2": "BR",
+    "primary_mineral": "Vanadium",
+    "secondary_minerals": "",
+    "operator": "Largo",
+    "owners": "Largo Inc 100% (CA)",
+    "controlling_owner_hq_iso2": "CA",
+    "control_type": "Private / listed",
+    "production": "9.3 kt V2O5",
+    "production_year": "2024",
+    "world_share_pct": 4.42,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "41%",
+    "us_defense_stockpile": "No stockpile",
+    "lat": -13.44,
+    "lon": -40.43,
+    "mgrs": "24L UL 45192 13756",
+    "coord_precision": "Approximate (unverified)",
+    "coord_ce_m": 15000,
+    "coord_source": "Analyst approximation",
+    "sources": "https://www.gtft.cn/cn/article/pdf/preview/10.7513/j.issn.1004-7638.2025.06.002.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     27.6,
+     -25.6
+    ]
+   },
+   "properties": {
+    "id": 93,
+    "name": "Rhovan",
+    "host_country": "South Africa",
+    "host_iso2": "ZA",
+    "primary_mineral": "Vanadium",
+    "secondary_minerals": "Iron ore",
+    "operator": "Glencore",
+    "owners": "Glencore 74% (CH); Bauba Resources 26% (ZA)",
+    "controlling_owner_hq_iso2": "CH",
+    "control_type": "Private / listed",
+    "production": "8.3 kt V2O5",
+    "production_year": "2024",
+    "world_share_pct": 3.94,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "41%",
+    "us_defense_stockpile": "No stockpile",
+    "lat": -25.6,
+    "lon": 27.6,
+    "mgrs": "35J NM 60249 68476",
+    "coord_precision": "Approximate (unverified)",
+    "coord_ce_m": 15000,
+    "coord_source": "Analyst approximation",
+    "sources": "https://www.gtft.cn/cn/article/pdf/preview/10.7513/j.issn.1004-7638.2025.06.002.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     27.8979,
+     -25.576
+    ]
+   },
+   "properties": {
+    "id": 94,
+    "name": "Vametco",
+    "host_country": "South Africa",
+    "host_iso2": "ZA",
+    "primary_mineral": "Vanadium",
+    "secondary_minerals": "",
+    "operator": "Bushveld Minerals",
+    "owners": "Bushveld Minerals (ZA)",
+    "controlling_owner_hq_iso2": "ZA",
+    "control_type": "Private / listed",
+    "production": "5.7 kt V2O5",
+    "production_year": "2024",
+    "world_share_pct": 2.71,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "41%",
+    "us_defense_stockpile": "No stockpile",
+    "lat": -25.576,
+    "lon": 27.8979,
+    "mgrs": "35J NM 90182 70965",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Analyst approximation",
+    "sources": "https://www.gtft.cn/cn/article/pdf/preview/10.7513/j.issn.1004-7638.2025.06.002.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.6396,
+     -16.5475
+    ]
+   },
+   "properties": {
+    "id": 95,
+    "name": "Moma",
+    "host_country": "Mozambique",
+    "host_iso2": "MZ",
+    "primary_mineral": "Titanium",
+    "secondary_minerals": "Zirconium",
+    "operator": "Kenmare",
+    "owners": "Kenmare Resources 100% (IE)",
+    "controlling_owner_hq_iso2": "IE",
+    "control_type": "Private / listed",
+    "production": "1,009 kt ilmenite",
+    "production_year": "2024",
+    "world_share_pct": null,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "Sponge 100% / conc. 88%",
+    "us_defense_stockpile": "Yes (titanium acq.)",
+    "lat": -16.5475,
+    "lon": 39.6396,
+    "mgrs": "37K EB 68243 70393",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Located on Esri World Imagery",
+    "sources": "https://www.kenmareresources.com/rns/q4-2024-production-report-and-2025-guidance/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     32.1,
+     -28.7
+    ]
+   },
+   "properties": {
+    "id": 96,
+    "name": "Richards Bay Minerals",
+    "host_country": "South Africa",
+    "host_iso2": "ZA",
+    "primary_mineral": "Titanium",
+    "secondary_minerals": "Zirconium; Iron ore",
+    "operator": "Rio Tinto",
+    "owners": "Rio Tinto 74% (GB); Blue Horizon (BEE consortium) 26% (ZA)",
+    "controlling_owner_hq_iso2": "GB",
+    "control_type": "Private / listed",
+    "production": "n/a (Rio TiO2 slag total 990 kt)",
+    "production_year": null,
+    "world_share_pct": null,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "Sponge 100% / conc. 88%",
+    "us_defense_stockpile": "Yes (titanium acq.)",
+    "lat": -28.7,
+    "lon": 32.1,
+    "mgrs": "36J VP 12086 24919",
+    "coord_precision": "Approximate (unverified)",
+    "coord_ce_m": 15000,
+    "coord_source": "Analyst approximation",
+    "sources": "https://www.riotinto.com/en/news/releases/2025/rio-tinto-releases-fourth-quarter-production-results"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -63.4176,
+     50.5581
+    ]
+   },
+   "properties": {
+    "id": 97,
+    "name": "Lac Tio (RTIT Québec)",
+    "host_country": "Canada",
+    "host_iso2": "CA",
+    "primary_mineral": "Titanium",
+    "secondary_minerals": "Scandium",
+    "operator": "Rio Tinto",
+    "owners": "Rio Tinto 100% (GB)",
+    "controlling_owner_hq_iso2": "GB",
+    "control_type": "Private / listed",
+    "production": "n/a",
+    "production_year": null,
+    "world_share_pct": null,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "Sponge 100% / conc. 88%",
+    "us_defense_stockpile": "Yes (titanium acq.)",
+    "lat": 50.5581,
+    "lon": -63.4176,
+    "mgrs": "20U MB 70419 00769",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Located on Esri World Imagery",
+    "sources": "https://www.riotinto.com/en/news/releases/2025/rio-tinto-releases-fourth-quarter-production-results"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     47.014,
+     -24.959
+    ]
+   },
+   "properties": {
+    "id": 98,
+    "name": "QMM (Mandena)",
+    "host_country": "Madagascar",
+    "host_iso2": "MG",
+    "primary_mineral": "Titanium",
+    "secondary_minerals": "Zirconium",
+    "operator": "Rio Tinto",
+    "owners": "Rio Tinto 80% (GB); Govt of Madagascar (OMNIS) 20% (MG)",
+    "controlling_owner_hq_iso2": "GB",
+    "control_type": "Private / listed",
+    "production": "n/a",
+    "production_year": null,
+    "world_share_pct": null,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "Sponge 100% / conc. 88%",
+    "us_defense_stockpile": "Yes (titanium acq.)",
+    "lat": -24.959,
+    "lon": 47.014,
+    "mgrs": "38J QT 03326 38083",
+    "coord_precision": "Reference coordinate (not imagery-confirmed)",
+    "coord_ce_m": 2500,
+    "coord_source": "Wikipedia",
+    "sources": "https://www.riotinto.com/en/news/releases/2025/rio-tinto-releases-fourth-quarter-production-results"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.52,
+     -4.33
+    ]
+   },
+   "properties": {
+    "id": 99,
+    "name": "Kwale",
+    "host_country": "Kenya",
+    "host_iso2": "KE",
+    "primary_mineral": "Titanium",
+    "secondary_minerals": "Zirconium",
+    "operator": "Base Titanium",
+    "owners": "Energy Fuels 100% (US)",
+    "controlling_owner_hq_iso2": "US",
+    "control_type": "Private / listed",
+    "production": "n/a (nearing end of life)",
+    "production_year": null,
+    "world_share_pct": null,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "Sponge 100% / conc. 88%",
+    "us_defense_stockpile": "Yes (titanium acq.)",
+    "lat": -4.33,
+    "lon": 39.52,
+    "mgrs": "37M ER 57699 21375",
+    "coord_precision": "Approximate (unverified)",
+    "coord_ce_m": 15000,
+    "coord_source": "Analyst approximation",
+    "sources": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.4228,
+     58.3344
+    ]
+   },
+   "properties": {
+    "id": 100,
+    "name": "Tellnes",
+    "host_country": "Norway",
+    "host_iso2": "NO",
+    "primary_mineral": "Titanium",
+    "secondary_minerals": "",
+    "operator": "Titania AS",
+    "owners": "Kronos Worldwide 100% (US)",
+    "controlling_owner_hq_iso2": "US",
+    "control_type": "Private / listed",
+    "production": "n/a",
+    "production_year": null,
+    "world_share_pct": null,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "Sponge 100% / conc. 88%",
+    "us_defense_stockpile": "Yes (titanium acq.)",
+    "lat": 58.3344,
+    "lon": 6.4228,
+    "mgrs": "32V LK 49109 68830",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Wikidata Q16965948",
+    "sources": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     132.25,
+     -31.73
+    ]
+   },
+   "properties": {
+    "id": 101,
+    "name": "Jacinth-Ambrosia",
+    "host_country": "Australia",
+    "host_iso2": "AU",
+    "primary_mineral": "Titanium",
+    "secondary_minerals": "Zirconium",
+    "operator": "Iluka",
+    "owners": "Iluka Resources 100% (AU)",
+    "controlling_owner_hq_iso2": "AU",
+    "control_type": "Private / listed",
+    "production": "n/a",
+    "production_year": null,
+    "world_share_pct": null,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "Sponge 100% / conc. 88%",
+    "us_defense_stockpile": "Yes (titanium acq.)",
+    "lat": -31.73,
+    "lon": 132.25,
+    "mgrs": "53J KE 39444 86201",
+    "coord_precision": "Approximate (unverified)",
+    "coord_ce_m": 15000,
+    "coord_source": "Analyst approximation",
+    "sources": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -162.8364,
+     68.0752
+    ]
+   },
+   "properties": {
+    "id": 102,
+    "name": "Red Dog",
+    "host_country": "United States",
+    "host_iso2": "US",
+    "primary_mineral": "Zinc",
+    "secondary_minerals": "Lead; Germanium",
+    "operator": "Teck",
+    "owners": "Teck Resources 100% (CA)",
+    "controlling_owner_hq_iso2": "CA",
+    "control_type": "Private / listed",
+    "production": "556 kt Zn in conc.",
+    "production_year": "2024",
+    "world_share_pct": 4.67,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "73% (refined)",
+    "us_defense_stockpile": "Yes (held)",
+    "lat": 68.0752,
+    "lon": -162.8364,
+    "mgrs": "3W WR 90139 52827",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Wikidata Q1836979",
+    "sources": "https://www.teck.com/media/2024-Annual-Report.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -101.6736,
+     24.652
+    ]
+   },
+   "properties": {
+    "id": 103,
+    "name": "Peñasquito",
+    "host_country": "Mexico",
+    "host_iso2": "MX",
+    "primary_mineral": "Gold",
+    "secondary_minerals": "Zinc; Silver; Lead",
+    "operator": "Newmont",
+    "owners": "Newmont 100% (US)",
+    "controlling_owner_hq_iso2": "US",
+    "control_type": "Private / listed",
+    "production": "258 kt Zn",
+    "production_year": "2024",
+    "world_share_pct": 2.17,
+    "status": "Operating",
+    "us_critical_2025": false,
+    "us_net_import_reliance": "Net exporter",
+    "us_defense_stockpile": "No (Treasury stocks)",
+    "lat": 24.652,
+    "lon": -101.6736,
+    "mgrs": "14R KN 29388 29049",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Located on Esri World Imagery",
+    "sources": "https://news.metal.com/newscontent/103200172/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     18.97,
+     -29.25
+    ]
+   },
+   "properties": {
+    "id": 104,
+    "name": "Gamsberg",
+    "host_country": "South Africa",
+    "host_iso2": "ZA",
+    "primary_mineral": "Zinc",
+    "secondary_minerals": "",
+    "operator": "Vedanta Zinc International",
+    "owners": "Vedanta Zinc International (IN)",
+    "controlling_owner_hq_iso2": "IN",
+    "control_type": "Private / listed",
+    "production": "114 kt Zn",
+    "production_year": "2024",
+    "world_share_pct": 0.96,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "73% (refined)",
+    "us_defense_stockpile": "Yes (held)",
+    "lat": -29.25,
+    "lon": 18.97,
+    "mgrs": "34J CN 02734 62608",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Located on Esri World Imagery",
+    "sources": "https://news.metal.com/newscontent/103200172/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     74.752,
+     25.8458
+    ]
+   },
+   "properties": {
+    "id": 105,
+    "name": "Rampura Agucha",
+    "host_country": "India",
+    "host_iso2": "IN",
+    "primary_mineral": "Zinc",
+    "secondary_minerals": "Lead; Silver",
+    "operator": "Hindustan Zinc",
+    "owners": "Hindustan Zinc (Vedanta) 61.8% (IN); Govt of India 29.5% (IN)",
+    "controlling_owner_hq_iso2": "IN",
+    "control_type": "Private / listed",
+    "production": "n/a",
+    "production_year": null,
+    "world_share_pct": null,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "73% (refined)",
+    "us_defense_stockpile": "Yes (held)",
+    "lat": 25.8458,
+    "lon": 74.752,
+    "mgrs": "43R DJ 75148 58630",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Located on Esri World Imagery",
+    "sources": "https://news.metal.com/newscontent/103200172/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.476,
+     -20.7161
+    ]
+   },
+   "properties": {
+    "id": 106,
+    "name": "Mount Isa (zinc ops)",
+    "host_country": "Australia",
+    "host_iso2": "AU",
+    "primary_mineral": "Zinc",
+    "secondary_minerals": "Lead; Silver",
+    "operator": "Glencore",
+    "owners": "Glencore 100% (CH)",
+    "controlling_owner_hq_iso2": "CH",
+    "control_type": "Private / listed",
+    "production": "n/a",
+    "production_year": null,
+    "world_share_pct": null,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "73% (refined)",
+    "us_defense_stockpile": "Yes (held)",
+    "lat": -20.7161,
+    "lon": 139.476,
+    "mgrs": "54K UC 41300 08525",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Wikidata Q6921438",
+    "sources": "https://news.metal.com/newscontent/103200172/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     136.0968,
+     -16.4432
+    ]
+   },
+   "properties": {
+    "id": 107,
+    "name": "McArthur River",
+    "host_country": "Australia",
+    "host_iso2": "AU",
+    "primary_mineral": "Zinc",
+    "secondary_minerals": "Lead",
+    "operator": "Glencore",
+    "owners": "Glencore 100% (CH)",
+    "controlling_owner_hq_iso2": "CH",
+    "control_type": "Private / listed",
+    "production": "n/a",
+    "production_year": null,
+    "world_share_pct": null,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "73% (refined)",
+    "us_defense_stockpile": "Yes (held)",
+    "lat": -16.4432,
+    "lon": 136.0968,
+    "mgrs": "53K PB 17092 81722",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Wikidata Q13218165",
+    "sources": "https://news.metal.com/newscontent/103200172/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     140.1,
+     -20.2
+    ]
+   },
+   "properties": {
+    "id": 108,
+    "name": "Dugald River",
+    "host_country": "Australia",
+    "host_iso2": "AU",
+    "primary_mineral": "Zinc",
+    "secondary_minerals": "Lead",
+    "operator": "MMG",
+    "owners": "MMG (China Minmetals) 100% (CN)",
+    "controlling_owner_hq_iso2": "CN",
+    "control_type": "Chinese SOE / state-linked",
+    "production": "n/a",
+    "production_year": null,
+    "world_share_pct": null,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "73% (refined)",
+    "us_defense_stockpile": "Yes (held)",
+    "lat": -20.2,
+    "lon": 140.1,
+    "mgrs": "54K VC 05971 66131",
+    "coord_precision": "Approximate (unverified)",
+    "coord_ce_m": 15000,
+    "coord_source": "Analyst approximation",
+    "sources": "https://news.metal.com/newscontent/103200172/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     111.98,
+     52.62
+    ]
+   },
+   "properties": {
+    "id": 109,
+    "name": "Ozernoye",
+    "host_country": "Russia",
+    "host_iso2": "RU",
+    "primary_mineral": "Zinc",
+    "secondary_minerals": "Lead",
+    "operator": "UMMC",
+    "owners": "UMMC (RU)",
+    "controlling_owner_hq_iso2": "RU",
+    "control_type": "Russian state-linked / sanctioned",
+    "production": "n/a",
+    "production_year": null,
+    "world_share_pct": null,
+    "status": "Ramping",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "73% (refined)",
+    "us_defense_stockpile": "Yes (held)",
+    "lat": 52.62,
+    "lon": 111.98,
+    "mgrs": "49U EU 66343 30450",
+    "coord_precision": "Approximate (unverified)",
+    "coord_ce_m": 15000,
+    "coord_source": "Analyst approximation",
+    "sources": "https://news.metal.com/newscontent/103200172/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     27.2356,
+     -11.7694
+    ]
+   },
+   "properties": {
+    "id": 110,
+    "name": "Kipushi",
+    "host_country": "DR Congo",
+    "host_iso2": "CD",
+    "primary_mineral": "Zinc",
+    "secondary_minerals": "Germanium; Copper",
+    "operator": "Ivanhoe Mines",
+    "owners": "Ivanhoe Mines (Kipushi) 68% (CA); Gécamines 32% (CD)",
+    "controlling_owner_hq_iso2": "CA",
+    "control_type": "Private / listed",
+    "production": "n/a (restarted 2024; Ge-rich)",
+    "production_year": null,
+    "world_share_pct": null,
+    "status": "Ramping",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "73% (refined)",
+    "us_defense_stockpile": "Yes (held)",
+    "lat": -11.7694,
+    "lon": 27.2356,
+    "mgrs": "35L NG 25668 98934",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Wikidata Q15100601",
+    "sources": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.65,
+     26.43
+    ]
+   },
+   "properties": {
+    "id": 111,
+    "name": "Huize",
+    "host_country": "China",
+    "host_iso2": "CN",
+    "primary_mineral": "Zinc",
+    "secondary_minerals": "Germanium; Lead",
+    "operator": "Yunnan Chihong Zinc & Germanium",
+    "owners": "Yunnan Chihong (Chinalco) 100% (CN)",
+    "controlling_owner_hq_iso2": "CN",
+    "control_type": "Chinese SOE / state-linked",
+    "production": "n/a (major Ge source)",
+    "production_year": null,
+    "world_share_pct": null,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "73% (refined)",
+    "us_defense_stockpile": "Yes (held)",
+    "lat": 26.43,
+    "lon": 103.65,
+    "mgrs": "48R UQ 65383 24011",
+    "coord_precision": "Approximate (unverified)",
+    "coord_ce_m": 15000,
+    "coord_source": "Analyst approximation",
+    "sources": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -6.715,
+     53.6553
+    ]
+   },
+   "properties": {
+    "id": 112,
+    "name": "Tara",
+    "host_country": "Ireland",
+    "host_iso2": "IE",
+    "primary_mineral": "Zinc",
+    "secondary_minerals": "Lead",
+    "operator": "Boliden",
+    "owners": "Boliden 100% (SE)",
+    "controlling_owner_hq_iso2": "SE",
+    "control_type": "Private / listed",
+    "production": "n/a",
+    "production_year": null,
+    "world_share_pct": null,
+    "status": "Care & maintenance 2023–24",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "73% (refined)",
+    "us_defense_stockpile": "Yes (held)",
+    "lat": 53.6553,
+    "lon": -6.715,
+    "mgrs": "29U PV 51003 47597",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Wikidata Q7685105",
+    "sources": "https://news.metal.com/newscontent/103200172/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -14.3,
+     10.94
+    ]
+   },
+   "properties": {
+    "id": 113,
+    "name": "SMB-Winning (Boké)",
+    "host_country": "Guinea",
+    "host_iso2": "GN",
+    "primary_mineral": "Bauxite / aluminum",
+    "secondary_minerals": "",
+    "operator": "SMB-Winning",
+    "owners": "SMB-Winning Consortium (CN)",
+    "controlling_owner_hq_iso2": "CN",
+    "control_type": "Chinese private",
+    "production": "~72 Mt bauxite (company-reported)",
+    "production_year": "2024",
+    "world_share_pct": 16.82,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "Bauxite >75%; Al 60%",
+    "us_defense_stockpile": "Aluminum acq. proposed",
+    "lat": 10.94,
+    "lon": -14.3,
+    "mgrs": "28P ET 76487 09433",
+    "coord_precision": "District or cluster centroid",
+    "coord_ce_m": 25000,
+    "coord_source": "District centroid",
+    "sources": "https://www.mining-technology.com/marketdata/ten-largest-bauxites-mines/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     141.9341,
+     -12.6635
+    ]
+   },
+   "properties": {
+    "id": 114,
+    "name": "Weipa / Amrun",
+    "host_country": "Australia",
+    "host_iso2": "AU",
+    "primary_mineral": "Bauxite / aluminum",
+    "secondary_minerals": "",
+    "operator": "Rio Tinto",
+    "owners": "Rio Tinto 100% (GB)",
+    "controlling_owner_hq_iso2": "GB",
+    "control_type": "Private / listed",
+    "production": "37.1 Mt bauxite",
+    "production_year": "2024",
+    "world_share_pct": 8.66,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "Bauxite >75%; Al 60%",
+    "us_defense_stockpile": "Aluminum acq. proposed",
+    "lat": -12.6635,
+    "lon": 141.9341,
+    "mgrs": "54L XL 01433 99894",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Wikidata Q28041233",
+    "sources": "https://www.riotinto.com/en/news/releases/2025/rio-tinto-releases-fourth-quarter-production-results"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     116.1642,
+     -32.4835
+    ]
+   },
+   "properties": {
+    "id": 115,
+    "name": "Huntly",
+    "host_country": "Australia",
+    "host_iso2": "AU",
+    "primary_mineral": "Bauxite / aluminum",
+    "secondary_minerals": "",
+    "operator": "Alcoa (AWAC)",
+    "owners": "Alcoa 100% (US)",
+    "controlling_owner_hq_iso2": "US",
+    "control_type": "Private / listed",
+    "production": "22.2 Mt (GlobalData est.)",
+    "production_year": "2023",
+    "world_share_pct": null,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "Bauxite >75%; Al 60%",
+    "us_defense_stockpile": "Aluminum acq. proposed",
+    "lat": -32.4835,
+    "lon": 116.1642,
+    "mgrs": "50H MK 21470 05662",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Located on Esri World Imagery",
+    "sources": "https://www.mining-technology.com/marketdata/ten-largest-bauxites-mines/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -13.7667,
+     11.1
+    ]
+   },
+   "properties": {
+    "id": 116,
+    "name": "CBG Sangarédi",
+    "host_country": "Guinea",
+    "host_iso2": "GN",
+    "primary_mineral": "Bauxite / aluminum",
+    "secondary_minerals": "Gallium",
+    "operator": "CBG",
+    "owners": "Halco (Alcoa/Rio/Dadco) 51% (US); Govt of Guinea 49% (GN)",
+    "controlling_owner_hq_iso2": "US",
+    "control_type": "Private / listed",
+    "production": "14.3 Mt bauxite",
+    "production_year": "2024",
+    "world_share_pct": 3.34,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "Bauxite >75%; Al 60%",
+    "us_defense_stockpile": "Aluminum acq. proposed",
+    "lat": 11.1,
+    "lon": -13.7667,
+    "mgrs": "28P FT 34694 27315",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Wikidata Q24848822",
+    "sources": "https://www.riotinto.com/en/news/releases/2025/rio-tinto-releases-fourth-quarter-production-results"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     136.7348,
+     -12.1912
+    ]
+   },
+   "properties": {
+    "id": 117,
+    "name": "Gove",
+    "host_country": "Australia",
+    "host_iso2": "AU",
+    "primary_mineral": "Bauxite / aluminum",
+    "secondary_minerals": "",
+    "operator": "Rio Tinto",
+    "owners": "Rio Tinto 100% (GB)",
+    "controlling_owner_hq_iso2": "GB",
+    "control_type": "Private / listed",
+    "production": "12.7 Mt bauxite",
+    "production_year": "2024",
+    "world_share_pct": 2.97,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "Bauxite >75%; Al 60%",
+    "us_defense_stockpile": "Aluminum acq. proposed",
+    "lat": -12.1912,
+    "lon": 136.7348,
+    "mgrs": "53L PG 88741 51700",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Wikidata Q1540425",
+    "sources": "https://www.riotinto.com/en/news/releases/2025/rio-tinto-releases-fourth-quarter-production-results"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -56.38,
+     -1.47
+    ]
+   },
+   "properties": {
+    "id": 118,
+    "name": "MRN Trombetas",
+    "host_country": "Brazil",
+    "host_iso2": "BR",
+    "primary_mineral": "Bauxite / aluminum",
+    "secondary_minerals": "",
+    "operator": "Mineração Rio do Norte",
+    "owners": "MRN partners (Vale/South32/Rio/Hydro/CBA) 100% (BR)",
+    "controlling_owner_hq_iso2": "BR",
+    "control_type": "Private / listed",
+    "production": "11.5 Mt bauxite",
+    "production_year": "2024",
+    "world_share_pct": 2.69,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "Bauxite >75%; Al 60%",
+    "us_defense_stockpile": "Aluminum acq. proposed",
+    "lat": -1.47,
+    "lon": -56.38,
+    "mgrs": "21M WU 68969 37510",
+    "coord_precision": "District or cluster centroid",
+    "coord_ce_m": 25000,
+    "coord_source": "District centroid",
+    "sources": "https://www.riotinto.com/en/news/releases/2025/rio-tinto-releases-fourth-quarter-production-results"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -14.05,
+     10.95
+    ]
+   },
+   "properties": {
+    "id": 119,
+    "name": "GAC (Boké)",
+    "host_country": "Guinea",
+    "host_iso2": "GN",
+    "primary_mineral": "Bauxite / aluminum",
+    "secondary_minerals": "",
+    "operator": "Guinea Alumina Corp",
+    "owners": "Emirates Global Aluminium 100% (AE)",
+    "controlling_owner_hq_iso2": "AE",
+    "control_type": "Other state-owned",
+    "production": "Licence revoked 2025",
+    "production_year": null,
+    "world_share_pct": null,
+    "status": "Halted",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "Bauxite >75%; Al 60%",
+    "us_defense_stockpile": "Aluminum acq. proposed",
+    "lat": 10.95,
+    "lon": -14.05,
+    "mgrs": "28P FT 03803 10614",
+    "coord_precision": "District or cluster centroid",
+    "coord_ce_m": 25000,
+    "coord_source": "District centroid",
+    "sources": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -14.04,
+     10.18
+    ]
+   },
+   "properties": {
+    "id": 120,
+    "name": "Boffa",
+    "host_country": "Guinea",
+    "host_iso2": "GN",
+    "primary_mineral": "Bauxite / aluminum",
+    "secondary_minerals": "Gallium",
+    "operator": "Chalco",
+    "owners": "Chalco (CN)",
+    "controlling_owner_hq_iso2": "CN",
+    "control_type": "Chinese SOE / state-linked",
+    "production": "n/a",
+    "production_year": null,
+    "world_share_pct": null,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "Bauxite >75%; Al 60%",
+    "us_defense_stockpile": "Aluminum acq. proposed",
+    "lat": 10.18,
+    "lon": -14.04,
+    "mgrs": "28P FS 05157 25469",
+    "coord_precision": "District or cluster centroid",
+    "coord_ce_m": 25000,
+    "coord_source": "District centroid",
+    "sources": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     117.8,
+     -22.6
+    ]
+   },
+   "properties": {
+    "id": 121,
+    "name": "Pilbara system (17 mines)",
+    "host_country": "Australia",
+    "host_iso2": "AU",
+    "primary_mineral": "Iron ore",
+    "secondary_minerals": "",
+    "operator": "Rio Tinto",
+    "owners": "Rio Tinto 100% (GB)",
+    "controlling_owner_hq_iso2": "GB",
+    "control_type": "Private / listed",
+    "production": "328 Mt iron ore (100% basis)",
+    "production_year": "2024",
+    "world_share_pct": 12.62,
+    "status": "Operating",
+    "us_critical_2025": false,
+    "us_net_import_reliance": "Net exporter",
+    "us_defense_stockpile": "No",
+    "lat": -22.6,
+    "lon": 117.8,
+    "mgrs": "50K NA 82226 00538",
+    "coord_precision": "District or cluster centroid",
+    "coord_ce_m": 25000,
+    "coord_source": "District centroid",
+    "sources": "https://www.riotinto.com/en/news/releases/2025/rio-tinto-releases-fourth-quarter-production-results"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     119.958,
+     -22.6219
+    ]
+   },
+   "properties": {
+    "id": 122,
+    "name": "Roy Hill",
+    "host_country": "Australia",
+    "host_iso2": "AU",
+    "primary_mineral": "Iron ore",
+    "secondary_minerals": "",
+    "operator": "Hancock",
+    "owners": "Hancock Prospecting 70% (AU); Marubeni 15% (JP); POSCO 12.5% (KR); China Steel 2.5% (TW)",
+    "controlling_owner_hq_iso2": "AU",
+    "control_type": "Private / listed",
+    "production": "64 Mt iron ore",
+    "production_year": "2024",
+    "world_share_pct": 2.46,
+    "status": "Operating",
+    "us_critical_2025": false,
+    "us_net_import_reliance": "Net exporter",
+    "us_defense_stockpile": "No",
+    "lat": -22.6219,
+    "lon": 119.958,
+    "mgrs": "50K RV 04073 95313",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Wikidata Q7372950",
+    "sources": "https://mining.com.au/the-worlds-10-largest-iron-ore-mines-2026-update/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     119.675,
+     -23.3654
+    ]
+   },
+   "properties": {
+    "id": 123,
+    "name": "Mt Whaleback (Newman)",
+    "host_country": "Australia",
+    "host_iso2": "AU",
+    "primary_mineral": "Iron ore",
+    "secondary_minerals": "",
+    "operator": "BHP",
+    "owners": "BHP 85% (AU); Mitsui / Itochu 15% (JP)",
+    "controlling_owner_hq_iso2": "AU",
+    "control_type": "Private / listed",
+    "production": "n/a",
+    "production_year": null,
+    "world_share_pct": null,
+    "status": "Operating",
+    "us_critical_2025": false,
+    "us_net_import_reliance": "Net exporter",
+    "us_defense_stockpile": "No",
+    "lat": -23.3654,
+    "lon": 119.675,
+    "mgrs": "50K QV 73463 13496",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Wikidata Q610345",
+    "sources": "https://mining.com.au/the-worlds-10-largest-iron-ore-mines-2026-update/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     117.85,
+     -22.24
+    ]
+   },
+   "properties": {
+    "id": 124,
+    "name": "Solomon Hub",
+    "host_country": "Australia",
+    "host_iso2": "AU",
+    "primary_mineral": "Iron ore",
+    "secondary_minerals": "",
+    "operator": "Fortescue",
+    "owners": "Fortescue 100% (AU)",
+    "controlling_owner_hq_iso2": "AU",
+    "control_type": "Private / listed",
+    "production": "n/a",
+    "production_year": null,
+    "world_share_pct": null,
+    "status": "Operating",
+    "us_critical_2025": false,
+    "us_net_import_reliance": "Net exporter",
+    "us_defense_stockpile": "No",
+    "lat": -22.24,
+    "lon": 117.85,
+    "mgrs": "50K NA 87591 40362",
+    "coord_precision": "Approximate (unverified)",
+    "coord_ce_m": 15000,
+    "coord_source": "Analyst approximation",
+    "sources": "https://mining.com.au/the-worlds-10-largest-iron-ore-mines-2026-update/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -50.35,
+     -6.38
+    ]
+   },
+   "properties": {
+    "id": 125,
+    "name": "Carajás S11D",
+    "host_country": "Brazil",
+    "host_iso2": "BR",
+    "primary_mineral": "Iron ore",
+    "secondary_minerals": "",
+    "operator": "Vale",
+    "owners": "Vale 100% (BR)",
+    "controlling_owner_hq_iso2": "BR",
+    "control_type": "Private / listed",
+    "production": "n/a",
+    "production_year": null,
+    "world_share_pct": null,
+    "status": "Operating",
+    "us_critical_2025": false,
+    "us_net_import_reliance": "Net exporter",
+    "us_defense_stockpile": "No",
+    "lat": -6.38,
+    "lon": -50.35,
+    "mgrs": "22M ET 71885 94743",
+    "coord_precision": "Approximate (unverified)",
+    "coord_ce_m": 15000,
+    "coord_source": "Analyst approximation",
+    "sources": "https://mining.com.au/the-worlds-10-largest-iron-ore-mines-2026-update/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -8.9,
+     8.5167
+    ]
+   },
+   "properties": {
+    "id": 126,
+    "name": "Simandou",
+    "host_country": "Guinea",
+    "host_iso2": "GN",
+    "primary_mineral": "Iron ore",
+    "secondary_minerals": "",
+    "operator": "WCS / Simfer",
+    "owners": "Winning Consortium Simandou (Baowu et al.) (CN); Simfer (Rio Tinto/Chinalco) (GB); Govt of Guinea 15% (GN)",
+    "controlling_owner_hq_iso2": "GN",
+    "control_type": "Other state-owned",
+    "production": "First shipment Nov 2025 (60 Mtpa design)",
+    "production_year": null,
+    "world_share_pct": null,
+    "status": "Ramping",
+    "us_critical_2025": false,
+    "us_net_import_reliance": "Net exporter",
+    "us_defense_stockpile": "No",
+    "lat": 8.5167,
+    "lon": -8.9,
+    "mgrs": "29P NK 11005 41421",
+    "coord_precision": "Reference coordinate (not imagery-confirmed)",
+    "coord_ce_m": 2500,
+    "coord_source": "Wikidata Q16969455",
+    "sources": "https://mining.com.au/the-worlds-10-largest-iron-ore-mines-2026-update/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     20.1488,
+     67.8461
+    ]
+   },
+   "properties": {
+    "id": 127,
+    "name": "Kiruna",
+    "host_country": "Sweden",
+    "host_iso2": "SE",
+    "primary_mineral": "Iron ore",
+    "secondary_minerals": "Rare earths; Phosphate",
+    "operator": "LKAB",
+    "owners": "LKAB 100% (SE)",
+    "controlling_owner_hq_iso2": "SE",
+    "control_type": "Other state-owned",
+    "production": "n/a",
+    "production_year": null,
+    "world_share_pct": null,
+    "status": "Operating",
+    "us_critical_2025": false,
+    "us_net_import_reliance": "Net exporter",
+    "us_defense_stockpile": "No",
+    "lat": 67.8461,
+    "lon": 20.1488,
+    "mgrs": "34W DA 64180 25952",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Wikidata Q2602547",
+    "sources": "https://mining.com.au/the-worlds-10-largest-iron-ore-mines-2026-update/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.0539,
+     57.7622
+    ]
+   },
+   "properties": {
+    "id": 128,
+    "name": "McArthur River / Key Lake",
+    "host_country": "Canada",
+    "host_iso2": "CA",
+    "primary_mineral": "Uranium",
+    "secondary_minerals": "",
+    "operator": "Cameco",
+    "owners": "Cameco 69.8% (CA); Orano 30.2% (FR)",
+    "controlling_owner_hq_iso2": "CA",
+    "control_type": "Private / listed",
+    "production": "7,808 tU",
+    "production_year": "2024",
+    "world_share_pct": 12.97,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "n/a (not in MCS)",
+    "us_defense_stockpile": "No (DOE reserve separate)",
+    "lat": 57.7622,
+    "lon": -105.0539,
+    "mgrs": "13V DE 96792 02236",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Wikidata Q1345630",
+    "sources": "https://world-nuclear.org/information-library/nuclear-fuel-cycle/mining-of-uranium/world-uranium-mining-production"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.541,
+     58.0686
+    ]
+   },
+   "properties": {
+    "id": 129,
+    "name": "Cigar Lake",
+    "host_country": "Canada",
+    "host_iso2": "CA",
+    "primary_mineral": "Uranium",
+    "secondary_minerals": "",
+    "operator": "Cameco",
+    "owners": "Cameco 54.5% (CA); Orano 40.5% (FR); TEPCO 5% (JP)",
+    "controlling_owner_hq_iso2": "CA",
+    "control_type": "Private / listed",
+    "production": "6,501 tU",
+    "production_year": "2024",
+    "world_share_pct": 10.8,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "n/a (not in MCS)",
+    "us_defense_stockpile": "No (DOE reserve separate)",
+    "lat": 58.0686,
+    "lon": -104.541,
+    "mgrs": "13V EE 27079 36439",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Wikidata Q1091857",
+    "sources": "https://world-nuclear.org/information-library/nuclear-fuel-cycle/mining-of-uranium/world-uranium-mining-production"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     15.0142,
+     -22.6122
+    ]
+   },
+   "properties": {
+    "id": 130,
+    "name": "Husab",
+    "host_country": "Namibia",
+    "host_iso2": "NA",
+    "primary_mineral": "Uranium",
+    "secondary_minerals": "",
+    "operator": "Swakop Uranium",
+    "owners": "CGN (China General Nuclear) 90% (CN); Epangelo (Namibia) 10% (NA)",
+    "controlling_owner_hq_iso2": "CN",
+    "control_type": "Chinese SOE / state-linked",
+    "production": "4,437 tU",
+    "production_year": "2024",
+    "world_share_pct": 7.37,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "n/a (not in MCS)",
+    "us_defense_stockpile": "No (DOE reserve separate)",
+    "lat": -22.6122,
+    "lon": 15.0142,
+    "mgrs": "33K WQ 01459 99408",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Wikidata Q16975819",
+    "sources": "https://world-nuclear.org/information-library/nuclear-fuel-cycle/mining-of-uranium/world-uranium-mining-production"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     68.149,
+     44.343
+    ]
+   },
+   "properties": {
+    "id": 131,
+    "name": "Karatau (Budenovskoye 2)",
+    "host_country": "Kazakhstan",
+    "host_iso2": "KZ",
+    "primary_mineral": "Uranium",
+    "secondary_minerals": "",
+    "operator": "JV Karatau",
+    "owners": "Uranium One (Rosatom) 50% (RU); Kazatomprom 50% (KZ)",
+    "controlling_owner_hq_iso2": "RU",
+    "control_type": "Russian state-linked / sanctioned",
+    "production": "3,299 tU",
+    "production_year": "2024",
+    "world_share_pct": 5.48,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "n/a (not in MCS)",
+    "us_defense_stockpile": "No (DOE reserve separate)",
+    "lat": 44.343,
+    "lon": 68.149,
+    "mgrs": "42T VQ 32166 10322",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Wikidata Q16976752",
+    "sources": "https://world-nuclear.org/information-library/nuclear-fuel-cycle/mining-of-uranium/world-uranium-mining-production"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     67.5366,
+     45.2821
+    ]
+   },
+   "properties": {
+    "id": 132,
+    "name": "Inkai (sites 1–3)",
+    "host_country": "Kazakhstan",
+    "host_iso2": "KZ",
+    "primary_mineral": "Uranium",
+    "secondary_minerals": "",
+    "operator": "JV Inkai",
+    "owners": "Kazatomprom 60% (KZ); Cameco 40% (CA)",
+    "controlling_owner_hq_iso2": "KZ",
+    "control_type": "Other state-owned",
+    "production": "2,992 tU",
+    "production_year": "2024",
+    "world_share_pct": 4.97,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "n/a (not in MCS)",
+    "us_defense_stockpile": "No (DOE reserve separate)",
+    "lat": 45.2821,
+    "lon": 67.5366,
+    "mgrs": "42T UR 85229 15330",
+    "coord_precision": "Reference coordinate (not imagery-confirmed)",
+    "coord_ce_m": 2500,
+    "coord_source": "Wikidata Q1627371",
+    "sources": "https://world-nuclear.org/information-library/nuclear-fuel-cycle/mining-of-uranium/world-uranium-mining-production"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     67.495,
+     45.168
+    ]
+   },
+   "properties": {
+    "id": 133,
+    "name": "Akdala & South Inkai 4",
+    "host_country": "Kazakhstan",
+    "host_iso2": "KZ",
+    "primary_mineral": "Uranium",
+    "secondary_minerals": "",
+    "operator": "Uranium One",
+    "owners": "Uranium One (Rosatom) 70% (RU); Kazatomprom 30% (KZ)",
+    "controlling_owner_hq_iso2": "RU",
+    "control_type": "Russian state-linked / sanctioned",
+    "production": "2,803 tU",
+    "production_year": "2024",
+    "world_share_pct": 4.66,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "n/a (not in MCS)",
+    "us_defense_stockpile": "No (DOE reserve separate)",
+    "lat": 45.168,
+    "lon": 67.495,
+    "mgrs": "42T UR 81730 02715",
+    "coord_precision": "Reference coordinate (not imagery-confirmed)",
+    "coord_ce_m": 2500,
+    "coord_source": "Wikidata Q16977734",
+    "sources": "https://world-nuclear.org/information-library/nuclear-fuel-cycle/mining-of-uranium/world-uranium-mining-production"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     136.8731,
+     -30.44
+    ]
+   },
+   "properties": {
+    "id": 134,
+    "name": "Olympic Dam",
+    "host_country": "Australia",
+    "host_iso2": "AU",
+    "primary_mineral": "Uranium",
+    "secondary_minerals": "Copper; Gold; Silver",
+    "operator": "BHP",
+    "owners": "BHP 100% (AU)",
+    "controlling_owner_hq_iso2": "AU",
+    "control_type": "Private / listed",
+    "production": "2,693 tU",
+    "production_year": "2024",
+    "world_share_pct": 4.47,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "n/a (not in MCS)",
+    "us_defense_stockpile": "No (DOE reserve separate)",
+    "lat": -30.44,
+    "lon": 136.8731,
+    "mgrs": "53J PG 79869 30967",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Wikipedia",
+    "sources": "https://world-nuclear.org/information-library/nuclear-fuel-cycle/mining-of-uranium/world-uranium-mining-production"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     68.85,
+     44.85
+    ]
+   },
+   "properties": {
+    "id": 135,
+    "name": "Moinkum & Tortkuduk (KATCO)",
+    "host_country": "Kazakhstan",
+    "host_iso2": "KZ",
+    "primary_mineral": "Uranium",
+    "secondary_minerals": "",
+    "operator": "KATCO",
+    "owners": "Orano 51% (FR); Kazatomprom 49% (KZ)",
+    "controlling_owner_hq_iso2": "FR",
+    "control_type": "Other state-owned",
+    "production": "2,388 tU",
+    "production_year": "2024",
+    "world_share_pct": 3.97,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "n/a (not in MCS)",
+    "us_defense_stockpile": "No (DOE reserve separate)",
+    "lat": 44.85,
+    "lon": 68.85,
+    "mgrs": "42T VQ 88146 66298",
+    "coord_precision": "District or cluster centroid",
+    "coord_ce_m": 25000,
+    "coord_source": "District centroid",
+    "sources": "https://world-nuclear.org/information-library/nuclear-fuel-cycle/mining-of-uranium/world-uranium-mining-production"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     15.0614,
+     -22.4808
+    ]
+   },
+   "properties": {
+    "id": 136,
+    "name": "Rössing",
+    "host_country": "Namibia",
+    "host_iso2": "NA",
+    "primary_mineral": "Uranium",
+    "secondary_minerals": "",
+    "operator": "Rössing Uranium",
+    "owners": "CNNC 69% (CN)",
+    "controlling_owner_hq_iso2": "CN",
+    "control_type": "Chinese SOE / state-linked",
+    "production": "2,205 tU",
+    "production_year": "2024",
+    "world_share_pct": 3.66,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "n/a (not in MCS)",
+    "us_defense_stockpile": "No (DOE reserve separate)",
+    "lat": -22.4808,
+    "lon": 15.0614,
+    "mgrs": "33K WR 06316 13952",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Wikidata Q1504704",
+    "sources": "https://world-nuclear.org/information-library/nuclear-fuel-cycle/mining-of-uranium/world-uranium-mining-production"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     65.5,
+     44.9
+    ]
+   },
+   "properties": {
+    "id": 137,
+    "name": "Khorasan-U (Kharasan 1)",
+    "host_country": "Kazakhstan",
+    "host_iso2": "KZ",
+    "primary_mineral": "Uranium",
+    "secondary_minerals": "",
+    "operator": "Khorasan-U",
+    "owners": "Kazatomprom (KZ); Uranium One (Rosatom) (RU)",
+    "controlling_owner_hq_iso2": "KZ",
+    "control_type": "Other state-owned",
+    "production": "2,030 tU",
+    "production_year": "2024",
+    "world_share_pct": 3.37,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "n/a (not in MCS)",
+    "us_defense_stockpile": "No (DOE reserve separate)",
+    "lat": 44.9,
+    "lon": 65.5,
+    "mgrs": "41T PK 97380 74882",
+    "coord_precision": "District or cluster centroid",
+    "coord_ce_m": 25000,
+    "coord_source": "District centroid",
+    "sources": "https://world-nuclear.org/information-library/nuclear-fuel-cycle/mining-of-uranium/world-uranium-mining-production"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     7.3348,
+     18.7583
+    ]
+   },
+   "properties": {
+    "id": 138,
+    "name": "SOMAIR (Arlit)",
+    "host_country": "Niger",
+    "host_iso2": "NE",
+    "primary_mineral": "Uranium",
+    "secondary_minerals": "",
+    "operator": "SOMAIR",
+    "owners": "Orano 63.4% (FR); Govt of Niger 36.6% (NE)",
+    "controlling_owner_hq_iso2": "FR",
+    "control_type": "Other state-owned",
+    "production": "Nationalised by Niger junta 2025",
+    "production_year": null,
+    "world_share_pct": null,
+    "status": "Seized / halted exports",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "n/a (not in MCS)",
+    "us_defense_stockpile": "No (DOE reserve separate)",
+    "lat": 18.7583,
+    "lon": 7.3348,
+    "mgrs": "32Q LF 24466 74904",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Located on Esri World Imagery",
+    "sources": "https://world-nuclear.org/information-library/nuclear-fuel-cycle/mining-of-uranium/world-uranium-mining-production"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -46.917,
+     -19.6597
+    ]
+   },
+   "properties": {
+    "id": 139,
+    "name": "Araxá (CBMM)",
+    "host_country": "Brazil",
+    "host_iso2": "BR",
+    "primary_mineral": "Niobium",
+    "secondary_minerals": "",
+    "operator": "CBMM",
+    "owners": "CBMM (Moreira Salles) 70% (BR); CN steel consortium (CITIC/Baosteel et al.) 15% (CN); JP-KR consortium (JFE/Nippon Steel/POSCO) 15% (JP)",
+    "controlling_owner_hq_iso2": "BR",
+    "control_type": "Private / listed",
+    "production": "95.7 kt FeNb-equiv. products sold",
+    "production_year": "2024",
+    "world_share_pct": null,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "100%",
+    "us_defense_stockpile": "Yes (ferroniobium acq.)",
+    "lat": -19.6597,
+    "lon": -46.917,
+    "mgrs": "23K KU 99015 25044",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Located on Esri World Imagery",
+    "sources": "https://assets.cbmm.com/-/media/CBMM/Imagens-REDESIGN/Relatorio-sustentabilidade/CBMM-RelatSustent--ENG_V5.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -47.85,
+     -18.15
+    ]
+   },
+   "properties": {
+    "id": 140,
+    "name": "Catalão (CMOC Brasil)",
+    "host_country": "Brazil",
+    "host_iso2": "BR",
+    "primary_mineral": "Niobium",
+    "secondary_minerals": "Phosphate",
+    "operator": "CMOC",
+    "owners": "CMOC Group 100% (CN)",
+    "controlling_owner_hq_iso2": "CN",
+    "control_type": "Chinese SOE / state-linked",
+    "production": "10.0 kt Nb",
+    "production_year": "2024",
+    "world_share_pct": 8.95,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "100%",
+    "us_defense_stockpile": "Yes (ferroniobium acq.)",
+    "lat": -18.15,
+    "lon": -47.85,
+    "mgrs": "23K JV 98446 90881",
+    "coord_precision": "Approximate (unverified)",
+    "coord_ce_m": 15000,
+    "coord_source": "Analyst approximation",
+    "sources": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0321/2025032101975.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.1588,
+     48.5325
+    ]
+   },
+   "properties": {
+    "id": 141,
+    "name": "Niobec",
+    "host_country": "Canada",
+    "host_iso2": "CA",
+    "primary_mineral": "Niobium",
+    "secondary_minerals": "",
+    "operator": "Magris",
+    "owners": "Magris Performance Materials 100% (CA)",
+    "controlling_owner_hq_iso2": "CA",
+    "control_type": "Private / listed",
+    "production": "7.1 kt Nb",
+    "production_year": "2024",
+    "world_share_pct": 6.34,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "100%",
+    "us_defense_stockpile": "Yes (ferroniobium acq.)",
+    "lat": 48.5325,
+    "lon": -71.1588,
+    "mgrs": "19U CP 40632 77738",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Wikidata Q3342063",
+    "sources": "https://assets.cbmm.com/-/media/CBMM/Imagens-REDESIGN/Relatorio-sustentabilidade/CBMM-RelatSustent--ENG_V5.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     58.4564,
+     50.3062
+    ]
+   },
+   "properties": {
+    "id": 142,
+    "name": "Donskoy (Khromtau)",
+    "host_country": "Kazakhstan",
+    "host_iso2": "KZ",
+    "primary_mineral": "Chromium",
+    "secondary_minerals": "",
+    "operator": "Kazchrome (ERG)",
+    "owners": "ERG (Eurasian Resources Group) 100% (KZ)",
+    "controlling_owner_hq_iso2": "KZ",
+    "control_type": "Other state-owned",
+    "production": "n/a",
+    "production_year": null,
+    "world_share_pct": null,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "79%",
+    "us_defense_stockpile": "Yes (ferrochromium held)",
+    "lat": 50.3062,
+    "lon": 58.4564,
+    "mgrs": "40U FA 03709 73690",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Located on Esri World Imagery",
+    "sources": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     27.35,
+     -25.55
+    ]
+   },
+   "properties": {
+    "id": 143,
+    "name": "Glencore-Merafe Chrome Venture",
+    "host_country": "South Africa",
+    "host_iso2": "ZA",
+    "primary_mineral": "Chromium",
+    "secondary_minerals": "PGMs (Pt/Pd)",
+    "operator": "Glencore",
+    "owners": "Glencore 79.5% (CH); Merafe Resources 20.5% (ZA)",
+    "controlling_owner_hq_iso2": "CH",
+    "control_type": "Private / listed",
+    "production": "n/a",
+    "production_year": null,
+    "world_share_pct": null,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "79%",
+    "us_defense_stockpile": "Yes (ferrochromium held)",
+    "lat": -25.55,
+    "lon": 27.35,
+    "mgrs": "35J NM 35159 74102",
+    "coord_precision": "District or cluster centroid",
+    "coord_ce_m": 25000,
+    "coord_source": "District centroid",
+    "sources": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     27.5312,
+     52.8564
+    ]
+   },
+   "properties": {
+    "id": 144,
+    "name": "Soligorsk",
+    "host_country": "Belarus",
+    "host_iso2": "BY",
+    "primary_mineral": "Potash",
+    "secondary_minerals": "",
+    "operator": "Belaruskali",
+    "owners": "Belaruskali (Belarus state) 100% (BY)",
+    "controlling_owner_hq_iso2": "BY",
+    "control_type": "Other state-owned",
+    "production": "n/a",
+    "production_year": null,
+    "world_share_pct": null,
+    "status": "Operating (US/EU sanctions)",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "92%",
+    "us_defense_stockpile": "No",
+    "lat": 52.8564,
+    "lon": 27.5312,
+    "mgrs": "35U NU 35767 56428",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Located on Esri World Imagery",
+    "sources": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     56.8,
+     59.4
+    ]
+   },
+   "properties": {
+    "id": 145,
+    "name": "Berezniki–Solikamsk",
+    "host_country": "Russia",
+    "host_iso2": "RU",
+    "primary_mineral": "Potash",
+    "secondary_minerals": "",
+    "operator": "Uralkali",
+    "owners": "Uralkali 100% (RU)",
+    "controlling_owner_hq_iso2": "RU",
+    "control_type": "Russian state-linked / sanctioned",
+    "production": "n/a",
+    "production_year": null,
+    "world_share_pct": null,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "92%",
+    "us_defense_stockpile": "No",
+    "lat": 59.4,
+    "lon": 56.8,
+    "mgrs": "40V DL 88643 84610",
+    "coord_precision": "District or cluster centroid",
+    "coord_ce_m": 25000,
+    "coord_source": "District centroid",
+    "sources": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -101.538,
+     50.4662
+    ]
+   },
+   "properties": {
+    "id": 146,
+    "name": "Rocanville",
+    "host_country": "Canada",
+    "host_iso2": "CA",
+    "primary_mineral": "Potash",
+    "secondary_minerals": "",
+    "operator": "Nutrien",
+    "owners": "Nutrien 100% (CA)",
+    "controlling_owner_hq_iso2": "CA",
+    "control_type": "Private / listed",
+    "production": "n/a",
+    "production_year": null,
+    "world_share_pct": null,
+    "status": "Operating",
+    "us_critical_2025": true,
+    "us_net_import_reliance": "92%",
+    "us_defense_stockpile": "No",
+    "lat": 50.4662,
+    "lon": -101.538,
+    "mgrs": "14U LA 19885 93544",
+    "coord_precision": "Site-verified on imagery",
+    "coord_ce_m": 1000,
+    "coord_source": "Wikidata Q16965533",
+    "sources": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf"
+   }
+  }
+ ]
+}

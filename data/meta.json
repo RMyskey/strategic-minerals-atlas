@@ -1,0 +1,167 @@
+{
+ "datum": "WGS 84 (EPSG:4326)",
+ "control_types": {
+  "cnsoe": {
+   "label": "Chinese SOE / state-linked",
+   "color": "#ff3b4e"
+  },
+  "cnpriv": {
+   "label": "Chinese private",
+   "color": "#ff9f43"
+  },
+  "ru": {
+   "label": "Russian state-linked / sanctioned",
+   "color": "#b06cff"
+  },
+  "state": {
+   "label": "Other state-owned",
+   "color": "#2ec4b6"
+  },
+  "priv": {
+   "label": "Private / listed",
+   "color": "#5b8def"
+  }
+ },
+ "precision": {
+  "S": {
+   "label": "Site-verified on imagery",
+   "ce_m": 1000
+  },
+  "W": {
+   "label": "Reference coordinate (not imagery-confirmed)",
+   "ce_m": 2500
+  },
+  "D": {
+   "label": "District or cluster centroid",
+   "ce_m": 25000
+  },
+  "A": {
+   "label": "Approximate (unverified)",
+   "ce_m": 15000
+  }
+ },
+ "mines": 147,
+ "compiled": "2026-10-23",
+ "built_at": "2026-10-26T00:29:20Z",
+ "feeds": {
+  "gdelt": {
+   "label": "GDELT DOC 2.0 news alerts",
+   "cadence": "daily",
+   "url": "https://api.gdeltproject.org/api/v2/doc/doc",
+   "status": "partial",
+   "last_attempt": "2026-10-26T00:26:27Z",
+   "items": 4,
+   "message": "1/5 queries ok; HTTP 429 for https://api.gdeltproject.org/api/v2/doc/doc",
+   "last_success": "2026-10-26T00:26:27Z",
+   "status_note": "not selected"
+  },
+  "gnews": {
+   "label": "Google News RSS alerts",
+   "cadence": "daily",
+   "url": "https://news.google.com/rss",
+   "status": "ok",
+   "last_attempt": "2026-10-26T00:29:19Z",
+   "items": 12,
+   "message": "24 queries; ",
+   "last_success": "2026-10-26T00:29:19Z"
+  },
+  "miningcom": {
+   "label": "MINING.COM RSS alerts",
+   "cadence": "daily",
+   "url": "https://www.mining.com/feed/",
+   "status": "ok",
+   "last_attempt": "2026-10-26T00:29:20Z",
+   "items": 0,
+   "message": "36 feed entries scanned; ",
+   "last_success": "2026-10-26T00:29:20Z"
+  },
+  "wikidata": {
+   "label": "Wikidata coordinate/owner check",
+   "cadence": "weekly",
+   "url": "https://query.wikidata.org/",
+   "status": "ok",
+   "last_attempt": "2026-10-26T00:27:27Z",
+   "items": 0,
+   "message": "71 Wikidata items checked, 71 returned; 0 changes flagged",
+   "last_success": "2026-10-26T00:27:27Z",
+   "detail": {
+    "missing": []
+   },
+   "status_note": "not selected"
+  },
+  "sec": {
+   "label": "SEC EDGAR filings (US-registered owners)",
+   "cadence": "weekly",
+   "url": "https://data.sec.gov/submissions/",
+   "requires": "SEC_USER_AGENT",
+   "status": "ok",
+   "last_attempt": "2026-10-26T00:27:36Z",
+   "items": 55,
+   "message": "23/23 registrants fetched; 0 annual reports flagged",
+   "last_success": "2026-10-26T00:27:36Z",
+   "status_note": "not selected"
+  },
+  "worldbank": {
+   "label": "World Bank Pink Sheet prices",
+   "cadence": "monthly",
+   "url": "https://www.worldbank.org/en/research/commodity-markets",
+   "status": "ok",
+   "last_attempt": "2026-10-26T00:27:36Z",
+   "items": 12,
+   "message": "latest period 2026-09",
+   "last_success": "2026-10-26T00:27:36Z",
+   "status_note": "not selected"
+  },
+  "fred": {
+   "label": "FRED commodity prices",
+   "cadence": "monthly",
+   "url": "https://fred.stlouisfed.org/",
+   "requires": "FRED_API_KEY",
+   "status": "needs_key",
+   "last_attempt": "2026-10-26T00:27:36Z",
+   "items": 0,
+   "message": "FRED_API_KEY not set; skipped (free key: https://fred.stlouisfed.org/docs/api/api_key.html).",
+   "status_note": "not selected"
+  },
+  "usgs": {
+   "label": "USGS MCS release check",
+   "cadence": "annual",
+   "url": "https://pubs.usgs.gov/periodicals/",
+   "status": "ok",
+   "last_attempt": "2026-10-26T00:27:38Z",
+   "items": 0,
+   "message": "2026 available, 2027 not found",
+   "last_success": "2026-10-26T00:27:38Z",
+   "detail": {
+    "checked": [
+     {
+      "year": 2026,
+      "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf",
+      "available": true
+     },
+     {
+      "year": 2027,
+      "url": "https://pubs.usgs.gov/periodicals/mcs2027/mcs2027.pdf",
+      "available": false
+     }
+    ],
+    "data_releases": [
+     {
+      "title": "Mineral Commodity Summaries 2026 Data Release",
+      "url": "https://www.sciencebase.gov/catalog/item/696a75d5d4be0228872d3bf8"
+     },
+     {
+      "title": "Mineral Commodity Summaries 2026 Data Release - Commodity Salient U.S. and World Statistics",
+      "url": "https://www.sciencebase.gov/catalog/item/69837e43b66b01367d7ec7c7"
+     },
+     {
+      "title": "Mineral Commodity Summaries 2026 Data Release - Mineral Industry Trends and Salient Statistics",
+      "url": "https://www.sciencebase.gov/catalog/item/69837ec8b66b01367d7ec7d9"
+     }
+    ]
+   },
+   "status_note": "not selected"
+  }
+ },
+ "last_refresh": "2026-10-26T00:29:20Z"
+}

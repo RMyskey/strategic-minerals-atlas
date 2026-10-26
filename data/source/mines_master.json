@@ -1,0 +1,5010 @@
+{
+ "_note": "Canonical curated mine register. Edit by hand only; the pipeline never overwrites curated fields (owners, production, share, coordinates). Run python3 scripts/pipeline.py --build-only after edits.",
+ "compiled": "2026-10-23",
+ "mines": [
+  {
+   "id": 0,
+   "name": "Escondida",
+   "host": "CL",
+   "lat": -24.27,
+   "lon": -69.07,
+   "primary": "Cu",
+   "secondary": [
+    "Au",
+    "Ag"
+   ],
+   "operator": "BHP",
+   "owners": [
+    {
+     "n": "BHP",
+     "pct": 57.5,
+     "cc": "AU",
+     "cl": "priv"
+    },
+    {
+     "n": "Rio Tinto",
+     "pct": 30,
+     "cc": "GB",
+     "cl": "priv"
+    },
+    {
+     "n": "JECO (Mitsubishi/JX)",
+     "pct": 12.5,
+     "cc": "JP",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "AU",
+   "ctrl_cls": "priv",
+   "production": "1,281 kt Cu",
+   "share": 5.57,
+   "share_unit": "Cu",
+   "year": "2024",
+   "status": "Operating",
+   "src": [
+    "mining"
+   ],
+   "prec": "S",
+   "coord_src": "Q14995147"
+  },
+  {
+   "id": 1,
+   "name": "Grasberg",
+   "host": "ID",
+   "lat": -4.0528,
+   "lon": 137.1158,
+   "primary": "Cu",
+   "secondary": [
+    "Au",
+    "Ag"
+   ],
+   "operator": "PT Freeport Indonesia",
+   "owners": [
+    {
+     "n": "MIND ID",
+     "pct": 51.2,
+     "cc": "ID",
+     "cl": "state"
+    },
+    {
+     "n": "Freeport-McMoRan",
+     "pct": 48.8,
+     "cc": "US",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "ID",
+   "ctrl_cls": "state",
+   "production": "816 kt Cu",
+   "share": 3.55,
+   "share_unit": "Cu",
+   "year": "2024",
+   "status": "Operating (Sept 2025 mud-rush disrupted output)",
+   "src": [
+    "mining"
+   ],
+   "prec": "W",
+   "coord_src": "Q119297"
+  },
+  {
+   "id": 2,
+   "name": "Collahuasi",
+   "host": "CL",
+   "lat": -20.9787,
+   "lon": -68.6952,
+   "primary": "Cu",
+   "secondary": [
+    "Mo"
+   ],
+   "operator": "Collahuasi JV",
+   "owners": [
+    {
+     "n": "Anglo American",
+     "pct": 44,
+     "cc": "GB",
+     "cl": "priv"
+    },
+    {
+     "n": "Glencore",
+     "pct": 44,
+     "cc": "CH",
+     "cl": "priv"
+    },
+    {
+     "n": "Mitsui / JX",
+     "pct": 12,
+     "cc": "JP",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "GB",
+   "ctrl_cls": "priv",
+   "production": "559 kt Cu",
+   "share": 2.43,
+   "share_unit": "Cu",
+   "year": "2024",
+   "status": "Operating",
+   "src": [
+    "mining"
+   ],
+   "prec": "S",
+   "coord_src": "Q30905738"
+  },
+  {
+   "id": 3,
+   "name": "Kamoa-Kakula",
+   "host": "CD",
+   "lat": -10.7592,
+   "lon": 25.3249,
+   "primary": "Cu",
+   "secondary": [],
+   "operator": "Ivanhoe Mines",
+   "owners": [
+    {
+     "n": "Ivanhoe Mines",
+     "pct": 39.6,
+     "cc": "CA",
+     "cl": "priv"
+    },
+    {
+     "n": "Zijin Mining",
+     "pct": 39.6,
+     "cc": "CN",
+     "cl": "cnsoe"
+    },
+    {
+     "n": "Govt of DRC",
+     "pct": 20,
+     "cc": "CD",
+     "cl": "state"
+    }
+   ],
+   "ctrl_cc": "CA",
+   "ctrl_cls": "priv",
+   "production": "437 kt Cu",
+   "share": 1.9,
+   "share_unit": "Cu",
+   "year": "2024",
+   "status": "Operating",
+   "src": [
+    "mining"
+   ],
+   "prec": "S",
+   "coord_src": "I"
+  },
+  {
+   "id": 4,
+   "name": "Buenavista del Cobre",
+   "host": "MX",
+   "lat": 30.97,
+   "lon": -110.328,
+   "primary": "Cu",
+   "secondary": [
+    "Zn",
+    "Mo",
+    "Ag"
+   ],
+   "operator": "Southern Copper",
+   "owners": [
+    {
+     "n": "Southern Copper (Grupo México)",
+     "pct": 100,
+     "cc": "MX",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "MX",
+   "ctrl_cls": "priv",
+   "production": "433 kt Cu",
+   "share": 1.88,
+   "share_unit": "Cu",
+   "year": "2024",
+   "status": "Operating",
+   "src": [
+    "mining"
+   ],
+   "prec": "S",
+   "coord_src": "Q16963673"
+  },
+  {
+   "id": 5,
+   "name": "Cerro Verde",
+   "host": "PE",
+   "lat": -16.535,
+   "lon": -71.595,
+   "primary": "Cu",
+   "secondary": [
+    "Mo"
+   ],
+   "operator": "Freeport-McMoRan",
+   "owners": [
+    {
+     "n": "Freeport-McMoRan",
+     "pct": 53.56,
+     "cc": "US",
+     "cl": "priv"
+    },
+    {
+     "n": "Sumitomo Metal Mining",
+     "pct": 21,
+     "cc": "JP",
+     "cl": "priv"
+    },
+    {
+     "n": "Buenaventura",
+     "pct": 19.58,
+     "cc": "PE",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "US",
+   "ctrl_cls": "priv",
+   "production": "430 kt Cu",
+   "share": 1.87,
+   "share_unit": "Cu",
+   "year": "2024",
+   "status": "Operating",
+   "src": [
+    "mining"
+   ],
+   "prec": "S",
+   "coord_src": "I"
+  },
+  {
+   "id": 6,
+   "name": "Antamina",
+   "host": "PE",
+   "lat": -9.5372,
+   "lon": -77.0611,
+   "primary": "Cu",
+   "secondary": [
+    "Zn",
+    "Mo",
+    "Ag"
+   ],
+   "operator": "Compañía Minera Antamina",
+   "owners": [
+    {
+     "n": "BHP",
+     "pct": 33.75,
+     "cc": "AU",
+     "cl": "priv"
+    },
+    {
+     "n": "Glencore",
+     "pct": 33.75,
+     "cc": "CH",
+     "cl": "priv"
+    },
+    {
+     "n": "Teck Resources",
+     "pct": 22.5,
+     "cc": "CA",
+     "cl": "priv"
+    },
+    {
+     "n": "Mitsubishi Corp",
+     "pct": 10,
+     "cc": "JP",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "AU",
+   "ctrl_cls": "priv",
+   "production": "413 kt Cu; 268 kt Zn",
+   "share": 1.8,
+   "share_unit": "Cu",
+   "year": "2024",
+   "status": "Operating",
+   "src": [
+    "mining"
+   ],
+   "prec": "S",
+   "coord_src": "Q5641700"
+  },
+  {
+   "id": 7,
+   "name": "Tenke Fungurume (TFM)",
+   "host": "CD",
+   "lat": -10.5707,
+   "lon": 26.181,
+   "primary": "Cu",
+   "secondary": [
+    "Co"
+   ],
+   "operator": "CMOC",
+   "owners": [
+    {
+     "n": "CMOC Group",
+     "pct": 80,
+     "cc": "CN",
+     "cl": "cnsoe"
+    },
+    {
+     "n": "Gécamines",
+     "pct": 20,
+     "cc": "CD",
+     "cl": "state"
+    }
+   ],
+   "ctrl_cc": "CN",
+   "ctrl_cls": "cnsoe",
+   "production": "~400 kt Cu (est.); 24.0 kt Co",
+   "share": 1.74,
+   "share_unit": "Cu",
+   "year": "2024",
+   "status": "Operating",
+   "src": [
+    "mining"
+   ],
+   "prec": "S",
+   "coord_src": "Q7699914"
+  },
+  {
+   "id": 8,
+   "name": "KGHM Polish ops (Lubin–Rudna–Polkowice)",
+   "host": "PL",
+   "lat": 51.5015,
+   "lon": 16.1073,
+   "primary": "Cu",
+   "secondary": [
+    "Ag",
+    "Re"
+   ],
+   "operator": "KGHM",
+   "owners": [
+    {
+     "n": "KGHM Polska Miedź",
+     "pct": 100,
+     "cc": "PL",
+     "cl": "state"
+    }
+   ],
+   "ctrl_cc": "PL",
+   "ctrl_cls": "state",
+   "production": "395 kt Cu",
+   "share": 1.72,
+   "share_unit": "Cu",
+   "year": "2024",
+   "status": "Operating",
+   "src": [
+    "mining"
+   ],
+   "prec": "D",
+   "coord_src": "Q7377054"
+  },
+  {
+   "id": 9,
+   "name": "Polar Division (Norilsk–Talnakh)",
+   "host": "RU",
+   "lat": 69.35,
+   "lon": 88.2,
+   "primary": "Cu",
+   "secondary": [
+    "Ni",
+    "PGM",
+    "Co"
+   ],
+   "operator": "Nornickel",
+   "owners": [
+    {
+     "n": "Nornickel",
+     "pct": 100,
+     "cc": "RU",
+     "cl": "ru"
+    }
+   ],
+   "ctrl_cc": "RU",
+   "ctrl_cls": "ru",
+   "production": "345 kt Cu (Nornickel group 2024: 205 kt Ni, 2.77 Moz Pd, 0.66 Moz Pt)",
+   "share": 1.5,
+   "share_unit": "Cu",
+   "year": "2024",
+   "status": "Operating (sanctions exposure)",
+   "src": [
+    "mining",
+    "nornickel"
+   ],
+   "prec": "D",
+   "coord_src": "D"
+  },
+  {
+   "id": 10,
+   "name": "Las Bambas",
+   "host": "PE",
+   "lat": -14.0905,
+   "lon": -72.3088,
+   "primary": "Cu",
+   "secondary": [
+    "Mo"
+   ],
+   "operator": "MMG",
+   "owners": [
+    {
+     "n": "MMG (China Minmetals)",
+     "pct": 62.5,
+     "cc": "CN",
+     "cl": "cnsoe"
+    },
+    {
+     "n": "Guoxin International",
+     "pct": 22.5,
+     "cc": "CN",
+     "cl": "cnsoe"
+    },
+    {
+     "n": "CITIC Metal",
+     "pct": 15,
+     "cc": "CN",
+     "cl": "cnsoe"
+    }
+   ],
+   "ctrl_cc": "CN",
+   "ctrl_cls": "cnsoe",
+   "production": "323 kt Cu",
+   "share": 1.4,
+   "share_unit": "Cu",
+   "year": "2024",
+   "status": "Operating",
+   "src": [
+    "mmg"
+   ],
+   "prec": "S",
+   "coord_src": "Q16832786"
+  },
+  {
+   "id": 11,
+   "name": "Sentinel",
+   "host": "ZM",
+   "lat": -12.202,
+   "lon": 25.3113,
+   "primary": "Cu",
+   "secondary": [],
+   "operator": "First Quantum",
+   "owners": [
+    {
+     "n": "First Quantum Minerals",
+     "pct": 100,
+     "cc": "CA",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "CA",
+   "ctrl_cls": "priv",
+   "production": "231 kt Cu",
+   "share": 1,
+   "share_unit": "Cu",
+   "year": "2024",
+   "status": "Operating",
+   "src": [
+    "fqm"
+   ],
+   "prec": "S",
+   "coord_src": "Q16969255"
+  },
+  {
+   "id": 12,
+   "name": "Kansanshi",
+   "host": "ZM",
+   "lat": -12.0767,
+   "lon": 26.4298,
+   "primary": "Cu",
+   "secondary": [
+    "Au"
+   ],
+   "operator": "First Quantum",
+   "owners": [
+    {
+     "n": "First Quantum Minerals",
+     "pct": 80,
+     "cc": "CA",
+     "cl": "priv"
+    },
+    {
+     "n": "ZCCM-IH",
+     "pct": 20,
+     "cc": "ZM",
+     "cl": "state"
+    }
+   ],
+   "ctrl_cc": "CA",
+   "ctrl_cls": "priv",
+   "production": "171 kt Cu",
+   "share": 0.74,
+   "share_unit": "Cu",
+   "year": "2024",
+   "status": "Operating",
+   "src": [
+    "fqm"
+   ],
+   "prec": "S",
+   "coord_src": "Q16976010"
+  },
+  {
+   "id": 13,
+   "name": "El Teniente",
+   "host": "CL",
+   "lat": -34.0943,
+   "lon": -70.3509,
+   "primary": "Cu",
+   "secondary": [
+    "Mo"
+   ],
+   "operator": "Codelco",
+   "owners": [
+    {
+     "n": "Codelco",
+     "pct": 100,
+     "cc": "CL",
+     "cl": "state"
+    }
+   ],
+   "ctrl_cc": "CL",
+   "ctrl_cls": "state",
+   "production": "n/a",
+   "share": null,
+   "share_unit": "Cu",
+   "year": "",
+   "status": "Operating",
+   "src": [
+    "icsg"
+   ],
+   "prec": "W",
+   "coord_src": "Q529024"
+  },
+  {
+   "id": 14,
+   "name": "Morenci",
+   "host": "US",
+   "lat": 33.0906,
+   "lon": -109.3667,
+   "primary": "Cu",
+   "secondary": [
+    "Mo"
+   ],
+   "operator": "Freeport-McMoRan",
+   "owners": [
+    {
+     "n": "Freeport-McMoRan",
+     "pct": 72,
+     "cc": "US",
+     "cl": "priv"
+    },
+    {
+     "n": "Sumitomo Corp",
+     "pct": 28,
+     "cc": "JP",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "US",
+   "ctrl_cls": "priv",
+   "production": "n/a",
+   "share": null,
+   "share_unit": "Cu",
+   "year": "",
+   "status": "Operating",
+   "src": [
+    "icsg"
+   ],
+   "prec": "S",
+   "coord_src": "Q15256199"
+  },
+  {
+   "id": 15,
+   "name": "Oyu Tolgoi",
+   "host": "MN",
+   "lat": 43.0086,
+   "lon": 106.8433,
+   "primary": "Cu",
+   "secondary": [
+    "Au"
+   ],
+   "operator": "Rio Tinto",
+   "owners": [
+    {
+     "n": "Rio Tinto",
+     "pct": 66,
+     "cc": "GB",
+     "cl": "priv"
+    },
+    {
+     "n": "Erdenes Oyu Tolgoi (Mongolia)",
+     "pct": 34,
+     "cc": "MN",
+     "cl": "state"
+    }
+   ],
+   "ctrl_cc": "GB",
+   "ctrl_cls": "priv",
+   "production": "n/a (underground ramp-up)",
+   "share": null,
+   "share_unit": "Cu",
+   "year": "",
+   "status": "Operating – ramping",
+   "src": [
+    "rio"
+   ],
+   "prec": "S",
+   "coord_src": "Q1059067"
+  },
+  {
+   "id": 16,
+   "name": "Cobre Panamá",
+   "host": "PA",
+   "lat": 8.852,
+   "lon": -80.6448,
+   "primary": "Cu",
+   "secondary": [
+    "Au",
+    "Mo"
+   ],
+   "operator": "First Quantum",
+   "owners": [
+    {
+     "n": "First Quantum Minerals",
+     "pct": 90,
+     "cc": "CA",
+     "cl": "priv"
+    },
+    {
+     "n": "KOMIR / LS (Korea)",
+     "pct": 10,
+     "cc": "KR",
+     "cl": "state"
+    }
+   ],
+   "ctrl_cc": "CA",
+   "ctrl_cls": "priv",
+   "production": "0 (halted since Nov 2023)",
+   "share": 0,
+   "share_unit": "Cu",
+   "year": "2024",
+   "status": "Care & maintenance",
+   "src": [
+    "icsg"
+   ],
+   "prec": "S",
+   "coord_src": "Q16258603"
+  },
+  {
+   "id": 17,
+   "name": "Kamoto (KCC)",
+   "host": "CD",
+   "lat": -10.7148,
+   "lon": 25.3855,
+   "primary": "Co",
+   "secondary": [
+    "Cu"
+   ],
+   "operator": "Glencore",
+   "owners": [
+    {
+     "n": "Glencore",
+     "pct": 75,
+     "cc": "CH",
+     "cl": "priv"
+    },
+    {
+     "n": "Gécamines",
+     "pct": 25,
+     "cc": "CD",
+     "cl": "state"
+    }
+   ],
+   "ctrl_cc": "CH",
+   "ctrl_cls": "priv",
+   "production": "31.7 kt Co (DRC export data)",
+   "share": 10.48,
+   "share_unit": "Co",
+   "year": "2024",
+   "status": "Operating",
+   "src": [
+    "ctcpm"
+   ],
+   "prec": "S",
+   "coord_src": "Q6359030"
+  },
+  {
+   "id": 18,
+   "name": "Julong (Qulong)",
+   "host": "CN",
+   "lat": 29.62,
+   "lon": 91.33,
+   "primary": "Cu",
+   "secondary": [
+    "Mo"
+   ],
+   "operator": "Zijin Mining",
+   "owners": [
+    {
+     "n": "Zijin Mining",
+     "pct": 50.1,
+     "cc": "CN",
+     "cl": "cnsoe"
+    }
+   ],
+   "ctrl_cc": "CN",
+   "ctrl_cls": "cnsoe",
+   "production": "n/a",
+   "share": null,
+   "share_unit": "Cu",
+   "year": "",
+   "status": "Operating – expanding",
+   "src": [
+    "icsg"
+   ],
+   "prec": "A",
+   "coord_src": "A"
+  },
+  {
+   "id": 19,
+   "name": "Kisanfu (KFM)",
+   "host": "CD",
+   "lat": -10.78,
+   "lon": 25.92,
+   "primary": "Co",
+   "secondary": [
+    "Cu"
+   ],
+   "operator": "CMOC",
+   "owners": [
+    {
+     "n": "CMOC Group",
+     "pct": 71.25,
+     "cc": "CN",
+     "cl": "cnsoe"
+    },
+    {
+     "n": "CATL (via Brunp)",
+     "pct": 23.75,
+     "cc": "CN",
+     "cl": "cnpriv"
+    },
+    {
+     "n": "Gécamines",
+     "pct": 5,
+     "cc": "CD",
+     "cl": "state"
+    }
+   ],
+   "ctrl_cc": "CN",
+   "ctrl_cls": "cnsoe",
+   "production": "71.8 kt Co (DRC export data)",
+   "share": 23.77,
+   "share_unit": "Co",
+   "year": "2024",
+   "status": "Operating",
+   "src": [
+    "ctcpm",
+    "cmoc"
+   ],
+   "prec": "A",
+   "coord_src": "A"
+  },
+  {
+   "id": 20,
+   "name": "Metalkol RTR (tailings)",
+   "host": "CD",
+   "lat": -10.7,
+   "lon": 25.48,
+   "primary": "Co",
+   "secondary": [
+    "Cu"
+   ],
+   "operator": "ERG",
+   "owners": [
+    {
+     "n": "ERG (Eurasian Resources Group)",
+     "pct": 100,
+     "cc": "KZ",
+     "cl": "state"
+    }
+   ],
+   "ctrl_cc": "KZ",
+   "ctrl_cls": "state",
+   "production": "19.9 kt Co",
+   "share": 6.58,
+   "share_unit": "Co",
+   "year": "2024",
+   "status": "Operating",
+   "src": [
+    "ctcpm"
+   ],
+   "prec": "D",
+   "coord_src": "D"
+  },
+  {
+   "id": 21,
+   "name": "Mutanda",
+   "host": "CD",
+   "lat": -10.7858,
+   "lon": 25.8082,
+   "primary": "Co",
+   "secondary": [
+    "Cu"
+   ],
+   "operator": "Glencore",
+   "owners": [
+    {
+     "n": "Glencore",
+     "pct": 95,
+     "cc": "CH",
+     "cl": "priv"
+    },
+    {
+     "n": "Govt of DRC",
+     "pct": 5,
+     "cc": "CD",
+     "cl": "state"
+    }
+   ],
+   "ctrl_cc": "CH",
+   "ctrl_cls": "priv",
+   "production": "10.7 kt Co",
+   "share": 3.56,
+   "share_unit": "Co",
+   "year": "2024",
+   "status": "Operating",
+   "src": [
+    "ctcpm"
+   ],
+   "prec": "S",
+   "coord_src": "Q6943664"
+  },
+  {
+   "id": 22,
+   "name": "Weda Bay (IWIP)",
+   "host": "ID",
+   "lat": 0.4783,
+   "lon": 127.9836,
+   "primary": "Ni",
+   "secondary": [
+    "Co"
+   ],
+   "operator": "PT Weda Bay Nickel",
+   "owners": [
+    {
+     "n": "Tsingshan / Eramet (Strand Minerals)",
+     "pct": 90,
+     "cc": "CN",
+     "cl": "cnpriv"
+    },
+    {
+     "n": "PT Aneka Tambang (Antam)",
+     "pct": 10,
+     "cc": "ID",
+     "cl": "state"
+    }
+   ],
+   "ctrl_cc": "CN",
+   "ctrl_cls": "cnpriv",
+   "production": "517 kt Ni (GlobalData est.)",
+   "share": 13.93,
+   "share_unit": "Ni",
+   "year": "2023",
+   "status": "Operating",
+   "src": [
+    "gdni"
+   ],
+   "prec": "S",
+   "coord_src": "Q108749425"
+  },
+  {
+   "id": 23,
+   "name": "Obi Island HPAL (Harita–Lygend)",
+   "host": "ID",
+   "lat": -1.5384,
+   "lon": 127.4255,
+   "primary": "Ni",
+   "secondary": [
+    "Co"
+   ],
+   "operator": "PT Halmahera Persada Lygend",
+   "owners": [
+    {
+     "n": "Harita Group",
+     "pct": null,
+     "cc": "ID",
+     "cl": "priv"
+    },
+    {
+     "n": "Lygend Resources",
+     "pct": null,
+     "cc": "CN",
+     "cl": "cnpriv"
+    }
+   ],
+   "ctrl_cc": "ID",
+   "ctrl_cls": "priv",
+   "production": "95 kt Ni (GlobalData est.)",
+   "share": 2.57,
+   "share_unit": "Ni",
+   "year": "2023",
+   "status": "Operating",
+   "src": [
+    "gdni"
+   ],
+   "prec": "S",
+   "coord_src": "I"
+  },
+  {
+   "id": 24,
+   "name": "Huayue HPAL (Morowali IMIP)",
+   "host": "ID",
+   "lat": -2.83,
+   "lon": 122.16,
+   "primary": "Ni",
+   "secondary": [
+    "Co"
+   ],
+   "operator": "Huayou Cobalt",
+   "owners": [
+    {
+     "n": "Huayou Cobalt",
+     "pct": null,
+     "cc": "CN",
+     "cl": "cnpriv"
+    }
+   ],
+   "ctrl_cc": "CN",
+   "ctrl_cls": "cnpriv",
+   "production": "42 kt Ni (GlobalData est.)",
+   "share": 1.13,
+   "share_unit": "Ni",
+   "year": "2023",
+   "status": "Operating",
+   "src": [
+    "gdni"
+   ],
+   "prec": "S",
+   "coord_src": "Q108673012"
+  },
+  {
+   "id": 25,
+   "name": "Sorowako",
+   "host": "ID",
+   "lat": -2.5458,
+   "lon": 121.3525,
+   "primary": "Ni",
+   "secondary": [
+    "Co"
+   ],
+   "operator": "PT Vale Indonesia",
+   "owners": [
+    {
+     "n": "MIND ID",
+     "pct": 34,
+     "cc": "ID",
+     "cl": "state"
+    },
+    {
+     "n": "Vale Base Metals",
+     "pct": 33.9,
+     "cc": "BR",
+     "cl": "priv"
+    },
+    {
+     "n": "Sumitomo Metal Mining",
+     "pct": 11.5,
+     "cc": "JP",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "ID",
+   "ctrl_cls": "state",
+   "production": "64 kt Ni (GlobalData est.)",
+   "share": 1.73,
+   "share_unit": "Ni",
+   "year": "2023",
+   "status": "Operating",
+   "src": [
+    "gdni"
+   ],
+   "prec": "S",
+   "coord_src": "Q16976757"
+  },
+  {
+   "id": 26,
+   "name": "Pakal Island",
+   "host": "ID",
+   "lat": 0.87,
+   "lon": 128.15,
+   "primary": "Ni",
+   "secondary": [],
+   "operator": "Antam",
+   "owners": [
+    {
+     "n": "PT Aneka Tambang (Antam)",
+     "pct": 100,
+     "cc": "ID",
+     "cl": "state"
+    }
+   ],
+   "ctrl_cc": "ID",
+   "ctrl_cls": "state",
+   "production": "36 kt Ni (GlobalData est.)",
+   "share": 0.97,
+   "share_unit": "Ni",
+   "year": "2023",
+   "status": "Operating",
+   "src": [
+    "gdni"
+   ],
+   "prec": "A",
+   "coord_src": "A"
+  },
+  {
+   "id": 27,
+   "name": "Taganito",
+   "host": "PH",
+   "lat": 9.532,
+   "lon": 125.818,
+   "primary": "Ni",
+   "secondary": [
+    "Co"
+   ],
+   "operator": "Nickel Asia",
+   "owners": [
+    {
+     "n": "Nickel Asia",
+     "pct": null,
+     "cc": "PH",
+     "cl": "priv"
+    },
+    {
+     "n": "Sumitomo Metal Mining",
+     "pct": null,
+     "cc": "JP",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "PH",
+   "ctrl_cls": "priv",
+   "production": "70 kt Ni (GlobalData est.)",
+   "share": 1.9,
+   "share_unit": "Ni",
+   "year": "2023",
+   "status": "Operating",
+   "src": [
+    "gdni"
+   ],
+   "prec": "S",
+   "coord_src": "Q137942190"
+  },
+  {
+   "id": 28,
+   "name": "Rio Tuba",
+   "host": "PH",
+   "lat": 8.5677,
+   "lon": 117.42,
+   "primary": "Ni",
+   "secondary": [
+    "Co"
+   ],
+   "operator": "Nickel Asia",
+   "owners": [
+    {
+     "n": "Nickel Asia",
+     "pct": null,
+     "cc": "PH",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "PH",
+   "ctrl_cls": "priv",
+   "production": "39 kt Ni (GlobalData est.)",
+   "share": 1.06,
+   "share_unit": "Ni",
+   "year": "2023",
+   "status": "Operating",
+   "src": [
+    "gdni"
+   ],
+   "prec": "S",
+   "coord_src": "Q16969313"
+  },
+  {
+   "id": 29,
+   "name": "Ambatovy",
+   "host": "MG",
+   "lat": -18.846,
+   "lon": 48.304,
+   "primary": "Ni",
+   "secondary": [
+    "Co"
+   ],
+   "operator": "Ambatovy JV",
+   "owners": [
+    {
+     "n": "Sumitomo Corp / KOMIR",
+     "pct": 100,
+     "cc": "JP",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "JP",
+   "ctrl_cls": "priv",
+   "production": "41 kt Ni (GlobalData est.)",
+   "share": 1.1,
+   "share_unit": "Ni",
+   "year": "2023",
+   "status": "Operating",
+   "src": [
+    "gdni"
+   ],
+   "prec": "S",
+   "coord_src": "Q16002794"
+  },
+  {
+   "id": 30,
+   "name": "Cerro Matoso",
+   "host": "CO",
+   "lat": 7.92,
+   "lon": -75.57,
+   "primary": "Ni",
+   "secondary": [],
+   "operator": "South32",
+   "owners": [
+    {
+     "n": "South32",
+     "pct": 100,
+     "cc": "AU",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "AU",
+   "ctrl_cls": "priv",
+   "production": "41 kt Ni (GlobalData est.)",
+   "share": 1.1,
+   "share_unit": "Ni",
+   "year": "2023",
+   "status": "Operating (sale agreed 2025)",
+   "src": [
+    "gdni"
+   ],
+   "prec": "A",
+   "coord_src": "A"
+  },
+  {
+   "id": 31,
+   "name": "Oktyabrsky (Talnakh)",
+   "host": "RU",
+   "lat": 69.5248,
+   "lon": 88.3401,
+   "primary": "Ni",
+   "secondary": [
+    "Cu",
+    "PGM"
+   ],
+   "operator": "Nornickel",
+   "owners": [
+    {
+     "n": "Nornickel",
+     "pct": 100,
+     "cc": "RU",
+     "cl": "ru"
+    }
+   ],
+   "ctrl_cc": "RU",
+   "ctrl_cls": "ru",
+   "production": "36 kt Ni (GlobalData est.)",
+   "share": 0.98,
+   "share_unit": "Ni",
+   "year": "2023",
+   "status": "Operating",
+   "src": [
+    "gdni"
+   ],
+   "prec": "W",
+   "coord_src": "Q16966215"
+  },
+  {
+   "id": 32,
+   "name": "Moa",
+   "host": "CU",
+   "lat": 20.5924,
+   "lon": -74.952,
+   "primary": "Ni",
+   "secondary": [
+    "Co"
+   ],
+   "operator": "Moa JV",
+   "owners": [
+    {
+     "n": "Sherritt International",
+     "pct": 50,
+     "cc": "CA",
+     "cl": "priv"
+    },
+    {
+     "n": "Govt of Cuba (GNC)",
+     "pct": 50,
+     "cc": "CU",
+     "cl": "state"
+    }
+   ],
+   "ctrl_cc": "CA",
+   "ctrl_cls": "priv",
+   "production": "n/a",
+   "share": null,
+   "share_unit": "Ni",
+   "year": "",
+   "status": "Operating",
+   "src": [
+    "icsg"
+   ],
+   "prec": "S",
+   "coord_src": "I"
+  },
+  {
+   "id": 33,
+   "name": "Greenbushes",
+   "host": "AU",
+   "lat": -33.866,
+   "lon": 116.0648,
+   "primary": "Li",
+   "secondary": [
+    "Ta"
+   ],
+   "operator": "Talison Lithium",
+   "owners": [
+    {
+     "n": "Tianqi Lithium",
+     "pct": 26.01,
+     "cc": "CN",
+     "cl": "cnpriv"
+    },
+    {
+     "n": "IGO",
+     "pct": 24.99,
+     "cc": "AU",
+     "cl": "priv"
+    },
+    {
+     "n": "Albemarle",
+     "pct": 49,
+     "cc": "US",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "US",
+   "ctrl_cls": "priv",
+   "production": "1.38 Mt spodumene conc.",
+   "share": null,
+   "share_unit": "Li",
+   "year": "FY2024",
+   "status": "Operating",
+   "src": [
+    "inn"
+   ],
+   "prec": "S",
+   "coord_src": "Q16891876"
+  },
+  {
+   "id": 34,
+   "name": "Pilgangoora",
+   "host": "AU",
+   "lat": -21.0558,
+   "lon": 118.905,
+   "primary": "Li",
+   "secondary": [
+    "Ta"
+   ],
+   "operator": "Pilbara Minerals",
+   "owners": [
+    {
+     "n": "Pilbara Minerals (PLS)",
+     "pct": 100,
+     "cc": "AU",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "AU",
+   "ctrl_cls": "priv",
+   "production": "725 kt spodumene conc.",
+   "share": null,
+   "share_unit": "Li",
+   "year": "FY2024",
+   "status": "Operating",
+   "src": [
+    "inn"
+   ],
+   "prec": "S",
+   "coord_src": "Q21958025"
+  },
+  {
+   "id": 35,
+   "name": "Mt Marion",
+   "host": "AU",
+   "lat": -31.1,
+   "lon": 121.47,
+   "primary": "Li",
+   "secondary": [],
+   "operator": "Mineral Resources",
+   "owners": [
+    {
+     "n": "Mineral Resources",
+     "pct": 50,
+     "cc": "AU",
+     "cl": "priv"
+    },
+    {
+     "n": "Ganfeng Lithium",
+     "pct": 50,
+     "cc": "CN",
+     "cl": "cnpriv"
+    }
+   ],
+   "ctrl_cc": "AU",
+   "ctrl_cls": "priv",
+   "production": "~656 kt spodumene conc.",
+   "share": null,
+   "share_unit": "Li",
+   "year": "FY2024",
+   "status": "Operating",
+   "src": [
+    "inn"
+   ],
+   "prec": "A",
+   "coord_src": "A"
+  },
+  {
+   "id": 36,
+   "name": "Wodgina",
+   "host": "AU",
+   "lat": -21.1934,
+   "lon": 118.6728,
+   "primary": "Li",
+   "secondary": [
+    "Ta"
+   ],
+   "operator": "Mineral Resources",
+   "owners": [
+    {
+     "n": "Mineral Resources",
+     "pct": 50,
+     "cc": "AU",
+     "cl": "priv"
+    },
+    {
+     "n": "Albemarle",
+     "pct": 50,
+     "cc": "US",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "AU",
+   "ctrl_cls": "priv",
+   "production": "424 kt spodumene conc.",
+   "share": null,
+   "share_unit": "Li",
+   "year": "FY2024",
+   "status": "Operating",
+   "src": [
+    "inn"
+   ],
+   "prec": "S",
+   "coord_src": "Q2587675"
+  },
+  {
+   "id": 37,
+   "name": "Mt Holland",
+   "host": "AU",
+   "lat": -32.093,
+   "lon": 119.742,
+   "primary": "Li",
+   "secondary": [],
+   "operator": "Covalent Lithium",
+   "owners": [
+    {
+     "n": "SQM",
+     "pct": 50,
+     "cc": "CL",
+     "cl": "priv"
+    },
+    {
+     "n": "Wesfarmers",
+     "pct": 50,
+     "cc": "AU",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "CL",
+   "ctrl_cls": "priv",
+   "production": "n/a (ramping)",
+   "share": null,
+   "share_unit": "Li",
+   "year": "",
+   "status": "Operating – ramping",
+   "src": [
+    "inn"
+   ],
+   "prec": "S",
+   "coord_src": "Q137942463"
+  },
+  {
+   "id": 38,
+   "name": "Salar de Atacama (SQM)",
+   "host": "CL",
+   "lat": -23.5121,
+   "lon": -68.3599,
+   "primary": "Li",
+   "secondary": [
+    "K"
+   ],
+   "operator": "SQM",
+   "owners": [
+    {
+     "n": "SQM",
+     "pct": 100,
+     "cc": "CL",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "CL",
+   "ctrl_cls": "priv",
+   "production": "~201 kt LCE",
+   "share": null,
+   "share_unit": "Li",
+   "year": "2024",
+   "status": "Operating (Codelco JV from 2025)",
+   "src": [
+    "inn"
+   ],
+   "prec": "S",
+   "coord_src": "I"
+  },
+  {
+   "id": 39,
+   "name": "Salar de Atacama (Albemarle)",
+   "host": "CL",
+   "lat": -23.6401,
+   "lon": -68.3404,
+   "primary": "Li",
+   "secondary": [],
+   "operator": "Albemarle",
+   "owners": [
+    {
+     "n": "Albemarle",
+     "pct": 100,
+     "cc": "US",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "US",
+   "ctrl_cls": "priv",
+   "production": "n/a",
+   "share": null,
+   "share_unit": "Li",
+   "year": "",
+   "status": "Operating",
+   "src": [
+    "inn"
+   ],
+   "prec": "D",
+   "coord_src": "D"
+  },
+  {
+   "id": 40,
+   "name": "Cauchari-Olaroz",
+   "host": "AR",
+   "lat": -23.6664,
+   "lon": -66.75,
+   "primary": "Li",
+   "secondary": [],
+   "operator": "Minera Exar",
+   "owners": [
+    {
+     "n": "Ganfeng Lithium",
+     "pct": 46.7,
+     "cc": "CN",
+     "cl": "cnpriv"
+    },
+    {
+     "n": "Lithium Argentina",
+     "pct": 44.8,
+     "cc": "CA",
+     "cl": "priv"
+    },
+    {
+     "n": "JEMSE (Jujuy province)",
+     "pct": 8.5,
+     "cc": "AR",
+     "cl": "state"
+    }
+   ],
+   "ctrl_cc": "CN",
+   "ctrl_cls": "cnpriv",
+   "production": "25.4 kt LCE",
+   "share": null,
+   "share_unit": "Li",
+   "year": "2024",
+   "status": "Operating – ramping",
+   "src": [
+    "lar"
+   ],
+   "prec": "S",
+   "coord_src": "Q21503338"
+  },
+  {
+   "id": 41,
+   "name": "Fénix (Hombre Muerto)",
+   "host": "AR",
+   "lat": -25.4,
+   "lon": -67,
+   "primary": "Li",
+   "secondary": [],
+   "operator": "Rio Tinto (ex-Arcadium)",
+   "owners": [
+    {
+     "n": "Rio Tinto",
+     "pct": 100,
+     "cc": "GB",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "GB",
+   "ctrl_cls": "priv",
+   "production": "n/a",
+   "share": null,
+   "share_unit": "Li",
+   "year": "",
+   "status": "Operating",
+   "src": [
+    "rio"
+   ],
+   "prec": "S",
+   "coord_src": "I"
+  },
+  {
+   "id": 42,
+   "name": "Bikita",
+   "host": "ZW",
+   "lat": -19.9572,
+   "lon": 31.436,
+   "primary": "Li",
+   "secondary": [
+    "Cs"
+   ],
+   "operator": "Sinomine",
+   "owners": [
+    {
+     "n": "Sinomine Resource",
+     "pct": 100,
+     "cc": "CN",
+     "cl": "cnpriv"
+    }
+   ],
+   "ctrl_cc": "CN",
+   "ctrl_cls": "cnpriv",
+   "production": "n/a",
+   "share": null,
+   "share_unit": "Li",
+   "year": "",
+   "status": "Operating",
+   "src": [
+    "inn"
+   ],
+   "prec": "S",
+   "coord_src": "Q16254733"
+  },
+  {
+   "id": 43,
+   "name": "Arcadia",
+   "host": "ZW",
+   "lat": -17.82,
+   "lon": 31.38,
+   "primary": "Li",
+   "secondary": [],
+   "operator": "Huayou Cobalt",
+   "owners": [
+    {
+     "n": "Huayou Cobalt",
+     "pct": 100,
+     "cc": "CN",
+     "cl": "cnpriv"
+    }
+   ],
+   "ctrl_cc": "CN",
+   "ctrl_cls": "cnpriv",
+   "production": "n/a",
+   "share": null,
+   "share_unit": "Li",
+   "year": "",
+   "status": "Operating",
+   "src": [
+    "inn"
+   ],
+   "prec": "A",
+   "coord_src": "A"
+  },
+  {
+   "id": 44,
+   "name": "Goulamina",
+   "host": "ML",
+   "lat": 11.3,
+   "lon": -7.4,
+   "primary": "Li",
+   "secondary": [],
+   "operator": "Ganfeng Lithium",
+   "owners": [
+    {
+     "n": "Ganfeng Lithium",
+     "pct": null,
+     "cc": "CN",
+     "cl": "cnpriv"
+    },
+    {
+     "n": "Govt of Mali",
+     "pct": null,
+     "cc": "ML",
+     "cl": "state"
+    }
+   ],
+   "ctrl_cc": "CN",
+   "ctrl_cls": "cnpriv",
+   "production": "n/a (first output Dec 2024)",
+   "share": null,
+   "share_unit": "Li",
+   "year": "",
+   "status": "Ramping",
+   "src": [
+    "inn"
+   ],
+   "prec": "A",
+   "coord_src": "A"
+  },
+  {
+   "id": 45,
+   "name": "Qarhan Salt Lake",
+   "host": "CN",
+   "lat": 36.8879,
+   "lon": 95.1099,
+   "primary": "Li",
+   "secondary": [
+    "K"
+   ],
+   "operator": "Qinghai Salt Lake",
+   "owners": [
+    {
+     "n": "Qinghai Salt Lake (China Minmetals)",
+     "pct": 100,
+     "cc": "CN",
+     "cl": "cnsoe"
+    }
+   ],
+   "ctrl_cc": "CN",
+   "ctrl_cls": "cnsoe",
+   "production": "n/a",
+   "share": null,
+   "share_unit": "Li",
+   "year": "",
+   "status": "Operating",
+   "src": [
+    "inn"
+   ],
+   "prec": "D",
+   "coord_src": "D"
+  },
+  {
+   "id": 46,
+   "name": "Jianxiawo lepidolite (Yichun)",
+   "host": "CN",
+   "lat": 28.613,
+   "lon": 114.961,
+   "primary": "Li",
+   "secondary": [],
+   "operator": "CATL",
+   "owners": [
+    {
+     "n": "CATL",
+     "pct": 100,
+     "cc": "CN",
+     "cl": "cnpriv"
+    }
+   ],
+   "ctrl_cc": "CN",
+   "ctrl_cls": "cnpriv",
+   "production": "n/a (suspended Aug 2025)",
+   "share": null,
+   "share_unit": "Li",
+   "year": "",
+   "status": "Suspended",
+   "src": [
+    "inn"
+   ],
+   "prec": "S",
+   "coord_src": "WP"
+  },
+  {
+   "id": 47,
+   "name": "Silver Peak",
+   "host": "US",
+   "lat": 37.75,
+   "lon": -117.5773,
+   "primary": "Li",
+   "secondary": [],
+   "operator": "Albemarle",
+   "owners": [
+    {
+     "n": "Albemarle",
+     "pct": 100,
+     "cc": "US",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "US",
+   "ctrl_cls": "priv",
+   "production": "n/a (only US Li producer)",
+   "share": null,
+   "share_unit": "Li",
+   "year": "",
+   "status": "Operating",
+   "src": [
+    "usgs"
+   ],
+   "prec": "S",
+   "coord_src": "I"
+  },
+  {
+   "id": 48,
+   "name": "Thacker Pass",
+   "host": "US",
+   "lat": 41.6964,
+   "lon": -118.0151,
+   "primary": "Li",
+   "secondary": [],
+   "operator": "Lithium Americas",
+   "owners": [
+    {
+     "n": "Lithium Americas",
+     "pct": 62,
+     "cc": "CA",
+     "cl": "priv"
+    },
+    {
+     "n": "General Motors",
+     "pct": 38,
+     "cc": "US",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "CA",
+   "ctrl_cls": "priv",
+   "production": "Development",
+   "share": null,
+   "share_unit": "Li",
+   "year": "",
+   "status": "Construction",
+   "src": [
+    "usgs"
+   ],
+   "prec": "S",
+   "coord_src": "Q137843953"
+  },
+  {
+   "id": 49,
+   "name": "Bayan Obo",
+   "host": "CN",
+   "lat": 41.8106,
+   "lon": 109.9736,
+   "primary": "REE",
+   "secondary": [
+    "Fe",
+    "Nb"
+   ],
+   "operator": "China Northern Rare Earth",
+   "owners": [
+    {
+     "n": "China Northern Rare Earth (Baotou Steel)",
+     "pct": 100,
+     "cc": "CN",
+     "cl": "cnsoe"
+    }
+   ],
+   "ctrl_cc": "CN",
+   "ctrl_cls": "cnsoe",
+   "production": "n/a (China quota 270 kt REO national)",
+   "share": null,
+   "share_unit": "REE",
+   "year": "",
+   "status": "Operating",
+   "src": [
+    "usgs"
+   ],
+   "prec": "S",
+   "coord_src": "Q812094"
+  },
+  {
+   "id": 50,
+   "name": "Mountain Pass",
+   "host": "US",
+   "lat": 35.4786,
+   "lon": -115.5325,
+   "primary": "REE",
+   "secondary": [],
+   "operator": "MP Materials",
+   "owners": [
+    {
+     "n": "MP Materials",
+     "pct": 100,
+     "cc": "US",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "US",
+   "ctrl_cls": "priv",
+   "production": "45.5 kt REO in conc.",
+   "share": 11.96,
+   "share_unit": "REE",
+   "year": "2024",
+   "status": "Operating (DoD equity 2025)",
+   "src": [
+    "mp"
+   ],
+   "prec": "S",
+   "coord_src": "Q4285560"
+  },
+  {
+   "id": 51,
+   "name": "Mount Weld",
+   "host": "AU",
+   "lat": -28.86,
+   "lon": 122.548,
+   "primary": "REE",
+   "secondary": [],
+   "operator": "Lynas",
+   "owners": [
+    {
+     "n": "Lynas Rare Earths",
+     "pct": 100,
+     "cc": "AU",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "AU",
+   "ctrl_cls": "priv",
+   "production": "10.5 kt REO ready for sale (Lynas)",
+   "share": 2.75,
+   "share_unit": "REE",
+   "year": "FY2025",
+   "status": "Operating",
+   "src": [
+    "lynas"
+   ],
+   "prec": "S",
+   "coord_src": "Q1950809"
+  },
+  {
+   "id": 52,
+   "name": "Kachin State (Pangwa/Chipwi)",
+   "host": "MM",
+   "lat": 25.9,
+   "lon": 98.4,
+   "primary": "REE",
+   "secondary": [],
+   "operator": "Informal / militia-controlled",
+   "owners": [
+    {
+     "n": "Kachin militias / Chinese buyers",
+     "pct": null,
+     "cc": "MM",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "MM",
+   "ctrl_cls": "priv",
+   "production": "27 kt REO (Burma national)",
+   "share": 7.11,
+   "share_unit": "REE",
+   "year": "2024",
+   "status": "Conflict-affected",
+   "src": [
+    "usgs"
+   ],
+   "prec": "D",
+   "coord_src": "D"
+  },
+  {
+   "id": 53,
+   "name": "Ganzhou ionic clays (Longnan)",
+   "host": "CN",
+   "lat": 24.9,
+   "lon": 114.8,
+   "primary": "REE",
+   "secondary": [],
+   "operator": "China Rare Earth Group",
+   "owners": [
+    {
+     "n": "China Rare Earth Group",
+     "pct": 100,
+     "cc": "CN",
+     "cl": "cnsoe"
+    }
+   ],
+   "ctrl_cc": "CN",
+   "ctrl_cls": "cnsoe",
+   "production": "n/a",
+   "share": null,
+   "share_unit": "REE",
+   "year": "",
+   "status": "Operating",
+   "src": [
+    "usgs"
+   ],
+   "prec": "D",
+   "coord_src": "D"
+  },
+  {
+   "id": 54,
+   "name": "Maoniuping",
+   "host": "CN",
+   "lat": 28.4478,
+   "lon": 101.9789,
+   "primary": "REE",
+   "secondary": [],
+   "operator": "Jiangxi Copper RE",
+   "owners": [
+    {
+     "n": "Sichuan Jiangxi Copper RE (Jiangxi Copper)",
+     "pct": null,
+     "cc": "CN",
+     "cl": "cnsoe"
+    }
+   ],
+   "ctrl_cc": "CN",
+   "ctrl_cls": "cnsoe",
+   "production": "n/a",
+   "share": null,
+   "share_unit": "REE",
+   "year": "",
+   "status": "Operating",
+   "src": [
+    "usgs"
+   ],
+   "prec": "W",
+   "coord_src": "Q24377198"
+  },
+  {
+   "id": 55,
+   "name": "Serra Verde (Pela Ema)",
+   "host": "BR",
+   "lat": -13.5275,
+   "lon": -48.2335,
+   "primary": "REE",
+   "secondary": [],
+   "operator": "Serra Verde",
+   "owners": [
+    {
+     "n": "Serra Verde (Denham/EMG/Vision Blue)",
+     "pct": 100,
+     "cc": "BR",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "BR",
+   "ctrl_cls": "priv",
+   "production": "n/a (Brazil national 560 t REO)",
+   "share": null,
+   "share_unit": "REE",
+   "year": "",
+   "status": "Ramping",
+   "src": [
+    "usgs"
+   ],
+   "prec": "S",
+   "coord_src": "I"
+  },
+  {
+   "id": 56,
+   "name": "Balama",
+   "host": "MZ",
+   "lat": -13.33,
+   "lon": 38.57,
+   "primary": "C",
+   "secondary": [],
+   "operator": "Syrah Resources",
+   "owners": [
+    {
+     "n": "Syrah Resources",
+     "pct": 100,
+     "cc": "AU",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "AU",
+   "ctrl_cls": "priv",
+   "production": "35 kt natural graphite",
+   "share": 2.26,
+   "share_unit": "C",
+   "year": "2024",
+   "status": "Campaign operation",
+   "src": [
+    "syrah"
+   ],
+   "prec": "A",
+   "coord_src": "A"
+  },
+  {
+   "id": 57,
+   "name": "Jixi–Luobei flake cluster",
+   "host": "CN",
+   "lat": 47.1,
+   "lon": 130.8,
+   "primary": "C",
+   "secondary": [],
+   "operator": "Multiple (Heilongjiang)",
+   "owners": [
+    {
+     "n": "Heilongjiang graphite producers",
+     "pct": null,
+     "cc": "CN",
+     "cl": "cnsoe"
+    }
+   ],
+   "ctrl_cc": "CN",
+   "ctrl_cls": "cnsoe",
+   "production": "n/a (China national 1.27 Mt)",
+   "share": null,
+   "share_unit": "C",
+   "year": "",
+   "status": "Operating",
+   "src": [
+    "usgs"
+   ],
+   "prec": "D",
+   "coord_src": "D"
+  },
+  {
+   "id": 58,
+   "name": "Molo",
+   "host": "MG",
+   "lat": -23.9,
+   "lon": 44.8,
+   "primary": "C",
+   "secondary": [],
+   "operator": "NextSource Materials",
+   "owners": [
+    {
+     "n": "NextSource Materials",
+     "pct": 100,
+     "cc": "CA",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "CA",
+   "ctrl_cls": "priv",
+   "production": "n/a (17 ktpa capacity)",
+   "share": null,
+   "share_unit": "C",
+   "year": "",
+   "status": "Operating",
+   "src": [
+    "inn"
+   ],
+   "prec": "A",
+   "coord_src": "A"
+  },
+  {
+   "id": 59,
+   "name": "Pedra Azul",
+   "host": "BR",
+   "lat": -16,
+   "lon": -41.3,
+   "primary": "C",
+   "secondary": [],
+   "operator": "Nacional de Grafite",
+   "owners": [
+    {
+     "n": "Nacional de Grafite",
+     "pct": 100,
+     "cc": "BR",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "BR",
+   "ctrl_cls": "priv",
+   "production": "n/a",
+   "share": null,
+   "share_unit": "C",
+   "year": "",
+   "status": "Operating",
+   "src": [
+    "usgs"
+   ],
+   "prec": "D",
+   "coord_src": "D"
+  },
+  {
+   "id": 60,
+   "name": "Xianglushan",
+   "host": "CN",
+   "lat": 28.87,
+   "lon": 115.3,
+   "primary": "W",
+   "secondary": [],
+   "operator": "Jiangxi Tungsten",
+   "owners": [
+    {
+     "n": "Jiangxi Tungsten / China Minmetals",
+     "pct": null,
+     "cc": "CN",
+     "cl": "cnsoe"
+    }
+   ],
+   "ctrl_cc": "CN",
+   "ctrl_cls": "cnsoe",
+   "production": "n/a",
+   "share": null,
+   "share_unit": "W",
+   "year": "",
+   "status": "Operating",
+   "src": [
+    "w"
+   ],
+   "prec": "A",
+   "coord_src": "A"
+  },
+  {
+   "id": 61,
+   "name": "Shizhuyuan",
+   "host": "CN",
+   "lat": 25.7167,
+   "lon": 113.1667,
+   "primary": "W",
+   "secondary": [
+    "Bi",
+    "Mo"
+   ],
+   "operator": "Hunan Shizhuyuan Nonferrous",
+   "owners": [
+    {
+     "n": "Hunan Nonferrous (China Minmetals)",
+     "pct": 100,
+     "cc": "CN",
+     "cl": "cnsoe"
+    }
+   ],
+   "ctrl_cc": "CN",
+   "ctrl_cls": "cnsoe",
+   "production": "n/a",
+   "share": null,
+   "share_unit": "W",
+   "year": "",
+   "status": "Operating",
+   "src": [
+    "w"
+   ],
+   "prec": "W",
+   "coord_src": "Q12172652"
+  },
+  {
+   "id": 62,
+   "name": "Luanchuan (Sandaozhuang)",
+   "host": "CN",
+   "lat": 33.9175,
+   "lon": 111.4992,
+   "primary": "Mo",
+   "secondary": [
+    "W"
+   ],
+   "operator": "CMOC",
+   "owners": [
+    {
+     "n": "CMOC Group",
+     "pct": 100,
+     "cc": "CN",
+     "cl": "cnsoe"
+    }
+   ],
+   "ctrl_cc": "CN",
+   "ctrl_cls": "cnsoe",
+   "production": "15.4 kt Mo; 8.3 kt W products",
+   "share": null,
+   "share_unit": "Mo",
+   "year": "2024",
+   "status": "Operating",
+   "src": [
+    "cmoc"
+   ],
+   "prec": "S",
+   "coord_src": "I"
+  },
+  {
+   "id": 63,
+   "name": "Nui Phao",
+   "host": "VN",
+   "lat": 21.63,
+   "lon": 105.68,
+   "primary": "W",
+   "secondary": [
+    "Bi",
+    "C"
+   ],
+   "operator": "Masan High-Tech Materials",
+   "owners": [
+    {
+     "n": "Masan High-Tech Materials",
+     "pct": 100,
+     "cc": "VN",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "VN",
+   "ctrl_cls": "priv",
+   "production": "n/a (Vietnam national 3.4 kt W)",
+   "share": null,
+   "share_unit": "W",
+   "year": "",
+   "status": "Operating",
+   "src": [
+    "w"
+   ],
+   "prec": "S",
+   "coord_src": "I"
+  },
+  {
+   "id": 64,
+   "name": "Mittersill",
+   "host": "AT",
+   "lat": 47.226,
+   "lon": 12.489,
+   "primary": "W",
+   "secondary": [],
+   "operator": "Wolfram Bergbau (Sandvik)",
+   "owners": [
+    {
+     "n": "Sandvik (Wolfram Bergbau)",
+     "pct": 100,
+     "cc": "SE",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "SE",
+   "ctrl_cls": "priv",
+   "production": "~800 t W",
+   "share": 0.98,
+   "share_unit": "W",
+   "year": "2024",
+   "status": "Operating",
+   "src": [
+    "w"
+   ],
+   "prec": "W",
+   "coord_src": "Q6883536"
+  },
+  {
+   "id": 65,
+   "name": "Panasqueira",
+   "host": "PT",
+   "lat": 40.15,
+   "lon": -7.75,
+   "primary": "W",
+   "secondary": [
+    "Sn",
+    "Cu"
+   ],
+   "operator": "Almonty",
+   "owners": [
+    {
+     "n": "Almonty Industries",
+     "pct": 100,
+     "cc": "US",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "US",
+   "ctrl_cls": "priv",
+   "production": "588 t WO3",
+   "share": null,
+   "share_unit": "W",
+   "year": "2024",
+   "status": "Operating",
+   "src": [
+    "w"
+   ],
+   "prec": "W",
+   "coord_src": "Q9054996"
+  },
+  {
+   "id": 66,
+   "name": "Sangdong",
+   "host": "KR",
+   "lat": 37.15,
+   "lon": 128.8333,
+   "primary": "W",
+   "secondary": [
+    "Mo"
+   ],
+   "operator": "Almonty",
+   "owners": [
+    {
+     "n": "Almonty Industries",
+     "pct": 100,
+     "cc": "US",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "US",
+   "ctrl_cls": "priv",
+   "production": "Commissioning 2025",
+   "share": null,
+   "share_unit": "W",
+   "year": "",
+   "status": "Commissioning",
+   "src": [
+    "w"
+   ],
+   "prec": "W",
+   "coord_src": "Q16979154"
+  },
+  {
+   "id": 67,
+   "name": "Xikuangshan",
+   "host": "CN",
+   "lat": 27.752,
+   "lon": 111.483,
+   "primary": "Sb",
+   "secondary": [],
+   "operator": "Hsikwangshan Twinkling Star",
+   "owners": [
+    {
+     "n": "Hunan Gold Group (Hsikwangshan Twinkling Star)",
+     "pct": null,
+     "cc": "CN",
+     "cl": "cnsoe"
+    }
+   ],
+   "ctrl_cc": "CN",
+   "ctrl_cls": "cnsoe",
+   "production": "n/a (40 ktpa product capacity)",
+   "share": null,
+   "share_unit": "Sb",
+   "year": "",
+   "status": "Operating",
+   "src": [
+    "sb"
+   ],
+   "prec": "W",
+   "coord_src": "Q8044426"
+  },
+  {
+   "id": 68,
+   "name": "Olimpiada",
+   "host": "RU",
+   "lat": 59.865,
+   "lon": 92.9156,
+   "primary": "Au",
+   "secondary": [
+    "Sb"
+   ],
+   "operator": "Polyus",
+   "owners": [
+    {
+     "n": "Polyus",
+     "pct": 100,
+     "cc": "RU",
+     "cl": "ru"
+    }
+   ],
+   "ctrl_cc": "RU",
+   "ctrl_cls": "ru",
+   "production": "8.6 kt Sb in conc. (1H only)",
+   "share": null,
+   "share_unit": "Au",
+   "year": "1H2024",
+   "status": "Operating",
+   "src": [
+    "sb"
+   ],
+   "prec": "S",
+   "coord_src": "I"
+  },
+  {
+   "id": 69,
+   "name": "Anzob",
+   "host": "TJ",
+   "lat": 39.18,
+   "lon": 68.85,
+   "primary": "Sb",
+   "secondary": [
+    "Hg"
+   ],
+   "operator": "Anzob Mining Combine",
+   "owners": [
+    {
+     "n": "Anzob / TALCO (Tajikistan)",
+     "pct": null,
+     "cc": "TJ",
+     "cl": "state"
+    }
+   ],
+   "ctrl_cc": "TJ",
+   "ctrl_cls": "state",
+   "production": "n/a (Tajikistan national 22 kt)",
+   "share": null,
+   "share_unit": "Sb",
+   "year": "",
+   "status": "Operating",
+   "src": [
+    "sb"
+   ],
+   "prec": "A",
+   "coord_src": "A"
+  },
+  {
+   "id": 70,
+   "name": "Stibnite",
+   "host": "US",
+   "lat": 44.9259,
+   "lon": -115.319,
+   "primary": "Sb",
+   "secondary": [
+    "Au"
+   ],
+   "operator": "Perpetua Resources",
+   "owners": [
+    {
+     "n": "Perpetua Resources",
+     "pct": 100,
+     "cc": "US",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "US",
+   "ctrl_cls": "priv",
+   "production": "Development (DoD-funded)",
+   "share": null,
+   "share_unit": "Sb",
+   "year": "",
+   "status": "Development",
+   "src": [
+    "sb"
+   ],
+   "prec": "S",
+   "coord_src": "I"
+  },
+  {
+   "id": 71,
+   "name": "Mogalakwena",
+   "host": "ZA",
+   "lat": -23.9577,
+   "lon": 28.9192,
+   "primary": "PGM",
+   "secondary": [
+    "Ni",
+    "Cu"
+   ],
+   "operator": "Valterra Platinum",
+   "owners": [
+    {
+     "n": "Valterra Platinum (ex-Anglo Platinum)",
+     "pct": 100,
+     "cc": "ZA",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "ZA",
+   "ctrl_cls": "priv",
+   "production": "953 koz PGM",
+   "share": null,
+   "share_unit": "PGM",
+   "year": "2024",
+   "status": "Operating",
+   "src": [
+    "pgm"
+   ],
+   "prec": "S",
+   "coord_src": "I"
+  },
+  {
+   "id": 72,
+   "name": "Impala Rustenburg",
+   "host": "ZA",
+   "lat": -25.6883,
+   "lon": 27.2579,
+   "primary": "PGM",
+   "secondary": [
+    "Ni"
+   ],
+   "operator": "Implats",
+   "owners": [
+    {
+     "n": "Impala Platinum",
+     "pct": null,
+     "cc": "ZA",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "ZA",
+   "ctrl_cls": "priv",
+   "production": "n/a",
+   "share": null,
+   "share_unit": "PGM",
+   "year": "",
+   "status": "Operating",
+   "src": [
+    "pgm"
+   ],
+   "prec": "D",
+   "coord_src": "Q137938339"
+  },
+  {
+   "id": 73,
+   "name": "Marikana",
+   "host": "ZA",
+   "lat": -25.719,
+   "lon": 27.409,
+   "primary": "PGM",
+   "secondary": [],
+   "operator": "Sibanye-Stillwater",
+   "owners": [
+    {
+     "n": "Sibanye-Stillwater",
+     "pct": 100,
+     "cc": "ZA",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "ZA",
+   "ctrl_cls": "priv",
+   "production": "n/a",
+   "share": null,
+   "share_unit": "PGM",
+   "year": "",
+   "status": "Operating",
+   "src": [
+    "pgm"
+   ],
+   "prec": "S",
+   "coord_src": "Q137938366"
+  },
+  {
+   "id": 74,
+   "name": "Ngezi (Zimplats)",
+   "host": "ZW",
+   "lat": -18.6658,
+   "lon": 30.3564,
+   "primary": "PGM",
+   "secondary": [
+    "Ni"
+   ],
+   "operator": "Zimplats",
+   "owners": [
+    {
+     "n": "Impala Platinum",
+     "pct": 87,
+     "cc": "ZA",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "ZA",
+   "ctrl_cls": "priv",
+   "production": "646 koz 6E in matte",
+   "share": null,
+   "share_unit": "PGM",
+   "year": "FY2024",
+   "status": "Operating",
+   "src": [
+    "pgm"
+   ],
+   "prec": "S",
+   "coord_src": "Q16979254"
+  },
+  {
+   "id": 75,
+   "name": "Stillwater",
+   "host": "US",
+   "lat": 45.389,
+   "lon": -109.877,
+   "primary": "PGM",
+   "secondary": [],
+   "operator": "Sibanye-Stillwater",
+   "owners": [
+    {
+     "n": "Sibanye-Stillwater",
+     "pct": 100,
+     "cc": "ZA",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "ZA",
+   "ctrl_cls": "priv",
+   "production": "263 koz 2E",
+   "share": null,
+   "share_unit": "PGM",
+   "year": "2024",
+   "status": "Operating (restructured)",
+   "src": [
+    "ssw"
+   ],
+   "prec": "S",
+   "coord_src": "Q137938462"
+  },
+  {
+   "id": 76,
+   "name": "East Boulder",
+   "host": "US",
+   "lat": 45.5029,
+   "lon": -110.0857,
+   "primary": "PGM",
+   "secondary": [],
+   "operator": "Sibanye-Stillwater",
+   "owners": [
+    {
+     "n": "Sibanye-Stillwater",
+     "pct": 100,
+     "cc": "ZA",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "ZA",
+   "ctrl_cls": "priv",
+   "production": "163 koz 2E",
+   "share": null,
+   "share_unit": "PGM",
+   "year": "2024",
+   "status": "Operating",
+   "src": [
+    "ssw"
+   ],
+   "prec": "S",
+   "coord_src": "Q137851312"
+  },
+  {
+   "id": 77,
+   "name": "Moanda",
+   "host": "GA",
+   "lat": -1.53,
+   "lon": 13.27,
+   "primary": "Mn",
+   "secondary": [],
+   "operator": "Comilog",
+   "owners": [
+    {
+     "n": "Eramet",
+     "pct": 64,
+     "cc": "FR",
+     "cl": "priv"
+    },
+    {
+     "n": "Govt of Gabon",
+     "pct": 29,
+     "cc": "GA",
+     "cl": "state"
+    }
+   ],
+   "ctrl_cc": "FR",
+   "ctrl_cls": "priv",
+   "production": "6.8 Mt Mn ore",
+   "share": null,
+   "share_unit": "Mn",
+   "year": "2024",
+   "status": "Operating",
+   "src": [
+    "eramet"
+   ],
+   "prec": "S",
+   "coord_src": "I"
+  },
+  {
+   "id": 78,
+   "name": "Tshipi Borwa",
+   "host": "ZA",
+   "lat": -27.2954,
+   "lon": 22.9579,
+   "primary": "Mn",
+   "secondary": [],
+   "operator": "Tshipi é Ntle",
+   "owners": [
+    {
+     "n": "Ntsimbintle Holdings",
+     "pct": 50.1,
+     "cc": "ZA",
+     "cl": "priv"
+    },
+    {
+     "n": "Jupiter Mines",
+     "pct": 49.9,
+     "cc": "AU",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "ZA",
+   "ctrl_cls": "priv",
+   "production": "3.46 Mt Mn ore",
+   "share": null,
+   "share_unit": "Mn",
+   "year": "FY2024",
+   "status": "Operating",
+   "src": [
+    "jupiter"
+   ],
+   "prec": "S",
+   "coord_src": "I"
+  },
+  {
+   "id": 79,
+   "name": "Hotazel (Mamatwan/Wessels)",
+   "host": "ZA",
+   "lat": -27.2064,
+   "lon": 22.9175,
+   "primary": "Mn",
+   "secondary": [],
+   "operator": "South32",
+   "owners": [
+    {
+     "n": "South32",
+     "pct": 44.4,
+     "cc": "AU",
+     "cl": "priv"
+    },
+    {
+     "n": "Anglo American",
+     "pct": 29.6,
+     "cc": "GB",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "AU",
+   "ctrl_cls": "priv",
+   "production": "n/a",
+   "share": null,
+   "share_unit": "Mn",
+   "year": "",
+   "status": "Operating",
+   "src": [
+    "usgs"
+   ],
+   "prec": "S",
+   "coord_src": "Q21839548"
+  },
+  {
+   "id": 80,
+   "name": "Nchwaning / Gloria",
+   "host": "ZA",
+   "lat": -27.1292,
+   "lon": 22.838,
+   "primary": "Mn",
+   "secondary": [],
+   "operator": "Assmang",
+   "owners": [
+    {
+     "n": "African Rainbow Minerals",
+     "pct": 50,
+     "cc": "ZA",
+     "cl": "priv"
+    },
+    {
+     "n": "Assore",
+     "pct": 50,
+     "cc": "ZA",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "ZA",
+   "ctrl_cls": "priv",
+   "production": "n/a",
+   "share": null,
+   "share_unit": "Mn",
+   "year": "",
+   "status": "Operating",
+   "src": [
+    "usgs"
+   ],
+   "prec": "S",
+   "coord_src": "Q16963799"
+  },
+  {
+   "id": 81,
+   "name": "GEMCO (Groote Eylandt)",
+   "host": "AU",
+   "lat": -13.9769,
+   "lon": 136.4428,
+   "primary": "Mn",
+   "secondary": [],
+   "operator": "South32",
+   "owners": [
+    {
+     "n": "South32",
+     "pct": 60,
+     "cc": "AU",
+     "cl": "priv"
+    },
+    {
+     "n": "Anglo American",
+     "pct": 40,
+     "cc": "GB",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "AU",
+   "ctrl_cls": "priv",
+   "production": "n/a (cyclone outage 2024)",
+   "share": null,
+   "share_unit": "Mn",
+   "year": "",
+   "status": "Restarted 2025",
+   "src": [
+    "usgs"
+   ],
+   "prec": "S",
+   "coord_src": "Q131829584"
+  },
+  {
+   "id": 82,
+   "name": "Nsuta",
+   "host": "GH",
+   "lat": 5.3281,
+   "lon": -2.0327,
+   "primary": "Mn",
+   "secondary": [],
+   "operator": "Ghana Manganese Co.",
+   "owners": [
+    {
+     "n": "Consolidated Minerals (Ningxia Tianyuan)",
+     "pct": 90,
+     "cc": "CN",
+     "cl": "cnpriv"
+    }
+   ],
+   "ctrl_cc": "CN",
+   "ctrl_cls": "cnpriv",
+   "production": "n/a",
+   "share": null,
+   "share_unit": "Mn",
+   "year": "",
+   "status": "Operating",
+   "src": [
+    "usgs"
+   ],
+   "prec": "S",
+   "coord_src": "I"
+  },
+  {
+   "id": 83,
+   "name": "San Rafael",
+   "host": "PE",
+   "lat": -14.2327,
+   "lon": -70.3207,
+   "primary": "Sn",
+   "secondary": [],
+   "operator": "Minsur",
+   "owners": [
+    {
+     "n": "Minsur (Breca)",
+     "pct": 100,
+     "cc": "PE",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "PE",
+   "ctrl_cls": "priv",
+   "production": "36.3 kt refined Sn (Minsur, mostly San Rafael feed)",
+   "share": null,
+   "share_unit": "Sn",
+   "year": "2024",
+   "status": "Operating",
+   "src": [
+    "tin"
+   ],
+   "prec": "S",
+   "coord_src": "Q21838024"
+  },
+  {
+   "id": 84,
+   "name": "Bisie (Mpama)",
+   "host": "CD",
+   "lat": -1.03,
+   "lon": 27.73,
+   "primary": "Sn",
+   "secondary": [],
+   "operator": "Alphamin",
+   "owners": [
+    {
+     "n": "Alphamin Resources",
+     "pct": 84.14,
+     "cc": "CA",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "CA",
+   "ctrl_cls": "priv",
+   "production": "17.3 kt Sn contained",
+   "share": 5.89,
+   "share_unit": "Sn",
+   "year": "2024",
+   "status": "Operating",
+   "src": [
+    "tin"
+   ],
+   "prec": "W",
+   "coord_src": "Wikidata"
+  },
+  {
+   "id": 85,
+   "name": "Bangka-Belitung (PT Timah)",
+   "host": "ID",
+   "lat": -2.13,
+   "lon": 106.11,
+   "primary": "Sn",
+   "secondary": [],
+   "operator": "PT Timah",
+   "owners": [
+    {
+     "n": "PT Timah (MIND ID)",
+     "pct": 65,
+     "cc": "ID",
+     "cl": "state"
+    }
+   ],
+   "ctrl_cc": "ID",
+   "ctrl_cls": "state",
+   "production": "19.4 kt Sn ore; 18.9 kt refined",
+   "share": 6.61,
+   "share_unit": "Sn",
+   "year": "2024",
+   "status": "Operating",
+   "src": [
+    "tin"
+   ],
+   "prec": "D",
+   "coord_src": "D"
+  },
+  {
+   "id": 86,
+   "name": "Man Maw (Wa State)",
+   "host": "MM",
+   "lat": 22.47,
+   "lon": 98.95,
+   "primary": "Sn",
+   "secondary": [],
+   "operator": "Wa State authorities",
+   "owners": [
+    {
+     "n": "United Wa State Army",
+     "pct": null,
+     "cc": "MM",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "MM",
+   "ctrl_cls": "priv",
+   "production": "Suspended Aug 2023; restart 2025 (Myanmar 21.3 kt incl. stocks)",
+   "share": null,
+   "share_unit": "Sn",
+   "year": "2024",
+   "status": "Restarting",
+   "src": [
+    "tin"
+   ],
+   "prec": "A",
+   "coord_src": "A"
+  },
+  {
+   "id": 87,
+   "name": "Gejiu",
+   "host": "CN",
+   "lat": 23.36,
+   "lon": 103.15,
+   "primary": "Sn",
+   "secondary": [
+    "Cu",
+    "In"
+   ],
+   "operator": "Yunnan Tin",
+   "owners": [
+    {
+     "n": "Yunnan Tin Group",
+     "pct": null,
+     "cc": "CN",
+     "cl": "cnsoe"
+    }
+   ],
+   "ctrl_cc": "CN",
+   "ctrl_cls": "cnsoe",
+   "production": "n/a",
+   "share": null,
+   "share_unit": "Sn",
+   "year": "",
+   "status": "Operating",
+   "src": [
+    "tin"
+   ],
+   "prec": "D",
+   "coord_src": "D"
+  },
+  {
+   "id": 88,
+   "name": "Renison",
+   "host": "AU",
+   "lat": -41.789,
+   "lon": 145.437,
+   "primary": "Sn",
+   "secondary": [],
+   "operator": "Bluestone Mines Tasmania",
+   "owners": [
+    {
+     "n": "Metals X",
+     "pct": 50,
+     "cc": "AU",
+     "cl": "priv"
+    },
+    {
+     "n": "Yunnan Tin Group",
+     "pct": 50,
+     "cc": "CN",
+     "cl": "cnsoe"
+    }
+   ],
+   "ctrl_cc": "AU",
+   "ctrl_cls": "priv",
+   "production": "n/a",
+   "share": null,
+   "share_unit": "Sn",
+   "year": "",
+   "status": "Operating",
+   "src": [
+    "tin"
+   ],
+   "prec": "S",
+   "coord_src": "Q61536145"
+  },
+  {
+   "id": 89,
+   "name": "Panzhihua",
+   "host": "CN",
+   "lat": 26.58,
+   "lon": 101.72,
+   "primary": "V",
+   "secondary": [
+    "Ti",
+    "Fe"
+   ],
+   "operator": "Pangang Group",
+   "owners": [
+    {
+     "n": "Pangang Group (Panzhihua)",
+     "pct": 100,
+     "cc": "CN",
+     "cl": "cnsoe"
+    }
+   ],
+   "ctrl_cc": "CN",
+   "ctrl_cls": "cnsoe",
+   "production": "46.5 kt V2O5",
+   "share": 22.08,
+   "share_unit": "V",
+   "year": "2024",
+   "status": "Operating",
+   "src": [
+    "v"
+   ],
+   "prec": "D",
+   "coord_src": "D"
+  },
+  {
+   "id": 90,
+   "name": "Kachkanar",
+   "host": "RU",
+   "lat": 58.757,
+   "lon": 59.502,
+   "primary": "V",
+   "secondary": [
+    "Fe"
+   ],
+   "operator": "EVRAZ",
+   "owners": [
+    {
+     "n": "EVRAZ",
+     "pct": 100,
+     "cc": "RU",
+     "cl": "ru"
+    }
+   ],
+   "ctrl_cc": "RU",
+   "ctrl_cls": "ru",
+   "production": "28.0 kt V2O5",
+   "share": 13.29,
+   "share_unit": "V",
+   "year": "2024",
+   "status": "Operating",
+   "src": [
+    "v"
+   ],
+   "prec": "S",
+   "coord_src": "I"
+  },
+  {
+   "id": 91,
+   "name": "Chengde",
+   "host": "CN",
+   "lat": 40.95,
+   "lon": 117.95,
+   "primary": "V",
+   "secondary": [
+    "Fe",
+    "Ti"
+   ],
+   "operator": "HBIS Chengde",
+   "owners": [
+    {
+     "n": "HBIS Group",
+     "pct": 100,
+     "cc": "CN",
+     "cl": "cnsoe"
+    }
+   ],
+   "ctrl_cc": "CN",
+   "ctrl_cls": "cnsoe",
+   "production": "19.2 kt V2O5",
+   "share": 9.12,
+   "share_unit": "V",
+   "year": "2024",
+   "status": "Operating",
+   "src": [
+    "v"
+   ],
+   "prec": "D",
+   "coord_src": "D"
+  },
+  {
+   "id": 92,
+   "name": "Maracás Menchen",
+   "host": "BR",
+   "lat": -13.44,
+   "lon": -40.43,
+   "primary": "V",
+   "secondary": [],
+   "operator": "Largo",
+   "owners": [
+    {
+     "n": "Largo Inc",
+     "pct": 100,
+     "cc": "CA",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "CA",
+   "ctrl_cls": "priv",
+   "production": "9.3 kt V2O5",
+   "share": 4.42,
+   "share_unit": "V",
+   "year": "2024",
+   "status": "Operating",
+   "src": [
+    "v"
+   ],
+   "prec": "A",
+   "coord_src": "A"
+  },
+  {
+   "id": 93,
+   "name": "Rhovan",
+   "host": "ZA",
+   "lat": -25.6,
+   "lon": 27.6,
+   "primary": "V",
+   "secondary": [
+    "Fe"
+   ],
+   "operator": "Glencore",
+   "owners": [
+    {
+     "n": "Glencore",
+     "pct": 74,
+     "cc": "CH",
+     "cl": "priv"
+    },
+    {
+     "n": "Bauba Resources",
+     "pct": 26,
+     "cc": "ZA",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "CH",
+   "ctrl_cls": "priv",
+   "production": "8.3 kt V2O5",
+   "share": 3.94,
+   "share_unit": "V",
+   "year": "2024",
+   "status": "Operating",
+   "src": [
+    "v"
+   ],
+   "prec": "A",
+   "coord_src": "A"
+  },
+  {
+   "id": 94,
+   "name": "Vametco",
+   "host": "ZA",
+   "lat": -25.576,
+   "lon": 27.8979,
+   "primary": "V",
+   "secondary": [],
+   "operator": "Bushveld Minerals",
+   "owners": [
+    {
+     "n": "Bushveld Minerals",
+     "pct": null,
+     "cc": "ZA",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "ZA",
+   "ctrl_cls": "priv",
+   "production": "5.7 kt V2O5",
+   "share": 2.71,
+   "share_unit": "V",
+   "year": "2024",
+   "status": "Operating",
+   "src": [
+    "v"
+   ],
+   "prec": "S",
+   "coord_src": "Wikidata"
+  },
+  {
+   "id": 95,
+   "name": "Moma",
+   "host": "MZ",
+   "lat": -16.5475,
+   "lon": 39.6396,
+   "primary": "Ti",
+   "secondary": [
+    "Zr"
+   ],
+   "operator": "Kenmare",
+   "owners": [
+    {
+     "n": "Kenmare Resources",
+     "pct": 100,
+     "cc": "IE",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "IE",
+   "ctrl_cls": "priv",
+   "production": "1,009 kt ilmenite",
+   "share": null,
+   "share_unit": "Ti",
+   "year": "2024",
+   "status": "Operating",
+   "src": [
+    "kenmare"
+   ],
+   "prec": "S",
+   "coord_src": "I"
+  },
+  {
+   "id": 96,
+   "name": "Richards Bay Minerals",
+   "host": "ZA",
+   "lat": -28.7,
+   "lon": 32.1,
+   "primary": "Ti",
+   "secondary": [
+    "Zr",
+    "Fe"
+   ],
+   "operator": "Rio Tinto",
+   "owners": [
+    {
+     "n": "Rio Tinto",
+     "pct": 74,
+     "cc": "GB",
+     "cl": "priv"
+    },
+    {
+     "n": "Blue Horizon (BEE consortium)",
+     "pct": 26,
+     "cc": "ZA",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "GB",
+   "ctrl_cls": "priv",
+   "production": "n/a (Rio TiO2 slag total 990 kt)",
+   "share": null,
+   "share_unit": "Ti",
+   "year": "",
+   "status": "Operating",
+   "src": [
+    "rio"
+   ],
+   "prec": "A",
+   "coord_src": "A"
+  },
+  {
+   "id": 97,
+   "name": "Lac Tio (RTIT Québec)",
+   "host": "CA",
+   "lat": 50.5581,
+   "lon": -63.4176,
+   "primary": "Ti",
+   "secondary": [
+    "Sc"
+   ],
+   "operator": "Rio Tinto",
+   "owners": [
+    {
+     "n": "Rio Tinto",
+     "pct": 100,
+     "cc": "GB",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "GB",
+   "ctrl_cls": "priv",
+   "production": "n/a",
+   "share": null,
+   "share_unit": "Ti",
+   "year": "",
+   "status": "Operating",
+   "src": [
+    "rio"
+   ],
+   "prec": "S",
+   "coord_src": "I"
+  },
+  {
+   "id": 98,
+   "name": "QMM (Mandena)",
+   "host": "MG",
+   "lat": -24.959,
+   "lon": 47.014,
+   "primary": "Ti",
+   "secondary": [
+    "Zr"
+   ],
+   "operator": "Rio Tinto",
+   "owners": [
+    {
+     "n": "Rio Tinto",
+     "pct": 80,
+     "cc": "GB",
+     "cl": "priv"
+    },
+    {
+     "n": "Govt of Madagascar (OMNIS)",
+     "pct": 20,
+     "cc": "MG",
+     "cl": "state"
+    }
+   ],
+   "ctrl_cc": "GB",
+   "ctrl_cls": "priv",
+   "production": "n/a",
+   "share": null,
+   "share_unit": "Ti",
+   "year": "",
+   "status": "Operating",
+   "src": [
+    "rio"
+   ],
+   "prec": "W",
+   "coord_src": "WP"
+  },
+  {
+   "id": 99,
+   "name": "Kwale",
+   "host": "KE",
+   "lat": -4.33,
+   "lon": 39.52,
+   "primary": "Ti",
+   "secondary": [
+    "Zr"
+   ],
+   "operator": "Base Titanium",
+   "owners": [
+    {
+     "n": "Energy Fuels",
+     "pct": 100,
+     "cc": "US",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "US",
+   "ctrl_cls": "priv",
+   "production": "n/a (nearing end of life)",
+   "share": null,
+   "share_unit": "Ti",
+   "year": "",
+   "status": "Operating",
+   "src": [
+    "usgs"
+   ],
+   "prec": "A",
+   "coord_src": "A"
+  },
+  {
+   "id": 100,
+   "name": "Tellnes",
+   "host": "NO",
+   "lat": 58.3344,
+   "lon": 6.4228,
+   "primary": "Ti",
+   "secondary": [],
+   "operator": "Titania AS",
+   "owners": [
+    {
+     "n": "Kronos Worldwide",
+     "pct": 100,
+     "cc": "US",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "US",
+   "ctrl_cls": "priv",
+   "production": "n/a",
+   "share": null,
+   "share_unit": "Ti",
+   "year": "",
+   "status": "Operating",
+   "src": [
+    "usgs"
+   ],
+   "prec": "S",
+   "coord_src": "Q16965948"
+  },
+  {
+   "id": 101,
+   "name": "Jacinth-Ambrosia",
+   "host": "AU",
+   "lat": -31.73,
+   "lon": 132.25,
+   "primary": "Ti",
+   "secondary": [
+    "Zr"
+   ],
+   "operator": "Iluka",
+   "owners": [
+    {
+     "n": "Iluka Resources",
+     "pct": 100,
+     "cc": "AU",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "AU",
+   "ctrl_cls": "priv",
+   "production": "n/a",
+   "share": null,
+   "share_unit": "Ti",
+   "year": "",
+   "status": "Operating",
+   "src": [
+    "usgs"
+   ],
+   "prec": "A",
+   "coord_src": "A"
+  },
+  {
+   "id": 102,
+   "name": "Red Dog",
+   "host": "US",
+   "lat": 68.0752,
+   "lon": -162.8364,
+   "primary": "Zn",
+   "secondary": [
+    "Pb",
+    "Ge"
+   ],
+   "operator": "Teck",
+   "owners": [
+    {
+     "n": "Teck Resources",
+     "pct": 100,
+     "cc": "CA",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "CA",
+   "ctrl_cls": "priv",
+   "production": "556 kt Zn in conc.",
+   "share": 4.67,
+   "share_unit": "Zn",
+   "year": "2024",
+   "status": "Operating",
+   "src": [
+    "teck"
+   ],
+   "prec": "S",
+   "coord_src": "Q1836979"
+  },
+  {
+   "id": 103,
+   "name": "Peñasquito",
+   "host": "MX",
+   "lat": 24.652,
+   "lon": -101.6736,
+   "primary": "Au",
+   "secondary": [
+    "Zn",
+    "Ag",
+    "Pb"
+   ],
+   "operator": "Newmont",
+   "owners": [
+    {
+     "n": "Newmont",
+     "pct": 100,
+     "cc": "US",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "US",
+   "ctrl_cls": "priv",
+   "production": "258 kt Zn",
+   "share": 2.17,
+   "share_unit": "Zn",
+   "year": "2024",
+   "status": "Operating",
+   "src": [
+    "zn"
+   ],
+   "prec": "S",
+   "coord_src": "I"
+  },
+  {
+   "id": 104,
+   "name": "Gamsberg",
+   "host": "ZA",
+   "lat": -29.25,
+   "lon": 18.97,
+   "primary": "Zn",
+   "secondary": [],
+   "operator": "Vedanta Zinc International",
+   "owners": [
+    {
+     "n": "Vedanta Zinc International",
+     "pct": null,
+     "cc": "IN",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "IN",
+   "ctrl_cls": "priv",
+   "production": "114 kt Zn",
+   "share": 0.96,
+   "share_unit": "Zn",
+   "year": "2024",
+   "status": "Operating",
+   "src": [
+    "zn"
+   ],
+   "prec": "S",
+   "coord_src": "I"
+  },
+  {
+   "id": 105,
+   "name": "Rampura Agucha",
+   "host": "IN",
+   "lat": 25.8458,
+   "lon": 74.752,
+   "primary": "Zn",
+   "secondary": [
+    "Pb",
+    "Ag"
+   ],
+   "operator": "Hindustan Zinc",
+   "owners": [
+    {
+     "n": "Hindustan Zinc (Vedanta)",
+     "pct": 61.8,
+     "cc": "IN",
+     "cl": "priv"
+    },
+    {
+     "n": "Govt of India",
+     "pct": 29.5,
+     "cc": "IN",
+     "cl": "state"
+    }
+   ],
+   "ctrl_cc": "IN",
+   "ctrl_cls": "priv",
+   "production": "n/a",
+   "share": null,
+   "share_unit": "Zn",
+   "year": "",
+   "status": "Operating",
+   "src": [
+    "zn"
+   ],
+   "prec": "S",
+   "coord_src": "I"
+  },
+  {
+   "id": 106,
+   "name": "Mount Isa (zinc ops)",
+   "host": "AU",
+   "lat": -20.7161,
+   "lon": 139.476,
+   "primary": "Zn",
+   "secondary": [
+    "Pb",
+    "Ag"
+   ],
+   "operator": "Glencore",
+   "owners": [
+    {
+     "n": "Glencore",
+     "pct": 100,
+     "cc": "CH",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "CH",
+   "ctrl_cls": "priv",
+   "production": "n/a",
+   "share": null,
+   "share_unit": "Zn",
+   "year": "",
+   "status": "Operating",
+   "src": [
+    "zn"
+   ],
+   "prec": "S",
+   "coord_src": "Q6921438"
+  },
+  {
+   "id": 107,
+   "name": "McArthur River",
+   "host": "AU",
+   "lat": -16.4432,
+   "lon": 136.0968,
+   "primary": "Zn",
+   "secondary": [
+    "Pb"
+   ],
+   "operator": "Glencore",
+   "owners": [
+    {
+     "n": "Glencore",
+     "pct": 100,
+     "cc": "CH",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "CH",
+   "ctrl_cls": "priv",
+   "production": "n/a",
+   "share": null,
+   "share_unit": "Zn",
+   "year": "",
+   "status": "Operating",
+   "src": [
+    "zn"
+   ],
+   "prec": "S",
+   "coord_src": "Q13218165"
+  },
+  {
+   "id": 108,
+   "name": "Dugald River",
+   "host": "AU",
+   "lat": -20.2,
+   "lon": 140.1,
+   "primary": "Zn",
+   "secondary": [
+    "Pb"
+   ],
+   "operator": "MMG",
+   "owners": [
+    {
+     "n": "MMG (China Minmetals)",
+     "pct": 100,
+     "cc": "CN",
+     "cl": "cnsoe"
+    }
+   ],
+   "ctrl_cc": "CN",
+   "ctrl_cls": "cnsoe",
+   "production": "n/a",
+   "share": null,
+   "share_unit": "Zn",
+   "year": "",
+   "status": "Operating",
+   "src": [
+    "zn"
+   ],
+   "prec": "A",
+   "coord_src": "A"
+  },
+  {
+   "id": 109,
+   "name": "Ozernoye",
+   "host": "RU",
+   "lat": 52.62,
+   "lon": 111.98,
+   "primary": "Zn",
+   "secondary": [
+    "Pb"
+   ],
+   "operator": "UMMC",
+   "owners": [
+    {
+     "n": "UMMC",
+     "pct": null,
+     "cc": "RU",
+     "cl": "ru"
+    }
+   ],
+   "ctrl_cc": "RU",
+   "ctrl_cls": "ru",
+   "production": "n/a",
+   "share": null,
+   "share_unit": "Zn",
+   "year": "",
+   "status": "Ramping",
+   "src": [
+    "zn"
+   ],
+   "prec": "A",
+   "coord_src": "A"
+  },
+  {
+   "id": 110,
+   "name": "Kipushi",
+   "host": "CD",
+   "lat": -11.7694,
+   "lon": 27.2356,
+   "primary": "Zn",
+   "secondary": [
+    "Ge",
+    "Cu"
+   ],
+   "operator": "Ivanhoe Mines",
+   "owners": [
+    {
+     "n": "Ivanhoe Mines (Kipushi)",
+     "pct": 68,
+     "cc": "CA",
+     "cl": "priv"
+    },
+    {
+     "n": "Gécamines",
+     "pct": 32,
+     "cc": "CD",
+     "cl": "state"
+    }
+   ],
+   "ctrl_cc": "CA",
+   "ctrl_cls": "priv",
+   "production": "n/a (restarted 2024; Ge-rich)",
+   "share": null,
+   "share_unit": "Zn",
+   "year": "",
+   "status": "Ramping",
+   "src": [
+    "usgs"
+   ],
+   "prec": "S",
+   "coord_src": "Q15100601"
+  },
+  {
+   "id": 111,
+   "name": "Huize",
+   "host": "CN",
+   "lat": 26.43,
+   "lon": 103.65,
+   "primary": "Zn",
+   "secondary": [
+    "Ge",
+    "Pb"
+   ],
+   "operator": "Yunnan Chihong Zinc & Germanium",
+   "owners": [
+    {
+     "n": "Yunnan Chihong (Chinalco)",
+     "pct": 100,
+     "cc": "CN",
+     "cl": "cnsoe"
+    }
+   ],
+   "ctrl_cc": "CN",
+   "ctrl_cls": "cnsoe",
+   "production": "n/a (major Ge source)",
+   "share": null,
+   "share_unit": "Zn",
+   "year": "",
+   "status": "Operating",
+   "src": [
+    "usgs"
+   ],
+   "prec": "A",
+   "coord_src": "A"
+  },
+  {
+   "id": 112,
+   "name": "Tara",
+   "host": "IE",
+   "lat": 53.6553,
+   "lon": -6.715,
+   "primary": "Zn",
+   "secondary": [
+    "Pb"
+   ],
+   "operator": "Boliden",
+   "owners": [
+    {
+     "n": "Boliden",
+     "pct": 100,
+     "cc": "SE",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "SE",
+   "ctrl_cls": "priv",
+   "production": "n/a",
+   "share": null,
+   "share_unit": "Zn",
+   "year": "",
+   "status": "Care & maintenance 2023–24",
+   "src": [
+    "zn"
+   ],
+   "prec": "S",
+   "coord_src": "Q7685105"
+  },
+  {
+   "id": 113,
+   "name": "SMB-Winning (Boké)",
+   "host": "GN",
+   "lat": 10.94,
+   "lon": -14.3,
+   "primary": "Al",
+   "secondary": [],
+   "operator": "SMB-Winning",
+   "owners": [
+    {
+     "n": "SMB-Winning Consortium",
+     "pct": null,
+     "cc": "CN",
+     "cl": "cnpriv"
+    }
+   ],
+   "ctrl_cc": "CN",
+   "ctrl_cls": "cnpriv",
+   "production": "~72 Mt bauxite (company-reported)",
+   "share": 16.82,
+   "share_unit": "Al",
+   "year": "2024",
+   "status": "Operating",
+   "src": [
+    "bx"
+   ],
+   "prec": "D",
+   "coord_src": "D"
+  },
+  {
+   "id": 114,
+   "name": "Weipa / Amrun",
+   "host": "AU",
+   "lat": -12.6635,
+   "lon": 141.9341,
+   "primary": "Al",
+   "secondary": [],
+   "operator": "Rio Tinto",
+   "owners": [
+    {
+     "n": "Rio Tinto",
+     "pct": 100,
+     "cc": "GB",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "GB",
+   "ctrl_cls": "priv",
+   "production": "37.1 Mt bauxite",
+   "share": 8.66,
+   "share_unit": "Al",
+   "year": "2024",
+   "status": "Operating",
+   "src": [
+    "rio"
+   ],
+   "prec": "S",
+   "coord_src": "Q28041233"
+  },
+  {
+   "id": 115,
+   "name": "Huntly",
+   "host": "AU",
+   "lat": -32.4835,
+   "lon": 116.1642,
+   "primary": "Al",
+   "secondary": [],
+   "operator": "Alcoa (AWAC)",
+   "owners": [
+    {
+     "n": "Alcoa",
+     "pct": 100,
+     "cc": "US",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "US",
+   "ctrl_cls": "priv",
+   "production": "22.2 Mt (GlobalData est.)",
+   "share": null,
+   "share_unit": "Al",
+   "year": "2023",
+   "status": "Operating",
+   "src": [
+    "bx"
+   ],
+   "prec": "S",
+   "coord_src": "I"
+  },
+  {
+   "id": 116,
+   "name": "CBG Sangarédi",
+   "host": "GN",
+   "lat": 11.1,
+   "lon": -13.7667,
+   "primary": "Al",
+   "secondary": [
+    "Ga"
+   ],
+   "operator": "CBG",
+   "owners": [
+    {
+     "n": "Halco (Alcoa/Rio/Dadco)",
+     "pct": 51,
+     "cc": "US",
+     "cl": "priv"
+    },
+    {
+     "n": "Govt of Guinea",
+     "pct": 49,
+     "cc": "GN",
+     "cl": "state"
+    }
+   ],
+   "ctrl_cc": "US",
+   "ctrl_cls": "priv",
+   "production": "14.3 Mt bauxite",
+   "share": 3.34,
+   "share_unit": "Al",
+   "year": "2024",
+   "status": "Operating",
+   "src": [
+    "rio"
+   ],
+   "prec": "S",
+   "coord_src": "Q24848822"
+  },
+  {
+   "id": 117,
+   "name": "Gove",
+   "host": "AU",
+   "lat": -12.1912,
+   "lon": 136.7348,
+   "primary": "Al",
+   "secondary": [],
+   "operator": "Rio Tinto",
+   "owners": [
+    {
+     "n": "Rio Tinto",
+     "pct": 100,
+     "cc": "GB",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "GB",
+   "ctrl_cls": "priv",
+   "production": "12.7 Mt bauxite",
+   "share": 2.97,
+   "share_unit": "Al",
+   "year": "2024",
+   "status": "Operating",
+   "src": [
+    "rio"
+   ],
+   "prec": "S",
+   "coord_src": "Q1540425"
+  },
+  {
+   "id": 118,
+   "name": "MRN Trombetas",
+   "host": "BR",
+   "lat": -1.47,
+   "lon": -56.38,
+   "primary": "Al",
+   "secondary": [],
+   "operator": "Mineração Rio do Norte",
+   "owners": [
+    {
+     "n": "MRN partners (Vale/South32/Rio/Hydro/CBA)",
+     "pct": 100,
+     "cc": "BR",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "BR",
+   "ctrl_cls": "priv",
+   "production": "11.5 Mt bauxite",
+   "share": 2.69,
+   "share_unit": "Al",
+   "year": "2024",
+   "status": "Operating",
+   "src": [
+    "rio"
+   ],
+   "prec": "D",
+   "coord_src": "D"
+  },
+  {
+   "id": 119,
+   "name": "GAC (Boké)",
+   "host": "GN",
+   "lat": 10.95,
+   "lon": -14.05,
+   "primary": "Al",
+   "secondary": [],
+   "operator": "Guinea Alumina Corp",
+   "owners": [
+    {
+     "n": "Emirates Global Aluminium",
+     "pct": 100,
+     "cc": "AE",
+     "cl": "state"
+    }
+   ],
+   "ctrl_cc": "AE",
+   "ctrl_cls": "state",
+   "production": "Licence revoked 2025",
+   "share": null,
+   "share_unit": "Al",
+   "year": "",
+   "status": "Halted",
+   "src": [
+    "usgs"
+   ],
+   "prec": "D",
+   "coord_src": "D"
+  },
+  {
+   "id": 120,
+   "name": "Boffa",
+   "host": "GN",
+   "lat": 10.18,
+   "lon": -14.04,
+   "primary": "Al",
+   "secondary": [
+    "Ga"
+   ],
+   "operator": "Chalco",
+   "owners": [
+    {
+     "n": "Chalco",
+     "pct": null,
+     "cc": "CN",
+     "cl": "cnsoe"
+    }
+   ],
+   "ctrl_cc": "CN",
+   "ctrl_cls": "cnsoe",
+   "production": "n/a",
+   "share": null,
+   "share_unit": "Al",
+   "year": "",
+   "status": "Operating",
+   "src": [
+    "usgs"
+   ],
+   "prec": "D",
+   "coord_src": "D"
+  },
+  {
+   "id": 121,
+   "name": "Pilbara system (17 mines)",
+   "host": "AU",
+   "lat": -22.6,
+   "lon": 117.8,
+   "primary": "Fe",
+   "secondary": [],
+   "operator": "Rio Tinto",
+   "owners": [
+    {
+     "n": "Rio Tinto",
+     "pct": 100,
+     "cc": "GB",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "GB",
+   "ctrl_cls": "priv",
+   "production": "328 Mt iron ore (100% basis)",
+   "share": 12.62,
+   "share_unit": "Fe",
+   "year": "2024",
+   "status": "Operating",
+   "src": [
+    "rio"
+   ],
+   "prec": "D",
+   "coord_src": "D"
+  },
+  {
+   "id": 122,
+   "name": "Roy Hill",
+   "host": "AU",
+   "lat": -22.6219,
+   "lon": 119.958,
+   "primary": "Fe",
+   "secondary": [],
+   "operator": "Hancock",
+   "owners": [
+    {
+     "n": "Hancock Prospecting",
+     "pct": 70,
+     "cc": "AU",
+     "cl": "priv"
+    },
+    {
+     "n": "Marubeni",
+     "pct": 15,
+     "cc": "JP",
+     "cl": "priv"
+    },
+    {
+     "n": "POSCO",
+     "pct": 12.5,
+     "cc": "KR",
+     "cl": "priv"
+    },
+    {
+     "n": "China Steel",
+     "pct": 2.5,
+     "cc": "TW",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "AU",
+   "ctrl_cls": "priv",
+   "production": "64 Mt iron ore",
+   "share": 2.46,
+   "share_unit": "Fe",
+   "year": "2024",
+   "status": "Operating",
+   "src": [
+    "fe"
+   ],
+   "prec": "S",
+   "coord_src": "Q7372950"
+  },
+  {
+   "id": 123,
+   "name": "Mt Whaleback (Newman)",
+   "host": "AU",
+   "lat": -23.3654,
+   "lon": 119.675,
+   "primary": "Fe",
+   "secondary": [],
+   "operator": "BHP",
+   "owners": [
+    {
+     "n": "BHP",
+     "pct": 85,
+     "cc": "AU",
+     "cl": "priv"
+    },
+    {
+     "n": "Mitsui / Itochu",
+     "pct": 15,
+     "cc": "JP",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "AU",
+   "ctrl_cls": "priv",
+   "production": "n/a",
+   "share": null,
+   "share_unit": "Fe",
+   "year": "",
+   "status": "Operating",
+   "src": [
+    "fe"
+   ],
+   "prec": "S",
+   "coord_src": "Q610345"
+  },
+  {
+   "id": 124,
+   "name": "Solomon Hub",
+   "host": "AU",
+   "lat": -22.24,
+   "lon": 117.85,
+   "primary": "Fe",
+   "secondary": [],
+   "operator": "Fortescue",
+   "owners": [
+    {
+     "n": "Fortescue",
+     "pct": 100,
+     "cc": "AU",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "AU",
+   "ctrl_cls": "priv",
+   "production": "n/a",
+   "share": null,
+   "share_unit": "Fe",
+   "year": "",
+   "status": "Operating",
+   "src": [
+    "fe"
+   ],
+   "prec": "A",
+   "coord_src": "A"
+  },
+  {
+   "id": 125,
+   "name": "Carajás S11D",
+   "host": "BR",
+   "lat": -6.38,
+   "lon": -50.35,
+   "primary": "Fe",
+   "secondary": [],
+   "operator": "Vale",
+   "owners": [
+    {
+     "n": "Vale",
+     "pct": 100,
+     "cc": "BR",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "BR",
+   "ctrl_cls": "priv",
+   "production": "n/a",
+   "share": null,
+   "share_unit": "Fe",
+   "year": "",
+   "status": "Operating",
+   "src": [
+    "fe"
+   ],
+   "prec": "A",
+   "coord_src": "A"
+  },
+  {
+   "id": 126,
+   "name": "Simandou",
+   "host": "GN",
+   "lat": 8.5167,
+   "lon": -8.9,
+   "primary": "Fe",
+   "secondary": [],
+   "operator": "WCS / Simfer",
+   "owners": [
+    {
+     "n": "Winning Consortium Simandou (Baowu et al.)",
+     "pct": null,
+     "cc": "CN",
+     "cl": "cnsoe"
+    },
+    {
+     "n": "Simfer (Rio Tinto/Chinalco)",
+     "pct": null,
+     "cc": "GB",
+     "cl": "priv"
+    },
+    {
+     "n": "Govt of Guinea",
+     "pct": 15,
+     "cc": "GN",
+     "cl": "state"
+    }
+   ],
+   "ctrl_cc": "GN",
+   "ctrl_cls": "state",
+   "production": "First shipment Nov 2025 (60 Mtpa design)",
+   "share": null,
+   "share_unit": "Fe",
+   "year": "",
+   "status": "Ramping",
+   "src": [
+    "fe"
+   ],
+   "prec": "W",
+   "coord_src": "Q16969455"
+  },
+  {
+   "id": 127,
+   "name": "Kiruna",
+   "host": "SE",
+   "lat": 67.8461,
+   "lon": 20.1488,
+   "primary": "Fe",
+   "secondary": [
+    "REE",
+    "P"
+   ],
+   "operator": "LKAB",
+   "owners": [
+    {
+     "n": "LKAB",
+     "pct": 100,
+     "cc": "SE",
+     "cl": "state"
+    }
+   ],
+   "ctrl_cc": "SE",
+   "ctrl_cls": "state",
+   "production": "n/a",
+   "share": null,
+   "share_unit": "Fe",
+   "year": "",
+   "status": "Operating",
+   "src": [
+    "fe"
+   ],
+   "prec": "S",
+   "coord_src": "Q2602547"
+  },
+  {
+   "id": 128,
+   "name": "McArthur River / Key Lake",
+   "host": "CA",
+   "lat": 57.7622,
+   "lon": -105.0539,
+   "primary": "U",
+   "secondary": [],
+   "operator": "Cameco",
+   "owners": [
+    {
+     "n": "Cameco",
+     "pct": 69.8,
+     "cc": "CA",
+     "cl": "priv"
+    },
+    {
+     "n": "Orano",
+     "pct": 30.2,
+     "cc": "FR",
+     "cl": "state"
+    }
+   ],
+   "ctrl_cc": "CA",
+   "ctrl_cls": "priv",
+   "production": "7,808 tU",
+   "share": 12.97,
+   "share_unit": "U",
+   "year": "2024",
+   "status": "Operating",
+   "src": [
+    "wna"
+   ],
+   "prec": "S",
+   "coord_src": "Q1345630"
+  },
+  {
+   "id": 129,
+   "name": "Cigar Lake",
+   "host": "CA",
+   "lat": 58.0686,
+   "lon": -104.541,
+   "primary": "U",
+   "secondary": [],
+   "operator": "Cameco",
+   "owners": [
+    {
+     "n": "Cameco",
+     "pct": 54.5,
+     "cc": "CA",
+     "cl": "priv"
+    },
+    {
+     "n": "Orano",
+     "pct": 40.5,
+     "cc": "FR",
+     "cl": "state"
+    },
+    {
+     "n": "TEPCO",
+     "pct": 5,
+     "cc": "JP",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "CA",
+   "ctrl_cls": "priv",
+   "production": "6,501 tU",
+   "share": 10.8,
+   "share_unit": "U",
+   "year": "2024",
+   "status": "Operating",
+   "src": [
+    "wna"
+   ],
+   "prec": "S",
+   "coord_src": "Q1091857"
+  },
+  {
+   "id": 130,
+   "name": "Husab",
+   "host": "NA",
+   "lat": -22.6122,
+   "lon": 15.0142,
+   "primary": "U",
+   "secondary": [],
+   "operator": "Swakop Uranium",
+   "owners": [
+    {
+     "n": "CGN (China General Nuclear)",
+     "pct": 90,
+     "cc": "CN",
+     "cl": "cnsoe"
+    },
+    {
+     "n": "Epangelo (Namibia)",
+     "pct": 10,
+     "cc": "NA",
+     "cl": "state"
+    }
+   ],
+   "ctrl_cc": "CN",
+   "ctrl_cls": "cnsoe",
+   "production": "4,437 tU",
+   "share": 7.37,
+   "share_unit": "U",
+   "year": "2024",
+   "status": "Operating",
+   "src": [
+    "wna"
+   ],
+   "prec": "S",
+   "coord_src": "Q16975819"
+  },
+  {
+   "id": 131,
+   "name": "Karatau (Budenovskoye 2)",
+   "host": "KZ",
+   "lat": 44.343,
+   "lon": 68.149,
+   "primary": "U",
+   "secondary": [],
+   "operator": "JV Karatau",
+   "owners": [
+    {
+     "n": "Uranium One (Rosatom)",
+     "pct": 50,
+     "cc": "RU",
+     "cl": "ru"
+    },
+    {
+     "n": "Kazatomprom",
+     "pct": 50,
+     "cc": "KZ",
+     "cl": "state"
+    }
+   ],
+   "ctrl_cc": "RU",
+   "ctrl_cls": "ru",
+   "production": "3,299 tU",
+   "share": 5.48,
+   "share_unit": "U",
+   "year": "2024",
+   "status": "Operating",
+   "src": [
+    "wna"
+   ],
+   "prec": "S",
+   "coord_src": "Q16976752"
+  },
+  {
+   "id": 132,
+   "name": "Inkai (sites 1–3)",
+   "host": "KZ",
+   "lat": 45.2821,
+   "lon": 67.5366,
+   "primary": "U",
+   "secondary": [],
+   "operator": "JV Inkai",
+   "owners": [
+    {
+     "n": "Kazatomprom",
+     "pct": 60,
+     "cc": "KZ",
+     "cl": "state"
+    },
+    {
+     "n": "Cameco",
+     "pct": 40,
+     "cc": "CA",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "KZ",
+   "ctrl_cls": "state",
+   "production": "2,992 tU",
+   "share": 4.97,
+   "share_unit": "U",
+   "year": "2024",
+   "status": "Operating",
+   "src": [
+    "wna"
+   ],
+   "prec": "W",
+   "coord_src": "Q1627371"
+  },
+  {
+   "id": 133,
+   "name": "Akdala & South Inkai 4",
+   "host": "KZ",
+   "lat": 45.168,
+   "lon": 67.495,
+   "primary": "U",
+   "secondary": [],
+   "operator": "Uranium One",
+   "owners": [
+    {
+     "n": "Uranium One (Rosatom)",
+     "pct": 70,
+     "cc": "RU",
+     "cl": "ru"
+    },
+    {
+     "n": "Kazatomprom",
+     "pct": 30,
+     "cc": "KZ",
+     "cl": "state"
+    }
+   ],
+   "ctrl_cc": "RU",
+   "ctrl_cls": "ru",
+   "production": "2,803 tU",
+   "share": 4.66,
+   "share_unit": "U",
+   "year": "2024",
+   "status": "Operating",
+   "src": [
+    "wna"
+   ],
+   "prec": "W",
+   "coord_src": "Q16977734"
+  },
+  {
+   "id": 134,
+   "name": "Olympic Dam",
+   "host": "AU",
+   "lat": -30.44,
+   "lon": 136.8731,
+   "primary": "U",
+   "secondary": [
+    "Cu",
+    "Au",
+    "Ag"
+   ],
+   "operator": "BHP",
+   "owners": [
+    {
+     "n": "BHP",
+     "pct": 100,
+     "cc": "AU",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "AU",
+   "ctrl_cls": "priv",
+   "production": "2,693 tU",
+   "share": 4.47,
+   "share_unit": "U",
+   "year": "2024",
+   "status": "Operating",
+   "src": [
+    "wna"
+   ],
+   "prec": "S",
+   "coord_src": "WP"
+  },
+  {
+   "id": 135,
+   "name": "Moinkum & Tortkuduk (KATCO)",
+   "host": "KZ",
+   "lat": 44.85,
+   "lon": 68.85,
+   "primary": "U",
+   "secondary": [],
+   "operator": "KATCO",
+   "owners": [
+    {
+     "n": "Orano",
+     "pct": 51,
+     "cc": "FR",
+     "cl": "state"
+    },
+    {
+     "n": "Kazatomprom",
+     "pct": 49,
+     "cc": "KZ",
+     "cl": "state"
+    }
+   ],
+   "ctrl_cc": "FR",
+   "ctrl_cls": "state",
+   "production": "2,388 tU",
+   "share": 3.97,
+   "share_unit": "U",
+   "year": "2024",
+   "status": "Operating",
+   "src": [
+    "wna"
+   ],
+   "prec": "D",
+   "coord_src": "D"
+  },
+  {
+   "id": 136,
+   "name": "Rössing",
+   "host": "NA",
+   "lat": -22.4808,
+   "lon": 15.0614,
+   "primary": "U",
+   "secondary": [],
+   "operator": "Rössing Uranium",
+   "owners": [
+    {
+     "n": "CNNC",
+     "pct": 69,
+     "cc": "CN",
+     "cl": "cnsoe"
+    }
+   ],
+   "ctrl_cc": "CN",
+   "ctrl_cls": "cnsoe",
+   "production": "2,205 tU",
+   "share": 3.66,
+   "share_unit": "U",
+   "year": "2024",
+   "status": "Operating",
+   "src": [
+    "wna"
+   ],
+   "prec": "S",
+   "coord_src": "Q1504704"
+  },
+  {
+   "id": 137,
+   "name": "Khorasan-U (Kharasan 1)",
+   "host": "KZ",
+   "lat": 44.9,
+   "lon": 65.5,
+   "primary": "U",
+   "secondary": [],
+   "operator": "Khorasan-U",
+   "owners": [
+    {
+     "n": "Kazatomprom",
+     "pct": null,
+     "cc": "KZ",
+     "cl": "state"
+    },
+    {
+     "n": "Uranium One (Rosatom)",
+     "pct": null,
+     "cc": "RU",
+     "cl": "ru"
+    }
+   ],
+   "ctrl_cc": "KZ",
+   "ctrl_cls": "state",
+   "production": "2,030 tU",
+   "share": 3.37,
+   "share_unit": "U",
+   "year": "2024",
+   "status": "Operating",
+   "src": [
+    "wna"
+   ],
+   "prec": "D",
+   "coord_src": "D"
+  },
+  {
+   "id": 138,
+   "name": "SOMAIR (Arlit)",
+   "host": "NE",
+   "lat": 18.7583,
+   "lon": 7.3348,
+   "primary": "U",
+   "secondary": [],
+   "operator": "SOMAIR",
+   "owners": [
+    {
+     "n": "Orano",
+     "pct": 63.4,
+     "cc": "FR",
+     "cl": "state"
+    },
+    {
+     "n": "Govt of Niger",
+     "pct": 36.6,
+     "cc": "NE",
+     "cl": "state"
+    }
+   ],
+   "ctrl_cc": "FR",
+   "ctrl_cls": "state",
+   "production": "Nationalised by Niger junta 2025",
+   "share": null,
+   "share_unit": "U",
+   "year": "",
+   "status": "Seized / halted exports",
+   "src": [
+    "wna"
+   ],
+   "prec": "S",
+   "coord_src": "I"
+  },
+  {
+   "id": 139,
+   "name": "Araxá (CBMM)",
+   "host": "BR",
+   "lat": -19.6597,
+   "lon": -46.917,
+   "primary": "Nb",
+   "secondary": [],
+   "operator": "CBMM",
+   "owners": [
+    {
+     "n": "CBMM (Moreira Salles)",
+     "pct": 70,
+     "cc": "BR",
+     "cl": "priv"
+    },
+    {
+     "n": "CN steel consortium (CITIC/Baosteel et al.)",
+     "pct": 15,
+     "cc": "CN",
+     "cl": "cnsoe"
+    },
+    {
+     "n": "JP-KR consortium (JFE/Nippon Steel/POSCO)",
+     "pct": 15,
+     "cc": "JP",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "BR",
+   "ctrl_cls": "priv",
+   "production": "95.7 kt FeNb-equiv. products sold",
+   "share": null,
+   "share_unit": "Nb",
+   "year": "2024",
+   "status": "Operating",
+   "src": [
+    "nb"
+   ],
+   "prec": "S",
+   "coord_src": "I"
+  },
+  {
+   "id": 140,
+   "name": "Catalão (CMOC Brasil)",
+   "host": "BR",
+   "lat": -18.15,
+   "lon": -47.85,
+   "primary": "Nb",
+   "secondary": [
+    "P"
+   ],
+   "operator": "CMOC",
+   "owners": [
+    {
+     "n": "CMOC Group",
+     "pct": 100,
+     "cc": "CN",
+     "cl": "cnsoe"
+    }
+   ],
+   "ctrl_cc": "CN",
+   "ctrl_cls": "cnsoe",
+   "production": "10.0 kt Nb",
+   "share": 8.95,
+   "share_unit": "Nb",
+   "year": "2024",
+   "status": "Operating",
+   "src": [
+    "cmoc"
+   ],
+   "prec": "A",
+   "coord_src": "A"
+  },
+  {
+   "id": 141,
+   "name": "Niobec",
+   "host": "CA",
+   "lat": 48.5325,
+   "lon": -71.1588,
+   "primary": "Nb",
+   "secondary": [],
+   "operator": "Magris",
+   "owners": [
+    {
+     "n": "Magris Performance Materials",
+     "pct": 100,
+     "cc": "CA",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "CA",
+   "ctrl_cls": "priv",
+   "production": "7.1 kt Nb",
+   "share": 6.34,
+   "share_unit": "Nb",
+   "year": "2024",
+   "status": "Operating",
+   "src": [
+    "nb"
+   ],
+   "prec": "S",
+   "coord_src": "Q3342063"
+  },
+  {
+   "id": 142,
+   "name": "Donskoy (Khromtau)",
+   "host": "KZ",
+   "lat": 50.3062,
+   "lon": 58.4564,
+   "primary": "Cr",
+   "secondary": [],
+   "operator": "Kazchrome (ERG)",
+   "owners": [
+    {
+     "n": "ERG (Eurasian Resources Group)",
+     "pct": 100,
+     "cc": "KZ",
+     "cl": "state"
+    }
+   ],
+   "ctrl_cc": "KZ",
+   "ctrl_cls": "state",
+   "production": "n/a",
+   "share": null,
+   "share_unit": "Cr",
+   "year": "",
+   "status": "Operating",
+   "src": [
+    "usgs"
+   ],
+   "prec": "S",
+   "coord_src": "I"
+  },
+  {
+   "id": 143,
+   "name": "Glencore-Merafe Chrome Venture",
+   "host": "ZA",
+   "lat": -25.55,
+   "lon": 27.35,
+   "primary": "Cr",
+   "secondary": [
+    "PGM"
+   ],
+   "operator": "Glencore",
+   "owners": [
+    {
+     "n": "Glencore",
+     "pct": 79.5,
+     "cc": "CH",
+     "cl": "priv"
+    },
+    {
+     "n": "Merafe Resources",
+     "pct": 20.5,
+     "cc": "ZA",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "CH",
+   "ctrl_cls": "priv",
+   "production": "n/a",
+   "share": null,
+   "share_unit": "Cr",
+   "year": "",
+   "status": "Operating",
+   "src": [
+    "usgs"
+   ],
+   "prec": "D",
+   "coord_src": "D"
+  },
+  {
+   "id": 144,
+   "name": "Soligorsk",
+   "host": "BY",
+   "lat": 52.8564,
+   "lon": 27.5312,
+   "primary": "K",
+   "secondary": [],
+   "operator": "Belaruskali",
+   "owners": [
+    {
+     "n": "Belaruskali (Belarus state)",
+     "pct": 100,
+     "cc": "BY",
+     "cl": "state"
+    }
+   ],
+   "ctrl_cc": "BY",
+   "ctrl_cls": "state",
+   "production": "n/a",
+   "share": null,
+   "share_unit": "K",
+   "year": "",
+   "status": "Operating (US/EU sanctions)",
+   "src": [
+    "usgs"
+   ],
+   "prec": "S",
+   "coord_src": "I"
+  },
+  {
+   "id": 145,
+   "name": "Berezniki–Solikamsk",
+   "host": "RU",
+   "lat": 59.4,
+   "lon": 56.8,
+   "primary": "K",
+   "secondary": [],
+   "operator": "Uralkali",
+   "owners": [
+    {
+     "n": "Uralkali",
+     "pct": 100,
+     "cc": "RU",
+     "cl": "ru"
+    }
+   ],
+   "ctrl_cc": "RU",
+   "ctrl_cls": "ru",
+   "production": "n/a",
+   "share": null,
+   "share_unit": "K",
+   "year": "",
+   "status": "Operating",
+   "src": [
+    "usgs"
+   ],
+   "prec": "D",
+   "coord_src": "D"
+  },
+  {
+   "id": 146,
+   "name": "Rocanville",
+   "host": "CA",
+   "lat": 50.4662,
+   "lon": -101.538,
+   "primary": "K",
+   "secondary": [],
+   "operator": "Nutrien",
+   "owners": [
+    {
+     "n": "Nutrien",
+     "pct": 100,
+     "cc": "CA",
+     "cl": "priv"
+    }
+   ],
+   "ctrl_cc": "CA",
+   "ctrl_cls": "priv",
+   "production": "n/a",
+   "share": null,
+   "share_unit": "K",
+   "year": "",
+   "status": "Operating",
+   "src": [
+    "usgs"
+   ],
+   "prec": "S",
+   "coord_src": "Q16965533"
+  }
+ ]
+}

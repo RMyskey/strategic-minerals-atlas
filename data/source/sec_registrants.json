@@ -1,0 +1,120 @@
+{
+ "_note": "US SEC registrants among tracked owners. CIKs from https://www.sec.gov/files/company_tickers.json (looked up 2026-10-25); the pipeline re-resolves CIKs by ticker each run.",
+ "registrants": [
+  {
+   "owner": "Freeport-McMoRan",
+   "ticker": "FCX",
+   "cik": 831259
+  },
+  {
+   "owner": "Newmont",
+   "ticker": "NEM",
+   "cik": 1164727
+  },
+  {
+   "owner": "MP Materials",
+   "ticker": "MP",
+   "cik": 1801368
+  },
+  {
+   "owner": "Albemarle",
+   "ticker": "ALB",
+   "cik": 915913
+  },
+  {
+   "owner": "Southern Copper (Grupo México)",
+   "ticker": "SCCO",
+   "cik": 1001838
+  },
+  {
+   "owner": "Rio Tinto",
+   "ticker": "RIO",
+   "cik": 863064
+  },
+  {
+   "owner": "BHP",
+   "ticker": "BHP",
+   "cik": 811809
+  },
+  {
+   "owner": "Vale",
+   "ticker": "VALE",
+   "cik": 917851
+  },
+  {
+   "owner": "Teck Resources",
+   "ticker": "TECK",
+   "cik": 886986
+  },
+  {
+   "owner": "SQM",
+   "ticker": "SQM",
+   "cik": 909037
+  },
+  {
+   "owner": "Alcoa",
+   "ticker": "AA",
+   "cik": 1675149
+  },
+  {
+   "owner": "Cameco",
+   "ticker": "CCJ",
+   "cik": 1009001
+  },
+  {
+   "owner": "Energy Fuels",
+   "ticker": "UUUU",
+   "cik": 1385849
+  },
+  {
+   "owner": "Sibanye-Stillwater",
+   "ticker": "SBSW",
+   "cik": 1786909
+  },
+  {
+   "owner": "General Motors",
+   "ticker": "GM",
+   "cik": 1467858
+  },
+  {
+   "owner": "Lithium Americas",
+   "ticker": "LAC",
+   "cik": 1966983
+  },
+  {
+   "owner": "Lithium Argentina",
+   "ticker": "LAR",
+   "cik": 1440972
+  },
+  {
+   "owner": "Nutrien",
+   "ticker": "NTR",
+   "cik": 1725964
+  },
+  {
+   "owner": "Kronos Worldwide",
+   "ticker": "KRO",
+   "cik": 1257640
+  },
+  {
+   "owner": "Perpetua Resources",
+   "ticker": "PPTA",
+   "cik": 1526243
+  },
+  {
+   "owner": "Buenaventura",
+   "ticker": "BVN",
+   "cik": 1013131
+  },
+  {
+   "owner": "Almonty Industries",
+   "ticker": "ALM",
+   "cik": 1670061
+  },
+  {
+   "owner": "CMOC Group",
+   "ticker": "CMCLF",
+   "cik": 1447960
+  }
+ ]
+}

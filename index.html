@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Strategic Mine Ownership Atlas | Quantum Xi</title>
+<meta name="description" content="Quantum Xi GEOINT decision-support tool: who owns the 147 mines that dominate world supply of US critical minerals. Live satellite map, ownership network, chart builder and data register.">
+<meta name="theme-color" content="#05080e">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/vendor/maplibre-gl-5.15.0/maplibre-gl.css">
+<link rel="stylesheet" href="assets/css/app.css">
+</head>
+<body>
+<div class="banner">UNCLASSIFIED // OPEN-SOURCE INFORMATION · Compiled 23 Oct 2026 · WGS 84</div>
+<header class="top">
+  <a class="brand" href="#map" aria-label="Quantum Xi home">
+    <svg class="logo" viewBox="0 0 40 40" aria-hidden="true"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#35e0ff"/><stop offset="1" stop-color="#7b5cff"/></linearGradient></defs><circle cx="20" cy="20" r="15" fill="none" stroke="url(#lg)" stroke-width="3"/><path d="M29 29 L36 36" stroke="url(#lg)" stroke-width="3.4" stroke-linecap="round"/><path d="M13 14h14M14.5 20h11M13 26h14" stroke="#e8f6ff" stroke-width="2.2" stroke-linecap="round"/></svg>
+    <span class="brand-txt"><b>QUANTUM XI</b><small>Strategic Mine Ownership Atlas</small></span>
+  </a>
+  <nav class="nav" id="nav">
+    <a href="#map">Map</a><a href="#intel">Intel</a><a href="#network">Network</a><a href="#charts">Chart builder</a><a href="#data">Data</a><a href="#findings">Findings</a><a href="#method">Method</a><a href="#sources">Sources</a><a href="#about">About</a>
+  </nav>
+  <button class="nav-toggle" id="navToggle" aria-label="Menu" aria-expanded="false">☰</button>
+</header>
+
+<div class="filterbar" id="filterbar">
+  <button class="fb-toggle" id="fbToggle" aria-expanded="false">Filters <span id="fbCount"></span></button>
+  <div class="fb-body" id="fbBody">
+    <label>Mineral<select id="fMin"></select></label>
+    <label>Owner HQ country<select id="fOcc"></select></label>
+    <label>Control type<select id="fCls"></select></label>
+    <label class="chk"><input type="checkbox" id="fCrit"> US-critical only</label>
+    <span class="selchip" id="selChip" hidden></span>
+    <button class="btn ghost" id="fReset">Reset</button>
+    <span class="fb-note" id="fbNote"></span>
+  </div>
+</div>
+
+<main>
+<section id="map" class="mapsec">
+  <div id="mapwrap" class="mapwrap">
+    <div id="mapcv" class="mapcv"></div>
+
+    <div class="m-search">
+      <input id="search" type="search" placeholder="Search mine, owner, country, mineral or lat, lon…" autocomplete="off" aria-label="Search">
+      <div id="searchList" class="search-list" hidden></div>
+    </div>
+
+    <div class="m-left">
+    <div class="m-panel m-layers" id="layersPanel">
+      <button class="m-head" id="layersHead" aria-expanded="true">Layers &amp; basemap <span>▾</span></button>
+      <div class="m-body">
+        <div class="seg" id="baseSeg">
+          <button data-b="dark">Dark</button><button data-b="sat">Satellite</button><button data-b="topo">Topo</button>
+        </div>
+        <label class="chk"><input type="checkbox" id="lRef" checked> Reference labels &amp; borders</label>
+        <label class="chk"><input type="checkbox" id="lHill"> Hillshade relief</label>
+        <label class="chk"><input type="checkbox" id="l3d"> 3D terrain &amp; tilt</label>
+        <label class="chk"><input type="checkbox" id="lGlobe"> Globe projection</label>
+        <hr>
+        <label class="chk"><input type="checkbox" id="lPts" checked> Mine points</label>
+        <label class="chk"><input type="checkbox" id="lPulse" checked> Alert pulse (last 30 days)</label>
+        <label class="chk"><input type="checkbox" id="lCl"> Cluster points</label>
+        <label class="chk"><input type="checkbox" id="lHeat"> Heatmap (share-weighted)</label>
+        <label class="chk"><input type="checkbox" id="lArcs"> Owner HQ → mine arcs</label>
+        <label class="chk"><input type="checkbox" id="lLab" checked> Mine labels</label>
+        <label class="chk"><input type="checkbox" id="lPrec" checked> Precision circles</label>
+        <label class="chk"><input type="checkbox" id="lChoro"> Country choropleth (USGS)</label>
+        <select id="choroMin" aria-label="Choropleth mineral"></select>
+        <hr>
+        <div class="row2"><button class="btn" id="measureBtn">📏 Measure</button><button class="btn ghost" id="homeBtn">⌂ World</button></div>
+        <div class="row2"><button class="btn ghost" id="expGeo">⬇ GeoJSON</button><button class="btn ghost" id="expCsv">⬇ CSV</button></div>
+      </div>
+    </div>
+
+    <div class="m-panel m-legend" id="legend">
+      <button class="m-head" id="legendHead" aria-expanded="true">Legend <span>▾</span></button>
+      <div class="m-body" id="legendBody"></div>
+    </div>
+    </div>
+
+    <aside class="m-detail" id="detail" hidden></aside>
+
+    <div class="m-measure" id="measureBox" hidden></div>
+    <div class="m-readout" id="readout">Move the cursor over the map</div>
+  </div>
+</section>
+
+<section id="kpi" class="band">
+  <div class="kpis" id="kpis"></div>
+  <div class="prices" id="prices" aria-label="Commodity prices"></div>
+</section>
+
+<section id="intel" class="sec">
+  <div class="sec-head">
+    <div><h2>Intel feed &amp; updates</h2><p>Automated alerts on ownership changes, suspensions, nationalisations and sanctions that name a tracked mine or owner (GDELT, Google News, MINING.COM), plus SEC filings by US-registered owners. Alerts are machine-matched headlines and have not been analyst-verified: open the source before acting. Curated atlas data is never changed automatically; possible changes go to the review queue.</p></div>
+    <div class="seg" id="iWin"><button data-d="7">7 days</button><button data-d="30" class="on">30 days</button><button data-d="120">120 days</button></div>
+  </div>
+  <div class="intel-grid">
+    <div class="card intel-main">
+      <div class="ibar"><div class="chips" id="iCats"></div><label class="chk"><input type="checkbox" id="iScope"> Only mines in current filters</label></div>
+      <div id="iList" class="ilist"></div>
+    </div>
+    <div class="intel-side">
+      <div class="card pad"><h3>Review queue <span class="badge" id="rCount">0</span></h3><div id="rList" class="rlist"></div></div>
+      <div class="card pad"><h3>Feed status</h3><div id="fStatus" class="fstatus"></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="network" class="sec">
+  <div class="sec-head">
+    <div><h2>Ownership network</h2><p>Owner companies link to the mines they hold; each mine links to its host country (hollow ring) and primary mineral (square). Mine size follows world share; owner, country and mineral size follows the number of holdings. Hover to trace connections, click any node to cross-filter the whole atlas, scroll or pinch to zoom, drag to pan.</p></div>
+    <div class="seg" id="gColor"><button data-c="control" class="on">Colour by control type</button><button data-c="country">Colour by owner HQ country</button></div>
+  </div>
+  <div class="card"><div id="graph" class="graph"></div><div class="glegend" id="gLegend"></div></div>
+</section>
+
+<section id="charts" class="sec">
+  <div class="sec-head"><div><h2>Chart builder</h2><p>Pick a chart type, a category, a value and a colour/group field. Charts update live and respect the global filters. Presets reproduce the atlas's standard concentration charts.</p></div></div>
+  <div class="presets" id="presets"></div>
+  <div class="builder">
+    <div class="card cb-controls" id="cbControls"></div>
+    <div class="card cb-chart"><div class="cb-title" id="cbTitle"></div><div id="chart" class="chart"></div><div class="cb-note" id="cbNote"></div></div>
+  </div>
+</section>
+
+<section id="data" class="sec">
+  <div class="sec-head"><div><h2>Mine register</h2><p>Production is the latest public annual figure, with units and year; n/a means no credible mine-level figure was found. Click a column header to sort and a row to locate the mine on the map.</p></div></div>
+  <div class="tbar">
+    <input id="tSearch" type="search" placeholder="Search the register…" aria-label="Search the register">
+    <div class="seg" id="tView"><button data-v="own" class="on">Ownership</button><button data-v="prod">Production</button><button data-v="us">US criticality</button><button data-v="geo">Geospatial</button></div>
+    <span class="tcount" id="tCount"></span>
+    <button class="btn ghost" id="tGeo">⬇ GeoJSON (filtered)</button><button class="btn ghost" id="tCsv">⬇ CSV (filtered)</button>
+  </div>
+  <div class="card tablewrap"><table class="dt" id="table"><thead></thead><tbody></tbody></table></div>
+  <p class="small">Full datasets: <a href="data/mines.geojson" download>mines.geojson</a> · <a href="data/mines.csv" download>mines.csv</a> · <a href="data/mines.json">mines.json</a> · <a href="data/usgs_country_production.json">usgs_country_production.json</a> · <a href="data/minerals.json">minerals.json</a> · <a href="data/sources.json">sources.json</a></p>
+
+  <h3 class="mt">US criticality reference</h3>
+  <p class="small">2025 USGS critical list (Federal Register, 7 Nov 2025); 2025 net import reliance from USGS Mineral Commodity Summaries 2026; NDS status from MCS 2026 Government Stockpile sections and the proposed FY2026 Annual Materials Plan.</p>
+  <div class="card tablewrap"><table class="dt" id="usTable"></table></div>
+</section>
+
+<section id="findings" class="sec">
+  <div class="sec-head"><div><h2>Key findings</h2></div></div>
+  <div class="callout">The United States is 100% import-reliant for natural graphite, manganese, niobium, gallium, tantalum, titanium sponge and heavy rare earths, and the mines that supply them sit mostly in China, Brazil, Gabon and South Africa.</div>
+  <ol class="findings">
+    <li><b>Cobalt</b> is the sharpest ownership concentration: CMOC's Tenke Fungurume and Kisanfu produced 114.2 kt in 2024, about 38% of world mine output, and CATL holds a further 23.75% of Kisanfu. US import reliance is 79%.</li>
+    <li><b>Rare earths:</b> China mined 69% of the world's rare earths in 2025 (270 of 390 kt REO, USGS), and Myanmar's militia-run Kachin mines feed Chinese separators. Mountain Pass, the only scaled US mine, supplied about 12% of 2024 output.</li>
+    <li><b>Uranium:</b> Chinese SOEs CGN and CNNC (about 15%) and Rosatom's Uranium One (about 10%) together controlled roughly a quarter of 2024 world production (WNA), and Niger's junta nationalised Orano's SOMAIR mine in 2025.</li>
+    <li><b>Nickel:</b> Indonesia supplied 67% of world nickel in 2025 (USGS), mostly through Chinese-built HPAL and smelting parks; Tsingshan-led Weda Bay alone is estimated at about 14% of world supply.</li>
+    <li><b>Copper</b> joined the critical list in 2025 and US import reliance rose to 57%. The largest copper mines are mostly Western-owned, but Chinese SOEs control Las Bambas and Tenke Fungurume and hold 39.6% of Kamoa-Kakula.</li>
+    <li><b>Tungsten</b> (79% Chinese), <b>antimony</b> (36% Chinese, plus Tajikistan and Russia) and <b>graphite</b> (78% Chinese) have almost no non-Chinese mine supply at scale; all three are DLA stockpile acquisition targets or under evaluation.</li>
+  </ol>
+</section>
+
+<section id="method" class="sec">
+  <div class="sec-head"><div><h2>Methodology, precision and data gaps</h2></div></div>
+  <div class="grid2">
+    <div class="card pad">
+      <p>Scope is the major producing mines, roughly the top five to ten per mineral by output, for the commodities that matter most to US supply chains, not every mine. Byproduct metals such as gallium, germanium and indium come from refineries rather than dedicated mines, so their sources appear as host mines (Huize, Kipushi, Red Dog, CBG, Boffa, Gejiu).</p>
+      <ul class="bul">
+        <li>Ownership is equity % from company reports, ICSG and WNA; the owner HQ flag and control type follow the largest known equity holder.</li>
+        <li>State-linked means Chinese SOEs or groups with a state or SASAC anchor shareholder (CMOC, Zijin, China Minmetals/MMG, CGN, CNNC, Chalco, Pangang), Russian state or sanctioned strategic firms (Rosatom, Nornickel, Polyus, EVRAZ, Uralkali, UMMC), or other governments (Codelco, Gécamines, MIND ID, Kazatomprom, KGHM, Orano).</li>
+        <li>Production is the latest annual figure found, mostly calendar 2024; fiscal-year figures are labelled FY, and nickel mine figures are GlobalData estimates for 2023.</li>
+        <li>World share divides mine output by the USGS 2024 world total in the same unit (WNA 2024 for uranium); spodumene, LCE, ore tonnes and PGM ounces are not converted, so those mines show no share (n/a).</li>
+        <li>Equity-attributed share (chart builder) splits a mine's world share by equity %; where an owner's % is unpublished the unallocated remainder is split evenly among those owners.</li>
+        <li>Gaps: no credible mine-level 2024 output was found for El Teniente, Morenci, Oyu Tolgoi, Bayan Obo, the Chinese tungsten, antimony and graphite mines, most manganese, titanium and PGM operations, Rampura Agucha, Carajás and the potash mines; Chinese mine-level data is especially thin.</li>
+        <li>Not used: S&amp;P Capital IQ and the IEA Critical Minerals Outlook (paywalled or country-level only); they could refine shares in a later update.</li>
+      </ul>
+    </div>
+    <div class="card pad">
+      <h3>Coordinate precision</h3>
+      <p id="precText"></p>
+      <table class="dt small" id="precTable"></table>
+      <ul class="bul">
+        <li>Datum WGS 84 (EPSG:4326). Coordinates are given to 4 decimal places; that is display precision, not accuracy. Use the precision class and circular error (CE) ring.</li>
+        <li>Map layers: the choropleth uses USGS MCS 2026 2025-estimate mine production by country (Pt+Pd for PGMs, ilmenite for titanium, usable ore for iron ore; US lithium and antimony are withheld; no uranium, which MCS does not cover). Arcs run from each foreign owner's HQ-country centroid to the mine (domestic owners are omitted); the heatmap is a kernel density of tracked mines weighted by world share.</li>
+        <li>MGRS is computed in-browser from WGS 84 (UTM zones with the Norway/Svalbard exceptions; polar regions n/a) to 1 m resolution.</li>
+        <li>Basemaps are live tiles: Esri World Imagery, Esri World Topographic, Esri Dark Gray Canvas, and Terrarium elevation tiles on AWS for hillshade and 3D terrain. Imagery dates vary by location; check the Esri metadata before using it for change detection.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="sources" class="sec">
+  <div class="sec-head"><div><h2>Sources</h2></div></div>
+  <div class="srcgrid" id="srcList"></div>
+</section>
+
+<section id="about" class="sec about">
+  <div class="card pad about-card">
+    <svg class="logo big" viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="15" fill="none" stroke="url(#lg)" stroke-width="3"/><path d="M29 29 L36 36" stroke="url(#lg)" stroke-width="3.4" stroke-linecap="round"/><path d="M13 14h14M14.5 20h11M13 26h14" stroke="#e8f6ff" stroke-width="2.2" stroke-linecap="round"/></svg>
+    <div>
+      <h2>About Quantum Xi</h2>
+      <p><b>Quantum Xi (Quantum X Innovations Group)</b> is a decision-support and geospatial-intelligence (GEOINT) firm. This atlas is a Quantum Xi open-source product: it fuses corporate ownership, production statistics, US criticality and stockpile status with verified mine locations, so analysts can see who controls the supply of strategic minerals and where.</p>
+      <p class="small">All content is compiled from public sources listed above. Figures marked n/a were not available from a credible public source and have not been estimated. This product is not an official assessment of any government agency.</p>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="foot"><div id="refreshLine" class="refresh"></div>© 2026 Quantum Xi (Quantum X Innovations Group) · Map data: Esri, Maxar, Earthstar Geographics, HERE, Garmin; © OpenStreetMap contributors; Natural Earth; USGS · Built with MapLibre GL JS and Apache ECharts</footer>
+
+<div class="toast" id="toast" hidden></div>
+<script src="assets/vendor/maplibre-gl-5.15.0/maplibre-gl.js"></script>
+<script src="assets/vendor/echarts-5.6.0/echarts.min.js"></script>
+<script src="assets/js/config.js"></script>
+<script src="assets/js/data.js"></script>
+<script src="assets/js/geo.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

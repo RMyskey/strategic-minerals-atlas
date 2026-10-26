@@ -1,0 +1,1190 @@
+{
+ "datum": "WGS 84 (EPSG:4326)",
+ "control_types": {
+  "cnsoe": {
+   "label": "Chinese SOE / state-linked",
+   "color": "#ff3b4e"
+  },
+  "cnpriv": {
+   "label": "Chinese private",
+   "color": "#ff9f43"
+  },
+  "ru": {
+   "label": "Russian state-linked / sanctioned",
+   "color": "#b06cff"
+  },
+  "state": {
+   "label": "Other state-owned",
+   "color": "#2ec4b6"
+  },
+  "priv": {
+   "label": "Private / listed",
+   "color": "#5b8def"
+  }
+ },
+ "precision": {
+  "S": {
+   "label": "Site-verified on imagery",
+   "ce_m": 1000
+  },
+  "W": {
+   "label": "Reference coordinate (not imagery-confirmed)",
+   "ce_m": 2500
+  },
+  "D": {
+   "label": "District or cluster centroid",
+   "ce_m": 25000
+  },
+  "A": {
+   "label": "Approximate (unverified)",
+   "ce_m": 15000
+  }
+ },
+ "minerals": {
+  "Cu": {
+   "l": "Copper",
+   "crit": true,
+   "nir": "57%",
+   "nds": "No stockpile",
+   "col": "#ff8a3d",
+   "nirN": 57
+  },
+  "Co": {
+   "l": "Cobalt",
+   "crit": true,
+   "nir": "79%",
+   "nds": "Yes (held; acquisitions)",
+   "col": "#3d8bff",
+   "nirN": 79
+  },
+  "Li": {
+   "l": "Lithium",
+   "crit": true,
+   "nir": ">50%",
+   "nds": "Not available",
+   "col": "#35f2b0",
+   "nirN": null
+  },
+  "Ni": {
+   "l": "Nickel",
+   "crit": true,
+   "nir": "41%",
+   "nds": "No (DOE contaminated Ni only)",
+   "col": "#9be15d",
+   "nirN": 41
+  },
+  "C": {
+   "l": "Graphite (natural)",
+   "crit": true,
+   "nir": "100%",
+   "nds": "None in MCS; iso-molded graphite acq. proposed",
+   "col": "#c8c8c8",
+   "nirN": 100
+  },
+  "REE": {
+   "l": "Rare earths",
+   "crit": true,
+   "nir": "67% (heavy REE 100%)",
+   "nds": "Yes (La, NdPr, NdFeB, SmCo acq.)",
+   "col": "#ff4fe6",
+   "nirN": 67
+  },
+  "W": {
+   "l": "Tungsten",
+   "crit": true,
+   "nir": ">50%",
+   "nds": "Yes (held; acquisitions)",
+   "col": "#f5e663",
+   "nirN": null
+  },
+  "Sb": {
+   "l": "Antimony",
+   "crit": true,
+   "nir": "91%",
+   "nds": "Yes (acquisitions)",
+   "col": "#c39bff",
+   "nirN": 91
+  },
+  "PGM": {
+   "l": "PGMs (Pt/Pd)",
+   "crit": true,
+   "nir": "Pt 89% / Pd 57%",
+   "nds": "Yes (Pt, Ir held)",
+   "col": "#eef0ff",
+   "nirN": 89
+  },
+  "Mn": {
+   "l": "Manganese",
+   "crit": true,
+   "nir": "100%",
+   "nds": "Yes (ferro/metal held; EMM acq.)",
+   "col": "#ff5d6c",
+   "nirN": 100
+  },
+  "Sn": {
+   "l": "Tin",
+   "crit": true,
+   "nir": "77%",
+   "nds": "Yes (held)",
+   "col": "#4fe0ff",
+   "nirN": 77
+  },
+  "V": {
+   "l": "Vanadium",
+   "crit": true,
+   "nir": "41%",
+   "nds": "No stockpile",
+   "col": "#ff9fd0",
+   "nirN": 41
+  },
+  "Ti": {
+   "l": "Titanium",
+   "crit": true,
+   "nir": "Sponge 100% / conc. 88%",
+   "nds": "Yes (titanium acq.)",
+   "col": "#8fb7ff",
+   "nirN": 88
+  },
+  "Zn": {
+   "l": "Zinc",
+   "crit": true,
+   "nir": "73% (refined)",
+   "nds": "Yes (held)",
+   "col": "#7c83ff",
+   "nirN": 73
+  },
+  "Al": {
+   "l": "Bauxite / aluminum",
+   "crit": true,
+   "nir": "Bauxite >75%; Al 60%",
+   "nds": "Aluminum acq. proposed",
+   "col": "#e0a96d",
+   "nirN": 60
+  },
+  "Fe": {
+   "l": "Iron ore",
+   "crit": false,
+   "nir": "Net exporter",
+   "nds": "No",
+   "col": "#a39e86",
+   "nirN": null
+  },
+  "U": {
+   "l": "Uranium",
+   "crit": true,
+   "nir": "n/a (not in MCS)",
+   "nds": "No (DOE reserve separate)",
+   "col": "#d4ff3d",
+   "nirN": null
+  },
+  "Nb": {
+   "l": "Niobium",
+   "crit": true,
+   "nir": "100%",
+   "nds": "Yes (ferroniobium acq.)",
+   "col": "#3dfff2",
+   "nirN": 100
+  },
+  "Cr": {
+   "l": "Chromium",
+   "crit": true,
+   "nir": "79%",
+   "nds": "Yes (ferrochromium held)",
+   "col": "#52c96b",
+   "nirN": 79
+  },
+  "K": {
+   "l": "Potash",
+   "crit": true,
+   "nir": "92%",
+   "nds": "No",
+   "col": "#ffc2b3",
+   "nirN": 92
+  },
+  "Au": {
+   "l": "Gold",
+   "crit": false,
+   "nir": "Net exporter",
+   "nds": "No (Treasury stocks)",
+   "col": "#ffc93d",
+   "nirN": null
+  },
+  "Mo": {
+   "l": "Molybdenum",
+   "crit": false,
+   "nir": "Net exporter",
+   "nds": "No",
+   "col": "#9a8cff",
+   "nirN": null
+  },
+  "Ag": {
+   "l": "Silver",
+   "crit": true,
+   "nir": "77%",
+   "nds": "No (Treasury stocks)",
+   "col": "#d9d9d9",
+   "nirN": 77
+  },
+  "Ge": {
+   "l": "Germanium",
+   "crit": true,
+   "nir": ">50%",
+   "nds": "Yes (held)",
+   "col": "#ffffff",
+   "nirN": null
+  },
+  "Ga": {
+   "l": "Gallium",
+   "crit": true,
+   "nir": "100%",
+   "nds": "Not available",
+   "col": "#ffffff",
+   "nirN": 100
+  },
+  "Ta": {
+   "l": "Tantalum",
+   "crit": true,
+   "nir": "100%",
+   "nds": "Yes (held)",
+   "col": "#ffffff",
+   "nirN": 100
+  },
+  "Pb": {
+   "l": "Lead",
+   "crit": true,
+   "nir": "33%",
+   "nds": "No",
+   "col": "#ffffff",
+   "nirN": 33
+  },
+  "Bi": {
+   "l": "Bismuth",
+   "crit": true,
+   "nir": "92%",
+   "nds": "No",
+   "col": "#ffffff",
+   "nirN": null
+  },
+  "Re": {
+   "l": "Rhenium",
+   "crit": true,
+   "nir": "75%",
+   "nds": "No",
+   "col": "#ffffff",
+   "nirN": null
+  },
+  "Cs": {
+   "l": "Cesium",
+   "crit": true,
+   "nir": "100%",
+   "nds": "No",
+   "col": "#ffffff",
+   "nirN": null
+  },
+  "Zr": {
+   "l": "Zirconium",
+   "crit": true,
+   "nir": "<25%",
+   "nds": "Zr-Hf acq. proposed",
+   "col": "#ffffff",
+   "nirN": null
+  },
+  "Sc": {
+   "l": "Scandium",
+   "crit": true,
+   "nir": "100%",
+   "nds": "No",
+   "col": "#ffffff",
+   "nirN": null
+  },
+  "In": {
+   "l": "Indium",
+   "crit": true,
+   "nir": "100%",
+   "nds": "No",
+   "col": "#ffffff",
+   "nirN": null
+  },
+  "P": {
+   "l": "Phosphate",
+   "crit": true,
+   "nir": "16%",
+   "nds": "No",
+   "col": "#ffffff",
+   "nirN": null
+  },
+  "Hg": {
+   "l": "Mercury",
+   "crit": false,
+   "nir": "n/a",
+   "nds": "No",
+   "col": "#ffffff",
+   "nirN": null
+  }
+ },
+ "countries": {
+  "AE": {
+   "name": "UAE",
+   "lon": 54.5,
+   "lat": 23.5
+  },
+  "AM": {
+   "name": "Armenia",
+   "lon": 44.8,
+   "lat": 40.5
+  },
+  "AR": {
+   "name": "Argentina",
+   "lon": -64.2,
+   "lat": -33.5
+  },
+  "AT": {
+   "name": "Austria",
+   "lon": 14.1,
+   "lat": 47.5
+  },
+  "AU": {
+   "name": "Australia",
+   "lon": 134,
+   "lat": -24.1
+  },
+  "BO": {
+   "name": "Bolivia",
+   "lon": -64.6,
+   "lat": -16.7
+  },
+  "BR": {
+   "name": "Brazil",
+   "lon": -49.6,
+   "lat": -12.1
+  },
+  "BY": {
+   "name": "Belarus",
+   "lon": 28.4,
+   "lat": 53.8
+  },
+  "CA": {
+   "name": "Canada",
+   "lon": -101.9,
+   "lat": 60.3
+  },
+  "CD": {
+   "name": "DR Congo",
+   "lon": 23.5,
+   "lat": -1.9
+  },
+  "CH": {
+   "name": "Switzerland",
+   "lon": 7.5,
+   "lat": 46.7
+  },
+  "CL": {
+   "name": "Chile",
+   "lon": -72.3,
+   "lat": -38.2
+  },
+  "CN": {
+   "name": "China",
+   "lon": 106.3,
+   "lat": 32.5
+  },
+  "CO": {
+   "name": "Colombia",
+   "lon": -73.2,
+   "lat": 3.4
+  },
+  "CU": {
+   "name": "Cuba",
+   "lon": -78,
+   "lat": 21.3
+  },
+  "DE": {
+   "name": "Germany",
+   "lon": 9.7,
+   "lat": 51
+  },
+  "ES": {
+   "name": "Spain",
+   "lon": -3.5,
+   "lat": 40.1
+  },
+  "FI": {
+   "name": "Finland",
+   "lon": 27.3,
+   "lat": 63.3
+  },
+  "FR": {
+   "name": "France",
+   "lon": 2.6,
+   "lat": 46.7
+  },
+  "GA": {
+   "name": "Gabon",
+   "lon": 11.8,
+   "lat": -0.4
+  },
+  "GB": {
+   "name": "United Kingdom",
+   "lon": -2.1,
+   "lat": 54.4
+  },
+  "GH": {
+   "name": "Ghana",
+   "lon": -1,
+   "lat": 7.7
+  },
+  "GN": {
+   "name": "Guinea",
+   "lon": -10,
+   "lat": 10.6
+  },
+  "GR": {
+   "name": "Greece",
+   "lon": 21.7,
+   "lat": 39.5
+  },
+  "GT": {
+   "name": "Guatemala",
+   "lon": -90.5,
+   "lat": 15
+  },
+  "ID": {
+   "name": "Indonesia",
+   "lon": 101.9,
+   "lat": -1
+  },
+  "IE": {
+   "name": "Ireland",
+   "lon": -7.8,
+   "lat": 53.1
+  },
+  "IL": {
+   "name": "Israel",
+   "lon": 34.8,
+   "lat": 30.9
+  },
+  "IN": {
+   "name": "India",
+   "lon": 79.4,
+   "lat": 22.7
+  },
+  "IR": {
+   "name": "Iran",
+   "lon": 54.9,
+   "lat": 32.2
+  },
+  "JM": {
+   "name": "Jamaica",
+   "lon": -77.3,
+   "lat": 18.1
+  },
+  "JO": {
+   "name": "Jordan",
+   "lon": 36.4,
+   "lat": 30.8
+  },
+  "JP": {
+   "name": "Japan",
+   "lon": 138.4,
+   "lat": 36.1
+  },
+  "KE": {
+   "name": "Kenya",
+   "lon": 37.9,
+   "lat": 0.5
+  },
+  "KG": {
+   "name": "Kyrgyzstan",
+   "lon": 74.5,
+   "lat": 41.7
+  },
+  "KP": {
+   "name": "North Korea",
+   "lon": 126.4,
+   "lat": 39.9
+  },
+  "KR": {
+   "name": "South Korea",
+   "lon": 128.1,
+   "lat": 36.4
+  },
+  "KZ": {
+   "name": "Kazakhstan",
+   "lon": 68.7,
+   "lat": 49.1
+  },
+  "LA": {
+   "name": "Laos",
+   "lon": 102.5,
+   "lat": 19.4
+  },
+  "LK": {
+   "name": "Sri Lanka",
+   "lon": 80.7,
+   "lat": 7.6
+  },
+  "MG": {
+   "name": "Madagascar",
+   "lon": 46.7,
+   "lat": -18.6
+  },
+  "ML": {
+   "name": "Mali",
+   "lon": -2,
+   "lat": 18.7
+  },
+  "MM": {
+   "name": "Myanmar",
+   "lon": 95.8,
+   "lat": 21.6
+  },
+  "MN": {
+   "name": "Mongolia",
+   "lon": 104.2,
+   "lat": 46
+  },
+  "MR": {
+   "name": "Mauritania",
+   "lon": -9.7,
+   "lat": 19.6
+  },
+  "MX": {
+   "name": "Mexico",
+   "lon": -102.3,
+   "lat": 23.9
+  },
+  "MY": {
+   "name": "Malaysia",
+   "lon": 113.8,
+   "lat": 2.5
+  },
+  "MZ": {
+   "name": "Mozambique",
+   "lon": 37.8,
+   "lat": -13.9
+  },
+  "NA": {
+   "name": "Namibia",
+   "lon": 17.1,
+   "lat": -20.6
+  },
+  "NE": {
+   "name": "Niger",
+   "lon": 9.5,
+   "lat": 17.4
+  },
+  "NG": {
+   "name": "Nigeria",
+   "lon": 7.5,
+   "lat": 9.4
+  },
+  "NO": {
+   "name": "Norway",
+   "lon": 9.7,
+   "lat": 61.4
+  },
+  "PA": {
+   "name": "Panama",
+   "lon": -80.4,
+   "lat": 8.7
+  },
+  "PE": {
+   "name": "Peru",
+   "lon": -72.9,
+   "lat": -13
+  },
+  "PG": {
+   "name": "Papua New Guinea",
+   "lon": 143.9,
+   "lat": -5.7
+  },
+  "PH": {
+   "name": "Philippines",
+   "lon": 122.5,
+   "lat": 11.2
+  },
+  "PK": {
+   "name": "Pakistan",
+   "lon": 68.5,
+   "lat": 29.3
+  },
+  "PL": {
+   "name": "Poland",
+   "lon": 19.5,
+   "lat": 52
+  },
+  "PT": {
+   "name": "Portugal",
+   "lon": -8.3,
+   "lat": 39.6
+  },
+  "RU": {
+   "name": "Russia",
+   "lon": 44.7,
+   "lat": 58.2
+  },
+  "RW": {
+   "name": "Rwanda",
+   "lon": 30.1,
+   "lat": -1.9
+  },
+  "SA": {
+   "name": "Saudi Arabia",
+   "lon": 44.7,
+   "lat": 23.8
+  },
+  "SE": {
+   "name": "Sweden",
+   "lon": 19,
+   "lat": 65.9
+  },
+  "SN": {
+   "name": "Senegal",
+   "lon": -14.8,
+   "lat": 15.1
+  },
+  "TH": {
+   "name": "Thailand",
+   "lon": 101.1,
+   "lat": 15.5
+  },
+  "TJ": {
+   "name": "Tajikistan",
+   "lon": 72.6,
+   "lat": 38.2
+  },
+  "TR": {
+   "name": "Turkey",
+   "lon": 34.5,
+   "lat": 39.3
+  },
+  "TW": {
+   "name": "Taiwan",
+   "lon": 120.9,
+   "lat": 23.7
+  },
+  "TZ": {
+   "name": "Tanzania",
+   "lon": 35,
+   "lat": -6.1
+  },
+  "UA": {
+   "name": "Ukraine",
+   "lon": 32.1,
+   "lat": 49.7
+  },
+  "US": {
+   "name": "United States",
+   "lon": -97.5,
+   "lat": 39.5
+  },
+  "UZ": {
+   "name": "Uzbekistan",
+   "lon": 64,
+   "lat": 41.7
+  },
+  "VN": {
+   "name": "Vietnam",
+   "lon": 105.4,
+   "lat": 21.7
+  },
+  "ZA": {
+   "name": "South Africa",
+   "lon": 23.7,
+   "lat": -29.7
+  },
+  "ZM": {
+   "name": "Zambia",
+   "lon": 26.4,
+   "lat": -14.7
+  },
+  "ZW": {
+   "name": "Zimbabwe",
+   "lon": 29.9,
+   "lat": -18.9
+  }
+ },
+ "usgs_country_production": {
+  "Cu": {
+   "unit": "kt Cu",
+   "world": 23000,
+   "v": {
+    "US": 1000,
+    "AU": 730,
+    "CA": 500,
+    "CL": 5300,
+    "CN": 1800,
+    "CD": 3200,
+    "IN": 23,
+    "ID": 710,
+    "KZ": 710,
+    "MX": 690,
+    "PE": 2700,
+    "PL": 410,
+    "RU": 1300,
+    "ZM": 940
+   }
+  },
+  "Co": {
+   "unit": "t Co",
+   "world": 310000,
+   "v": {
+    "US": 300,
+    "AU": 3700,
+    "CA": 3500,
+    "CN": 2000,
+    "CD": 230000,
+    "CU": 2000,
+    "ID": 44000,
+    "MG": 3900,
+    "PG": 2800,
+    "PH": 3700,
+    "RU": 7700,
+    "TR": 1900
+   }
+  },
+  "Li": {
+   "unit": "t Li (excl. US)",
+   "world": 290000,
+   "v": {
+    "AR": 23000,
+    "AU": 92000,
+    "BR": 12000,
+    "CA": 5600,
+    "CL": 56000,
+    "CN": 62000,
+    "ML": 9400,
+    "PT": 380,
+    "ZW": 28000
+   }
+  },
+  "Ni": {
+   "unit": "t Ni",
+   "world": 3900000,
+   "v": {
+    "US": 10000,
+    "AU": 45000,
+    "BR": 70000,
+    "CA": 140000,
+    "CN": 120000,
+    "ID": 2600000,
+    "PH": 270000,
+    "RU": 200000
+   }
+  },
+  "C": {
+   "unit": "t graphite",
+   "world": 1800000,
+   "v": {
+    "AT": 200,
+    "BR": 65000,
+    "CA": 8000,
+    "CN": 1400000,
+    "DE": 140,
+    "IN": 17000,
+    "KP": 8000,
+    "KR": 500,
+    "MG": 80000,
+    "MX": 740,
+    "MZ": 60000,
+    "NO": 6600,
+    "RU": 25000,
+    "LK": 3200,
+    "TZ": 75000,
+    "TR": 2200,
+    "UA": 800,
+    "VN": 500
+   }
+  },
+  "REE": {
+   "unit": "t REO",
+   "world": 390000,
+   "v": {
+    "US": 51000,
+    "AU": 29000,
+    "BR": 2000,
+    "MM": 22000,
+    "CN": 270000,
+    "IN": 2900,
+    "MG": 2700,
+    "MY": 110,
+    "NG": 1500,
+    "RU": 2600,
+    "TH": 4800,
+    "VN": 150
+   }
+  },
+  "W": {
+   "unit": "t W",
+   "world": 85000,
+   "v": {
+    "AU": 1000,
+    "AT": 840,
+    "BO": 1700,
+    "CN": 67000,
+    "KZ": 2400,
+    "KP": 2000,
+    "PT": 700,
+    "RU": 2000,
+    "RW": 1300,
+    "ES": 800,
+    "VN": 3000
+   }
+  },
+  "Sb": {
+   "unit": "t Sb (excl. US)",
+   "world": 110000,
+   "v": {
+    "AU": 1300,
+    "BO": 5000,
+    "MM": 4500,
+    "CN": 40000,
+    "GT": 50,
+    "IR": 90,
+    "KZ": 800,
+    "KG": 700,
+    "LA": 200,
+    "MX": 600,
+    "PK": 260,
+    "RU": 32000,
+    "TJ": 22000,
+    "TR": 3000,
+    "VN": 220
+   }
+  },
+  "PGM": {
+   "unit": "kg Pt+Pd",
+   "world": 360000,
+   "v": {
+    "US": 8000,
+    "CA": 21000,
+    "RU": 104000,
+    "ZA": 190000,
+    "ZW": 33000
+   }
+  },
+  "Mn": {
+   "unit": "kt Mn content",
+   "world": 20000,
+   "v": {
+    "AU": 1600,
+    "BR": 800,
+    "CN": 700,
+    "GA": 5000,
+    "GH": 2000,
+    "IN": 790,
+    "ZA": 7600
+   }
+  },
+  "Sn": {
+   "unit": "t Sn",
+   "world": 290000,
+   "v": {
+    "AU": 12000,
+    "BO": 15000,
+    "BR": 28000,
+    "MM": 12000,
+    "CN": 71000,
+    "CD": 27000,
+    "ID": 61000,
+    "LA": 1800,
+    "MY": 5000,
+    "NG": 3500,
+    "PE": 33000,
+    "RU": 4500,
+    "RW": 4600,
+    "VN": 11000
+   }
+  },
+  "V": {
+   "unit": "t V",
+   "world": 110000,
+   "v": {
+    "BR": 5300,
+    "CN": 82000,
+    "RU": 21000,
+    "ZA": 5000
+   }
+  },
+  "Ti": {
+   "unit": "kt ilmenite",
+   "world": 9400,
+   "v": {
+    "US": 100,
+    "AU": 780,
+    "CA": 360,
+    "CN": 3200,
+    "IN": 240,
+    "MG": 300,
+    "MZ": 1900,
+    "NO": 390,
+    "SN": 370,
+    "ZA": 1300,
+    "UA": 200
+   }
+  },
+  "Zn": {
+   "unit": "kt Zn",
+   "world": 13000,
+   "v": {
+    "US": 670,
+    "AU": 1100,
+    "BO": 500,
+    "CN": 4100,
+    "IN": 870,
+    "KZ": 360,
+    "MX": 780,
+    "PE": 1500,
+    "RU": 430,
+    "SE": 230
+   }
+  },
+  "Al": {
+   "unit": "kt bauxite",
+   "world": 440000,
+   "v": {
+    "AU": 97000,
+    "BR": 33000,
+    "CN": 87000,
+    "GR": 960,
+    "GN": 150000,
+    "IN": 25000,
+    "ID": 10000,
+    "JM": 6200,
+    "KZ": 4800,
+    "RU": 5700,
+    "SA": 5700,
+    "TR": 3800,
+    "VN": 3800
+   }
+  },
+  "Fe": {
+   "unit": "kt usable ore",
+   "world": 2600000,
+   "v": {
+    "US": 38000,
+    "AU": 980000,
+    "BR": 420000,
+    "CA": 69000,
+    "CL": 19000,
+    "CN": 290000,
+    "IN": 310000,
+    "IR": 93000,
+    "KZ": 35000,
+    "MR": 15000,
+    "MX": 7700,
+    "PE": 21000,
+    "RU": 86000,
+    "ZA": 66000,
+    "SE": 26000,
+    "TR": 18000,
+    "UA": 52000
+   }
+  },
+  "Nb": {
+   "unit": "t Nb",
+   "world": 112000,
+   "v": {
+    "BR": 104000,
+    "CA": 6000,
+    "CN": 40,
+    "CD": 970,
+    "RU": 300,
+    "RW": 200
+   }
+  },
+  "Cr": {
+   "unit": "kt chromite",
+   "world": 51000,
+   "v": {
+    "BR": 2000,
+    "FI": 1900,
+    "IN": 3000,
+    "KZ": 7000,
+    "ZA": 23000,
+    "TR": 9000,
+    "ZW": 2000
+   }
+  },
+  "K": {
+   "unit": "kt K2O",
+   "world": 49000,
+   "v": {
+    "US": 500,
+    "BY": 6000,
+    "BR": 300,
+    "CA": 15000,
+    "CL": 600,
+    "CN": 6300,
+    "DE": 3000,
+    "IL": 2000,
+    "JO": 1800,
+    "LA": 2400,
+    "RU": 10000,
+    "ES": 450
+   }
+  },
+  "Au": {
+   "unit": "t Au",
+   "world": 3300,
+   "v": {
+    "US": 160,
+    "AU": 280,
+    "BR": 80,
+    "CA": 200,
+    "CN": 380,
+    "GH": 150,
+    "ID": 90,
+    "KZ": 130,
+    "MX": 140,
+    "PE": 110,
+    "RU": 310,
+    "ZA": 90,
+    "UZ": 130
+   }
+  },
+  "Mo": {
+   "unit": "t Mo",
+   "world": 260000,
+   "v": {
+    "US": 40000,
+    "AM": 5300,
+    "AU": 1000,
+    "CA": 2200,
+    "CL": 42000,
+    "CN": 97000,
+    "IR": 3300,
+    "KZ": 4300,
+    "KP": 800,
+    "KR": 500,
+    "MX": 17000,
+    "MN": 4200,
+    "PE": 39000,
+    "RU": 1300,
+    "UZ": 2000
+   }
+  }
+ },
+ "sources": {
+  "mining": {
+   "t": "MINING.com – Ranked: world's biggest copper mines (2024)",
+   "u": "https://www.mining.com/featured-article/ranked-worlds-biggest-copper-mines/"
+  },
+  "icsg": {
+   "t": "ICSG World Copper Factbook 2024 (top mines, owners)",
+   "u": "https://icsg.org/download/2024-09-23-the-world-copper-factbook-2024/"
+  },
+  "nornickel": {
+   "t": "Nornickel 2024 production results",
+   "u": "https://nornickel.com/news-and-media/press-releases-and-news/nornickel-announces-consolidated-production-results-for-2024/"
+  },
+  "mmg": {
+   "t": "MMG Q4 2024 production report",
+   "u": "https://www.mmg.com/content/uploads/2025/01/e_2025-01-23_4QTR-Production-Report.pdf"
+  },
+  "fqm": {
+   "t": "First Quantum Q4 2024 MD&A",
+   "u": "https://www.first-quantum.com/wp-content/uploads/2025/04/Q4-2024-FQM-Management-s-Discussion-Analysis-FINAL.pdf"
+  },
+  "rio": {
+   "t": "Rio Tinto Q4 2024 production results",
+   "u": "https://www.riotinto.com/en/news/releases/2025/rio-tinto-releases-fourth-quarter-production-results"
+  },
+  "ctcpm": {
+   "t": "DRC CTCPM 2024 cobalt exports by company (via Makanisi)",
+   "u": "https://www.makanisi.org/la-rdc-1er-producteur-mondial-de-cobalt-en-2024/"
+  },
+  "cmoc": {
+   "t": "CMOC Group 2024 annual results",
+   "u": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0321/2025032101975.pdf"
+  },
+  "gdni": {
+   "t": "GlobalData via Mining Technology – ten largest nickel mines (2023)",
+   "u": "https://www.mining-technology.com/marketdata/ten-largest-nickels-mines/"
+  },
+  "inn": {
+   "t": "Investing News – lithium mines and producers",
+   "u": "https://investingnews.com/lithium-mines-in-australia/"
+  },
+  "lar": {
+   "t": "Lithium Argentina / Minera Exar (Cauchari-Olaroz)",
+   "u": "https://lithium-argentina.com/"
+  },
+  "usgs": {
+   "t": "USGS Mineral Commodity Summaries 2026",
+   "u": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf"
+  },
+  "mp": {
+   "t": "MP Materials Q4/FY2024 results",
+   "u": "https://www.roic.ai/quote/MP/transcripts/2024-year/4-quarter"
+  },
+  "lynas": {
+   "t": "Lynas Rare Earths FY2025 results",
+   "u": "https://announcements.asx.com.au/asxpdf/20250828/pdf/06ngtrk361hdnd.pdf"
+  },
+  "syrah": {
+   "t": "Syrah Resources 2024 annual report",
+   "u": "https://www.datocms-assets.com/65260/1742776294-srl_annual-report-2024-final.pdf"
+  },
+  "w": {
+   "t": "L'Elementarium – Tungstène 2024",
+   "u": "https://lelementarium.fr/wp-content/uploads/2026/02/Tungstene-2024.pdf"
+  },
+  "sb": {
+   "t": "USGS antimony / Polyus 1H24 / INN antimony producers",
+   "u": "https://investingnews.com/top-antimony-production-country/"
+  },
+  "pgm": {
+   "t": "Anglo American Platinum 2024 results; Implats 2024 segmental",
+   "u": "https://www.implats-ir.co.za/results/2024/annual-results-2024/pdf/segmental-information.pdf"
+  },
+  "ssw": {
+   "t": "Sibanye-Stillwater 2024 integrated report",
+   "u": "https://reports.sibanyestillwater.com/2024/"
+  },
+  "eramet": {
+   "t": "Eramet 2024 integrated report",
+   "u": "https://www.eramet.com/wp-content/uploads/2025/06/2025-04-25-Eramet-2024-Integrated-Report-EN.pdf"
+  },
+  "jupiter": {
+   "t": "Jupiter Mines 2024 annual report (Tshipi)",
+   "u": "https://www.jupitermines.com/cproot/1239/3/20240930-Jupiter-Mines-2024-Annual-Report_WEB.pdf"
+  },
+  "tin": {
+   "t": "International Tin Association – 2024 production; Alphamin; PT Timah",
+   "u": "https://www.internationaltin.org/global-tin-production-falls-in-2024-on-supply-disruptions/"
+  },
+  "v": {
+   "t": "Vanadium producers 2023–2024 (Iron Steel Vanadium Titanium journal)",
+   "u": "https://www.gtft.cn/cn/article/pdf/preview/10.7513/j.issn.1004-7638.2025.06.002.pdf"
+  },
+  "kenmare": {
+   "t": "Kenmare Q4 2024 production report",
+   "u": "https://www.kenmareresources.com/rns/q4-2024-production-report-and-2025-guidance/"
+  },
+  "teck": {
+   "t": "Teck 2024 annual report",
+   "u": "https://www.teck.com/media/2024-Annual-Report.pdf"
+  },
+  "zn": {
+   "t": "SMM – overseas zinc mine production 2024",
+   "u": "https://news.metal.com/newscontent/103200172/"
+  },
+  "bx": {
+   "t": "GlobalData – ten largest bauxite mines; SMB company data",
+   "u": "https://www.mining-technology.com/marketdata/ten-largest-bauxites-mines/"
+  },
+  "fe": {
+   "t": "Hancock Roy Hill FY2024; Mining.com.au iron ore majors",
+   "u": "https://mining.com.au/the-worlds-10-largest-iron-ore-mines-2026-update/"
+  },
+  "wna": {
+   "t": "World Nuclear Association – world uranium mining production (2024)",
+   "u": "https://world-nuclear.org/information-library/nuclear-fuel-cycle/mining-of-uranium/world-uranium-mining-production"
+  },
+  "nb": {
+   "t": "CBMM 2024 report; Argus (Niobec)",
+   "u": "https://assets.cbmm.com/-/media/CBMM/Imagens-REDESIGN/Relatorio-sustentabilidade/CBMM-RelatSustent--ENG_V5.pdf"
+  }
+ }
+}

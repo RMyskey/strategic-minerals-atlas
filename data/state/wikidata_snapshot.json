@@ -1,0 +1,834 @@
+{
+ "Q119297": {
+  "coords": [
+   [
+    -4.05278,
+    137.11583
+   ]
+  ],
+  "owners": [
+   "Freeport-McMoRan",
+   "Government of Indonesia"
+  ],
+  "operators": [
+   "Freeport-McMoRan"
+  ]
+ },
+ "Q1059067": {
+  "coords": [
+   [
+    43.00861,
+    106.84333
+   ]
+  ],
+  "owners": [],
+  "operators": [
+   "Rio Tinto plc"
+  ]
+ },
+ "Q1091857": {
+  "coords": [
+   [
+    58.0686,
+    -104.541
+   ]
+  ],
+  "owners": [
+   "Cameco",
+   "Idemitsu Kosan",
+   "Orano Canada",
+   "Tokyo Electric Power Company Holdings"
+  ],
+  "operators": [
+   "Cameco"
+  ]
+ },
+ "Q1345630": {
+  "coords": [
+   [
+    57.76222,
+    -105.05389
+   ]
+  ],
+  "owners": [
+   "Cameco",
+   "Orano Canada"
+  ],
+  "operators": [
+   "Cameco"
+  ]
+ },
+ "Q1504704": {
+  "coords": [
+   [
+    -22.48083,
+    15.06139
+   ]
+  ],
+  "owners": [],
+  "operators": [
+   "Q1149406"
+  ]
+ },
+ "Q1540425": {
+  "coords": [
+   [
+    -12.19121,
+    136.73481
+   ]
+  ],
+  "owners": [],
+  "operators": []
+ },
+ "Q1627371": {
+  "coords": [
+   [
+    45.28213,
+    67.53656
+   ]
+  ],
+  "owners": [],
+  "operators": []
+ },
+ "Q12172652": {
+  "coords": [
+   [
+    25.71667,
+    113.16667
+   ]
+  ],
+  "owners": [],
+  "operators": []
+ },
+ "Q13218165": {
+  "coords": [
+   [
+    -16.4263,
+    136.077
+   ]
+  ],
+  "owners": [],
+  "operators": [
+   "Xstrata"
+  ]
+ },
+ "Q14995147": {
+  "coords": [
+   [
+    -24.27,
+    -69.07
+   ]
+  ],
+  "owners": [
+   "BHP Group",
+   "International Finance Corporation",
+   "Jeco",
+   "Rio Tinto Group"
+  ],
+  "operators": [
+   "BHP Group",
+   "Minera Escondida"
+  ]
+ },
+ "Q15100601": {
+  "coords": [
+   [
+    -11.76944,
+    27.23556
+   ],
+   [
+    -11.76611,
+    27.23667
+   ]
+  ],
+  "owners": [
+   "Gécamines",
+   "Ivanhoe Mines"
+  ],
+  "operators": [
+   "Q137609873"
+  ]
+ },
+ "Q15256199": {
+  "coords": [
+   [
+    33.0625,
+    -109.341
+   ],
+   [
+    33.09056,
+    -109.36667
+   ]
+  ],
+  "owners": [],
+  "operators": [
+   "Freeport-McMoRan"
+  ]
+ },
+ "Q16002794": {
+  "coords": [
+   [
+    -18.846,
+    48.304
+   ]
+  ],
+  "owners": [
+   "Korea Resources Corporation",
+   "Sumitomo Corporation"
+  ],
+  "operators": []
+ },
+ "Q16254733": {
+  "coords": [
+   [
+    -19.95717,
+    31.43596
+   ]
+  ],
+  "owners": [],
+  "operators": []
+ },
+ "Q16258603": {
+  "coords": [
+   [
+    8.85197,
+    -80.64478
+   ]
+  ],
+  "owners": [],
+  "operators": [
+   "First Quantum Minerals"
+  ]
+ },
+ "Q16832786": {
+  "coords": [
+   [
+    -14.09902,
+    -72.31978
+   ]
+  ],
+  "owners": [],
+  "operators": []
+ },
+ "Q16891876": {
+  "coords": [
+   [
+    -33.86598,
+    116.06476
+   ]
+  ],
+  "owners": [],
+  "operators": []
+ },
+ "Q16963673": {
+  "coords": [
+   [
+    30.97,
+    -110.328
+   ]
+  ],
+  "owners": [],
+  "operators": [
+   "Grupo México"
+  ]
+ },
+ "Q16963799": {
+  "coords": [
+   [
+    -27.13722,
+    22.87806
+   ],
+   [
+    -27.1292,
+    22.838
+   ]
+  ],
+  "owners": [],
+  "operators": []
+ },
+ "Q16965533": {
+  "coords": [
+   [
+    50.4662,
+    -101.538
+   ]
+  ],
+  "owners": [],
+  "operators": [
+   "Potash Corporation of Saskatchewan"
+  ]
+ },
+ "Q16965948": {
+  "coords": [
+   [
+    58.33444,
+    6.42278
+   ]
+  ],
+  "owners": [],
+  "operators": []
+ },
+ "Q16966215": {
+  "coords": [
+   [
+    69.5248,
+    88.34007
+   ]
+  ],
+  "owners": [],
+  "operators": []
+ },
+ "Q16969255": {
+  "coords": [
+   [
+    -12.26,
+    25.3025
+   ]
+  ],
+  "owners": [],
+  "operators": []
+ },
+ "Q16969313": {
+  "coords": [
+   [
+    8.56772,
+    117.42
+   ]
+  ],
+  "owners": [],
+  "operators": []
+ },
+ "Q16969455": {
+  "coords": [
+   [
+    8.51667,
+    -8.9
+   ]
+  ],
+  "owners": [],
+  "operators": [
+   "Rio Tinto plc"
+  ]
+ },
+ "Q16975819": {
+  "coords": [
+   [
+    -22.61222,
+    15.01417
+   ]
+  ],
+  "owners": [],
+  "operators": [
+   "China General Nuclear Power Group"
+  ]
+ },
+ "Q16976010": {
+  "coords": [
+   [
+    -12.14333,
+    26.38583
+   ]
+  ],
+  "owners": [],
+  "operators": []
+ },
+ "Q16976752": {
+  "coords": [
+   [
+    44.343,
+    68.149
+   ]
+  ],
+  "owners": [],
+  "operators": [
+   "Uranium One"
+  ]
+ },
+ "Q16976757": {
+  "coords": [
+   [
+    -2.54583,
+    121.3525
+   ]
+  ],
+  "owners": [],
+  "operators": [
+   "Vale Indonesia"
+  ]
+ },
+ "Q16977734": {
+  "coords": [
+   [
+    45.168,
+    67.495
+   ]
+  ],
+  "owners": [],
+  "operators": [
+   "Kazatomprom"
+  ]
+ },
+ "Q108673012": {
+  "coords": [
+   [
+    -2.83,
+    122.16
+   ]
+  ],
+  "owners": [],
+  "operators": []
+ },
+ "Q108749425": {
+  "coords": [
+   [
+    0.47832,
+    127.98363
+   ]
+  ],
+  "owners": [],
+  "operators": []
+ },
+ "Q131829584": {
+  "coords": [
+   [
+    -13.97694,
+    136.44278
+   ]
+  ],
+  "owners": [
+   "Anglo American plc",
+   "South32"
+  ],
+  "operators": [
+   "Groote Eylandt Mining Company"
+  ]
+ },
+ "Q137843953": {
+  "coords": [
+   [
+    41.703,
+    -118.07
+   ]
+  ],
+  "owners": [],
+  "operators": []
+ },
+ "Q137851312": {
+  "coords": [
+   [
+    45.5029,
+    -110.08571
+   ]
+  ],
+  "owners": [],
+  "operators": [
+   "Sibanye-Stillwater"
+  ]
+ },
+ "Q137938339": {
+  "coords": [
+   [
+    -25.6883,
+    27.2579
+   ]
+  ],
+  "owners": [],
+  "operators": []
+ },
+ "Q137938366": {
+  "coords": [
+   [
+    -25.719,
+    27.409
+   ]
+  ],
+  "owners": [],
+  "operators": []
+ },
+ "Q137938462": {
+  "coords": [
+   [
+    45.389,
+    -109.877
+   ]
+  ],
+  "owners": [],
+  "operators": []
+ },
+ "Q137942190": {
+  "coords": [
+   [
+    9.532,
+    125.818
+   ]
+  ],
+  "owners": [],
+  "operators": []
+ },
+ "Q137942463": {
+  "coords": [
+   [
+    -32.093,
+    119.742
+   ]
+  ],
+  "owners": [],
+  "operators": []
+ },
+ "Q529024": {
+  "coords": [
+   [
+    -34.09427,
+    -70.35089
+   ]
+  ],
+  "owners": [],
+  "operators": [
+   "Braden Copper Company",
+   "Codelco"
+  ]
+ },
+ "Q610345": {
+  "coords": [
+   [
+    -23.3654,
+    119.675
+   ]
+  ],
+  "owners": [],
+  "operators": []
+ },
+ "Q812094": {
+  "coords": [
+   [
+    41.78278,
+    109.97361
+   ]
+  ],
+  "owners": [],
+  "operators": []
+ },
+ "Q1836979": {
+  "coords": [
+   [
+    68.04585,
+    -162.88124
+   ],
+   [
+    68.0719,
+    -162.876
+   ]
+  ],
+  "owners": [],
+  "operators": []
+ },
+ "Q1950809": {
+  "coords": [
+   [
+    -28.86,
+    122.548
+   ]
+  ],
+  "owners": [],
+  "operators": [
+   "Lynas"
+  ]
+ },
+ "Q2587675": {
+  "coords": [
+   [
+    -21.1811,
+    118.675
+   ]
+  ],
+  "owners": [],
+  "operators": [
+   "Atlas Iron"
+  ]
+ },
+ "Q2602547": {
+  "coords": [
+   [
+    67.85028,
+    20.19278
+   ]
+  ],
+  "owners": [
+   "LKAB"
+  ],
+  "operators": [
+   "LKAB"
+  ]
+ },
+ "Q3342063": {
+  "coords": [
+   [
+    48.53245,
+    -71.15881
+   ]
+  ],
+  "owners": [
+   "Iamgold",
+   "Q21029472"
+  ],
+  "operators": []
+ },
+ "Q4285560": {
+  "coords": [
+   [
+    35.47861,
+    -115.5325
+   ]
+  ],
+  "owners": [
+   "MP Materials"
+  ],
+  "operators": [
+   "MP Materials"
+  ]
+ },
+ "Q5641700": {
+  "coords": [
+   [
+    -9.53719,
+    -77.0611
+   ]
+  ],
+  "owners": [],
+  "operators": []
+ },
+ "Q6359030": {
+  "coords": [
+   [
+    -10.7148,
+    25.38554
+   ]
+  ],
+  "owners": [],
+  "operators": []
+ },
+ "Q6883536": {
+  "coords": [
+   [
+    47.226,
+    12.489
+   ]
+  ],
+  "owners": [],
+  "operators": []
+ },
+ "Q6921438": {
+  "coords": [
+   [
+    -20.7161,
+    139.476
+   ]
+  ],
+  "owners": [],
+  "operators": [
+   "Xstrata"
+  ]
+ },
+ "Q6943664": {
+  "coords": [
+   [
+    -10.7858,
+    25.8082
+   ]
+  ],
+  "owners": [
+   "Glencore"
+  ],
+  "operators": [
+   "Glencore"
+  ]
+ },
+ "Q7372950": {
+  "coords": [
+   [
+    -22.6219,
+    119.958
+   ]
+  ],
+  "owners": [],
+  "operators": [
+   "Roy Hill Holdings"
+  ]
+ },
+ "Q7377054": {
+  "coords": [
+   [
+    51.5015,
+    16.1073
+   ]
+  ],
+  "owners": [],
+  "operators": [
+   "KGHM Polska Miedź"
+  ]
+ },
+ "Q7685105": {
+  "coords": [
+   [
+    53.6553,
+    -6.715
+   ]
+  ],
+  "owners": [],
+  "operators": []
+ },
+ "Q7699914": {
+  "coords": [
+   [
+    -10.5707,
+    26.181
+   ]
+  ],
+  "owners": [],
+  "operators": [
+   "CMOC Group Limited"
+  ]
+ },
+ "Q8044426": {
+  "coords": [
+   [
+    27.752,
+    111.483
+   ]
+  ],
+  "owners": [],
+  "operators": []
+ },
+ "Q9054996": {
+  "coords": [
+   [
+    40.15,
+    -7.75
+   ]
+  ],
+  "owners": [],
+  "operators": []
+ },
+ "Q16979154": {
+  "coords": [
+   [
+    37.15,
+    128.83333
+   ]
+  ],
+  "owners": [
+   "Almonty Industries"
+  ],
+  "operators": []
+ },
+ "Q16979254": {
+  "coords": [
+   [
+    -18.6658,
+    30.3564
+   ]
+  ],
+  "owners": [],
+  "operators": []
+ },
+ "Q21503338": {
+  "coords": [
+   [
+    -23.71667,
+    -66.75
+   ]
+  ],
+  "owners": [],
+  "operators": []
+ },
+ "Q21838024": {
+  "coords": [
+   [
+    -14.23273,
+    -70.32074
+   ]
+  ],
+  "owners": [],
+  "operators": []
+ },
+ "Q21839548": {
+  "coords": [
+   [
+    -27.2064,
+    22.97241
+   ]
+  ],
+  "owners": [],
+  "operators": []
+ },
+ "Q21958025": {
+  "coords": [
+   [
+    -21.05583,
+    118.905
+   ]
+  ],
+  "owners": [],
+  "operators": [
+   "Pilbara Minerals"
+  ]
+ },
+ "Q24377198": {
+  "coords": [
+   [
+    28.44778,
+    101.97889
+   ]
+  ],
+  "owners": [],
+  "operators": []
+ },
+ "Q24848822": {
+  "coords": [
+   [
+    11.1,
+    -13.76667
+   ]
+  ],
+  "owners": [],
+  "operators": []
+ },
+ "Q28041233": {
+  "coords": [
+   [
+    -12.66345,
+    141.93409
+   ]
+  ],
+  "owners": [],
+  "operators": [
+   "Rio Tinto Group"
+  ]
+ },
+ "Q30905738": {
+  "coords": [
+   [
+    -20.98694,
+    -68.71722
+   ],
+   [
+    -20.9691,
+    -68.7236
+   ]
+  ],
+  "owners": [],
+  "operators": [
+   "Anglo American plc"
+  ]
+ },
+ "Q61536145": {
+  "coords": [
+   [
+    -41.789,
+    145.437
+   ]
+  ],
+  "owners": [],
+  "operators": []
+ }
+}

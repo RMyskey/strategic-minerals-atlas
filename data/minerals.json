@@ -1,0 +1,282 @@
+{
+ "Cu": {
+  "l": "Copper",
+  "crit": true,
+  "nir": "57%",
+  "nds": "No stockpile",
+  "col": "#ff8a3d",
+  "nirN": 57
+ },
+ "Co": {
+  "l": "Cobalt",
+  "crit": true,
+  "nir": "79%",
+  "nds": "Yes (held; acquisitions)",
+  "col": "#3d8bff",
+  "nirN": 79
+ },
+ "Li": {
+  "l": "Lithium",
+  "crit": true,
+  "nir": ">50%",
+  "nds": "Not available",
+  "col": "#35f2b0",
+  "nirN": null
+ },
+ "Ni": {
+  "l": "Nickel",
+  "crit": true,
+  "nir": "41%",
+  "nds": "No (DOE contaminated Ni only)",
+  "col": "#9be15d",
+  "nirN": 41
+ },
+ "C": {
+  "l": "Graphite (natural)",
+  "crit": true,
+  "nir": "100%",
+  "nds": "None in MCS; iso-molded graphite acq. proposed",
+  "col": "#c8c8c8",
+  "nirN": 100
+ },
+ "REE": {
+  "l": "Rare earths",
+  "crit": true,
+  "nir": "67% (heavy REE 100%)",
+  "nds": "Yes (La, NdPr, NdFeB, SmCo acq.)",
+  "col": "#ff4fe6",
+  "nirN": 67
+ },
+ "W": {
+  "l": "Tungsten",
+  "crit": true,
+  "nir": ">50%",
+  "nds": "Yes (held; acquisitions)",
+  "col": "#f5e663",
+  "nirN": null
+ },
+ "Sb": {
+  "l": "Antimony",
+  "crit": true,
+  "nir": "91%",
+  "nds": "Yes (acquisitions)",
+  "col": "#c39bff",
+  "nirN": 91
+ },
+ "PGM": {
+  "l": "PGMs (Pt/Pd)",
+  "crit": true,
+  "nir": "Pt 89% / Pd 57%",
+  "nds": "Yes (Pt, Ir held)",
+  "col": "#eef0ff",
+  "nirN": 89
+ },
+ "Mn": {
+  "l": "Manganese",
+  "crit": true,
+  "nir": "100%",
+  "nds": "Yes (ferro/metal held; EMM acq.)",
+  "col": "#ff5d6c",
+  "nirN": 100
+ },
+ "Sn": {
+  "l": "Tin",
+  "crit": true,
+  "nir": "77%",
+  "nds": "Yes (held)",
+  "col": "#4fe0ff",
+  "nirN": 77
+ },
+ "V": {
+  "l": "Vanadium",
+  "crit": true,
+  "nir": "41%",
+  "nds": "No stockpile",
+  "col": "#ff9fd0",
+  "nirN": 41
+ },
+ "Ti": {
+  "l": "Titanium",
+  "crit": true,
+  "nir": "Sponge 100% / conc. 88%",
+  "nds": "Yes (titanium acq.)",
+  "col": "#8fb7ff",
+  "nirN": 88
+ },
+ "Zn": {
+  "l": "Zinc",
+  "crit": true,
+  "nir": "73% (refined)",
+  "nds": "Yes (held)",
+  "col": "#7c83ff",
+  "nirN": 73
+ },
+ "Al": {
+  "l": "Bauxite / aluminum",
+  "crit": true,
+  "nir": "Bauxite >75%; Al 60%",
+  "nds": "Aluminum acq. proposed",
+  "col": "#e0a96d",
+  "nirN": 60
+ },
+ "Fe": {
+  "l": "Iron ore",
+  "crit": false,
+  "nir": "Net exporter",
+  "nds": "No",
+  "col": "#a39e86",
+  "nirN": null
+ },
+ "U": {
+  "l": "Uranium",
+  "crit": true,
+  "nir": "n/a (not in MCS)",
+  "nds": "No (DOE reserve separate)",
+  "col": "#d4ff3d",
+  "nirN": null
+ },
+ "Nb": {
+  "l": "Niobium",
+  "crit": true,
+  "nir": "100%",
+  "nds": "Yes (ferroniobium acq.)",
+  "col": "#3dfff2",
+  "nirN": 100
+ },
+ "Cr": {
+  "l": "Chromium",
+  "crit": true,
+  "nir": "79%",
+  "nds": "Yes (ferrochromium held)",
+  "col": "#52c96b",
+  "nirN": 79
+ },
+ "K": {
+  "l": "Potash",
+  "crit": true,
+  "nir": "92%",
+  "nds": "No",
+  "col": "#ffc2b3",
+  "nirN": 92
+ },
+ "Au": {
+  "l": "Gold",
+  "crit": false,
+  "nir": "Net exporter",
+  "nds": "No (Treasury stocks)",
+  "col": "#ffc93d",
+  "nirN": null
+ },
+ "Mo": {
+  "l": "Molybdenum",
+  "crit": false,
+  "nir": "Net exporter",
+  "nds": "No",
+  "col": "#9a8cff",
+  "nirN": null
+ },
+ "Ag": {
+  "l": "Silver",
+  "crit": true,
+  "nir": "77%",
+  "nds": "No (Treasury stocks)",
+  "col": "#d9d9d9",
+  "nirN": 77
+ },
+ "Ge": {
+  "l": "Germanium",
+  "crit": true,
+  "nir": ">50%",
+  "nds": "Yes (held)",
+  "col": "#ffffff",
+  "nirN": null
+ },
+ "Ga": {
+  "l": "Gallium",
+  "crit": true,
+  "nir": "100%",
+  "nds": "Not available",
+  "col": "#ffffff",
+  "nirN": 100
+ },
+ "Ta": {
+  "l": "Tantalum",
+  "crit": true,
+  "nir": "100%",
+  "nds": "Yes (held)",
+  "col": "#ffffff",
+  "nirN": 100
+ },
+ "Pb": {
+  "l": "Lead",
+  "crit": true,
+  "nir": "33%",
+  "nds": "No",
+  "col": "#ffffff",
+  "nirN": 33
+ },
+ "Bi": {
+  "l": "Bismuth",
+  "crit": true,
+  "nir": "92%",
+  "nds": "No",
+  "col": "#ffffff",
+  "nirN": null
+ },
+ "Re": {
+  "l": "Rhenium",
+  "crit": true,
+  "nir": "75%",
+  "nds": "No",
+  "col": "#ffffff",
+  "nirN": null
+ },
+ "Cs": {
+  "l": "Cesium",
+  "crit": true,
+  "nir": "100%",
+  "nds": "No",
+  "col": "#ffffff",
+  "nirN": null
+ },
+ "Zr": {
+  "l": "Zirconium",
+  "crit": true,
+  "nir": "<25%",
+  "nds": "Zr-Hf acq. proposed",
+  "col": "#ffffff",
+  "nirN": null
+ },
+ "Sc": {
+  "l": "Scandium",
+  "crit": true,
+  "nir": "100%",
+  "nds": "No",
+  "col": "#ffffff",
+  "nirN": null
+ },
+ "In": {
+  "l": "Indium",
+  "crit": true,
+  "nir": "100%",
+  "nds": "No",
+  "col": "#ffffff",
+  "nirN": null
+ },
+ "P": {
+  "l": "Phosphate",
+  "crit": true,
+  "nir": "16%",
+  "nds": "No",
+  "col": "#ffffff",
+  "nirN": null
+ },
+ "Hg": {
+  "l": "Mercury",
+  "crit": false,
+  "nir": "n/a",
+  "nds": "No",
+  "col": "#ffffff",
+  "nirN": null
+ }
+}
