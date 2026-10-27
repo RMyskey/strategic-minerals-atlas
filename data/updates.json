@@ -1,9 +1,61 @@
 {
  "items": [
   {
+   "id": "4f445bc8eef1e222",
+   "feed": "gnews",
+   "date": "2026-10-27T06:35:14Z",
+   "title": "BHP, Codelco sign $57 million copper exploration deal",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBjdDVINW03RnMxRVByNG83ZVF4RmFBUjZNM2hxRWtMTmZLbWkxaG1TNGpfSkhsREhJMEtuMUV1UnhZN21LVGM2YV9jSHVyRjZTaHdsa1JfZlRwclNHVDY1MU11Q1hKUm13YnhsNHZNQkNFYnhWckxwd0dkYjAtTWc?oc=5",
+   "source": "Mining.com.au",
+   "category": "ownership",
+   "mines": [],
+   "owners": [
+    "Codelco"
+   ]
+  },
+  {
+   "id": "b7cd925f512fe7ad",
+   "feed": "gnews",
+   "date": "2026-10-27T01:00:07Z",
+   "title": "POSCO Faces First Open-Ended Strike Since Founding",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNOHFKVjJDZzhaQmRvVWJpN0NSTXlHMTduSXl2OC1nZ2JhZXM4WnFMNC1FUGozVWNGY0JjcjhsTUp4MzA2THJPNDcwQmZnaU1BRm13Mk1tN1dJN1BjUlV6clJ4VGJOWlNnWUdMeUlVZnEybDhacExuOFhyYXJON1hwSmN6MHFuaFhvNjByTjRYN0FRSHRzQnpJM28wYXpUd2JU?oc=5",
+   "source": "Seoul Economic Daily",
+   "category": "suspension",
+   "mines": [],
+   "owners": [
+    "POSCO"
+   ]
+  },
+  {
+   "id": "3cb1d7b0fa3c5ae9",
+   "feed": "gnews",
+   "date": "2026-10-26T03:14:25Z",
+   "title": "POSCO Workers Threaten Indefinite Strike as Wage Talks Collapse",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOX21KYUszSjlqb1JZZFN1N1BFOTkxSlRvejZlNzU1b1VrU21xVUVxUGNyOWdoMk1BclVkaS14YXQ5aF8welpaT3FwMWlkM2syNmRya19McUphWHBic1lVNUZSa2hIOUM0azNzMUs5azA4M1JzdmVvT0VrVnc5YVFfSldfQzRaamdOb3dDbzdzZFg5WW5KTGxaYTR3?oc=5",
+   "source": "Koreabizwire",
+   "category": "suspension",
+   "mines": [],
+   "owners": [
+    "POSCO"
+   ]
+  },
+  {
+   "id": "80f6f75dd2251658",
+   "feed": "gnews",
+   "date": "2026-10-26T01:57:03Z",
+   "title": "POSCO union warns of 'indefinite' walkout after wage talks collapse",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQS1IzN3hPajFOOFZGRmg0eExMM29YMXNZZFpGd1hpSGJWeUpGc3hKVGJHRnhJTWhuLVpnVWd5NXNmVExTQkVTa0Q2Y3ZEZ2p2bGlQS0JFbnV2ZHp0YV8ySWZrQkxVZ2xickduUWdtNWZ3VXFJYTBSbkIwMHpYMmNBbkdhQXZtejlZNVA2OFpDRHlQMDVqUUZlVGV2Um83UnF3MjBkMkxXVk10aXBuY2t0NVhoTFBEdXNEcHY1cHVyb9IBxAFBVV95cUxPTHZNQ19ZVlM1Z0d6SkxWNU51bjU1V2EwYTNNVlZDQmp5UzcweDF1R1VySUF4NGR3VEpmNmpnXzRlWjVrMmwzbko2cEY4TExTSGZVQml2ZW9UbUQ0YnJ0Y1FtYk5IMW5LQkc2UVpGR0ZoUklGV2VPTU50T2dJajBRV0h4OU9nMldxRTJtczNRMzVnOTNyLWJiQTF4RDd6ZUtaUF9GbkU2ckg4M3A1bVJBTWJzZVhSbjVENUQwcllmNFhuVUVo?oc=5",
+   "source": "The Korea Times",
+   "category": "suspension",
+   "mines": [],
+   "owners": [
+    "POSCO"
+   ]
+  },
+  {
    "id": "03e98554cc7f5ac0",
    "feed": "gnews",
-   "date": "2026-10-25T15:41:04Z",
+   "date": "2026-10-26T01:20:35Z",
    "title": "POSCO Union Begins Indefinite Strike November 2",
    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNRTZwa3pFTVlWY2lsbVVOaGI5RzBSQVJ0NFdyVnk4cnFvbjlITjhoYlFqU3lOTXV6MlhtN19tWkFzMjRFbWhvd0RtSkpkZ2hTbzcwajlhbE1ZRHg0QzJ5VlRZd0ZrX3pTRTRaSmRUa3VKRmlBcXVTYXVWM3BOUHR3OXFNeTJiS0Zh?oc=5",
    "source": "조선일보",
@@ -1100,5 +1152,5 @@
    ]
   }
  ],
- "generated_at": "2026-10-26T12:22:56Z"
+ "generated_at": "2026-10-27T11:51:23Z"
 }
