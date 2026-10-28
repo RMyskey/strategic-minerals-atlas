@@ -1,6 +1,60 @@
 {
  "items": [
   {
+   "id": "9ba1e19b6981d5dc",
+   "feed": "gnews",
+   "date": "2026-10-28T06:27:51Z",
+   "title": "Fortescue signs first green grid 20-year power deal with Pilbara lithium miner",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNUmFqTm15SmQtZkN2R3haMWtVaTJrR0dfREp6LUw2NGhvTU91S0p3bDBaQjVOV2NOeWdWZFRyTEtGdUNyTlQtaEh5dVFJY20yZ3IyZElxRkE2b1AtMms2VzJDSHBDUU0zRFVLM1hDVWV3eG5jeExQcV8tc1UyRVY0elVrM0Nlb3dJVVhSLWtqb2ZPdkZrd1dFSUoxTHc2TW9PRDh1VGUzZncxLVpkS3VPYnlTMHB4eGZlTV8tLW9xM3RxN2NHZFA0?oc=5",
+   "source": "pv magazine Australia",
+   "category": "ownership",
+   "mines": [],
+   "owners": [
+    "Fortescue"
+   ]
+  },
+  {
+   "id": "5fc52658d7691583",
+   "feed": "gnews",
+   "date": "2026-10-27T22:43:02Z",
+   "title": "Australia’s PLS signs 20-year power deal with Fortescue unit for Pilgangoora lithium mine",
+   "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNOWhwaGFBMmw2cFlzcUxZVmtNQlkta25hR3c3THFEbWRod3o3MkROakQzSlNsVWZNdjFRbDFiMGY5bm5rampudmM4SGdGbnhpU05wUE9RRE1LcVRoeERGd3BMamlIZ0staUlkQXllblZ1YWltUk8tYjVNMmdMMEFXeWhmb0MtUk13OUN3MzhLQlBCY1pPVkRFM3ZaVTJWUDZabWNUZ3l6R3BEandSVWY2SGJ6S3UzeWx4YW5sdU50REsza1ExN0tOb2RrQVRwU0Rvb3B2eHFtY25La1hDUTZDX2lJYTRBOWJJYmxuWVNfZS0?oc=5",
+   "source": "TradingView",
+   "category": "ownership",
+   "mines": [
+    34
+   ],
+   "owners": [
+    "Fortescue"
+   ]
+  },
+  {
+   "id": "ac16e94e01caee9d",
+   "feed": "gnews",
+   "date": "2026-10-27T22:20:49Z",
+   "title": "Kazatomprom to rethink Russian uranium deal after initial shareholder rejection",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPa2RkVHVZZnhHOWlneVNkSDA0RjNHbGVwZ1lLa1M5LVRaUS1VM0E5Rll6YXRvc2VpTUlLVENKa0JQN29DN1NELWQ5VWZYWDZZRG5Sa1lhbmNENjhEUDRKdWJ6N3lkQkV6Q01fczNfVm9nSHRoajk0MWNHaDRZb1JkQWoyX2FpR3JzSTF5UUE0X1VmV2thWFIyemRTNm5PNjlHSlJQRnFmd3d6cmJoQWk4VmVVdkdPck11OVRzY3I1MXZHaGtLTzJB?oc=5",
+   "source": "Kursiv Media",
+   "category": "ownership",
+   "mines": [],
+   "owners": [
+    "Kazatomprom"
+   ]
+  },
+  {
+   "id": "3aa0b90d83cb3608",
+   "feed": "miningcom",
+   "date": "2026-10-27T12:29:00Z",
+   "title": "Codelco copper mine blockade adds to supply concerns",
+   "url": "https://www.mining.com/codelco-copper-mine-blockade-adds-to-supply-concerns/",
+   "source": "MINING.COM",
+   "category": "suspension",
+   "mines": [],
+   "owners": [
+    "Codelco"
+   ]
+  },
+  {
    "id": "4f445bc8eef1e222",
    "feed": "gnews",
    "date": "2026-10-27T06:35:14Z",
@@ -59,6 +113,19 @@
    "title": "POSCO Union Begins Indefinite Strike November 2",
    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNRTZwa3pFTVlWY2lsbVVOaGI5RzBSQVJ0NFdyVnk4cnFvbjlITjhoYlFqU3lOTXV6MlhtN19tWkFzMjRFbWhvd0RtSkpkZ2hTbzcwajlhbE1ZRHg0QzJ5VlRZd0ZrX3pTRTRaSmRUa3VKRmlBcXVTYXVWM3BOUHR3OXFNeTJiS0Zh?oc=5",
    "source": "조선일보",
+   "category": "suspension",
+   "mines": [],
+   "owners": [
+    "POSCO"
+   ]
+  },
+  {
+   "id": "7bd24c397bf536ad",
+   "feed": "gnews",
+   "date": "2026-10-26T00:57:35Z",
+   "title": "POSCO Faces First Open-Ended Strike in Company History",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOX01KcmZOTXlKNndmV2NES2dSc0VfSlhhNHFEaFF2U3pUNlotSDlub0dRUkRmYnVCb2JrazRRbW4wQ19LaTY2TURaUnBtNDBOMGg2c0RQWlI4LW5COFlKb21PRVF4TFd1dUJteTAzcTFIcmEyLURINzVocE1qWUs1NWIzVmZGM19Cb3lrbDFDLXBHRE9za2ctYTBNZ0N5R2VaNmc?oc=5",
+   "source": "Seoul Economic Daily",
    "category": "suspension",
    "mines": [],
    "owners": [
@@ -1152,5 +1219,5 @@
    ]
   }
  ],
- "generated_at": "2026-10-27T11:51:23Z"
+ "generated_at": "2026-10-28T12:22:28Z"
 }
