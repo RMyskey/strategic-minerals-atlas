@@ -12,7 +12,7 @@ import xml.etree.ElementTree as ET
 
 from .common import fetch, fetch_json, iso, log, now, sha
 
-RSS_UA = 'Mozilla/5.0 (compatible; QuantumXi-Mine-Atlas/1.0; +https://github.com/RMyskey/strategic-minerals-atlas)'
+RSS_UA = 'Mozilla/5.0 (compatible; MillenniumKI-Mine-Atlas/1.0; +https://github.com/RMyskey/strategic-minerals-atlas)'
 
 CATEGORIES = [  # first match wins
     ('nationalization', r'nationali[sz]|expropriat|seiz(e|es|ed|ure)|state takeover|revok\w* (the )?(mining )?(licen[cs]e|permit|concession)|junta|cancel\w* (mining )?(licen[cs]e|permit|concession)'),

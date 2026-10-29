@@ -83,7 +83,7 @@ def build(feed_meta=None, write_bundle=True):
     world = load(os.path.join(SRC, 'countries.geojson'))
     save(os.path.join(DATA, 'countries.geojson'), world, compact=True)
     props = [mine_props(m, ref) for m in mines]
-    gj = {'type': 'FeatureCollection', 'name': 'quantumxi_strategic_mines',
+    gj = {'type': 'FeatureCollection', 'name': 'millenniumki_strategic_mines',
           'crs': {'type': 'name', 'properties': {'name': 'urn:ogc:def:crs:OGC:1.3:CRS84'}},
           'features': [{'type': 'Feature', 'geometry': {'type': 'Point', 'coordinates': [m['lon'], m['lat']]}, 'properties': p} for m, p in zip(mines, props)]}
     save(os.path.join(DATA, 'mines.geojson'), gj)

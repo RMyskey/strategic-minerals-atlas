@@ -42,7 +42,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "No data changes."
           else
-            git commit -m "data: automated refresh $(date -u +%Y-%m-%dT%H:%MZ)"
+            git commit -m "Millennium KI data: automated refresh $(date -u +%Y-%m-%dT%H:%MZ)"
             git push
           fi
   deploy:

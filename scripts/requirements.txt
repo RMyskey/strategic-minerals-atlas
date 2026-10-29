@@ -1,2 +1,2 @@
-# The Quantum Xi data pipeline uses the Python standard library only (Python >= 3.10).
+# The Millennium KI data pipeline uses the Python standard library only (Python >= 3.10).
 # No third-party packages are required; this file exists so CI can `pip install -r` without changes.

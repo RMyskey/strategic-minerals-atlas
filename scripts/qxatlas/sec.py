@@ -2,7 +2,7 @@
 
 Lists new 10-K, 10-Q, 8-K, 6-K, 20-F and 40-F filings. Annual reports (10-K, 20-F, 40-F) also create a
 'review needed' item so an analyst can check the mine-level production figures. Production is never auto-changed.
-SEC requires a descriptive User-Agent with contact details: set SEC_USER_AGENT, e.g. "Quantum Xi Atlas you@yourdomain.com"."""
+SEC requires a descriptive User-Agent with contact details: set SEC_USER_AGENT, e.g. "Millennium KI Atlas you@yourdomain.com"."""
 import datetime as dt
 import json
 import os

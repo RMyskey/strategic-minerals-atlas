@@ -3,19 +3,24 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Strategic Mine Ownership Atlas | Quantum Xi</title>
-<meta name="description" content="Quantum Xi GEOINT decision-support tool: who owns the 147 mines that dominate world supply of US critical minerals. Live satellite map, ownership network, chart builder and data register.">
-<meta name="theme-color" content="#05080e">
+<title>Millennium KI | Strategic Mine Ownership Atlas</title>
+<meta name="description" content="Millennium KI GEOINT decision-support tool: who owns the 147 mines that dominate world supply of US critical minerals. Live satellite map, ownership network, chart builder and data register.">
+<meta name="theme-color" content="#070b13">
+<meta name="application-name" content="Millennium KI">
+<meta property="og:title" content="Millennium KI | Strategic Mine Ownership Atlas">
+<meta property="og:description" content="Who owns the 147 mines that dominate world supply of US critical minerals: live map, ownership network, chart builder and intel feed.">
+<meta property="og:type" content="website">
 <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="assets/vendor/maplibre-gl-5.15.0/maplibre-gl.css">
+<link rel="preload" href="assets/fonts/web/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="assets/css/app.css">
 </head>
 <body>
-<div class="banner">UNCLASSIFIED // OPEN-SOURCE INFORMATION · Compiled 23 Oct 2026 · WGS 84</div>
+<div class="banner"><span>Open-source intelligence</span><i></i><span>Compiled 23 Oct 2026</span><i></i><span>WGS 84</span></div>
 <header class="top">
-  <a class="brand" href="#map" aria-label="Quantum Xi home">
-    <svg class="logo" viewBox="0 0 40 40" aria-hidden="true"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#35e0ff"/><stop offset="1" stop-color="#7b5cff"/></linearGradient></defs><circle cx="20" cy="20" r="15" fill="none" stroke="url(#lg)" stroke-width="3"/><path d="M29 29 L36 36" stroke="url(#lg)" stroke-width="3.4" stroke-linecap="round"/><path d="M13 14h14M14.5 20h11M13 26h14" stroke="#e8f6ff" stroke-width="2.2" stroke-linecap="round"/></svg>
-    <span class="brand-txt"><b>QUANTUM XI</b><small>Strategic Mine Ownership Atlas</small></span>
+  <a class="brand" href="#map" aria-label="Millennium KI home">
+    <svg class="logo" viewBox="0 0 48 48" aria-hidden="true"><defs><linearGradient id="mka" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3ee6c3"/><stop offset="1" stop-color="#6a8dff"/></linearGradient></defs><path d="M24 3 43 14v20L24 45 5 34V14z" fill="#0e1a2b" stroke="url(#mka)" stroke-width="2.4" stroke-linejoin="round"/><path d="M13 33V15l6 0v7l7-7h7l-8.5 8.5L34 33h-7.2l-5.3-7.2-2.5 2.5V33z" fill="url(#mka)"/><circle cx="35.5" cy="15.5" r="2.4" fill="#f2b84b"/></svg>
+    <span class="brand-txt"><b>MILLENNIUM <em>KI</em></b><small>Strategic Mine Ownership Atlas</small></span>
   </a>
   <nav class="nav" id="nav">
     <a href="#map">Map</a><a href="#intel">Intel</a><a href="#network">Network</a><a href="#charts">Chart builder</a><a href="#data">Data</a><a href="#findings">Findings</a><a href="#method">Method</a><a href="#sources">Sources</a><a href="#about">About</a>
@@ -37,6 +42,9 @@
 </div>
 
 <main>
+<section id="kpi" class="band">
+  <div class="kpis" id="kpis"></div>
+</section>
 <section id="map" class="mapsec">
   <div id="mapwrap" class="mapwrap">
     <div id="mapcv" class="mapcv"></div>
@@ -86,8 +94,10 @@
   </div>
 </section>
 
-<section id="kpi" class="band">
-  <div class="kpis" id="kpis"></div>
+
+
+<section id="markets" class="pricesband">
+  <div class="pr-head"><span>Commodity prices</span><small>World Bank Pink Sheet · monthly</small></div>
   <div class="prices" id="prices" aria-label="Commodity prices"></div>
 </section>
 
@@ -190,16 +200,16 @@
 
 <section id="about" class="sec about">
   <div class="card pad about-card">
-    <svg class="logo big" viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="15" fill="none" stroke="url(#lg)" stroke-width="3"/><path d="M29 29 L36 36" stroke="url(#lg)" stroke-width="3.4" stroke-linecap="round"/><path d="M13 14h14M14.5 20h11M13 26h14" stroke="#e8f6ff" stroke-width="2.2" stroke-linecap="round"/></svg>
+    <svg class="logo big" viewBox="0 0 48 48" aria-hidden="true"><defs><linearGradient id="mkb" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3ee6c3"/><stop offset="1" stop-color="#6a8dff"/></linearGradient></defs><path d="M24 3 43 14v20L24 45 5 34V14z" fill="#0e1a2b" stroke="url(#mkb)" stroke-width="2.4" stroke-linejoin="round"/><path d="M13 33V15l6 0v7l7-7h7l-8.5 8.5L34 33h-7.2l-5.3-7.2-2.5 2.5V33z" fill="url(#mkb)"/><circle cx="35.5" cy="15.5" r="2.4" fill="#f2b84b"/></svg>
     <div>
-      <h2>About Quantum Xi</h2>
-      <p><b>Quantum Xi (Quantum X Innovations Group)</b> is a decision-support and geospatial-intelligence (GEOINT) firm. This atlas is a Quantum Xi open-source product: it fuses corporate ownership, production statistics, US criticality and stockpile status with verified mine locations, so analysts can see who controls the supply of strategic minerals and where.</p>
+      <h2>About Millennium KI</h2>
+      <p><b>Millennium KI</b> builds decision-support and geospatial-intelligence (GEOINT) tools. This atlas is a Millennium KI open-source product: it fuses corporate ownership, production statistics, US criticality and stockpile status with verified mine locations, so analysts can see who controls the supply of strategic minerals and where.</p>
       <p class="small">All content is compiled from public sources listed above. Figures marked n/a were not available from a credible public source and have not been estimated. This product is not an official assessment of any government agency.</p>
     </div>
   </div>
 </section>
 </main>
-<footer class="foot"><div id="refreshLine" class="refresh"></div>© 2026 Quantum Xi (Quantum X Innovations Group) · Map data: Esri, Maxar, Earthstar Geographics, HERE, Garmin; © OpenStreetMap contributors; Natural Earth; USGS · Built with MapLibre GL JS and Apache ECharts</footer>
+<footer class="foot"><div id="refreshLine" class="refresh"></div>© 2026 Millennium KI · Map data: Esri, Maxar, Earthstar Geographics, HERE, Garmin; © OpenStreetMap contributors; Natural Earth; USGS · Built with MapLibre GL JS and Apache ECharts</footer>
 
 <div class="toast" id="toast" hidden></div>
 <script src="assets/vendor/maplibre-gl-5.15.0/maplibre-gl.js"></script>

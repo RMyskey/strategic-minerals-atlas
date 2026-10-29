@@ -1,4 +1,4 @@
-/* Quantum Xi Mine Atlas: geodesy helpers (WGS 84). No dependencies. */
+/* Millennium KI Mine Atlas: geodesy helpers (WGS 84). No dependencies. */
 (function (G) {
   'use strict';
   var D2R = Math.PI / 180, R = 6371.0088;

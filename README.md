@@ -1,4 +1,4 @@
-# Quantum Xi — Strategic Mine Ownership Atlas
+# Millennium KI — Strategic Mine Ownership Atlas
 
 **Live site:** https://rmyskey.github.io/strategic-minerals-atlas/ · **Repo:** https://github.com/RMyskey/strategic-minerals-atlas
 
@@ -37,7 +37,7 @@ The canonical, analyst-curated data lives in `data/source/` (`mines_master.json`
 2. `.github/workflows/pages.yml` deploys on every push to `main`.
 3. `.github/workflows/refresh-data.yml` runs **daily at 06:00 UTC** (23:00 Arizona time) and on demand (Actions → Refresh data → Run workflow, with an optional `force` input). It runs the pipeline, commits changed data as github-actions[bot], then deploys.
 4. Repository secrets (Settings → Secrets and variables → Actions):
-   - `SEC_USER_AGENT`: **required for the SEC feed.** SEC asks for a contact, e.g. `Quantum Xi Mine Atlas ops@yourdomain.com`. Without it the feed reports `needs_config`.
+   - `SEC_USER_AGENT`: **required for the SEC feed.** SEC asks for a contact, e.g. `Millennium KI Mine Atlas ops@yourdomain.com`. Without it the feed reports `needs_config`.
    - `FRED_API_KEY`: optional (free key from fred.stlouisfed.org). Without it the feed reports `needs_key`.
    - `MAPTILER_KEY` or `ESRI_API_KEY`: optional basemap key. The deploy writes it into `assets/js/config.js`. Browser map keys are public by nature, so **restrict the key to `rmyskey.github.io`** in the provider console. Without a key the site uses keyless Esri services.
 

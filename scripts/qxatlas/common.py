@@ -15,7 +15,7 @@ DATA = os.path.join(ROOT, 'data')
 SRC = os.path.join(DATA, 'source')
 STATE = os.path.join(DATA, 'state')
 
-DEFAULT_UA = os.environ.get('QX_USER_AGENT', 'QuantumXi-Mine-Atlas-Pipeline/1.0 (+https://github.com/RMyskey/strategic-minerals-atlas)')
+DEFAULT_UA = os.environ.get('QX_USER_AGENT', 'MillenniumKI-Mine-Atlas-Pipeline/1.0 (+https://github.com/RMyskey/strategic-minerals-atlas)')
 
 
 def log(*a):

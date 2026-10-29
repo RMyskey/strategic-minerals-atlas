@@ -1,1 +1,1 @@
-"""Quantum Xi Strategic Mine Ownership Atlas: data pipeline package (stdlib only)."""
+"""Millennium KI Strategic Mine Ownership Atlas: data pipeline package (stdlib only)."""

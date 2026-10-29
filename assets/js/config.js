@@ -1,4 +1,4 @@
-/* Quantum Xi Mine Atlas: runtime configuration.
+/* Millennium KI Mine Atlas: runtime configuration.
    Map tiles default to Esri's keyless public tile services. To use keyed tiles, set ONE of the keys below
    (or let the GitHub Actions deploy step write this file from the MAPTILER_KEY / ESRI_API_KEY repository secrets).
    Keys used in a browser are public: restrict them to your Pages domain in the provider's dashboard.

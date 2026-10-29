@@ -1,4 +1,4 @@
-/* Quantum Xi Strategic Mine Ownership Atlas: application logic.
+/* Millennium KI Strategic Mine Ownership Atlas: application logic.
    Global state (filters + selection) cross-filters the map, network, chart builder and register. */
 (function () {
   'use strict';
@@ -61,7 +61,7 @@
     };
   }
   function toGeoJSON(list) {
-    return JSON.stringify({ type: 'FeatureCollection', name: 'quantumxi_strategic_mines', crs: { type: 'name', properties: { name: 'urn:ogc:def:crs:OGC:1.3:CRS84' } },
+    return JSON.stringify({ type: 'FeatureCollection', name: 'millenniumki_strategic_mines', crs: { type: 'name', properties: { name: 'urn:ogc:def:crs:OGC:1.3:CRS84' } },
       features: list.map(function (m) { return { type: 'Feature', geometry: { type: 'Point', coordinates: [m.lon, m.lat] }, properties: mineProps(m) }; }) }, null, 1);
   }
   function csvCell(v) { v = v === null || v === undefined ? '' : String(v); return /[",\n]/.test(v) ? '"' + v.replace(/"/g, '""') + '"' : v; }
@@ -78,8 +78,8 @@
     } catch (e) { copyText(text); }
   }
   function exportSet() { return viewMines(); }
-  function exportGeo() { download('quantumxi_mines_filtered.geojson', toGeoJSON(exportSet()), 'application/geo+json'); }
-  function exportCsv() { download('quantumxi_mines_filtered.csv', toCSV(exportSet()), 'text/csv'); }
+  function exportGeo() { download('millenniumki_mines_filtered.geojson', toGeoJSON(exportSet()), 'application/geo+json'); }
+  function exportCsv() { download('millenniumki_mines_filtered.csv', toCSV(exportSet()), 'text/csv'); }
 
   /* ---------- global state ---------- */
   var S = { min: 'all', occ: 'all', cls: 'all', crit: false, sel: null };
@@ -236,7 +236,7 @@
         arcs: empty, prec: JSON.parse(JSON.stringify(empty)), sel: JSON.parse(JSON.stringify(empty)), measure: JSON.parse(JSON.stringify(empty))
       },
       layers: [
-        { id: 'bg', type: 'background', paint: { 'background-color': '#05080e' } },
+        { id: 'bg', type: 'background', paint: { 'background-color': '#070b13' } },
         { id: 'base-dark', type: 'raster', source: 'dark', paint: { 'raster-brightness-max': 0.62, 'raster-saturation': -0.2, 'raster-contrast': 0.15 } },
         { id: 'base-sat', type: 'raster', source: 'sat', layout: { visibility: 'none' } },
         { id: 'base-topo', type: 'raster', source: 'topo', layout: { visibility: 'none' } },
@@ -257,18 +257,18 @@
         { id: 'prec-fill', type: 'fill', source: 'prec', minzoom: 6, paint: { 'fill-color': ['get', 'col'], 'fill-opacity': 0.07 } },
         { id: 'prec-line', type: 'line', source: 'prec', minzoom: 6, paint: { 'line-color': ['get', 'col'], 'line-width': 1.4, 'line-dasharray': [3, 2], 'line-opacity': 0.9 } },
         { id: 'cl-circle', type: 'circle', source: 'minescl', filter: ['has', 'point_count'], layout: { visibility: 'none' }, paint: {
-          'circle-color': 'rgba(53,224,255,0.22)', 'circle-stroke-color': '#35e0ff', 'circle-stroke-width': 1.5,
+          'circle-color': 'rgba(62,230,195,0.22)', 'circle-stroke-color': '#3ee6c3', 'circle-stroke-width': 1.5,
           'circle-radius': ['interpolate', ['linear'], ['get', 'point_count'], 2, 13, 10, 20, 40, 30] } },
         { id: 'cl-count', type: 'symbol', source: 'minescl', filter: ['has', 'point_count'], layout: { visibility: 'none', 'text-field': ['to-string', ['get', 'point_count']], 'text-font': ['Noto Sans Bold'], 'text-size': 12, 'text-allow-overlap': true }, paint: { 'text-color': '#e8fbff' } },
         { id: 'pts-cl', type: 'circle', source: 'minescl', filter: ['!', ['has', 'point_count']], layout: { visibility: 'none' }, paint: ptPaint },
         { id: 'pts', type: 'circle', source: 'mines', paint: ptPaint },
-        { id: 'sel-halo', type: 'circle', source: 'sel', paint: { 'circle-radius': 17, 'circle-color': 'rgba(0,0,0,0)', 'circle-stroke-color': '#35e0ff', 'circle-stroke-width': 2.4 } },
+        { id: 'sel-halo', type: 'circle', source: 'sel', paint: { 'circle-radius': 17, 'circle-color': 'rgba(0,0,0,0)', 'circle-stroke-color': '#3ee6c3', 'circle-stroke-width': 2.4 } },
         { id: 'labels', type: 'symbol', source: 'mines', minzoom: 2.6, layout: {
           'text-field': ['get', 'name'], 'text-font': ['Noto Sans Regular'], 'text-size': ['interpolate', ['linear'], ['zoom'], 3, 10.5, 10, 13.5],
           'text-offset': [0, 1.15], 'text-anchor': 'top', 'text-max-width': 9, 'text-optional': true }, paint: {
           'text-color': '#eaf2ff', 'text-halo-color': 'rgba(3,6,12,0.95)', 'text-halo-width': 1.6, 'text-opacity': ['case', ['==', ['get', 'dim'], 1], 0.25, 1] } },
         { id: 'measure-line', type: 'line', source: 'measure', filter: ['==', ['geometry-type'], 'LineString'], paint: { 'line-color': '#ffb547', 'line-width': 2.4, 'line-dasharray': [2, 1.2] } },
-        { id: 'measure-pts', type: 'circle', source: 'measure', filter: ['==', ['geometry-type'], 'Point'], paint: { 'circle-radius': 4.5, 'circle-color': '#ffb547', 'circle-stroke-color': '#05080e', 'circle-stroke-width': 1.5 } }
+        { id: 'measure-pts', type: 'circle', source: 'measure', filter: ['==', ['geometry-type'], 'Point'], paint: { 'circle-radius': 4.5, 'circle-color': '#ffb547', 'circle-stroke-color': '#070b13', 'circle-stroke-width': 1.5 } }
       ]
     };
     ['ref', 'darkref'].forEach(function (k) { if (TC[k]) style.sources[k] = TC[k]; else style.layers = style.layers.filter(function (l) { return l.id !== k; }); });
@@ -591,7 +591,7 @@
      NETWORK GRAPH (force-directed layout computed in-browser, rendered with ECharts)
      ===================================================================== */
   var graph = null, GN = null, gColor = 'control';
-  var PALETTE = ['#ff3b4e', '#5b8def', '#ffb547', '#3ddc97', '#b06cff', '#35e0ff', '#ff7ac6', '#c8e05a', '#ff8a3d', '#8fb7ff', '#e0a96d', '#2ec4b6'];
+  var PALETTE = ['#ff3b4e', '#5b8def', '#ffb547', '#3ddc97', '#b06cff', '#3ee6c3', '#ff7ac6', '#c8e05a', '#ff8a3d', '#8fb7ff', '#e0a96d', '#2ec4b6'];
   function rng(seed) { return function () { seed = (seed * 1664525 + 1013904223) % 4294967296; return seed / 4294967296; }; }
   function buildGraph() {
     var nodes = [], idx = {}, edges = [], rnd = rng(42);
@@ -647,8 +647,8 @@
       var big = (n.kind === 'owner' && n.mines.length >= 3) || n.kind === 'mineral' || (n.kind === 'country' && n.mines.length >= 5) || selNode;
       return {
         id: n.id, name: n.label, x: n.x, y: n.y, symbolSize: n.r * 2, symbol: n.kind === 'mineral' ? 'roundRect' : 'circle', value: n.mines.length, kind: n.kind, key: n.key,
-        itemStyle: { color: col, opacity: lit ? 1 : 0.08, borderColor: selNode ? '#35e0ff' : n.kind === 'country' ? '#a9b6cc' : 'rgba(5,8,14,.8)', borderWidth: selNode ? 3 : n.kind === 'country' ? 1.8 : 0.6 },
-        label: { show: big && lit, color: n.kind === 'mineral' ? '#ffffff' : '#c9d6ea', fontSize: n.kind === 'mineral' ? 12 : 10.5, fontWeight: n.kind === 'mineral' ? 700 : 500, position: 'right', textBorderColor: '#05080e', textBorderWidth: 2 }
+        itemStyle: { color: col, opacity: lit ? 1 : 0.08, borderColor: selNode ? '#3ee6c3' : n.kind === 'country' ? '#a9b6cc' : 'rgba(5,8,14,.8)', borderWidth: selNode ? 3 : n.kind === 'country' ? 1.8 : 0.6 },
+        label: { show: big && lit, color: n.kind === 'mineral' ? '#ffffff' : '#c9d6ea', fontSize: n.kind === 'mineral' ? 12 : 10.5, fontWeight: n.kind === 'mineral' ? 700 : 500, position: 'right', textBorderColor: '#070b13', textBorderWidth: 2 }
       };
     });
     var links = GN.edges.map(function (e) {
@@ -757,8 +757,8 @@
     var on = function (id, key, num) { var el = $('#' + id); if (el) el.onchange = function () { C[key] = num ? +el.value : el.value; C.preset = null; if (key === 'cat' && C.grp === C.cat) C.grp = 'none'; renderControls(); renderChart(); }; };
     on('cCat', 'cat'); on('cVal', 'val'); on('cGrp', 'grp'); on('cTop', 'top', true); on('cMin', 'min'); on('cSx', 'sx'); on('cSy', 'sy');
     $('#cCrit').onchange = function (e) { C.crit = e.target.checked; C.preset = null; renderChart(); };
-    $('#cPng').onclick = function () { var a = document.createElement('a'); a.href = chart.getDataURL({ type: 'png', pixelRatio: 2, backgroundColor: '#0d1522' }); a.download = 'quantumxi_chart.png'; document.body.appendChild(a); a.click(); a.remove(); };
-    $('#cCsv').onclick = function () { download('quantumxi_chart_data.csv', chartCSV, 'text/csv'); };
+    $('#cPng').onclick = function () { var a = document.createElement('a'); a.href = chart.getDataURL({ type: 'png', pixelRatio: 2, backgroundColor: '#0e1520' }); a.download = 'millenniumki_chart.png'; document.body.appendChild(a); a.click(); a.remove(); };
+    $('#cCsv').onclick = function () { download('millenniumki_chart_data.csv', chartCSV, 'text/csv'); };
     $$('#presets button').forEach(function (b) { b.classList.toggle('on', b.dataset.p === C.preset); });
   }
   var chartCSV = '';
@@ -799,7 +799,7 @@
       opt = { backgroundColor: 'transparent', tooltip: Object.assign({ formatter: function (p) { return '<b>' + esc(p.data.name) + '</b><br>' + X.l + ': ' + p.data.value[0] + '<br>' + Y.l + ': ' + p.data.value[1]; } }, tip),
         legend: { top: 0, textStyle: { color: '#c9d6ea' }, type: 'scroll' }, grid: { left: 56, right: 24, top: 44, bottom: 50 },
         xAxis: Object.assign({ type: 'value', name: X.l, nameLocation: 'middle', nameGap: 30, scale: true }, AX), yAxis: Object.assign({ type: 'value', name: Y.l, nameLocation: 'middle', nameGap: 40, scale: true }, AX),
-        series: gk.map(function (k, i) { return { type: 'scatter', name: C.grp === 'none' ? k : CAT[C.grp].n(k), data: groups[k], itemStyle: { color: grpColor(C.grp, k, i), opacity: 0.85, borderColor: '#05080e' } }; }) };
+        series: gk.map(function (k, i) { return { type: 'scatter', name: C.grp === 'none' ? k : CAT[C.grp].n(k), data: groups[k], itemStyle: { color: grpColor(C.grp, k, i), opacity: 0.85, borderColor: '#070b13' } }; }) };
       $('#cbTitle').textContent = Y.l + ' vs ' + X.l + ' (' + n + ' mines with both values)';
       note.push('Point size follows world share. Mines with n/a on either axis are omitted. US import reliance applies to the mine\'s primary mineral; ">50%" style values have no number and are omitted.');
     } else {
@@ -829,13 +829,13 @@
       if (C.type === 'pie' || C.type === 'donut') {
         opt = { backgroundColor: 'transparent', tooltip: Object.assign({ trigger: 'item', formatter: function (p) { return '<b>' + esc(p.name) + '</b><br>' + fmt(p.value) + ' (' + p.percent + '%)'; } }, tip),
           legend: { type: 'scroll', orient: 'vertical', right: 0, top: 20, bottom: 20, textStyle: { color: '#c9d6ea' } },
-          series: [{ type: 'pie', radius: C.type === 'donut' ? ['42%', '72%'] : ['0%', '72%'], center: ['40%', '52%'], itemStyle: { borderColor: '#0d1522', borderWidth: 2 },
+          series: [{ type: 'pie', radius: C.type === 'donut' ? ['42%', '72%'] : ['0%', '72%'], center: ['40%', '52%'], itemStyle: { borderColor: '#0e1520', borderWidth: 2 },
             label: { color: '#c9d6ea', formatter: '{b}\n{d}%' }, data: keys.map(function (k, i) { return { name: cat.n(k), value: r1(val(acc[k])), key: k, itemStyle: { color: cat.col ? cat.col(k) : PALETTE[i % PALETTE.length] } }; }) }] };
       } else if (C.type === 'treemap') {
         opt = { backgroundColor: 'transparent', tooltip: Object.assign({ formatter: function (p) { return '<b>' + esc(p.treePathInfo.slice(1).map(function (x) { return x.name; }).join(' › ')) + '</b><br>' + fmt(p.value); } }, tip),
           series: [{ type: 'treemap', roam: false, nodeClick: false, breadcrumb: { show: false }, width: '100%', height: '92%', top: 8,
             label: { show: true, formatter: '{b}', color: '#fff', fontSize: 12 }, upperLabel: { show: true, height: 22, color: '#fff', fontWeight: 700 },
-            levels: [{ itemStyle: { borderColor: '#0d1522', borderWidth: 3, gapWidth: 3 } }, { itemStyle: { borderColor: '#0d1522', borderWidth: 1, gapWidth: 1 }, colorSaturation: [0.35, 0.6] }],
+            levels: [{ itemStyle: { borderColor: '#0e1520', borderWidth: 3, gapWidth: 3 } }, { itemStyle: { borderColor: '#0e1520', borderWidth: 1, gapWidth: 1 }, colorSaturation: [0.35, 0.6] }],
             data: keys.map(function (k, i) {
               var kids = grp === 'none' ? undefined : gkeys.filter(function (g) { return acc[k].g[g]; }).map(function (g, j) { return { name: CAT[grp].n(g), value: r1(val(acc[k].g[g])), itemStyle: { color: grpColor(grp, g, j) } }; });
               return { name: cat.n(k), value: r1(val(acc[k])), key: k, children: kids, itemStyle: { color: cat.col ? cat.col(k) : PALETTE[i % PALETTE.length] } };
@@ -844,7 +844,7 @@
       } else {
         var cats = keys.slice().reverse();
         var series = grp === 'none'
-          ? [{ type: 'bar', name: V.l, data: cats.map(function (k) { return { value: r1(val(acc[k])), key: k, itemStyle: { color: cat.col ? cat.col(k) : new echarts.graphic.LinearGradient(0, 0, 1, 0, [{ offset: 0, color: '#1b5cff' }, { offset: 1, color: '#35e0ff' }]) } }; }), barMaxWidth: 26, label: { show: true, position: 'right', color: '#c9d6ea', formatter: function (p) { return fmt(p.value); } } }]
+          ? [{ type: 'bar', name: V.l, data: cats.map(function (k) { return { value: r1(val(acc[k])), key: k, itemStyle: { color: cat.col ? cat.col(k) : new echarts.graphic.LinearGradient(0, 0, 1, 0, [{ offset: 0, color: '#1b5cff' }, { offset: 1, color: '#3ee6c3' }]) } }; }), barMaxWidth: 26, label: { show: true, position: 'right', color: '#c9d6ea', formatter: function (p) { return fmt(p.value); } } }]
           : gkeys.map(function (g, j) { return { type: 'bar', name: CAT[grp].n(g), stack: C.type === 'stacked' ? 'a' : undefined, barMaxWidth: C.type === 'stacked' ? 26 : 12, itemStyle: { color: grpColor(grp, g, j) }, data: cats.map(function (k) { return { value: acc[k].g[g] ? r1(val(acc[k].g[g])) : 0, key: k }; }) }; });
         if (grp !== 'none' && V.agg === 'mean' && C.type === 'stacked') { warn = true; note.push('Stacking averages is not additive; use grouped bars for averages.'); }
         opt = { backgroundColor: 'transparent', tooltip: Object.assign({ trigger: 'axis', axisPointer: { type: 'shadow' }, valueFormatter: function (v) { return fmt(v); } }, tip),
@@ -920,8 +920,8 @@
   function initTable() {
     $('#tSearch').addEventListener('input', function (e) { T.q = e.target.value; renderTable(); });
     $$('#tView button').forEach(function (b) { b.onclick = function () { T.view = b.dataset.v; $$('#tView button').forEach(function (x) { x.classList.toggle('on', x === b); }); renderTable(); }; });
-    $('#tGeo').onclick = function () { download('quantumxi_mines_filtered.geojson', toGeoJSON(tableMines()), 'application/geo+json'); };
-    $('#tCsv').onclick = function () { download('quantumxi_mines_filtered.csv', toCSV(tableMines()), 'text/csv'); };
+    $('#tGeo').onclick = function () { download('millenniumki_mines_filtered.geojson', toGeoJSON(tableMines()), 'application/geo+json'); };
+    $('#tCsv').onclick = function () { download('millenniumki_mines_filtered.csv', toCSV(tableMines()), 'text/csv'); };
     renderTable(); views.push(renderTable);
     // US criticality reference
     var used = Object.keys(MIN).filter(function (c) { return MINES.some(function (m) { return m.primary === c; }); });
@@ -1028,7 +1028,7 @@
     if (!hist || hist.length < 2) return '';
     var v = hist.map(function (h) { return h.v; }), mn = Math.min.apply(null, v), mx = Math.max.apply(null, v), w = 120, h = 22;
     var pts = v.map(function (x, i) { return (i / (v.length - 1) * w).toFixed(1) + ',' + (h - (mx === mn ? h / 2 : (x - mn) / (mx - mn) * h)).toFixed(1); }).join(' ');
-    return '<svg width="' + w + '" height="' + h + '" viewBox="0 0 ' + w + ' ' + h + '"><polyline points="' + pts + '" fill="none" stroke="#35e0ff" stroke-width="1.4"/></svg>';
+    return '<svg width="' + w + '" height="' + h + '" viewBox="0 0 ' + w + ' ' + h + '"><polyline points="' + pts + '" fill="none" stroke="#3ee6c3" stroke-width="1.4"/></svg>';
   }
   function renderPrices() {
     var el = $('#prices'); if (!el) return;

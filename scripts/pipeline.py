@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Quantum Xi Mine Atlas data pipeline.
+"""Millennium KI Mine Atlas data pipeline.
 
   python3 scripts/pipeline.py                 # run every feed that is due, then rebuild all outputs
   python3 scripts/pipeline.py --force         # run every feed now regardless of cadence
