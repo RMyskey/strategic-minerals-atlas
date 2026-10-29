@@ -1,6 +1,84 @@
 {
  "items": [
   {
+   "id": "234e44f11c7f59ad",
+   "feed": "gnews",
+   "date": "2026-10-29T09:09:47Z",
+   "title": "Hammer Metals Initiates Austral Scheme, Spins Off WA Gold Assets, and Regains Full Control of Mount Isa JV Projects",
+   "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOcGxGcE5EOWE3djEzY0tpRDJpbXd5bTdCY3d2SkZ6M0o2SVpSQkhCemgxc0pSd0x0NWk2clZCMFN5MVVvZFAxR0stbkljeDhzQlZQSUt0d0JLMlFsb1NzaXllemZreExlZmprN0IzcEJ6Rm8xVlZCWUF0TDVVdW50ZmtCUWwycVRpN2ZSYnVWOXRQNjdsTWRyX254Q25HRUkwSXhOZUpnZl9tSWwzZWdySjMxTVlEVGxsNmJ4XzVaLXAyR0NLeUN5eWtoOS0xNWVtbG5PYk9LdlgxZlhKN2kxLTdwMDdiT0lXNWE5UTVDRkhSQQ?oc=5",
+   "source": "Kalkine Media",
+   "category": "ownership",
+   "mines": [
+    106
+   ],
+   "owners": []
+  },
+  {
+   "id": "97ff2eb52b36dd0e",
+   "feed": "gnews",
+   "date": "2026-10-29T05:18:19Z",
+   "title": "Hammer Metals Enters Austral Scheme, Demerges WA Gold Assets and Returns Mount Isa JV Projects to 100% Ownership",
+   "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPdmpCeFZva3YwZW5PSEFmMzl1OGh5Y0ZYaUVjTjg1NlVoS3BTUFI3RjZZRnIzcW5OeTZwUENzcW1KRW01WWpHRl9RakxiVTB5SGY2QlhxNVV2ZVZtS3BXQjJvTWI2cmQ5YUNtX2k0cXdLdFdncW9KUFR0MEthZkM1OHVJdW4xTl8xNzc0eG1yQWpOR3l4TjFkdzlVQnM3MXRNMkgxUV93M2ozV1IzMU40OTV0TmtaR1JhbVBiSm01d1l1MEpZZEg1enNrbDM1U3RSUTB0amlYZ3hkdlpmUG9Nc0c4UjNCNjA?oc=5",
+   "source": "Kalkine",
+   "category": "ownership",
+   "mines": [
+    106
+   ],
+   "owners": []
+  },
+  {
+   "id": "515084bb1d0843ea",
+   "feed": "gnews",
+   "date": "2026-10-28T22:57:03Z",
+   "title": "Uranium One Mining Corp. Announces Amendment to Share Exchange Agreement in Connection with Acquisition of the Foghorn and Pasfield Lake Properties",
+   "url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxOUHI2SnJFU2FxeGtMRGc2UVJYQnhoTVZ1ZXZIZ0E0ZzlSVGpZLWpUR2dQRTdrdmpOcmdZc1pJMnZuS0d1YnVtd3VXc0dmZ0VwV181U2xSQjBsQ1ltZG9aY2VGamtTSV90aTkxWUpJQ0pJTGRNVHk4a1k0X0tPMXJwRFNKdVhlWmJpXzZaTlFKYy1ta1Qzb3pGTkVTRFg5VnVKVmhYT010Z29RTE1NYzdYWFdLdEFXRU9OTGZlSDIzeU9vTENyT1Q4RU9PanBGUlhaYlBmaWZibTZfNHZTSXhfUTB1YVhMeXRydTNTQ25wd3FYbF9GVkpULXhsbF9va0RwZlJOZGFyN3k2V1JOWmJHT0gzcjRjaEhhaURDeU96cWxoUFVWNGlOSjVUTXA0TElhVDNpYzRxV2Z4TW9kcW9tRmhPdGM?oc=5",
+   "source": "TradingView",
+   "category": "ownership",
+   "mines": [],
+   "owners": [
+    "Uranium One (Rosatom)"
+   ]
+  },
+  {
+   "id": "fd554303430451b8",
+   "feed": "gnews",
+   "date": "2026-10-28T22:57:03Z",
+   "title": "Uranium One Mining Corp. (UUU) Cuts Deal Share Price to $0.20, Extends Deadline",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQTXlrdEIyaEpSRjdRZnc5bkYzMVBpWDhwTTFqY1hUYU1aUllWYVhucXRZbzBhQklRNVlZRzQyTERzcEJBRERsMXZRVG52aDAtbmltUk15SlZqRzF1NU9CdENqckQ3aHl3aDUwRVRKRk5VX2swRnlGNmY4bm1XQ0JaMFVpRXoyVzNVNndsUVdDa1E3ZURqenZZU0UtMmU1MHlzbjNZbkpXdmwyVkxSRHc5TFlDMTZWWURvSEtfYkJiWmszNHFJeFZidFFrZHBUTWpfbnc?oc=5",
+   "source": "TradingView",
+   "category": "ownership",
+   "mines": [],
+   "owners": [
+    "Uranium One (Rosatom)"
+   ]
+  },
+  {
+   "id": "4c9aa6e7d4169dfd",
+   "feed": "gnews",
+   "date": "2026-10-28T15:04:57Z",
+   "title": "Fortescue says iron ore deal with China must protect Australia",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNZzhvWUFPcGVLMWJZdThKdVA3WF9IMUppUVZOU3J5VmIwM3BqbWdLUF8tTkhuaE45b0N5b2lzbzUxUDEtM3pDNG5Od1J1bTdtdTNJbDBRRnJUMUFISW53RmFtU0x6SlFnMU1fR0liQTdUWFIxWEFMUlFoRHdKb29uUU5xWi02d1NodnlRUmhmTVZmaHRf?oc=5",
+   "source": "Mining.com",
+   "category": "ownership",
+   "mines": [],
+   "owners": [
+    "Fortescue"
+   ]
+  },
+  {
+   "id": "b791b796209f8f23",
+   "feed": "miningcom",
+   "date": "2026-10-28T12:49:00Z",
+   "title": "Codelco relocates 74% of workers as Andes Norte remains halted",
+   "url": "https://www.mining.com/codelco-relocates-74-of-workers-as-andes-norte-remains-halted/",
+   "source": "MINING.COM",
+   "category": "suspension",
+   "mines": [],
+   "owners": [
+    "Codelco"
+   ]
+  },
+  {
    "id": "9ba1e19b6981d5dc",
    "feed": "gnews",
    "date": "2026-10-28T06:27:51Z",
@@ -1219,5 +1297,5 @@
    ]
   }
  ],
- "generated_at": "2026-10-28T12:22:28Z"
+ "generated_at": "2026-10-29T12:34:13Z"
 }
