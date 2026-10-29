@@ -23,7 +23,7 @@
     <span class="brand-txt"><b>MILLENNIUM <em>KI</em></b><small>Strategic Mine Ownership Atlas</small></span>
   </a>
   <nav class="nav" id="nav">
-    <a href="#map">Map</a><a href="#intel">Intel</a><a href="#network">Network</a><a href="#charts">Chart builder</a><a href="#data">Data</a><a href="#findings">Findings</a><a href="#method">Method</a><a href="#sources">Sources</a><a href="#about">About</a>
+    <a href="#map">Map</a><a href="#intel">Intel</a><a href="#network">Network</a><a href="#flow">Supply flow</a><a href="#charts">Chart builder</a><a href="#data">Data</a><a href="#findings">Findings</a><a href="#method">Method</a><a href="#sources">Sources</a><a href="#about">About</a>
   </nav>
   <button class="nav-toggle" id="navToggle" aria-label="Menu" aria-expanded="false">☰</button>
 </header>
@@ -126,6 +126,15 @@
   <div class="card"><div id="graph" class="graph"></div><div class="glegend" id="gLegend"></div></div>
 </section>
 
+<section id="flow" class="sec">
+  <div class="sec-head">
+    <div><h2>Supply flow</h2><p>Mines that produce a mineral, flowing into the mineral and on to typical compounds and end uses. Mines and shares come from the atlas register; click a mine to fly to it on the map, or the mineral to filter the whole atlas.</p></div>
+    <div class="flow-ctl"><label>Mineral <select id="flowMin" aria-label="Mineral"></select></label></div>
+  </div>
+  <div class="flow-canvas" id="flowBody"></div>
+  <p class="flow-note" id="flowNote"></p>
+</section>
+
 <section id="charts" class="sec">
   <div class="sec-head"><div><h2>Chart builder</h2><p>Pick a chart type, a category, a value and a colour/group field. Charts update live and respect the global filters. Presets reproduce the atlas's standard concentration charts.</p></div></div>
   <div class="presets" id="presets"></div>
@@ -218,5 +227,6 @@
 <script src="assets/js/data.js"></script>
 <script src="assets/js/geo.js"></script>
 <script src="assets/js/app.js"></script>
+<script src="assets/js/flow.js"></script>
 </body>
 </html>
