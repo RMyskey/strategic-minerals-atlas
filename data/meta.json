@@ -42,51 +42,50 @@
  },
  "mines": 147,
  "compiled": "2026-10-23",
- "built_at": "2026-10-29T13:28:45Z",
+ "built_at": "2026-10-29T13:38:43Z",
  "feeds": {
   "gdelt": {
    "label": "GDELT DOC 2.0 news alerts",
    "cadence": "daily",
    "url": "https://api.gdeltproject.org/api/v2/doc/doc",
    "status": "partial",
-   "last_attempt": "2026-10-29T12:33:13Z",
+   "last_attempt": "2026-10-29T13:37:32Z",
    "items": 0,
-   "message": "2/5 queries ok; HTTP 429 for https://api.gdeltproject.org/api/v2/doc/doc",
-   "last_success": "2026-10-29T12:33:13Z"
+   "message": "4/5 queries ok; HTTP 429 for https://api.gdeltproject.org/api/v2/doc/doc",
+   "last_success": "2026-10-29T13:37:32Z"
   },
   "gnews": {
    "label": "Google News RSS alerts",
    "cadence": "daily",
    "url": "https://news.google.com/rss",
    "status": "ok",
-   "last_attempt": "2026-10-29T12:34:12Z",
-   "items": 8,
+   "last_attempt": "2026-10-29T13:38:30Z",
+   "items": 9,
    "message": "24 queries; ",
-   "last_success": "2026-10-29T12:34:12Z"
+   "last_success": "2026-10-29T13:38:30Z"
   },
   "miningcom": {
    "label": "MINING.COM RSS alerts",
    "cadence": "daily",
    "url": "https://www.mining.com/feed/",
    "status": "ok",
-   "last_attempt": "2026-10-29T12:34:13Z",
+   "last_attempt": "2026-10-29T13:38:31Z",
    "items": 2,
    "message": "36 feed entries scanned; ",
-   "last_success": "2026-10-29T12:34:13Z"
+   "last_success": "2026-10-29T13:38:31Z"
   },
   "wikidata": {
    "label": "Wikidata coordinate/owner check",
    "cadence": "weekly",
    "url": "https://query.wikidata.org/",
    "status": "ok",
-   "last_attempt": "2026-10-26T00:40:13Z",
+   "last_attempt": "2026-10-29T13:38:41Z",
    "items": 0,
    "message": "71 Wikidata items checked, 71 returned; 0 changes flagged",
-   "last_success": "2026-10-26T00:40:13Z",
+   "last_success": "2026-10-29T13:38:41Z",
    "detail": {
     "missing": []
-   },
-   "status_note": "not due"
+   }
   },
   "sec": {
    "label": "SEC EDGAR filings (US-registered owners)",
@@ -94,22 +93,20 @@
    "url": "https://data.sec.gov/submissions/",
    "requires": "SEC_USER_AGENT",
    "status": "needs_config",
-   "last_attempt": "2026-10-26T00:40:13Z",
+   "last_attempt": "2026-10-29T13:38:41Z",
    "items": 0,
    "message": "Set SEC_USER_AGENT to \"Organisation Name contact@domain\" (SEC fair-access policy).",
-   "last_success": "2026-10-26T00:27:36Z",
-   "status_note": "not due"
+   "last_success": "2026-10-26T00:27:36Z"
   },
   "worldbank": {
    "label": "World Bank Pink Sheet prices",
    "cadence": "monthly",
    "url": "https://www.worldbank.org/en/research/commodity-markets",
    "status": "ok",
-   "last_attempt": "2026-10-26T00:40:14Z",
+   "last_attempt": "2026-10-29T13:38:42Z",
    "items": 12,
    "message": "latest period 2026-09",
-   "last_success": "2026-10-26T00:40:14Z",
-   "status_note": "not due"
+   "last_success": "2026-10-29T13:38:42Z"
   },
   "fred": {
    "label": "FRED commodity prices",
@@ -117,7 +114,7 @@
    "url": "https://fred.stlouisfed.org/",
    "requires": "FRED_API_KEY",
    "status": "needs_key",
-   "last_attempt": "2026-10-29T12:34:13Z",
+   "last_attempt": "2026-10-29T13:38:42Z",
    "items": 0,
    "message": "FRED_API_KEY not set; skipped (free key: https://fred.stlouisfed.org/docs/api/api_key.html)."
   },
@@ -126,10 +123,10 @@
    "cadence": "annual",
    "url": "https://pubs.usgs.gov/periodicals/",
    "status": "ok",
-   "last_attempt": "2026-10-26T00:40:15Z",
+   "last_attempt": "2026-10-29T13:38:43Z",
    "items": 0,
    "message": "2026 available, 2027 not found",
-   "last_success": "2026-10-26T00:40:15Z",
+   "last_success": "2026-10-29T13:38:43Z",
    "detail": {
     "checked": [
      {
@@ -157,9 +154,8 @@
       "url": "https://www.sciencebase.gov/catalog/item/69837ec8b66b01367d7ec7d9"
      }
     ]
-   },
-   "status_note": "not due"
+   }
   }
  },
- "last_refresh": "2026-10-29T12:34:13Z"
+ "last_refresh": "2026-10-29T13:38:43Z"
 }

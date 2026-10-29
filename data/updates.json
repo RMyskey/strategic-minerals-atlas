@@ -120,12 +120,12 @@
    ]
   },
   {
-   "id": "3aa0b90d83cb3608",
-   "feed": "miningcom",
-   "date": "2026-10-27T12:29:00Z",
+   "id": "9619db4c014a7c65",
+   "feed": "gnews",
+   "date": "2026-10-27T14:42:26Z",
    "title": "Codelco copper mine blockade adds to supply concerns",
-   "url": "https://www.mining.com/codelco-copper-mine-blockade-adds-to-supply-concerns/",
-   "source": "MINING.COM",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNc196d182STlORVdEcWh3NUd0cHE1bjRwV2lMLW45U1EyWWt5YUtSMERPcjdiQVpQWHBSc2VEemhiN01SMFZiaGlJSWdudEc0dzVYS3FsM3pzQ3FTQjZEM1B4T0pzNXlMWWVJUVJVMzlqdWtfR2RpMWppd3lTSHlZa2hB?oc=5",
+   "source": "Mining.com",
    "category": "suspension",
    "mines": [],
    "owners": [
@@ -1297,5 +1297,5 @@
    ]
   }
  ],
- "generated_at": "2026-10-29T12:34:13Z"
+ "generated_at": "2026-10-29T13:38:43Z"
 }
