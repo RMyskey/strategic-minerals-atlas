@@ -1,6 +1,125 @@
 {
  "items": [
   {
+   "id": "8b0ef402900e2f81",
+   "feed": "gnews",
+   "date": "2026-10-30T11:20:20Z",
+   "title": "POSCO Averts Third Strike as Union Reaches Pay Deal",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOaFBPMElBZi1aYUFIQlZ6SFZ5c0xDbFJGYno3YzRndDdXSzR0WmppcmRlX19UOVZlUlFsMTd4TmtmSFRJZUVqalpWMnlUX0FlMkhYLTVnZ3ZzTEJOX3BPanpoTXV2SUlHQ2hfYlNFV3FLUFlOZXNiU1pJY1BpZzFxZ3RrODFvU1ZwTTJxcWV0QU1NcVpKeGotSA?oc=5",
+   "source": "Seoul Economic Daily",
+   "category": "suspension",
+   "mines": [],
+   "owners": [
+    "POSCO"
+   ]
+  },
+  {
+   "id": "f0ff580c986b076b",
+   "feed": "gnews",
+   "date": "2026-10-30T10:37:15Z",
+   "title": "POSCO labor and management reach tentative wage deal... “2.6% base pay increase and incentives totaling 6 million won”",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1sSG1WMnBJWEhVUF91WEl3eWdsV3doWV9zMGlkMWNBU2REWXB6MjlzVnZKem5OUnBUWEQ0SV9Dd0Y3dUJ5TjhUV2YtSmNIQ2cyUkhJ?oc=5",
+   "source": "매일경제",
+   "category": "ownership",
+   "mines": [],
+   "owners": [
+    "POSCO"
+   ]
+  },
+  {
+   "id": "72b0a762c6373684",
+   "feed": "gnews",
+   "date": "2026-10-30T10:35:18Z",
+   "title": "POSCO Labor and Management Reach Tentative Wage Deal After 140 Days; Base Pay Up 2.6%",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1ia2czSV9lWmpJWktHa3VkYWdpdVBpaEZIOWVGU3FzLWliVmNkY2x6Zmttbl9UdG9ZSkdxN0hRdXZpNUpGUVNKWTltY2ViN1pOM3RkLUdmcTU?oc=5",
+   "source": "파이낸셜뉴스",
+   "category": "ownership",
+   "mines": [],
+   "owners": [
+    "POSCO"
+   ]
+  },
+  {
+   "id": "0696e305aef5e4b6",
+   "feed": "gnews",
+   "date": "2026-10-30T10:23:09Z",
+   "title": "POSCO Labor and Management Reach Dramatic Tentative Wage Deal Ahead of Strike",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5uOThBbDdvRGVKVEgxS1dIN1J6YS1FbXpGOEFrMy1XQS1HVjdjRWF1VThqS0pKTzJZNmppd2xaNEZMdGd2alJjR29wZjVBNTFPZmNCUXVEdnI?oc=5",
+   "source": "파이낸셜뉴스",
+   "category": "suspension",
+   "mines": [],
+   "owners": [
+    "POSCO"
+   ]
+  },
+  {
+   "id": "a4abb607379dd7bd",
+   "feed": "gnews",
+   "date": "2026-10-30T09:35:37Z",
+   "title": "[Breaking] POSCO labor and management reach tentative wage deal, avert third strike",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1KcUNuSnV2YWRnYTBBLVFvY21vUExudHhVSUNDOWpSaDUyY0ZZejR0YVMzYmJ5ZXd0a1lDc1hPOV9nZjFxbGN4SVpNVTgtNEJjd3RB?oc=5",
+   "source": "매일경제",
+   "category": "suspension",
+   "mines": [],
+   "owners": [
+    "POSCO"
+   ]
+  },
+  {
+   "id": "b73f8e4c80ec840e",
+   "feed": "gnews",
+   "date": "2026-10-30T01:07:52Z",
+   "title": "POSCO Wage Talks Resume Ahead of Possible Strike",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9vUm5YQ2hOLXR3d3p0RjJDTU5IcERDZmFNcE9WMHRab3A2TFJaMXdDR1pibzJPOUdSOXhJYlhNSnJSWUdJYmFTNWRIVll2ak93ZG14d3YxUXdkbGxxRHNhNTdMLTg4Z2htSml0eUpiODNEVmdz?oc=5",
+   "source": "Businesskorea",
+   "category": "suspension",
+   "mines": [],
+   "owners": [
+    "POSCO"
+   ]
+  },
+  {
+   "id": "92486522bb7a8a45",
+   "feed": "gnews",
+   "date": "2026-10-29T23:17:09Z",
+   "title": "Uranium One Mining Corp. Completes Acquisition of 1583644 B.C. Ltd., Including the Foghorn and Pasfield Lake Mineral Properties",
+   "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPTkUxczF4TzdQaVhrdF9fNTFPTG10SEZVWWNwZ0J6YkYyNTNxOE1qaUE0ZG45ZFpqN3VIam5PeXpGalZNdEhFd0h5SjNlT3FVWG4wN1pTbFFWdUdoak92R0JYNU9vQUtIQ2JqWE11N1NrZGNvY21sTkRMbGk4eWkxZllrUGFnUEdJTHpRLV92NFRKeGdidzZwcHhSdjdEc0d2NjhubXB1YU9veXY0b3dSR1BQRGxJc0lCUjBwZDJmOUxFZV9nR2dsUGgybktqWVVVMGxDdEx4YjRienJyMTZuNTZyd1BVQ2c4blZFSzhONVpqajhsaUp5eW15UW9YdVB0Unlwa2xCQ0dsOEx5Smc?oc=5",
+   "source": "TheNewswire",
+   "category": "ownership",
+   "mines": [],
+   "owners": [
+    "Uranium One (Rosatom)"
+   ]
+  },
+  {
+   "id": "099a18f169993e41",
+   "feed": "gnews",
+   "date": "2026-10-29T23:15:05Z",
+   "title": "Uranium One Mining Corp. (UUU) Closes Purchase of 1583644 B.C. Ltd. for Shares and Cash",
+   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPY2ZWeDUwRlNIZnNXUXJlQkdJblBBc1dnOE43WFpnUVJHTXBBZWdnZWI0aktrNmxqRG1uS1ZfdngxNVN0eVd1QkhkZnQzZUI2SXV1MnR4ck5GVTJobEdRMHZQamlZc2xFZGlMRTVCdkZiSUw2RXBKa21nLVhJMjVZT045dFNsT1dObkg2YjdmT2tsbGRRcFhJZVVlZW13VENOUnZ6MVUwdzZ1cERNeHhOVzBxWUd5VTdBZXBRYUJEbUVBVDhucXh6MnpQdENsVVRKUGVEZWtNaHl1NmRX?oc=5",
+   "source": "TradingView",
+   "category": "ownership",
+   "mines": [],
+   "owners": [
+    "Uranium One (Rosatom)"
+   ]
+  },
+  {
+   "id": "03dc321caeda5a5f",
+   "feed": "gnews",
+   "date": "2026-10-29T19:32:23Z",
+   "title": "Rio Tinto Stops Underground Work at Oyu Tolgoi Following Mine Accident",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOekg5UV9leVhjMHo4dXJJMm90NzZzLURnaUVFZFR5LUoyVFlKaTNSYm83Qjk5VFlydGxZRVE1SUR0R1ZobGxENXlNNUg1dHVoNWZzNFVYWXZxSDJOMElYbzl6NGRRUEkzVUFxdl85QkFwTDhqbE1CeFZMUzJBeFlhM1MyaUxrMjdMb2ZhazN1OWdYdGEwdHNQUkV3?oc=5",
+   "source": "the deep dive",
+   "category": "suspension",
+   "mines": [
+    15
+   ],
+   "owners": [
+    "Rio Tinto"
+   ]
+  },
+  {
    "id": "234e44f11c7f59ad",
    "feed": "gnews",
    "date": "2026-10-29T09:09:47Z",
@@ -61,6 +180,21 @@
    "source": "Mining.com",
    "category": "ownership",
    "mines": [],
+   "owners": [
+    "Fortescue"
+   ]
+  },
+  {
+   "id": "68a3bee4a99897ab",
+   "feed": "gnews",
+   "date": "2026-10-28T13:59:39Z",
+   "title": "PLS signs 20-year power deal with Fortescue unit for Pilgangoora lithium mine",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNeXVLcGMyemItaTF5QzMzMkZDTnpwYVdNZXNGQU16emFvQnV0SHdubnp6bzJsLTI0dFBsOEt0VkM2UkJvTWxtZzFuRTlOeDd2YktqdjFCdFdUQ2FtQmpiN0RiQlYwVk1iRzhOcEFnLUROMzdRV3A1a0txUzg0bHJCVkxjQmhVUkV5S0VMcGxWeTl0V28yOUFjMUgyOEpRcWJUcFkyWHdLRlo?oc=5",
+   "source": "Mining.com",
+   "category": "ownership",
+   "mines": [
+    34
+   ],
    "owners": [
     "Fortescue"
    ]
@@ -1297,5 +1431,5 @@
    ]
   }
  ],
- "generated_at": "2026-10-29T13:38:43Z"
+ "generated_at": "2026-10-30T12:22:52Z"
 }
