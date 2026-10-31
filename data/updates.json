@@ -1,6 +1,20 @@
 {
  "items": [
   {
+   "id": "f17f2c8750a99f4e",
+   "feed": "gnews",
+   "date": "2026-10-30T17:55:37Z",
+   "title": "Alcoa’s South32 aluminum deal under review in Brazil",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMS1VTFZ1SG42Y3h0azBhVkR3MFVaVTltQlFtZlJoSnQtOG5GNzZGNUd3OElnckU5TkJRNURneGZGdV9jeUdKQTBHNEI1OTBRUURRbHVpUnFCSU8yV0l3SkQ1RE53dUhSTzdyZzItNXFOaDMxYTE1VGFnWjE2NFFveHVlaXItSk5OUlpsSXotcmNLZXNFTjVjLUd6ZlRyUWdlbkdsUjkwWGVBc1JDaHRacU0xUzIyRm_SAVpBVV95cUxQSTBDcUJkYnVMRzNYVTNDRFhQckpwMktCODJGZkY4VS1rYWdQN0JYZ1h2UlJ1bWl3aWEtbjNneFVkYVFYTWltRVdfU2o0emFUUThrQ3c0d0dzcWc?oc=5",
+   "source": "MLex",
+   "category": "ownership",
+   "mines": [],
+   "owners": [
+    "Alcoa",
+    "South32"
+   ]
+  },
+  {
    "id": "8b0ef402900e2f81",
    "feed": "gnews",
    "date": "2026-10-30T11:20:20Z",
@@ -63,6 +77,19 @@
    "mines": [],
    "owners": [
     "POSCO"
+   ]
+  },
+  {
+   "id": "283c82420d26f21f",
+   "feed": "gnews",
+   "date": "2026-10-30T02:31:00Z",
+   "title": "Rio Tinto Halts Underground Operations at Major Copper Mine",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbkdLbHYxdzFHaTJaTTk3eUphbDRUSmxWR3ZEcG8tLUtjNTVUQS1MOUFWclRucXBRTlpWZjRGWXBwck1UR1ZYb1NkVjRuYmFuVGZid1VZVDF5VEVVcUN4aGxZajI5UjRTSHdUSzN2Y3Z4TVpsYm4xUzVsNTUyRFB2LUFSVHNhSG5FZ3lnR1huUHJrUV9OeTFRajFWUHVWbmlpOFVZNlFUTG5YQ2N6a0VZeg?oc=5",
+   "source": "Bloomberg",
+   "category": "suspension",
+   "mines": [],
+   "owners": [
+    "Rio Tinto"
    ]
   },
   {
@@ -1431,5 +1458,5 @@
    ]
   }
  ],
- "generated_at": "2026-10-30T12:22:52Z"
+ "generated_at": "2026-10-31T11:54:55Z"
 }
