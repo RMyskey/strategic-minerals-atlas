@@ -1,6 +1,58 @@
 {
  "items": [
   {
+   "id": "56c00bc2ad1ef22f",
+   "feed": "miningcom",
+   "date": "2026-11-01T12:00:00Z",
+   "title": "Cutifani warns mining sector’s failure to innovate opens door to takeovers",
+   "url": "https://www.mining.com/cutifani-warns-mining-sectors-failure-to-innovate-opens-door-to-takeovers/",
+   "source": "MINING.COM",
+   "category": "ownership",
+   "mines": [],
+   "owners": [
+    "Anglo American"
+   ]
+  },
+  {
+   "id": "aef7452d9c100719",
+   "feed": "gnews",
+   "date": "2026-11-01T03:01:16Z",
+   "title": "POSCO union to vote on wage deal on the 7th; tentative agreement reached ahead of third strike",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5Cd3RBeWk3dnY0VUp0MnMyMlpUYU9abC1MMjhmcFNhNS13TDRQREYyeFotRk1IdzU5ZlpVSDhyVU90M0hTZE4xWEs5S2NYTnI5RjJ1ZEJvRk0?oc=5",
+   "source": "파이낸셜뉴스",
+   "category": "suspension",
+   "mines": [],
+   "owners": [
+    "POSCO"
+   ]
+  },
+  {
+   "id": "7c56e050ebf15f48",
+   "feed": "gnews",
+   "date": "2026-11-01T01:52:03Z",
+   "title": "POSCO union to vote on tentative wage deal this week",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1NRTFaYnhXbDdaSVVoNS12cWVJanVYMk03YXJUMFhEbWFqWmdMbVBwemt3NVNnZWNTdl9PRGlENVpGTENEVFNieGRiTDIzSmtpcHpPY09OYTM4UQ?oc=5",
+   "source": "Yonhap News Agency",
+   "category": "ownership",
+   "mines": [],
+   "owners": [
+    "POSCO"
+   ]
+  },
+  {
+   "id": "f0046ecef22eeb5f",
+   "feed": "gnews",
+   "date": "2026-11-01T00:00:05Z",
+   "title": "POSCO Averts Third Strike as Union Agrees to 2.6% Base Pay Rise",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOWGs4MndUNEU1TVMyVzlQZ3l5UDQ4R2l1Nl9WR0NIdFk3WmhIcEgzTW1vdmhRLWVZX0VsLUNlSnFLRkQ1OWFSYkNmWVhHMlVQQ0NxdGx4VFlXRTkySWVWdDB2X2NtQ0JfRGQwOXlmTjduMFY0dm1SX1BGaFdkOGQ1N1pCcGN6R2xaS1lWdGNqMkRzcG9La1RqSlprc3RXUQ?oc=5",
+   "source": "Seoul Economic Daily",
+   "category": "suspension",
+   "mines": [],
+   "owners": [
+    "POSCO"
+   ]
+  },
+  {
    "id": "f17f2c8750a99f4e",
    "feed": "gnews",
    "date": "2026-10-30T17:55:37Z",
@@ -85,7 +137,7 @@
    "date": "2026-10-30T02:31:00Z",
    "title": "Rio Tinto Halts Underground Operations at Major Copper Mine",
    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbkdLbHYxdzFHaTJaTTk3eUphbDRUSmxWR3ZEcG8tLUtjNTVUQS1MOUFWclRucXBRTlpWZjRGWXBwck1UR1ZYb1NkVjRuYmFuVGZid1VZVDF5VEVVcUN4aGxZajI5UjRTSHdUSzN2Y3Z4TVpsYm4xUzVsNTUyRFB2LUFSVHNhSG5FZ3lnR1huUHJrUV9OeTFRajFWUHVWbmlpOFVZNlFUTG5YQ2N6a0VZeg?oc=5",
-   "source": "Bloomberg",
+   "source": "Bloomberg.com",
    "category": "suspension",
    "mines": [],
    "owners": [
@@ -1458,5 +1510,5 @@
    ]
   }
  ],
- "generated_at": "2026-10-31T11:54:55Z"
+ "generated_at": "2026-11-01T12:50:04Z"
 }
