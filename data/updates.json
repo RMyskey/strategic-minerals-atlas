@@ -1,6 +1,19 @@
 {
  "items": [
   {
+   "id": "f16d962205978671",
+   "feed": "miningcom",
+   "date": "2026-11-02T12:57:00Z",
+   "title": "Glencore CEO pay shakeup stirs fresh takeover speculation",
+   "url": "https://www.mining.com/glencore-ceo-pay-shakeup-stirs-fresh-takeover-speculation/",
+   "source": "MINING.COM",
+   "category": "ownership",
+   "mines": [],
+   "owners": [
+    "Glencore"
+   ]
+  },
+  {
    "id": "56c00bc2ad1ef22f",
    "feed": "miningcom",
    "date": "2026-11-01T12:00:00Z",
@@ -1510,5 +1523,5 @@
    ]
   }
  ],
- "generated_at": "2026-11-02T15:03:06Z"
+ "generated_at": "2026-11-03T13:53:22Z"
 }
