@@ -1,6 +1,32 @@
 {
  "items": [
   {
+   "id": "4ca0f5e2b3c0bb58",
+   "feed": "miningcom",
+   "date": "2026-11-03T17:43:38Z",
+   "title": "MMG, Anglo American extend $500 million nickel deal deadline",
+   "url": "https://www.mining.com/mmg-anglo-american-extend-500-million-nickel-deal-deadline/",
+   "source": "MINING.COM",
+   "category": "ownership",
+   "mines": [],
+   "owners": [
+    "Anglo American"
+   ]
+  },
+  {
+   "id": "d1c2ed158c6fc53b",
+   "feed": "gnews",
+   "date": "2026-11-03T03:02:03Z",
+   "title": "Rio Tinto creates ‘kill zone’ to halt cane toad invasion",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPVTJKVkdRZS1KM3JzclBkMnJ6SEFXZTdVWkxrZzFUMkNKQmQxTXBDcllOOXVTeWdSQnpYelZrRmRtdTFiYl9kMmZBeW9kYzdOeDQ4bWc0eUJwbkhpakVPQkVxR2RWOWx3UzIyUWtjMXFVMkZGS21sNUo3WnlHNGFKWmdfLVc?oc=5",
+   "source": "Financial Times",
+   "category": "suspension",
+   "mines": [],
+   "owners": [
+    "Rio Tinto"
+   ]
+  },
+  {
    "id": "f16d962205978671",
    "feed": "miningcom",
    "date": "2026-11-02T12:57:00Z",
@@ -1523,5 +1549,5 @@
    ]
   }
  ],
- "generated_at": "2026-11-03T13:53:22Z"
+ "generated_at": "2026-11-04T14:01:28Z"
 }
