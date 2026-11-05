@@ -1,6 +1,19 @@
 {
  "items": [
   {
+   "id": "eee3e75fdb7a5681",
+   "feed": "gnews",
+   "date": "2026-11-05T05:30:15Z",
+   "title": "U.S. lithium company Albemarle sold 13,000 tons of lithium products in the third quarter of this yea..",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBPMzNCd1RaSXNHM0dlZXJZR2lJSkE5cHVrRjFlc0RZNV9yS0NFR1RjUEc0TV9NV2xzYXRfX0lzQkVVNE9oYURHMW91c0NtTE0?oc=5",
+   "source": "매일경제",
+   "category": "ownership",
+   "mines": [],
+   "owners": [
+    "Albemarle"
+   ]
+  },
+  {
    "id": "4ca0f5e2b3c0bb58",
    "feed": "miningcom",
    "date": "2026-11-03T17:43:38Z",
@@ -1549,5 +1562,5 @@
    ]
   }
  ],
- "generated_at": "2026-11-04T14:01:28Z"
+ "generated_at": "2026-11-05T14:14:07Z"
 }
