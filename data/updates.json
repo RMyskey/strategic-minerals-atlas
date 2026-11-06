@@ -1,6 +1,46 @@
 {
  "items": [
   {
+   "id": "5f95ec1d3aeae6f9",
+   "feed": "gnews",
+   "date": "2026-11-06T09:32:00Z",
+   "title": "Report: TEPCO expenses to increase for nuclear accident",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8yZTVueHNhZGtNT2NrTGxqOVB2ZFFwcnJzMFFjRjdFNVdjNnZWeUhQNFZUTlMwS25KUDVmLUJIcDM4cGRwYTJjX3U0WjA1bUx0TklRSWJB?oc=5",
+   "source": "朝日新聞",
+   "category": "suspension",
+   "mines": [],
+   "owners": [
+    "TEPCO"
+   ]
+  },
+  {
+   "id": "0934435b9661473b",
+   "feed": "gnews",
+   "date": "2026-11-06T08:20:00Z",
+   "title": "South32 maintains June 2027 timeline for Alcoa's acquisition of aluminium assets",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVXhxdTN2c2VWYXFiNG5ocldWbnRwVHZmTmoxQUNiMjZFT292elNNNjZDREZjVzBCRG4zUDB1d1gtT0RoWlBOam1nUHJsTDg5RW5LNGpYUVM1MlRrUk1rYW9IUEdsS1JaWVVFbEZDY3NpUm9jeFJWTjJHbzEwWGxKdXFPQjJ0MmxadVJYWGxpOVJJTWFJVGVDMHZwcGpEeXpCUlc0MFFBdzJSZWhDN2p3dkt5Zk1QRi1x?oc=5",
+   "source": "AL Circle",
+   "category": "ownership",
+   "mines": [],
+   "owners": [
+    "Alcoa",
+    "South32"
+   ]
+  },
+  {
+   "id": "de2998565a55abb1",
+   "feed": "gnews",
+   "date": "2026-11-05T18:18:54Z",
+   "title": "Codelco halts Andina mine as tailings spill threatens river",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQazFVbU11VVo5cVc0czFuaENsRUhHMmlVdFNVOWtvTEFhMDg0cXNCUTVVT29CY1BlQVozLXdRSmw2QXhjeEJvMkt4b1NNdUFGVDN0TUJXLTd5Q0xpYUJCbWtuUHp6SDBiS01HMmpzWlBoTk1NclpLZ3gyMFE2c09LWUEwanZwUTlGN0E?oc=5",
+   "source": "Mining.com",
+   "category": "suspension",
+   "mines": [],
+   "owners": [
+    "Codelco"
+   ]
+  },
+  {
    "id": "eee3e75fdb7a5681",
    "feed": "gnews",
    "date": "2026-11-05T05:30:15Z",
@@ -1562,5 +1602,5 @@
    ]
   }
  ],
- "generated_at": "2026-11-05T14:14:07Z"
+ "generated_at": "2026-11-06T13:58:48Z"
 }
