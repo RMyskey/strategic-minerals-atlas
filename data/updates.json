@@ -1,6 +1,59 @@
 {
  "items": [
   {
+   "id": "0bed9f0e48e026a2",
+   "feed": "gnews",
+   "date": "2026-11-07T11:11:15Z",
+   "title": "POSCO Union's Provisional Wage Deal Rejected... Renegotiations Needed",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1MWWVTNTlZVThZOGVHYllCb3Q3MXhMeGw2UTJDMS1JaXJmSENISGpudVBnOUtQaG1HdktfYlF5bGtJM01BTElsTy1nOWc1ejJDcmhXZGZHY3RGczZobWJSZGRQdmc?oc=5",
+   "source": "아시아경제",
+   "category": "ownership",
+   "mines": [],
+   "owners": [
+    "POSCO"
+   ]
+  },
+  {
+   "id": "dc8346e8c8ff7987",
+   "feed": "gnews",
+   "date": "2026-11-07T09:22:51Z",
+   "title": "POSCO union votes down tentative wage deal",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1uUm0xZ3czM194U2Z2ZWVkTnZJc1FMVHJDZWJaMWRLZnpBVG9fOWktbDB5S2VlV3NfdFZFQVVlc2dqNGhKNUl4WVU5UEtxUG41MnpaNkJ5a2NiZw?oc=5",
+   "source": "Yonhap News Agency",
+   "category": "ownership",
+   "mines": [],
+   "owners": [
+    "POSCO"
+   ]
+  },
+  {
+   "id": "b35b719b11b95c09",
+   "feed": "gnews",
+   "date": "2026-11-07T08:33:29Z",
+   "title": "POSCO Union Rejects Wage Deal, Reviving Labor Conflict",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMzlIRTJzbVVnMGFQN2VuTUtNOTJqY3JNQk5LdExYeUxvRkhqOHNOQkh4NDZzVUo0NzZQMjlrWWF4YWtrZXJINlc4V1NTWlFqVXlreWxCQUxjSHNQYkc4Y2JqYzdBbHd5SklyeHZlWGVPdmxrVjE3VXh1RzluVUs0MXZ4MlBEa2lwVnppT3plRzYyc2FVOEwydUV4MnVMUzNEdVE?oc=5",
+   "source": "Seoul Economic Daily",
+   "category": "ownership",
+   "mines": [],
+   "owners": [
+    "POSCO"
+   ]
+  },
+  {
+   "id": "ae3c76c54b212f5e",
+   "feed": "gnews",
+   "date": "2026-11-07T00:44:37Z",
+   "title": "Alcoa advances up to $8 billion South32 aluminium deal",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPV3ZBeVhxbjNfOWtsblA1RTZtNGk2Qk5uRjUwRUl3Z0hYQ2g1QUJvbmNfc3h4Sm9PbnlSam1RcnFSWEwwelFJazktejlNSENyVmtmYTFoMDBfeDAzZ1o1Z2JhbGp3enJQMDBmb3JtR3V5T0lxSTA2aW5xcjNrWTVWVGFB?oc=5",
+   "source": "Mining.com.au",
+   "category": "ownership",
+   "mines": [],
+   "owners": [
+    "Alcoa",
+    "South32"
+   ]
+  },
+  {
    "id": "5f95ec1d3aeae6f9",
    "feed": "gnews",
    "date": "2026-11-06T09:32:00Z",
@@ -28,11 +81,11 @@
    ]
   },
   {
-   "id": "de2998565a55abb1",
+   "id": "9cdb7df55722710b",
    "feed": "gnews",
-   "date": "2026-11-05T18:18:54Z",
+   "date": "2026-11-05T18:19:44Z",
    "title": "Codelco halts Andina mine as tailings spill threatens river",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQazFVbU11VVo5cVc0czFuaENsRUhHMmlVdFNVOWtvTEFhMDg0cXNCUTVVT29CY1BlQVozLXdRSmw2QXhjeEJvMkt4b1NNdUFGVDN0TUJXLTd5Q0xpYUJCbWtuUHp6SDBiS01HMmpzWlBoTk1NclpLZ3gyMFE2c09LWUEwanZwUTlGN0E?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNVXZIcnhzNHBhRi1ES3dPOUVBRmdsRFZTajNDZzN0STNyamVIYmlZN01sa2ZIYWVscU9MTXdsSHYzaTNaZFhkN0ktaFZTV19sckRlVm5pQ2ZtbEJ4NDRGZmxZQmxkSG8yWl9xR0tyTExMalgwd2I3RjAwLXVoaGlWQkhoZ1FycTdYbUFR?oc=5",
    "source": "Mining.com",
    "category": "suspension",
    "mines": [],
@@ -1602,5 +1655,5 @@
    ]
   }
  ],
- "generated_at": "2026-11-06T13:58:48Z"
+ "generated_at": "2026-11-07T12:41:25Z"
 }
