@@ -1,6 +1,71 @@
 {
  "items": [
   {
+   "id": "abebddd5d0e89301",
+   "feed": "gnews",
+   "date": "2026-11-08T07:24:03Z",
+   "title": "POSCO wage deal rejected, raising prospect of prolonged labor dispute",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQVE9FZmZPMnJHc0FFdEk0WkhLRmhoaVNkX04tcVdrRW9NUW0wTkdERTdYVmRLRkFaZkpFMUt4S1NEUzFRYUN3UFplR2hRWUY4RUdJUHMybDdVcHNFX2JDYVc1N01LZGluSmFNUGY2NFVjV19JVWUtbUhmbFBQWVczMW9lQ20yTW5MdzRsM21YYTVMT2wzS2FObm11U203aURDQVdRWVl3MFk4dWRUSXNIelI2WlZPR0VVajBhcVItaWJ4clnSAcgBQVVfeXFMTzRfNE5CRnpXVjRfMWdMRFgzRUEwRjN4THprSFFkR185UERPd3ZHQlVrRW8zWUVNNndWRlZ5cmM0TDFEY0pDVFRxZ1BNS3lNQWNwaU9ueTI2WlV2b3dsR0hVVGNiMDlGLTFFMWsxUksxeXoycTZVem1NVE1vRzFUeHZnUlhxTERBTVU4bVpRVFhKT2lKbkhjdHI2SjI3UlBKNW1jTGVWWjNGZmtJOE5OSTNvTDZLZmU4WWFfZ0VjN0o1ajBtVkNRaEM?oc=5",
+   "source": "The Korea Times",
+   "category": "ownership",
+   "mines": [],
+   "owners": [
+    "POSCO"
+   ]
+  },
+  {
+   "id": "ff7c932ad2ca129c",
+   "feed": "gnews",
+   "date": "2026-11-08T06:50:09Z",
+   "title": "POSCO wage talks deal rejected; renegotiations and strike resumption loom",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5rWmgwdWFSRGk5b3B5dkktUGNTa3Z6Sk5icGFlWlIzdVZVQVVhbUJUR2wtNmlycmlRd0RycWJuaFBBSVhhcXVxX1NTVkdsem5Kby1ILVN3Rnc?oc=5",
+   "source": "파이낸셜뉴스",
+   "category": "suspension",
+   "mines": [],
+   "owners": [
+    "POSCO"
+   ]
+  },
+  {
+   "id": "9b5f9f7b3bde7a92",
+   "feed": "gnews",
+   "date": "2026-11-08T00:41:00Z",
+   "title": "POSCO union rejects wage deal, forcing renegotiations in South Korea",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQRldkWjN0UU5aRDFpV3M5dk9Kek5LbDFmSkZLOHU5TXlnN29SS20zQzBYOF95d2xFMTZocEdtMG4yWEZHTzVuM3NNOTU0NFdaSG9yd0d3TFdBTWU5NWp5cHdiZ2ZxWUs1UjE0azYtcGFwa2R3aEplUUh3eENaZFc1QXJB0gGWAUFVX3lxTE42Wk5rOExKMkc5aThRQTdHenRKVmprWVJza0hkMmdTSDZTYWV5VmdqcW9ibnUyZEhmcXRmbXpDbTM1bXdJMllhV2cyYUR0cWI5VDhqTmVDUl9vSUY0MWZCQWFBMmpKbFFoSmlKNG9tZjBKOXIxNTljRDNLTUR1ZTBTd1lsbzM5TFZ4b1dWRTd0Y2NCUVRMdw?oc=5",
+   "source": "Chosunbiz",
+   "category": "ownership",
+   "mines": [],
+   "owners": [
+    "POSCO"
+   ]
+  },
+  {
+   "id": "de45f0a894a6427f",
+   "feed": "gnews",
+   "date": "2026-11-07T18:00:00Z",
+   "title": "Alcoa sale looms over Worsley Alumina workers’ move to down tools at WA mine",
+   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNcXFZRUh4bjQ2T2dneTNKUzA0RW13dWhPZDRKVzBJdDJKS2M1R3hoODFoNzloblcxOFhfUFZGODc0MkJDekxfWEpyV3FyZkNWOVlBOFJfendya2hWc0xSUVhCZWtUQldoVExLTXY5MlRHcHBvUDRHZWZLZ1REZEY0dzRhWUZ2Sm5jMnZVWmMteEdmelg1aEQ0elV2TlZjdFNIWGE5aFI0SlpoYjJ5QU51N2hDT0NxdVl3czlWQ0xpM2RfMGhMVTM2Vy1zWHFtZ2ZwTzNxNFducGx4Y2VjaXprR3k3Zzk?oc=5",
+   "source": "WAtoday",
+   "category": "ownership",
+   "mines": [],
+   "owners": [
+    "Alcoa"
+   ]
+  },
+  {
+   "id": "33c54db9a86ffb1a",
+   "feed": "gnews",
+   "date": "2026-11-07T13:47:03Z",
+   "title": "POSCO union votes down tentative wage deal",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdThDSlhmdzh3T1JCY29CSThiUnFDdmVuM2NDRlpHcl9yeE9EeE1JMzFTd1YxWS05SXhTT3prUndESS1OWlFMLVc1THAtUFRNY3o1ejd3SU5xOWlBNWxjUXlhMmI4WHZmYy12elRQeDN3TXhkVUM0Z29uRlhBRnd1U2cyclY2T0ZMX0FlYWgweFFISTBIVlNxdGZaVzFkZXNS0gGmAUFVX3lxTE5TckNvWno4VW5vYWNld1BaQ1ZyS1FVM2E1N1Rvdzc3R1V5MHFTcGVWOTF3Y2VRaWJNQ0EzU0RRR080MHZTQXVNZE9pWks2dmg1alpfeV9UUTJ1OS02OXAyMzUzT09oMzh1UGI3UXdkNzdQUlRTZUQ2QU13MFhBSTZ6N0xqSGJqdXdMZXVFSjAwMi1MbGtkNkZZVVpGTVBYQlNpYTBfUWc?oc=5",
+   "source": "The Korea Times",
+   "category": "ownership",
+   "mines": [],
+   "owners": [
+    "POSCO"
+   ]
+  },
+  {
    "id": "0bed9f0e48e026a2",
    "feed": "gnews",
    "date": "2026-11-07T11:11:15Z",
@@ -14,23 +79,10 @@
    ]
   },
   {
-   "id": "dc8346e8c8ff7987",
-   "feed": "gnews",
-   "date": "2026-11-07T09:22:51Z",
-   "title": "POSCO union votes down tentative wage deal",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1uUm0xZ3czM194U2Z2ZWVkTnZJc1FMVHJDZWJaMWRLZnpBVG9fOWktbDB5S2VlV3NfdFZFQVVlc2dqNGhKNUl4WVU5UEtxUG41MnpaNkJ5a2NiZw?oc=5",
-   "source": "Yonhap News Agency",
-   "category": "ownership",
-   "mines": [],
-   "owners": [
-    "POSCO"
-   ]
-  },
-  {
    "id": "b35b719b11b95c09",
    "feed": "gnews",
    "date": "2026-11-07T08:33:29Z",
-   "title": "POSCO Union Rejects Wage Deal, Reviving Labor Conflict",
+   "title": "POSCO Union Rejects Wage Deal, Returning Talks to Square One",
    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMzlIRTJzbVVnMGFQN2VuTUtNOTJqY3JNQk5LdExYeUxvRkhqOHNOQkh4NDZzVUo0NzZQMjlrWWF4YWtrZXJINlc4V1NTWlFqVXlreWxCQUxjSHNQYkc4Y2JqYzdBbHd5SklyeHZlWGVPdmxrVjE3VXh1RzluVUs0MXZ4MlBEa2lwVnppT3plRzYyc2FVOEwydUV4MnVMUzNEdVE?oc=5",
    "source": "Seoul Economic Daily",
    "category": "ownership",
@@ -91,6 +143,19 @@
    "mines": [],
    "owners": [
     "Codelco"
+   ]
+  },
+  {
+   "id": "6814166bae7fcd8d",
+   "feed": "gnews",
+   "date": "2026-11-05T17:23:44Z",
+   "title": "DoD Stake In Alaska Minerals Partner Puts South32 Stock In Focus",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQQ2o0a1o1M2lnNlhmYUl5Mkk0ajNZQkZTeDJtZXJTVUYyVFFyX3pYWGJYZXZtQWhWSjNQRjY0LWh0S1dWUzlKck1kZTlXZ25XTHFlbnM1M01kb1d0Y3VXUmw4WFJaSk5POUJnWlpMSy0xYVBYYTFqZ0loSVFPUFZ1VmhlN1pBRDFxVXc3cFFxbEtEd2V4RG9qQ0ZIZThtRTRlYjd5aFZnQkZkelp3REFZZ2UyQ0YySjIwQWVOQTdpTTV4RVNxX28xNEdn0gHPAUFVX3lxTFBfZVBzTFpLZm9UakFlTFFpQkMxWWhMQnJfTnd1TktQZmY0eDhPUzFweHVVY2NfcjBFTGRyUlB0ZHIwVTYxYllFa3NwbmZoaXQtZURkRmJhOWdQZ040WlQteTYyc25vRjVDQ3RGdzZYSGNqNFVqekUtZkZBc1AyWXJQMUstbVVGREV0N2hrT1hoOEZOZFRyT29pSFFwWExZQ1JhckFqcXZJNXczWXFKMXgxSE1UcHphbUl1a0tnNEVoS0x3enNjNk95ZktFRll3WQ?oc=5",
+   "source": "Simply Wall St",
+   "category": "ownership",
+   "mines": [],
+   "owners": [
+    "South32"
    ]
   },
   {
@@ -1655,5 +1720,5 @@
    ]
   }
  ],
- "generated_at": "2026-11-07T12:41:25Z"
+ "generated_at": "2026-11-08T12:58:22Z"
 }
