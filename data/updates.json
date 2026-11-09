@@ -1,6 +1,33 @@
 {
  "items": [
   {
+   "id": "4cba10d356eba672",
+   "feed": "gnews",
+   "date": "2026-11-09T11:15:21Z",
+   "title": "POSCO Union Rejects Wage Deal with Re-strike Looming",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE80eW5DWXpMdHdaQmRGRDhFdXlGZ1pfNTkzaWVkUTYzbDVBVEI0ZHpjRkxMR1VaS0paTmVZd3piRGRIM0ZPQ0dISTJaQjJLY2xyQkdXUUlyVTFLTzI0anpSbEpDMDlFdkZtcFRXSl9tZWhQc2Zf?oc=5",
+   "source": "Businesskorea",
+   "category": "suspension",
+   "mines": [],
+   "owners": [
+    "POSCO"
+   ]
+  },
+  {
+   "id": "bc7208e30f2a9296",
+   "feed": "gnews",
+   "date": "2026-11-09T11:00:00Z",
+   "title": "Alcoa’s $5.6b South32 deal puts Worsley Alumina workers’ pay and conditions to the fore",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRld0MVR1ZmxkRlZCUkl1MmhkSW01bFpQWnQxd2U0T3JKTlJKOUk5UTJhcFZ6ckxycDZqZEtIOWJYU3hQb0xCRnJIOTVXUmtNVWdDb2ZwVVNMS191MVZ2Q3VwTHMwS21xU3gwNUlSejZTTkQwQm0wTUNQajlEa0p1UGtTLWRXX3otcml5c1BhT0sxTWJSU2h4Zm10QUt4WmU3Z0JaWWFqQjdrWjh1Wi03SS1MWk5sdTJ5RWJv?oc=5",
+   "source": "AL Circle",
+   "category": "ownership",
+   "mines": [],
+   "owners": [
+    "Alcoa",
+    "South32"
+   ]
+  },
+  {
    "id": "abebddd5d0e89301",
    "feed": "gnews",
    "date": "2026-11-08T07:24:03Z",
@@ -106,6 +133,19 @@
    ]
   },
   {
+   "id": "2be659927b340e3a",
+   "feed": "gnews",
+   "date": "2026-11-06T18:26:16Z",
+   "title": "Codelco halts Andina after tailings spill - www.mining-journal.com",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNOEJ6d2NoZjVuVG1rMUxvcXRXRERyTHhSXy1TemFLRkd2QXpqYTY5dmlxUXloSDN5YVpJS0dCeXAtWVF3WkswOGtfRThvcy1EcmpqUGw0dEZQTG9hOVZueFhWZTdGZFNDc1pOdmg3VFRPbkN6NFZaTzdRd0YwejZ1TDJGSnBwT0tEdXdQU3k3OWdlU1ZwSUUyNGQyZw?oc=5",
+   "source": "www.mining-journal.com",
+   "category": "suspension",
+   "mines": [],
+   "owners": [
+    "Codelco"
+   ]
+  },
+  {
    "id": "5f95ec1d3aeae6f9",
    "feed": "gnews",
    "date": "2026-11-06T09:32:00Z",
@@ -133,19 +173,6 @@
    ]
   },
   {
-   "id": "9cdb7df55722710b",
-   "feed": "gnews",
-   "date": "2026-11-05T18:19:44Z",
-   "title": "Codelco halts Andina mine as tailings spill threatens river",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNVXZIcnhzNHBhRi1ES3dPOUVBRmdsRFZTajNDZzN0STNyamVIYmlZN01sa2ZIYWVscU9MTXdsSHYzaTNaZFhkN0ktaFZTV19sckRlVm5pQ2ZtbEJ4NDRGZmxZQmxkSG8yWl9xR0tyTExMalgwd2I3RjAwLXVoaGlWQkhoZ1FycTdYbUFR?oc=5",
-   "source": "Mining.com",
-   "category": "suspension",
-   "mines": [],
-   "owners": [
-    "Codelco"
-   ]
-  },
-  {
    "id": "6814166bae7fcd8d",
    "feed": "gnews",
    "date": "2026-11-05T17:23:44Z",
@@ -156,6 +183,19 @@
    "mines": [],
    "owners": [
     "South32"
+   ]
+  },
+  {
+   "id": "69977e2b34d8c7f8",
+   "feed": "miningcom",
+   "date": "2026-11-05T16:09:00Z",
+   "title": "Codelco halts Andina mine as tailings spill threatens river",
+   "url": "https://www.mining.com/codelco-halts-andina-mine-as-tailings-spill-threatens-river/",
+   "source": "MINING.COM",
+   "category": "suspension",
+   "mines": [],
+   "owners": [
+    "Codelco"
    ]
   },
   {
@@ -1720,5 +1760,5 @@
    ]
   }
  ],
- "generated_at": "2026-11-08T12:58:22Z"
+ "generated_at": "2026-11-09T15:33:51Z"
 }
