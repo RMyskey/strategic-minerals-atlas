@@ -1,6 +1,127 @@
 {
  "items": [
   {
+   "id": "9b8cd07b52f31031",
+   "feed": "miningcom",
+   "date": "2026-11-10T10:13:00Z",
+   "title": "Botswana chooses Gareth Penny-led group’s bid for De Beers",
+   "url": "https://www.mining.com/botswana-chooses-gareth-penny-led-groups-bid-for-de-beers/",
+   "source": "MINING.COM",
+   "category": "ownership",
+   "mines": [],
+   "owners": [
+    "Anglo American"
+   ]
+  },
+  {
+   "id": "5df6c6c6f1d01ef5",
+   "feed": "gnews",
+   "date": "2026-11-10T07:13:38Z",
+   "title": "Gwangyang Mayor Urges POSCO to Resume Wage Talks After Deal Rejected",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVl9Qcy00OVoyclU0N2RaV21YOF9jXzJyT2l4NFhTSFpCWkNVaFg2Ulp6SjhqWFdDY2V3cm9Oc1RCSGdsUnBPRjNrZnJyLURKbjNlUklDVUQtSFhNV0EzN250LVhlekFhb3VfLWRUQmZ1T0ZpQlFFNUdIZVNWUDRQNmNzTjZ5bTVEUjRFSnJRdVVLY3Fob3BuR3hON2VmcXplQnJN?oc=5",
+   "source": "Seoul Economic Daily",
+   "category": "ownership",
+   "mines": [],
+   "owners": [
+    "POSCO"
+   ]
+  },
+  {
+   "id": "b36c50a4de1b087f",
+   "feed": "gnews",
+   "date": "2026-11-10T01:00:15Z",
+   "title": "Eramet seeks buyer for significant stake in Weda Bay nickel mine",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZnVBV2VHSVdlVUVybkItek9zUWZVaTRMVjFJb3k4ZU9xUTlrOWdwWmVtN1R3alBZMGkzM2tWMDVLcWp1ZldYZTdTVTZsNjM4bVphM3hjeEdtZVZ5V2V1azlvWFNiajlrRVhENFF0aEZfTFY1TEhkdlAxbXFiYXVjUmN6dEZLT0U2ZjI2c0Z0QmV4NzdLdFkwUVp0bnZUSFpMbnBMTk56RQ?oc=5",
+   "source": "Petromindo",
+   "category": "ownership",
+   "mines": [
+    22
+   ],
+   "owners": [
+    "Eramet"
+   ]
+  },
+  {
+   "id": "f77e2e526acb2b2e",
+   "feed": "gnews",
+   "date": "2026-11-09T22:22:15Z",
+   "title": "POSCO Wage Talks Collapse, Return to Square One",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNkdyaTlKamd1NC1Ud29JX3RUUU9feUd0RWVNbkhfZEpEMDFLbWk2X1VhUEpMWTRscm12SVFVV0VFM3hEeHhpelBYZUlWRExqQ2k4MHJMUVIyUFhMYUVyTzF6N285SVRYZzUzcWV1N2JjcTNMUERHbjFLTkUzcEVTR2tQbjBKN1lr?oc=5",
+   "source": "조선일보",
+   "category": "suspension",
+   "mines": [],
+   "owners": [
+    "POSCO"
+   ]
+  },
+  {
+   "id": "cc5750ec93b09a69",
+   "feed": "gnews",
+   "date": "2026-11-09T22:06:43Z",
+   "title": "USA Rare Earth Announces Start of Commercial-Scale Shipments and Sale of Heavy Rare Earth MREC from Serra Verde to US SIIE, LLC",
+   "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxNd1psQnNaUkZJS1ByZkttcmRTZFVQR003ZjBKN0FrUmVBZ3l2N1FBUmpNNXRBNzMyTTFPTS1MX25JVTNCSVdOdU55RENlMy1aVV8xdng0M3kyb2g3SlBOQTlTWnd0TVRKeXBVMnBwOXhqYXM3N0ZSalJjcUpVTTBVTHpJenN6S3hNVkpxQ2VlMmQwU3M5Yjl5Z0Znek9BNzJpU3U4bnBueFAwQ001U291QWJkN0U0SWJ3dkw2T09FOTdyVHlRempkLUt0OWloT1lvaVhoRThrcHBySG1FTTJJX3FkUzRDd3B3S2MxZUM5UXdOYXZZVThoeFZheTNITVZlbmtSVUZQWmJvNEhPcXZrc0h2S19ZU2t3Z2xNdm9aUFEwemF0MUJB0gGsAkFVX3lxTE12VzRhZDB4d3R5Y3pxUms2YjkxUzVjVENURVFaUTY1XzNGaDhFdy0yRGlKeTdXY0c5c2w5OHRBV2J3LUR4WTN0S1FpdnFMS3duaVRjLVhuUG84dW95QWNYQmhVMXowZ1hhUHI2ZkEwSFNGc1RMdm9OWXVIWVRmOF9SS3NCTDMyNER0eVhsd3ZicHFCTHIyN0FlbVdPelh5RkEwUndyRHhKXzJiR3lrVDhiOEs1eWZvYU1oTHR0WGlnYTdCM2lIZUJtZUl0YU1BX3hDX0wxeF9CWlQxZ1RvNk1SMmFVc3dLRlM5ZFNmYjVVTllEcUx2WG1lM08zaUgzb2o1ME5FeVJTQjU4VXZ4dE4tdkZKd1RkX19HNHEtNHZBc2o3WE9VeUlpMW5lVg?oc=5",
+   "source": "The Manila Times",
+   "category": "ownership",
+   "mines": [
+    55
+   ],
+   "owners": []
+  },
+  {
+   "id": "7d556884ba3037fc",
+   "feed": "miningcom",
+   "date": "2026-11-09T21:28:00Z",
+   "title": "Alphamin directs Congo tin to new US smelter",
+   "url": "https://www.mining.com/alphamin-directs-congo-tin-to-new-us-smelter/",
+   "source": "MINING.COM",
+   "category": "ownership",
+   "mines": [
+    84
+   ],
+   "owners": []
+  },
+  {
+   "id": "99add1f0f9bcf555",
+   "feed": "gnews",
+   "date": "2026-11-09T20:36:57Z",
+   "title": "Codelco needs partners to halt copper decline: chair",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPMWctRUFhVU9jcURFOURnTUtFSVlfRk1BY2ZhUUJTeXZIb2Q2Rm9rWEY1SW5vYWJCU3pxYlktMWZXaXpaZlctbE9rRkxsZUtGa3RCRC1oUm9GMzZ5Sk10OFBNV1FLWUpna0JHaC1RVGxBZ0VOdlNyRWFQTmxJc21mZVRQSmJkTGFScHZNbTRHakZmS2o1Z1pialg1c3JNS00?oc=5",
+   "source": "The Northern Miner",
+   "category": "suspension",
+   "mines": [],
+   "owners": [
+    "Codelco"
+   ]
+  },
+  {
+   "id": "4484198414d22faf",
+   "feed": "miningcom",
+   "date": "2026-11-09T17:08:27Z",
+   "title": "Eramet targets debt reset with lithium, nickel sales",
+   "url": "https://www.mining.com/eramet-targets-debt-reset-with-lithium-nickel-sales/",
+   "source": "MINING.COM",
+   "category": "ownership",
+   "mines": [
+    22
+   ],
+   "owners": [
+    "Eramet"
+   ]
+  },
+  {
+   "id": "3527053b19f597f6",
+   "feed": "miningcom",
+   "date": "2026-11-09T14:48:15Z",
+   "title": "Barrick targets November filing for North American IPO",
+   "url": "https://www.mining.com/barrick-targets-november-filing-for-north-american-ipo/",
+   "source": "MINING.COM",
+   "category": "ownership",
+   "mines": [],
+   "owners": [
+    "Newmont"
+   ]
+  },
+  {
    "id": "4cba10d356eba672",
    "feed": "gnews",
    "date": "2026-11-09T11:15:21Z",
@@ -25,6 +146,19 @@
    "owners": [
     "Alcoa",
     "South32"
+   ]
+  },
+  {
+   "id": "de97d92e84ff8b82",
+   "feed": "gnews",
+   "date": "2026-11-09T09:00:32Z",
+   "title": "Japan’s Sojitz to acquire 5% stake in Masan High-Tech Materials",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZlliMWFwNk9OanEzdjRRYUZnU3BVaDJoQjhyN0tieHhDOFlCaGhhQVhkc2M1SldsU05QYXNlUThzeDhsRGQwcnZ0QkxrRlZDcjc3aFpqVWcwSzdJU2t3MjZENVBsaTZMVVpMX2EtSWpVaWxQZHpKb01wVFAySkZrSmc4dlU2eGdlcmE4MVRGTGJyazZKTzdMZ3pXREY?oc=5",
+   "source": "Theinvestor",
+   "category": "ownership",
+   "mines": [],
+   "owners": [
+    "Masan High-Tech Materials"
    ]
   },
   {
@@ -1760,5 +1894,5 @@
    ]
   }
  ],
- "generated_at": "2026-11-09T15:33:51Z"
+ "generated_at": "2026-11-10T14:36:05Z"
 }
