@@ -1,6 +1,86 @@
 {
  "items": [
   {
+   "id": "29887be87c63ee6f",
+   "feed": "miningcom",
+   "date": "2026-11-12T11:21:00Z",
+   "title": "Ivanhoe Mines targets Pakistan copper with Mari Energies deal",
+   "url": "https://www.mining.com/ivanhoe-mines-targets-pakistan-copper-with-mari-energies-deal/",
+   "source": "MINING.COM",
+   "category": "ownership",
+   "mines": [],
+   "owners": [
+    "Ivanhoe Mines"
+   ]
+  },
+  {
+   "id": "d1dffaa14f394758",
+   "feed": "gnews",
+   "date": "2026-11-12T10:26:00Z",
+   "title": "How Are Denison and NexGen Funding Saskatchewan Uranium Builds While Cameco Sells Below Spot?",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOSjA1YmtoVWx4VzJEdlluaTlhclhNOVZhdVJnc2ZQMHBJVWtmY21hdXZtRjJfMkJMUDFsU2hzbDVFcll4T2Y1a2xiT05Ua2lkdHhPZV92MDY1Vk5vaDN5dU1Ya2VRSy1Udk90dnNYaWRVNUhldVZkWFVGaF9QMm5yNkRTbWxDMkdWeDI3eTlZLV9jcjVrNXNLWHNCNnc2a2RuMzEyU2ZSZTMxeDh4WmhJWDBrdnFoNXRLQWFVZzluaEg?oc=5",
+   "source": "kalkine.ca",
+   "category": "ownership",
+   "mines": [],
+   "owners": [
+    "Cameco"
+   ]
+  },
+  {
+   "id": "ae031b7e30c3fced",
+   "feed": "gnews",
+   "date": "2026-11-12T05:27:38Z",
+   "title": "Haji Isam reportedly weighs bid for Eramet’s stake in Weda Bay Nickel",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZWpRZ0lVdHlkcmtTRjlHUlNnYVRPSnNTQTJpWFlPWVVORE1aT1ZmbFdYY0QxU1ZNa2Vrb0NNV3RiN1JWd1NxcFBFS0lBSTgwUlJuUFpIVVBnekhLZzkxc0VNQzZLem5QN2R3cXZ6c09DRVd2YnEzNTAySl9WQkVlMWppSHBsb2dXMFBQRWZqamNXN3hiWlRRVlg4R2Nveml2OE1HOThwQ0Y4eEtac05NbEdYOWVHNTNOdjRV?oc=5",
+   "source": "The Jakarta Post",
+   "category": "ownership",
+   "mines": [
+    22
+   ],
+   "owners": [
+    "Eramet"
+   ]
+  },
+  {
+   "id": "3eb33b5b05888b88",
+   "feed": "gnews",
+   "date": "2026-11-11T18:20:33Z",
+   "title": "Coal power would have shut Rio Tinto smelters",
+   "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPb3lUYkJFRlYyeGQ3YktCYXBuTkplRWdxTnBMc3RmZU02Qmsxajd3ckpXc0RUbUx2ek1MbGQxVUpsTTlFWnR1VFgyLVRtOVo1Mk5fX3pRbWc5T2p6cDZ3VEp5RjZzWWtMS0o3RUxudXc2Zno3QUdSckp6XzJkOEdQYmxhRFdTSXI2Smo3WEFFMGJ3QjllMm5IaGdQZTRjRmQtMi1ZcXI1eENpclFPRG5vX24tVF94aWVzUmdTTW4xSmNUYWcxb1doR25wVlhsUk1QZUdBYzRWSGEzYXl3X0x4ai1yRl9JdjhSMzktS1FKVUxxNmRiREJHM3JXN09wT1d5endaQklkdjFnbHdlR0FSeFhn?oc=5",
+   "source": "The Australian",
+   "category": "suspension",
+   "mines": [],
+   "owners": [
+    "Rio Tinto"
+   ]
+  },
+  {
+   "id": "c9e11ae181ce8ef7",
+   "feed": "gnews",
+   "date": "2026-11-11T13:26:34Z",
+   "title": "Indonesian billionaire is said to weigh Eramet nickel mine stake",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPTmJLc1dGTlE0V3Vja2hrbWU0N2lmSG9sR1h1RzVSOENDQWtXOHFDNW5VN1o3ZkFMVXZ3MlF1QzJmOGVWUzJRU0hheXVCVnpzRWxoOS1kSHVLTXJsMEhhcmNjcUppdWk1cUFCc2o1NllxRUpXNmhyMFB0LUluMEtFX2pHUExZZWg5d3I0ckY1U3ljRGdILUVGNXdST1VEWWJGdkxsbmNBVTBVOGNsYTBfVFpTendnRWdwMGNMMlpZcXpFUWFXVUE?oc=5",
+   "source": "TradingView",
+   "category": "ownership",
+   "mines": [],
+   "owners": [
+    "Eramet"
+   ]
+  },
+  {
+   "id": "de27c61ad4ed843c",
+   "feed": "gnews",
+   "date": "2026-11-11T10:23:26Z",
+   "title": "Indonesian Tycoon Said to Weigh Bid for Eramet’s Nickel Mine",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMU5abVN2emxsVmxrR2R0a2FHX25QTEtFQVYyRnQyWTdIR21SMldueHlJYXg4WndKdzVmSlY3RHNDQXctMmg1M0ZtZjJ6MDlDNDlkMlVPbDhOQVhmdXVQMTI0Nnp0UG1WckFRbG10Y1QxTzRSRjVvY01KUlZOdWxaajhhWE9TcndIVk9yUzZHWEVaNk1pUGRQQ1N0MHJrcnY4UFR0U2d3QUFzR3F4MkJKaWxvZkE?oc=5",
+   "source": "Bloomberg.com",
+   "category": "ownership",
+   "mines": [],
+   "owners": [
+    "Eramet"
+   ]
+  },
+  {
    "id": "fad04acb8c0e21f3",
    "feed": "gnews",
    "date": "2026-11-11T05:52:23Z",
@@ -107,11 +187,11 @@
    ]
   },
   {
-   "id": "6f5a1e41438f096d",
+   "id": "a12db21cc00d3bf6",
    "feed": "gnews",
    "date": "2026-11-09T19:55:00Z",
    "title": "Federal judge refuses to halt construction at South32 mine near Tucson",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQNDdhLXNGZVM4ODZDbjR6Z0xWN21ua2lDbFRMdXRDR1E4ZXFvSVJ3TFNQZEVpQ292aTJTLXRqalk4b1E2WjNSWm0ySmdEYVhLSWRHODZNUGtPNWN1ZDdyWFRWR1d5QWpTenlKektCTUE5SVFoWGlKQWtsMzAxTXFLUmdUV3ZCaGxWSjNjLWR6QkttcXpic09wbDhPbmR6d19KaWpEaU9MNjZ1eVZ3OHpGZzNfSi11SjUxRms5THZGTnhERXMwRWRQb3J3akJzTHNn?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPdnRkOVRxMWcwLUhZZ0RjNWpReUJUMW1GTXVDS2NieVVsa1N4azQzejBENmpQYTA5NlJjc1QzVDg5dXZWOEpPTC1MUldWNU0yUWc5U0xFM1Myd3Z6U2RDNGV1M0VVdGdOZl9BT3Zpd214Y0FVQ3ZWWWJ4cDBLZTAzUUNzOWp2WlFEQ3BpYVQ2cDFuanhZdE5lNFpYcFVRcmJ3NDRtYTRnYm9lRmlUUGtMaGZVMmQwM3hUeWNTSG1XdVdwbkFuaTdDZzRsLXEtUG8?oc=5",
    "source": "Tucson Sentinel",
    "category": "suspension",
    "mines": [],
@@ -1920,5 +2000,5 @@
    ]
   }
  ],
- "generated_at": "2026-11-11T13:50:21Z"
+ "generated_at": "2026-11-12T14:52:10Z"
 }
