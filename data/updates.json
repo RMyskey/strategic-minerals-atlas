@@ -1,6 +1,61 @@
 {
  "items": [
   {
+   "id": "f9ac43d063d59169",
+   "feed": "gnews",
+   "date": "2026-11-13T07:25:00Z",
+   "title": "Little-Known 26-Year-Old South Korean Software Firm KMS Lab Wins POSCO's Companywide AI Portal Deal — and a CES Innovation Award",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5RRmFhZnV6Q0FvdW81ak5ObzZsandPWTg0MjBna0xIWWFpRkNhTW1acTc4aVZqR3JvVXdOb0NVNk1ma0E1T3VqNFZwSGVyQ0VsYlFWUXBuWDFiSHkza2l1eHJZbGlGUkU3ZXFZNXVXcHRYMWNnQVE?oc=5",
+   "source": "BigGo Finance",
+   "category": "ownership",
+   "mines": [],
+   "owners": [
+    "POSCO"
+   ]
+  },
+  {
+   "id": "249c5099f6c34aa1",
+   "feed": "gnews",
+   "date": "2026-11-13T05:51:00Z",
+   "title": "Concerns grow over traffic fatalities on Highway 55 once Stibnite Mine begins production",
+   "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQbkk0dHdjZFVxcEdZcVBUMlJvQWJKY043dmZMWjNaV05JZ0N6bVBsNzFsU3RtR2FmZmZ2d0NQS3JzSGM2ajBIVVQ1S2xDTVJNQzhPZzdsTEJvMTllcERGMnV3Smtkak9tckFZa2FiNWFZT2g4ZGRLQWdEcDRLeC1CYXBoMTFDakxuN3pZeUQ5YnUtZm84akJrdUlfNi1RNUdXZWd4YmZPRDU5YkFhTHBhMkhPQkUxN3dVZXJ5YjlHZ19LcHZlZ0NRUUdsWm50T2sya01BRV9PNTJ0SnZqdlRaTXNzdlc1VXRWT2sxdEE4djlxSGtLLXNMNHhVYjNBRmpOWk14cWNXQVhTV2lRN2c?oc=5",
+   "source": "KTVB",
+   "category": "suspension",
+   "mines": [
+    70
+   ],
+   "owners": []
+  },
+  {
+   "id": "71404659da617d03",
+   "feed": "gnews",
+   "date": "2026-11-12T23:22:40Z",
+   "title": "Trimet urges Brazil to block Alcoa–South32 aluminium deal",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPdVBUeFpJNC1IR2dMUUpMaUIyM0QxOC1QT2Q0WllNMnFPTk9zLWFWRkRXeTRyWm9PTlJsRmpBcHNsbGJPaGJUUGRtalpRVmxBMW5JdlBOTnIwbFBCMGhIOXVpNzVhMlY1SnY4MEUwUzRucnlnTzhSZmtSU3JpV2R6dUNnQXBjNmc?oc=5",
+   "source": "Mining.com.au",
+   "category": "ownership",
+   "mines": [],
+   "owners": [
+    "Alcoa",
+    "South32"
+   ]
+  },
+  {
+   "id": "0e661d7d369e66e2",
+   "feed": "gnews",
+   "date": "2026-11-12T17:45:19Z",
+   "title": "Haji Isam and Danantara consider bids for Eramet’s Weda Bay nickel stake",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQcE9DSC00UkdJY19MdHYwY1RPbFI5RW5WRUhtYnMwVzNudlROTTlJN2N3VG9KZDNhdHFfOVVYbFJtZVFaZEVBU0w0Y3RwdU04dHhkUk1rbkVEZHVtOU4xRDZnZjFDVlJzOTNUTUZmcGtjd05oX3NIc1p1dGp4RVhPeW50ZnBIM1B4Zm5wRUNRNEFYcXM3Y19WTU5PMTlaazE3RktRaGlHc1Y0bzEtNnRDQjNFbHRnU21YbDZqTzJJTE1SV1MzZDFUTzF2blRwNEZJ?oc=5",
+   "source": "Indonesia Business Post",
+   "category": "ownership",
+   "mines": [
+    22
+   ],
+   "owners": [
+    "Eramet"
+   ]
+  },
+  {
    "id": "29887be87c63ee6f",
    "feed": "miningcom",
    "date": "2026-11-12T11:21:00Z",
@@ -27,6 +82,32 @@
    ]
   },
   {
+   "id": "415f9297b1263bd1",
+   "feed": "gnews",
+   "date": "2026-11-12T08:05:00Z",
+   "title": "Rio Tinto secures power deal for Bell Bay aluminium smelter with $200m support package",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNUFxRXlVS2J1TDZmLWpGRXA2RzZqMm1sdGwtTlljSWtNWTBqRnRxdl9Ib0pDWTZXS2RvbGFaNGRxRjVDc3pwX0Q2d2hPS0luUUI0ajJLQnRuMlZyUE1vNFc3WXBvTzF2Q2ltWUZXdEpRckg5Q2x5a0w5UXJFUjVQZ2pZOVhsRURwWXJkYjMzekRIaXdldnR6VWktME5uNDUtX1owVWtCbTBWRjJ1NEY4Q0hDNkRsODhzMm9FeVd4UUJVQlFIZ2FNeQ?oc=5",
+   "source": "AL Circle",
+   "category": "ownership",
+   "mines": [],
+   "owners": [
+    "Rio Tinto"
+   ]
+  },
+  {
+   "id": "acd54f2f42540e6a",
+   "feed": "gnews",
+   "date": "2026-11-12T06:22:09Z",
+   "title": "Adani’s Kutch Copper Inks Copper Deal with Codelco",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVm13WE5XZmxNSlg5bWY4eEE5RGcwV0kyQTdreGtIbmhWSDlHM2k2UlhIa1ctTDRmejBvckM4R0xlMVc2THN0bTBaalhCaVZrVU5mVXFob0t5ejNYWGRZZEQ2bW9xYmx1M3RLM1hfTzRtWk1NVHgyemtKREN3MHRjZTB0Q0V1UWZU?oc=5",
+   "source": "Kalinga TV",
+   "category": "ownership",
+   "mines": [],
+   "owners": [
+    "Codelco"
+   ]
+  },
+  {
    "id": "ae031b7e30c3fced",
    "feed": "gnews",
    "date": "2026-11-12T05:27:38Z",
@@ -44,7 +125,7 @@
   {
    "id": "3eb33b5b05888b88",
    "feed": "gnews",
-   "date": "2026-11-11T18:20:33Z",
+   "date": "2026-11-12T04:23:00Z",
    "title": "Coal power would have shut Rio Tinto smelters",
    "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPb3lUYkJFRlYyeGQ3YktCYXBuTkplRWdxTnBMc3RmZU02Qmsxajd3ckpXc0RUbUx2ek1MbGQxVUpsTTlFWnR1VFgyLVRtOVo1Mk5fX3pRbWc5T2p6cDZ3VEp5RjZzWWtMS0o3RUxudXc2Zno3QUdSckp6XzJkOEdQYmxhRFdTSXI2Smo3WEFFMGJ3QjllMm5IaGdQZTRjRmQtMi1ZcXI1eENpclFPRG5vX24tVF94aWVzUmdTTW4xSmNUYWcxb1doR25wVlhsUk1QZUdBYzRWSGEzYXl3X0x4ai1yRl9JdjhSMzktS1FKVUxxNmRiREJHM3JXN09wT1d5endaQklkdjFnbHdlR0FSeFhn?oc=5",
    "source": "The Australian",
@@ -2000,5 +2081,5 @@
    ]
   }
  ],
- "generated_at": "2026-11-12T14:52:10Z"
+ "generated_at": "2026-11-13T14:09:41Z"
 }
