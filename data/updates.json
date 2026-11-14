@@ -1,6 +1,45 @@
 {
  "items": [
   {
+   "id": "caa99b4a71c14e20",
+   "feed": "gnews",
+   "date": "2026-11-14T02:11:20Z",
+   "title": "EU Commission clears acquisition of Saffron and PMH by POSCO and JSW",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPQ0xxYjRxYWZ1TkhnVFlTSFNzVzVXcTlkVXFCXy03RkFmbGwzR0xsUFJGTkx1cGNnUHgtZUNmbnhHcGE2QWdMNmxaZGhTUTRLcEl6Nmlrd0JHdFRUSlEyNDhKdHY2dk05VTBMb3dWdFZ2NmJpRXpEemUtOXNjSmQ3NW5rbm1FUUJxNlZvcHRTQjNvUFFnS01Mcy1YOUh2SzVBYzlTRnlpOFdkc1BrMjdMbmlYTkE5dTNaZHdsY3ZVVzNYT3JnNlpfajQwSnZ5NzVt?oc=5",
+   "source": "INSIGHT EU MONITORING",
+   "category": "ownership",
+   "mines": [],
+   "owners": [
+    "POSCO"
+   ]
+  },
+  {
+   "id": "f178499a1be7ec9e",
+   "feed": "gnews",
+   "date": "2026-11-13T22:50:54Z",
+   "title": "Uranium One Mining Engages Derrick Strickland to Prepare NI 43-101 Technical Report on Recently Acquired Foghorn Critical Mineral Project, BC",
+   "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxQbDM1ZnQ1N3dWa2pMMk1LeDV0WExQSDdKV291bGxMVGtLUVhCS3ROQy1WR09sNDVFR1VRN2lBYmszbk5hcjlQcU1WXzVHZWtlVlRFR3lNd0ppN28tbVpXaVFyY19Lb2pENjFjOHN1Y3dwNVlnZ054eV9oMjdoUmFwTHlpTUtVZ1VMTWRqQklTeUF2MHBEM1hNV1pyVHYxRTlRdGRxdUNBRGFBNUM4azAyVXhudHZick9lN2FtQkJ0ajltelZXN0JDNkFldnlhT2p5dU1oNHNZM01vZzlvMk05cjZER0ZCb1EwZDd2dHdXWHp2SjNPeDIySEZHc1lvZDM2clJ1VFk2ZkI3V1pQMU1oYkk3V1JyNlZzczFRYUhPd1JiRVRjSUpmOTZhX3BqWXk3SmVobnVXY3ZsMnA1Z0JHb2MyaVVwWG43TjZJ?oc=5",
+   "source": "Junior Mining Network",
+   "category": "ownership",
+   "mines": [],
+   "owners": [
+    "Uranium One (Rosatom)"
+   ]
+  },
+  {
+   "id": "8025210d8ab84469",
+   "feed": "miningcom",
+   "date": "2026-11-13T15:34:42Z",
+   "title": "Anglo American’s Australia exit marks end of an era",
+   "url": "https://www.mining.com/anglo-americans-australia-exit-marks-end-of-an-era/",
+   "source": "MINING.COM",
+   "category": "ownership",
+   "mines": [],
+   "owners": [
+    "Anglo American"
+   ]
+  },
+  {
    "id": "f9ac43d063d59169",
    "feed": "gnews",
    "date": "2026-11-13T07:25:00Z",
@@ -53,6 +92,19 @@
    ],
    "owners": [
     "Eramet"
+   ]
+  },
+  {
+   "id": "8ae8d7ec34add32c",
+   "feed": "gnews",
+   "date": "2026-11-12T12:31:50Z",
+   "title": "Adani's Kutch Copper signs MoU with Chile's Codelco for copper exploration: What does the deal involve?",
+   "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQUm1neXlSWWVRTk9XRV9FcWxpczJoSDJjTFRZLXkyclc4VGtDNFV0dzdWOEVMV3B1QlNsZlhPVFRBTHp4bXcyQnlqTk9HLVhMSDFOM2tfRmJ0c3BxR1RXOG03VVZZVWZsLTlNTUlxc2QtY2gweEstSGF6NGc0Wlc0dWVpMVg5Yjc0d1hCZzVOTER4V2NlN0RWSW9lbUt1bFZrVmhJbVZwaWNfRGJRNnBjcjR2cFJMaUhpSXpHYmFjMnZheklVVGpmcUJrX3ZfTDVGVU8tSFFXZGdMRFUtY0xTcE5jZENEY3VGRnZWazhzM0jSAfYBQVVfeXFMUEQ2N01vT3YyT3p1a215RGFoc2ljQlRBeTlEeUJ3ZTNWQlAwVHJrbWppU0pZMVE4aXk2WlU0UFVBUUtOR2ZrQVZYQVNyU2gwSmFmU05Vazc0YzVOQ2xUUmw2eHpRQTJCNnJ0eU1PN0dlRWQ2aFJLUlZOS29NeTd4cUNjOGNmSnR2ZXF0Z0pkUzFhRE4wYThhbDFidmRCcUZ3d3FoNkdOWUZhRWtDUUxwdWhYcHVWbHFVYVUzUXRRMlhuUGtlZWNNdjlUN1gzeEh3bVByT3RqbFY0dGotUHBaZFkwcmo4eDZOcGhfWll4aWlYNWxQVDFB?oc=5",
+   "source": "Livemint",
+   "category": "ownership",
+   "mines": [],
+   "owners": [
+    "Codelco"
    ]
   },
   {
@@ -2081,5 +2133,5 @@
    ]
   }
  ],
- "generated_at": "2026-11-13T14:09:41Z"
+ "generated_at": "2026-11-14T13:12:20Z"
 }

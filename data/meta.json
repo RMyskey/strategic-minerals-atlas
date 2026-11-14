@@ -42,37 +42,37 @@
  },
  "mines": 147,
  "compiled": "2026-10-23",
- "built_at": "2026-11-13T14:09:41Z",
+ "built_at": "2026-11-14T13:12:20Z",
  "feeds": {
   "gdelt": {
    "label": "GDELT DOC 2.0 news alerts",
    "cadence": "daily",
    "url": "https://api.gdeltproject.org/api/v2/doc/doc",
    "status": "partial",
-   "last_attempt": "2026-11-13T14:08:42Z",
+   "last_attempt": "2026-11-14T13:11:21Z",
    "items": 0,
-   "message": "3/5 queries ok; HTTP 429 for https://api.gdeltproject.org/api/v2/doc/doc",
-   "last_success": "2026-11-13T14:08:42Z"
+   "message": "1/5 queries ok; HTTP 429 for https://api.gdeltproject.org/api/v2/doc/doc",
+   "last_success": "2026-11-14T13:11:21Z"
   },
   "gnews": {
    "label": "Google News RSS alerts",
    "cadence": "daily",
    "url": "https://news.google.com/rss",
    "status": "ok",
-   "last_attempt": "2026-11-13T14:09:40Z",
-   "items": 12,
+   "last_attempt": "2026-11-14T13:12:19Z",
+   "items": 7,
    "message": "24 queries; ",
-   "last_success": "2026-11-13T14:09:40Z"
+   "last_success": "2026-11-14T13:12:19Z"
   },
   "miningcom": {
    "label": "MINING.COM RSS alerts",
    "cadence": "daily",
    "url": "https://www.mining.com/feed/",
    "status": "ok",
-   "last_attempt": "2026-11-13T14:09:41Z",
-   "items": 3,
+   "last_attempt": "2026-11-14T13:12:20Z",
+   "items": 1,
    "message": "36 feed entries scanned; ",
-   "last_success": "2026-11-13T14:09:41Z"
+   "last_success": "2026-11-14T13:12:20Z"
   },
   "wikidata": {
    "label": "Wikidata coordinate/owner check",
@@ -94,7 +94,7 @@
    "url": "https://data.sec.gov/submissions/",
    "requires": "SEC_USER_AGENT",
    "status": "needs_config",
-   "last_attempt": "2026-11-13T14:09:41Z",
+   "last_attempt": "2026-11-14T13:12:20Z",
    "items": 0,
    "message": "Set SEC_USER_AGENT to \"Organisation Name contact@domain\" (SEC fair-access policy).",
    "last_success": "2026-10-26T00:27:36Z"
@@ -116,7 +116,7 @@
    "url": "https://fred.stlouisfed.org/",
    "requires": "FRED_API_KEY",
    "status": "needs_key",
-   "last_attempt": "2026-11-13T14:09:41Z",
+   "last_attempt": "2026-11-14T13:12:20Z",
    "items": 0,
    "message": "FRED_API_KEY not set; skipped (free key: https://fred.stlouisfed.org/docs/api/api_key.html)."
   },
@@ -160,5 +160,5 @@
    "status_note": "not due"
   }
  },
- "last_refresh": "2026-11-13T14:09:41Z"
+ "last_refresh": "2026-11-14T13:12:20Z"
 }
